@@ -29,12 +29,17 @@ $vs-width-md: 768px;
 $vs-width-lg: 1024px;
 $vs-width-xl: 1280px;
 
-$vs-gutter-sm: $vs-grid-unit * 3;
-$vs-gutter-md: $vs-grid-unit * 3;
-$vs-gutter-lg: $vs-grid-unit * 3;
-$vs-gutter-xl: $vs-grid-unit * 3;
+$vs-gutter-sm: $vs-grid-unit * 4;
+$vs-gutter-md: $vs-grid-unit * 4;
+$vs-gutter-lg: $vs-grid-unit * 4;
+$vs-gutter-xl: $vs-grid-unit * 4;
 
 $vs-page-margin-sm: $vs-grid-unit * 4;
-$vs-page-margin-md: $vs-grid-unit * 2;
-$vs-page-margin-lg: $vs-grid-unit * 2;
-$vs-page-margin-xl: $vs-grid-unit * 2;
+$vs-page-margin-md: $vs-grid-unit * 3;
+$vs-page-margin-lg: $vs-grid-unit * 3;
+$vs-page-margin-xl: $vs-grid-unit * 3;
+
+$vs-total-columns-sm: 6;
+$vs-total-columns-md: 12;
+$vs-total-columns-lg: 16;
+$vs-total-columns-xl: 16;

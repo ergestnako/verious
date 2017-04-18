@@ -6,12 +6,47 @@
 //    Table of Contents:
 //
 //    1. Container
+//    2. Row
+//    3. Column
 //
 
 // ---------------------------------------------
 //    1. Container
 // ---------------------------------------------
 
-.container {
+.vs-container {
   @include vs-container();
+}
+
+// ---------------------------------------------
+//    2. Row
+// ---------------------------------------------
+
+.vs-row {
+  @include vs-row();
+}
+
+// ---------------------------------------------
+//    3. Column
+// ---------------------------------------------
+
+@include vs-at-breakpoint($vs-screen-sm) {
+
+}
+
+@include vs-at-breakpoint($vs-screen-md) {
+
+}
+
+@include vs-at-breakpoint($vs-screen-lg) {
+
+}
+
+@include vs-at-breakpoint($vs-screen-xl) {
+  $total-columns: total-columns($vs-screen-xl);
+  @for $span from 1 through $total-columns {
+    .vs-col-xl-#{$span} {
+      @include vs-col($vs-screen-xl, $span);
+    }
+  }
 }
