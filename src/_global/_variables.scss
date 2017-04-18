@@ -1,0 +1,40 @@
+//
+//    File:           _variables.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Units
+//
+
+// ---------------------------------------------
+//    1. Units
+// ---------------------------------------------
+
+$vs-text-unit: 4px;
+$vs-grid-unit: 8px;
+
+// ---------------------------------------------
+//    2. Grid
+// ---------------------------------------------
+
+$vs-screen-sm: sm 0 767px;
+$vs-screen-md: md 768px 1023px;
+$vs-screen-lg: lg 1024px 1279px;
+$vs-screen-xl: xl 1280px;
+
+$vs-width-sm: 100%;
+$vs-width-md: 768px;
+$vs-width-lg: 1024px;
+$vs-width-xl: 1280px;
+
+$vs-gutter-sm: $vs-grid-unit * 3;
+$vs-gutter-md: $vs-grid-unit * 3;
+$vs-gutter-lg: $vs-grid-unit * 3;
+$vs-gutter-xl: $vs-grid-unit * 3;
+
+$vs-page-margin-sm: $vs-grid-unit * 4;
+$vs-page-margin-md: $vs-grid-unit * 2;
+$vs-page-margin-lg: $vs-grid-unit * 2;
+$vs-page-margin-xl: $vs-grid-unit * 2;

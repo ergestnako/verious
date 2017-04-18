@@ -1,0 +1,17 @@
+//
+//    File:           _layout.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Container
+//
+
+// ---------------------------------------------
+//    1. Container
+// ---------------------------------------------
+
+.container {
+  @include vs-container();
+}

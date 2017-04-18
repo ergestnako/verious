@@ -1,0 +1,54 @@
+//
+//    File:           _layout.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. At Breakpoint
+//    2. Container
+//
+
+// ---------------------------------------------
+//    1. At Breakpoint
+// ---------------------------------------------
+
+@mixin vs-at-breakpoint($viewport) {
+  @if length($viewport) == 2 {
+    @media all and (min-width: nth($viewport, 2)) {
+      @content;
+    }
+  } @else {
+    @media all and (min-width: nth($viewport, 2)) and (max-width: nth($viewport, 3)) {
+      @content;
+    }
+  }
+}
+
+// ---------------------------------------------
+//    2. Container
+// ---------------------------------------------
+
+@mixin vs-container() {
+  margin: 0 auto;
+
+  @include vs-at-breakpoint($vs-screen-sm) {
+    width: $vs-width-sm;
+    padding: 0 page-margin($vs-screen-sm);
+  }
+
+  @include vs-at-breakpoint($vs-screen-md) {
+    width: $vs-width-md;
+    padding: 0 page-margin($vs-screen-md);
+  }
+
+  @include vs-at-breakpoint($vs-screen-lg) {
+    width: $vs-width-lg;
+    padding: 0 page-margin($vs-screen-lg);
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    width: $vs-width-xl;
+    padding: 0 page-margin($vs-screen-xl);
+  }
+}
