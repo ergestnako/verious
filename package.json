@@ -1,0 +1,19 @@
+{
+  "name": "verious",
+  "version": "0.0.0",
+  "description": "Very serious styles. No jokes here.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpinnix/verious.git"
+  },
+  "author": "Charles Pinnix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpinnix/verious/issues"
+  },
+  "homepage": "https://github.com/cpinnix/verious#readme"
+}
