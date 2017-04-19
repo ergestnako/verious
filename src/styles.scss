@@ -23,12 +23,14 @@
 // ---------------------------------------------
 
 @import "_functions/_layout";
+@import "_functions/_typography";
 
 // ---------------------------------------------
 //    3. Mixins
 // ---------------------------------------------
 
 @import "_mixins/_layout";
+@import "_mixins/_typography";
 
 // ---------------------------------------------
 //    4. Base
@@ -36,3 +38,4 @@
 
 @import "_base/_sanitize";
 @import "_base/_layout";
+@import "_base/_typography";

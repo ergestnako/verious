@@ -1,0 +1,20 @@
+//
+//    File:           _typography.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Paragraph
+//
+
+// ---------------------------------------------
+//    1. Paragraph
+// ---------------------------------------------
+
+@mixin vs-paragraph($size) {
+  $font-size-multiplier: 1 + $size;
+  $line-height-multiplier: 4 + $size;
+  font-size: vs-font-measure($font-size-multiplier);
+  line-height: vs-font-measure($line-height-multiplier);
+}

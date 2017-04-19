@@ -25,6 +25,10 @@
     @include vs-row();
   }
 
+  &-description {
+    @include vs-paragraph(3);
+  }
+
   // ---------------------------------------------
   //    2. Responsive
   // ---------------------------------------------
@@ -40,6 +44,10 @@
       &-right {
         @include vs-sub-col($vs-screen-xl, 16, 4);
       }
+    }
+
+    &-content {
+      @include vs-col($vs-screen-xl, 16);
     }
   }
 }

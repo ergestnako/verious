@@ -1,0 +1,13 @@
+//
+//    File:           _typography.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Font Measure
+//
+
+@function vs-font-measure($multiplier) {
+  @return $multiplier * $vs-text-unit;
+}
