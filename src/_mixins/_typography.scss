@@ -13,8 +13,6 @@
 // ---------------------------------------------
 
 @mixin vs-paragraph($size) {
-  $font-size-multiplier: 1 + $size;
-  $line-height-multiplier: 4 + $size;
-  font-size: vs-font-measure($font-size-multiplier);
-  line-height: vs-font-measure($line-height-multiplier);
+  font-size: vs-font-measure(1 + $size);
+  line-height: 1.6;
 }
