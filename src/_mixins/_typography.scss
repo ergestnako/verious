@@ -5,14 +5,65 @@
 //
 //    Table of Contents:
 //
-//    1. Paragraph
+//    1. Sassline
+//    2. Paragraph
+//    3. Heading
 //
 
 // ---------------------------------------------
-//    1. Paragraph
+//    1. Sassline
+// ---------------------------------------------
+
+@import "../../node_modules/sassline/assets/sass/sassline-base/reset";
+@import "../../node_modules/sassline/assets/sass/sassline-base/modular-scale";
+@import "../../node_modules/sassline/assets/sass/sassline-base/mixins";
+
+// ---------------------------------------------
+//    2. Paragraph
 // ---------------------------------------------
 
 @mixin vs-paragraph($size) {
-  font-size: vs-font-measure(1 + $size);
-  line-height: 1.6;
+  font-family: unquote(map-get($bodytype, font-family));
+  font-style: normal;
+  font-weight: map-get($bodytype, regular);
+
+  @if $size == 1 {
+    @include fontsize(zeta, all);
+    @include baseline(zeta, $bodytype, 2, 2, all);
+  }
+}
+
+// ---------------------------------------------
+//    3. Heading
+// ---------------------------------------------
+
+@mixin vs-heading($size) {
+  font-family: unquote(map-get($bodytype, font-family));
+  font-style: normal;
+  font-weight: map-get($bodytype, bold);
+
+  @if $size == 1 {
+    @include fontsize(alpha, all);
+    @include baseline(alpha, $bodytype, 2, 2, all);
+  } @elseif $size == 2 {
+    @include fontsize(beta, all);
+    @include baseline(beta, $bodytype, 2, 2, all);
+  } @elseif $size == 3 {
+    @include fontsize(gamma, all);
+    @include baseline(gamma, $bodytype, 2, 2, all);
+  } @elseif $size == 3 {
+    @include fontsize(delta, all);
+    @include baseline(delta, $bodytype, 2, 2, all);
+  } @elseif $size == 4 {
+    @include fontsize(epsilon, all);
+    @include baseline(epsilon, $bodytype, 2, 2, all);
+  } @elseif $size == 5 {
+    @include fontsize(zeta, all);
+    @include baseline(zeta, $bodytype, 2, 2, all);
+  } @elseif $size == 6 {
+    @include fontsize(theta, all);
+    @include baseline(theta, $bodytype, 2, 2, all);
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+  }
 }

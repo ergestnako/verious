@@ -10,6 +10,7 @@
 //    3. Container
 //    4. Row
 //    5. Column
+//    6. Positioning
 //
 
 // ---------------------------------------------
@@ -131,4 +132,16 @@
   min-height: 1px;
   padding: 0 $gutter / 2;
   width: ($child-size / $parent-size) * 100%;
+}
+
+// ---------------------------------------------
+//    6. Positioning
+// ---------------------------------------------
+
+@mixin position($position, $top, $right, $bottom, $left) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
 }

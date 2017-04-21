@@ -5,37 +5,43 @@
 //
 //    Table of Contents:
 //
-//    1. Global
-//    2. Functions
-//    3. Mixins
-//    4. Base
+//    1. Reset
+//    2. Global
+//    3. Functions
+//    4. Mixins
+//    5. Base
 //
 
 // ---------------------------------------------
-//    1. Global
+//    1. Reset
+// ---------------------------------------------
+
+@import "_base/_sanitize";
+
+// ---------------------------------------------
+//    2. Global
 // ---------------------------------------------
 
 @import "_global/_colors";
 @import "_global/_variables";
 
 // ---------------------------------------------
-//    2. Functions
+//    3. Functions
 // ---------------------------------------------
 
 @import "_functions/_layout";
 @import "_functions/_typography";
 
 // ---------------------------------------------
-//    3. Mixins
+//    4. Mixins
 // ---------------------------------------------
 
 @import "_mixins/_layout";
 @import "_mixins/_typography";
 
 // ---------------------------------------------
-//    4. Base
+//    5. Base
 // ---------------------------------------------
 
-@import "_base/_sanitize";
 @import "_base/_layout";
 @import "_base/_typography";
