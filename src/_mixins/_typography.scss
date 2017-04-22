@@ -10,7 +10,8 @@
 //    3. Paragraph
 //    4. Heading
 //    5. List
-//    6. Code
+//    6. Link
+//    7. Code
 //
 
 // ---------------------------------------------
@@ -42,6 +43,10 @@
     @include fontsize(zeta, all);
     @include baseline(zeta, $bodytype, 2, 2, all);
   }
+
+  a {
+    display: inline;
+  }
 }
 
 // ---------------------------------------------
@@ -55,10 +60,10 @@
 
   @if $size == 1 {
     @include fontsize(alpha, all);
-    @include baseline(alpha, $bodytype, 2, 2, all);
+    @include baseline(alpha, $bodytype, 3, 2, all);
   } @elseif $size == 2 {
     @include fontsize(beta, all);
-    @include baseline(beta, $bodytype, 2, 2, all);
+    @include baseline(beta, $bodytype, 3, 2, all);
   } @elseif $size == 3 {
     @include fontsize(gamma, all);
     @include baseline(gamma, $bodytype, 2, 2, all);
@@ -103,7 +108,23 @@
 }
 
 // ---------------------------------------------
-//    6. Code
+//    6. Link
+// ---------------------------------------------
+
+@mixin vs-a($size) {
+  display: inline-block;
+  font-family: unquote(map-get($bodytype, font-family));
+  font-style: normal;
+  font-weight: map-get($bodytype, regular);
+
+  @if $size == 1 {
+    @include fontsize(zeta, all);
+    @include baseline(zeta, $bodytype, 2, 2, all);
+  }
+}
+
+// ---------------------------------------------
+//    7. Code
 // ---------------------------------------------
 
 @mixin vs-pre() {
