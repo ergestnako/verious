@@ -1,0 +1,15 @@
+//
+//    File:           _spacer.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+@for $i from 1 through 12 {
+  .vs-spacer-#{$i} {
+    @include vs-spacer($i);
+  }
+}

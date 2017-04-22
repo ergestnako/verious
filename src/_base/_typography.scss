@@ -9,7 +9,8 @@
 //    2. Paragraph
 //    3. Link
 //    4. Heading
-//    5. Code
+//    5. List
+//    6. Code
 //
 
 // ---------------------------------------------
@@ -102,8 +103,52 @@
   @include vs-heading(6);
 }
 
+.verious {
+  .vs-h1 {
+    @include vs-heading(1);
+  }
+
+  .vs-h2 {
+    @include vs-heading(2);
+  }
+
+  .vs-h3 {
+    @include vs-heading(3);
+  }
+
+  .vs-h4 {
+    @include vs-heading(4);
+  }
+
+  .vs-h5 {
+    @include vs-heading(5);
+  }
+
+  .vs-h6 {
+    @include vs-heading(6);
+  }
+}
+
 // ---------------------------------------------
-//    5. Code
+//    5. List
+// ---------------------------------------------
+
+.verious {
+  li {
+    @include vs-li(1);
+  }
+
+  ul {
+    @include vs-ul();
+  }
+}
+
+.vs-li {
+  @include vs-li(1);
+}
+
+// ---------------------------------------------
+//    6. Code
 // ---------------------------------------------
 
 .verious {

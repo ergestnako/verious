@@ -9,7 +9,8 @@
 //    2. Html
 //    3. Paragraph
 //    4. Heading
-//    5. Code
+//    5. List
+//    6. Code
 //
 
 // ---------------------------------------------
@@ -79,7 +80,30 @@
 }
 
 // ---------------------------------------------
-//    5. Code
+//    5. List
+// ---------------------------------------------
+
+@mixin vs-li($size) {
+  font-family: unquote(map-get($bodytype, font-family));
+  font-style: normal;
+  font-weight: map-get($bodytype, regular);
+
+  @if $size == 1 {
+    @include fontsize(zeta, all);
+    @include baseline(zeta, $bodytype, 2, 0, all);
+  }
+}
+
+@mixin vs-ul() {
+  @include vs-margin(left, 2);
+
+  ul {
+    @include vs-margin(left, 2);
+  }
+}
+
+// ---------------------------------------------
+//    6. Code
 // ---------------------------------------------
 
 @mixin vs-pre() {
@@ -99,6 +123,6 @@
 
   @if $size == 1 {
     @include fontsize(theta, all);
-    @include baseline(theta, $monospacetype, 2, 2, all);
+    @include baseline(theta, $monospacetype, 2, 0, all);
   }
 }

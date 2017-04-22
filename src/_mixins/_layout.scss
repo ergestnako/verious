@@ -12,6 +12,8 @@
 //    5. Column
 //    6. Positioning
 //    7. Padding
+//    8. Margin
+//    9. Spacer
 //
 
 // ---------------------------------------------
@@ -122,6 +124,10 @@
   min-height: 1px;
   padding: 0 $gutter / 2;
   width: (100 / ($total-columns / $span-columns) ) * 1%;
+
+  @if $push-columns {
+    margin-left: (100 / ($total-columns / $push-columns) ) * 1%;
+  }
 }
 
 @mixin vs-sub-col($viewport, $parent-columns, $span-columns, $push-columns: null, $pull-columns: null) {
@@ -152,9 +158,25 @@
 }
 
 // ---------------------------------------------
-//    6. Padding
+//    7. Padding
 // ---------------------------------------------
 
 @mixin vs-padding($edge, $multiplier) {
   padding-#{$edge}: $multiplier * 1rem;
+}
+
+// ---------------------------------------------
+//    8. Margin
+// ---------------------------------------------
+
+@mixin vs-margin($edge, $multiplier) {
+  margin-#{$edge}: $multiplier * 1rem;
+}
+
+// ---------------------------------------------
+//    9. Spacer
+// ---------------------------------------------
+
+@mixin vs-spacer($multiplier) {
+  height: $multiplier * 1rem;
 }
