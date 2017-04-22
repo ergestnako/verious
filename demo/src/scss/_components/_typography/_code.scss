@@ -15,6 +15,10 @@
   //    1. Base
   // ---------------------------------------------
 
+  @include vs-clearfix();
+  @include vs-padding(top, 4);
+  @include vs-padding(bottom, 4);
+
   &-container {
     @include vs-container();
   }
@@ -32,26 +36,58 @@
   // ---------------------------------------------
 
   @include vs-at-breakpoint($vs-screen-sm) {
+    $viewport: $vs-screen-sm;
+
+    &-header,
     &-content {
-      @include vs-col($vs-screen-sm, 6);
+      @include vs-col($viewport, 6);
+    }
+
+    &-left,
+    &-right {
+      @include vs-col($viewport, 6);
     }
   }
 
   @include vs-at-breakpoint($vs-screen-md) {
+    $viewport: $vs-screen-md;
+
+    &-header,
     &-content {
-      @include vs-col($vs-screen-md, 12);
+      @include vs-col($viewport, 12);
+    }
+
+    &-left,
+    &-right {
+      @include vs-col($viewport, 6);
     }
   }
 
   @include vs-at-breakpoint($vs-screen-lg) {
+    $viewport: $vs-screen-lg;
+
+    &-header,
     &-content {
-      @include vs-col($vs-screen-lg, 16);
+      @include vs-col($viewport, 16);
+    }
+
+    &-left,
+    &-right {
+      @include vs-col($viewport, 8);
     }
   }
 
   @include vs-at-breakpoint($vs-screen-xl) {
+    $viewport: $vs-screen-xl;
+
+    &-header,
     &-content {
-      @include vs-col($vs-screen-xl, 16);
+      @include vs-col($viewport, 16);
+    }
+
+    &-left,
+    &-right {
+      @include vs-col($viewport, 8);
     }
   }
 }
