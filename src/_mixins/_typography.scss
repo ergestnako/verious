@@ -6,8 +6,10 @@
 //    Table of Contents:
 //
 //    1. Sassline
-//    2. Paragraph
-//    3. Heading
+//    2. Html
+//    3. Paragraph
+//    4. Heading
+//    5. Code
 //
 
 // ---------------------------------------------
@@ -19,7 +21,15 @@
 @import "sassline/assets/sass/sassline-base/mixins";
 
 // ---------------------------------------------
-//    2. Paragraph
+//    2. Html
+// ---------------------------------------------
+
+@mixin vs-html() {
+  @include rootsize();
+}
+
+// ---------------------------------------------
+//    3. Paragraph
 // ---------------------------------------------
 
 @mixin vs-paragraph($size) {
@@ -34,7 +44,7 @@
 }
 
 // ---------------------------------------------
-//    3. Heading
+//    4. Heading
 // ---------------------------------------------
 
 @mixin vs-heading($size) {
@@ -65,5 +75,30 @@
     @include baseline(theta, $bodytype, 2, 2, all);
     text-transform: uppercase;
     letter-spacing: 0.05rem;
+  }
+}
+
+// ---------------------------------------------
+//    5. Code
+// ---------------------------------------------
+
+@mixin vs-pre() {
+  background-color: $vs-grey-100;
+  overflow: auto;
+  white-space: inherit;
+  margin: 0;
+  @include vs-padding(right, 2);
+  @include vs-padding(left, 2);
+}
+
+@mixin vs-code($size) {
+  white-space: pre;
+  font-family: unquote(map-get($monospacetype, font-family));
+  font-style: normal;
+  font-weight: map-get($monospacetype, regular);
+
+  @if $size == 1 {
+    @include fontsize(theta, all);
+    @include baseline(theta, $monospacetype, 2, 2, all);
   }
 }

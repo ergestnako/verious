@@ -12,4 +12,68 @@ layout: default.html
     </div>
   </div>
 </div>
-<!-- <div class="vs-baseline"></div> -->
+
+<div class="code verious">
+  <div class="code-container">
+    <div class="code-row">
+      <div class="code-content">
+        <pre>
+          <code>
+.code {
+
+  // ---------------------------------------------
+  //    1. Base
+  // ---------------------------------------------
+
+  &-container {
+    @include vs-container();
+  }
+
+  &-row {
+    @include vs-row();
+  }
+
+  // ---------------------------------------------
+  //    2. Responsive
+  // ---------------------------------------------
+
+  @include vs-at-breakpoint($vs-screen-sm) {
+    &-content {
+      @include vs-col($vs-screen-sm, 6);
+      @include vs-padding(top, 10);
+      @include vs-padding(bottom, 10);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-md) {
+    &-content {
+      @include vs-col($vs-screen-md, 12);
+      @include vs-padding(top, 10);
+      @include vs-padding(bottom, 10);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-lg) {
+    &-content {
+      @include vs-col($vs-screen-lg, 16);
+      @include vs-padding(top, 10);
+      @include vs-padding(bottom, 10);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    &-content {
+      @include vs-col($vs-screen-xl, 16);
+      @include vs-padding(top, 10);
+      @include vs-padding(bottom, 10);
+    }
+  }
+}
+          </code>
+        </pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="vs-baseline"></div>

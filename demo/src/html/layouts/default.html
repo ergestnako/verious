@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html class="vs-html">
 <head>
   <link rel="stylesheet" href="/css/demo.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-  {% block content %}
-    {{ contents | safe }}
-  {% endblock %}
+  <div class="vs-clearfix" style="position:relative;">
+    {% block content %}
+      {{ contents | safe }}
+    {% endblock %}
+  </div>
 </body>
 </html>

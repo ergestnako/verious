@@ -85,22 +85,26 @@
 
   @include vs-at-breakpoint($vs-screen-sm) {
     $gutter: gutter($vs-screen-sm);
-    margin: 0 -$gutter / 2;
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
   }
 
   @include vs-at-breakpoint($vs-screen-md) {
     $gutter: gutter($vs-screen-md);
-    margin: 0 -$gutter / 2;
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
   }
 
   @include vs-at-breakpoint($vs-screen-lg) {
     $gutter: gutter($vs-screen-md);
-    margin: 0 -$gutter / 2;
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
   }
 
   @include vs-at-breakpoint($vs-screen-xl) {
     $gutter: gutter($vs-screen-lg);
-    margin: 0 -$gutter / 2;
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
   }
 }
 

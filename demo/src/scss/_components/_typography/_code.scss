@@ -1,5 +1,5 @@
 //
-//    File:           _hero.scss
+//    File:           _code.scss
 //    Description:
 //
 //
@@ -9,14 +9,11 @@
 //    2. Responsive
 //
 
-.hero {
+.code {
 
   // ---------------------------------------------
   //    1. Base
   // ---------------------------------------------
-
-  background-color: $vs-pink-500;
-  color: $vs-white;
 
   &-container {
     @include vs-container();
@@ -28,15 +25,6 @@
 
   &-content {
     @include vs-clearfix();
-    text-align: center;
-  }
-
-  &-title {
-    @include vs-heading(1);
-  }
-
-  &-subtitle {
-    @include vs-paragraph(1);
   }
 
   // ---------------------------------------------
@@ -46,33 +34,32 @@
   @include vs-at-breakpoint($vs-screen-sm) {
     &-content {
       @include vs-col($vs-screen-sm, 6);
-      @include vs-padding(top, 10);
-      @include vs-padding(bottom, 10);
+      // @include vs-padding(top, 10);
+      // @include vs-padding(bottom, 10);
     }
   }
 
   @include vs-at-breakpoint($vs-screen-md) {
     &-content {
       @include vs-col($vs-screen-md, 12);
-      @include vs-padding(top, 10);
-      @include vs-padding(bottom, 10);
+      // @include vs-padding(top, 10);
+      // @include vs-padding(bottom, 10);
     }
   }
 
   @include vs-at-breakpoint($vs-screen-lg) {
     &-content {
       @include vs-col($vs-screen-lg, 16);
-      @include vs-padding(top, 10);
-      @include vs-padding(bottom, 10);
+      // @include vs-padding(top, 10);
+      // @include vs-padding(bottom, 10);
     }
   }
 
   @include vs-at-breakpoint($vs-screen-xl) {
     &-content {
       @include vs-col($vs-screen-xl, 16);
-      @include vs-padding(top, 10);
-      @include vs-padding(bottom, 10);
+      // @include vs-padding(top, 10);
+      // @include vs-padding(bottom, 10);
     }
   }
-
 }
