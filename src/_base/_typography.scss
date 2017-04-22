@@ -14,11 +14,13 @@
 //    1. Paragraph
 // ---------------------------------------------
 
-p {
-  @include vs-paragraph(1);
+.verious {
+  p {
+    @include vs-paragraph(1);
+  }
 }
 
-.p {
+.vs-p {
   @include vs-paragraph(1);
 }
 
@@ -26,11 +28,13 @@ p {
 //    2. Link
 // ---------------------------------------------
 
-a {
-  @include vs-paragraph(3);
+.verious {
+  a {
+    @include vs-paragraph(3);
+  }
 }
 
-.a {
+.vs-a {
   @include vs-paragraph(3);
 }
 
@@ -38,50 +42,52 @@ a {
 //    3. Heading
 // ---------------------------------------------
 
-h1 {
+.verious {
+  h1 {
+    @include vs-heading(1);
+  }
+
+  h2 {
+    @include vs-heading(2);
+  }
+
+  h3 {
+    @include vs-heading(3);
+  }
+
+  h4 {
+    @include vs-heading(4);
+  }
+
+  h5 {
+    @include vs-heading(5);
+  }
+
+  h6 {
+    @include vs-heading(6);
+  }
+}
+
+.vs-h1 {
   @include vs-heading(1);
 }
 
-.h1 {
-  @include vs-heading(1);
-}
-
-h2 {
+.vs-h2 {
   @include vs-heading(2);
 }
 
-.h2 {
-  @include vs-heading(2);
-}
-
-h3 {
+.vs-h3 {
   @include vs-heading(3);
 }
 
-.h3 {
-  @include vs-heading(3);
-}
-
-h4 {
+.vs-h4 {
   @include vs-heading(4);
 }
 
-.h4 {
-  @include vs-heading(4);
-}
-
-h5 {
+.vs-h5 {
   @include vs-heading(5);
 }
 
-.h5 {
-  @include vs-heading(5);
-}
-
-h6 {
-  @include vs-heading(6);
-}
-
-.h6 {
+.vs-h6 {
   @include vs-heading(6);
 }
