@@ -4,6 +4,7 @@
 *
 --------------------------------------------- */
 
+const path = require('path');
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
@@ -21,7 +22,13 @@ const DEMO_CSS_DEST = 'demo/css';
 gulp.task('verious:css', () => {
   gulp.src(SCSS_FILE)
     .pipe(sourcemaps.init())
-    .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+    .pipe(sass({
+      outputStyle: 'compressed',
+      includePaths: [
+        // path.join(__dirname, 'bower_components'), // bower
+        path.join(__dirname, 'node_modules') // npm
+      ]
+    }).on('error', sass.logError))
     .pipe(sourcemaps.write('.'))
     .pipe(rename({ basename: 'verious', suffix: '.min' }))
     .pipe(gulp.dest(CSS_DEST))
@@ -30,7 +37,13 @@ gulp.task('verious:css', () => {
 gulp.task('demo:css', () => {
   gulp.src(DEMO_SCSS_FILE)
     .pipe(sourcemaps.init())
-    .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+    .pipe(sass({
+      outputStyle: 'compressed',
+      includePaths: [
+        // path.join(__dirname, 'bower_components'), // bower
+        path.join(__dirname, 'node_modules') // npm
+      ]
+    }).on('error', sass.logError))
     .pipe(sourcemaps.write('.'))
     .pipe(rename({ basename: 'demo', suffix: '.min' }))
     .pipe(gulp.dest(DEMO_CSS_DEST));
