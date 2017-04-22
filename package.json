@@ -1,10 +1,11 @@
 {
   "name": "verious",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Very serious styles. No jokes here.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "gulp server"
   },
   "repository": {
     "type": "git",
@@ -17,10 +18,21 @@
   },
   "homepage": "https://github.com/cpinnix/verious#readme",
   "dependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "latest",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
     "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-html-minifier": "^2.2.0",
+    "metalsmith-layouts": "^1.8.1",
+    "metalsmith-mapsite": "^1.0.4",
+    "nunjucks": "^3.0.0",
     "sassline": "^2.1.2"
   }
 }

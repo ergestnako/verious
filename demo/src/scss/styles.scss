@@ -13,11 +13,11 @@
 //    1. Verious
 // ---------------------------------------------
 
-@import "styles";
+@import "../../../src/styles";
 
 // ---------------------------------------------
 //    2. Components
 // ---------------------------------------------
 
-@import "_demo/_baseline";
-@import "_demo/_typography";
+@import "_components/_typography";
+@import "_components/_hero";

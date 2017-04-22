@@ -8,10 +8,10 @@
 //    1. Base
 //
 
-.baseline {
-  z-index: -1;
-  @include position(absolute, 0, 0, 0, 0);
-  background-image: linear-gradient(to bottom,$vs-cyan-500 0,rgba(255,255,255,0)1px);
+.vs-baseline {
+  z-index: 1;
+  @include vs-position(absolute, 0, 0, 0, 0);
+  background-image: linear-gradient(to bottom, $vs-cyan-500 0, rgba(255,255,255,0)1px);
   background-repeat: repeat-y;
   background-size: 100% 1rem;
 }
