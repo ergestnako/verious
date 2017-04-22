@@ -135,13 +135,33 @@
 // ---------------------------------------------
 
 .verious {
+  ul {
+    @include vs-ul();
+  }
+
   li {
     @include vs-li(1);
   }
 
-  ul {
+  .vs-ul {
     @include vs-ul();
   }
+
+  .vs-ul--unstyled {
+    @include vs-ul--unstyled();
+  }
+
+  .vs-li {
+    @include vs-li(1);
+  }
+}
+
+.vs-ul {
+  @include vs-ul();
+}
+
+.vs-ul--unstyled {
+  @include vs-ul--unstyled();
 }
 
 .vs-li {

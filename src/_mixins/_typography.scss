@@ -101,6 +101,10 @@
   a {
     display: inline;
   }
+
+  > ul > li:first-child {
+    padding-top: 0;
+  }
 }
 
 @mixin vs-ul() {
@@ -110,6 +114,17 @@
     @include vs-margin(left, 2);
   }
 }
+
+@mixin vs-ul--unstyled() {
+  margin-left: 0;
+  list-style: none;
+
+  ul {
+    @include vs-margin(left, 2);
+  }
+}
+
+
 
 // ---------------------------------------------
 //    6. Link
