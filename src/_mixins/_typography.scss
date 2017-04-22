@@ -97,6 +97,10 @@
     @include fontsize(zeta, all);
     @include baseline(zeta, $bodytype, 2, 0, all);
   }
+
+  a {
+    display: inline;
+  }
 }
 
 @mixin vs-ul() {
