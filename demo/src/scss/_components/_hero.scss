@@ -32,11 +32,11 @@
   }
 
   &-title {
-    @include vs-heading(1);
+    @include vs-h(1);
   }
 
   &-subtitle {
-    @include vs-paragraph(1);
+    @include vs-p(1);
   }
 
   // ---------------------------------------------

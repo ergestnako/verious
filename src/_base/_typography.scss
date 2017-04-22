@@ -28,12 +28,12 @@
 
 .verious {
   p {
-    @include vs-paragraph(1);
+    @include vs-p(1);
   }
 }
 
 .vs-p {
-  @include vs-paragraph(1);
+  @include vs-p(1);
 }
 
 // ---------------------------------------------
@@ -42,12 +42,12 @@
 
 .verious {
   a {
-    @include vs-paragraph(3);
+    @include vs-p(3);
   }
 }
 
 .vs-a {
-  @include vs-paragraph(3);
+  @include vs-p(3);
 }
 
 // ---------------------------------------------
@@ -56,77 +56,77 @@
 
 .verious {
   h1 {
-    @include vs-heading(1);
+    @include vs-h(1);
   }
 
   h2 {
-    @include vs-heading(2);
+    @include vs-h(2);
   }
 
   h3 {
-    @include vs-heading(3);
+    @include vs-h(3);
   }
 
   h4 {
-    @include vs-heading(4);
+    @include vs-h(4);
   }
 
   h5 {
-    @include vs-heading(5);
+    @include vs-h(5);
   }
 
   h6 {
-    @include vs-heading(6);
+    @include vs-h(6);
   }
 }
 
 .vs-h1 {
-  @include vs-heading(1);
+  @include vs-h(1);
 }
 
 .vs-h2 {
-  @include vs-heading(2);
+  @include vs-h(2);
 }
 
 .vs-h3 {
-  @include vs-heading(3);
+  @include vs-h(3);
 }
 
 .vs-h4 {
-  @include vs-heading(4);
+  @include vs-h(4);
 }
 
 .vs-h5 {
-  @include vs-heading(5);
+  @include vs-h(5);
 }
 
 .vs-h6 {
-  @include vs-heading(6);
+  @include vs-h(6);
 }
 
 .verious {
   .vs-h1 {
-    @include vs-heading(1);
+    @include vs-h(1);
   }
 
   .vs-h2 {
-    @include vs-heading(2);
+    @include vs-h(2);
   }
 
   .vs-h3 {
-    @include vs-heading(3);
+    @include vs-h(3);
   }
 
   .vs-h4 {
-    @include vs-heading(4);
+    @include vs-h(4);
   }
 
   .vs-h5 {
-    @include vs-heading(5);
+    @include vs-h(5);
   }
 
   .vs-h6 {
-    @include vs-heading(6);
+    @include vs-h(6);
   }
 }
 

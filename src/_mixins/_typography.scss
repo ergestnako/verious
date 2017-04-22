@@ -34,7 +34,7 @@
 //    3. Paragraph
 // ---------------------------------------------
 
-@mixin vs-paragraph($size) {
+@mixin vs-p($size) {
   font-family: unquote(map-get($bodytype, font-family));
   font-style: normal;
   font-weight: map-get($bodytype, regular);
@@ -53,7 +53,7 @@
 //    4. Heading
 // ---------------------------------------------
 
-@mixin vs-heading($size) {
+@mixin vs-h($size) {
   font-family: unquote(map-get($bodytype, font-family));
   font-style: normal;
   font-weight: map-get($bodytype, bold);
