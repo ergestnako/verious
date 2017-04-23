@@ -109,9 +109,11 @@
 
 @mixin vs-ul() {
   @include vs-margin(left, 2);
+  @include vs-margin(bottom, 2);
 
   ul {
     @include vs-margin(left, 2);
+    margin-bottom: 0;
   }
 }
 
@@ -153,6 +155,7 @@
   margin: 0;
   @include vs-padding(right, 2);
   @include vs-padding(left, 2);
+  @include vs-margin(bottom, 2);
 }
 
 @mixin vs-code($size) {
