@@ -12,6 +12,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const nunjucks = require('nunjucks');
 const connect = require('gulp-connect');
 const Metalsmith = require('metalsmith');
+const MetalsmithInPlace = require('metalsmith-in-place');
 const MetalsmithLayouts = require('metalsmith-layouts');
 const MetalsmithHTMLMinifier = require('metalsmith-html-minifier');
 const MetalsmithMapsite = require('metalsmith-mapsite');
@@ -44,8 +45,12 @@ function metalsmith() {
       // Layout Plugin
       .use(MetalsmithLayouts({
         directory: layoutsPath,
+        // pattern: '**/*.html',
         engine: 'nunjucks',
       }))
+
+      // In Place Plugin
+      .use(MetalsmithInPlace())
 
       // HTML Minification Plugin
       .use(MetalsmithHTMLMinifier())
