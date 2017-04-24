@@ -1,6 +1,0 @@
----
-layout: default.html
-title: Hello World
----
-
-<p>{{title}}</p>

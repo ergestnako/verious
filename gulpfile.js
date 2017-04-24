@@ -4,13 +4,15 @@
 *
 --------------------------------------------- */
 
+const _ = require('lodash');
+const fs = require('fs');
 const path = require('path');
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
-const nunjucks = require('nunjucks');
 const connect = require('gulp-connect');
+const handlebars = require('handlebars');
 const Metalsmith = require('metalsmith');
 const MetalsmithInPlace = require('metalsmith-in-place');
 const MetalsmithLayouts = require('metalsmith-layouts');
@@ -32,8 +34,8 @@ const DEMO_CSS_DEST = 'demo/public/css';
 * HTML tasks.
 --------------------------------------------- */
 
-const layoutsPath = path.join(__dirname, 'demo/src/html/layouts'); // eslint-disable-line
-nunjucks.configure(layoutsPath, { watch: false, noCache: true });
+const layoutsPath = path.join(__dirname, 'demo/src/html/layouts');
+const includesPath = path.join(__dirname, 'demo/src/html/includes');
 
 function metalsmith() {
   return new Promise((resolve, reject) => {
@@ -42,21 +44,57 @@ function metalsmith() {
       .destination(HTML_DEST)
       .clean(false)
 
-      // Layout Plugin
+      .metadata({
+
+      })
+
+      // Includes plugin.
+      .use((files, ms, done) => {
+        const includes = {};
+
+        const items = fs.readdirSync(includesPath);
+
+        for (let i = 0; i < items.length; i += 1) {
+          const name = items[i];
+          const root = name.split('.')[0];
+          const data = fs.readFileSync(path.join(includesPath, name), 'utf-8');
+          includes[root] = data;
+        }
+
+        _.each(files, (file) => {
+          file.includes = {}; // eslint-disable-line
+          _.each(includes, (include, key) => {
+            const template = handlebars.compile(include);
+            const rendered = template(file);
+            file.includes[key] = rendered; // eslint-disable-line
+          });
+        });
+
+        done();
+      })
+
+      // Layout plugin.
       .use(MetalsmithLayouts({
         directory: layoutsPath,
-        // pattern: '**/*.html',
-        engine: 'nunjucks',
+        partials: 'demo/src/html/layouts/partials',
+        engine: 'handlebars',
       }))
 
-      // In Place Plugin
+      // In Place plugin.
       .use(MetalsmithInPlace())
 
-      // HTML Minification Plugin
+      // HTML Minification Plugin.
       .use(MetalsmithHTMLMinifier())
 
-      // Sitemap Plugin
+      // Sitemap plugin.
       .use(MetalsmithMapsite('http://frontend.website.com'))
+
+      // // Print metadata.
+      // .use(function(files, metalsmith, done) {
+      //   console.log(files);
+      //   console.log(metalsmith);
+      //   done();
+      // })
 
       .build((err) => {
         if (err) {

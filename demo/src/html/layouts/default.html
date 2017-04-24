@@ -6,10 +6,8 @@
 </head>
 <body>
   <div class="vs-clearfix" style="position:relative;">
-    {% block content %}
-      {{ contents | safe }}
-    {% endblock %}
-    {% include 'partials/footer.html' %}
+    {{{ contents }}}
+    {{> footer }}
   </div>
 </body>
 </html>
