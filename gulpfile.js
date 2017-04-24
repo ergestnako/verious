@@ -4,20 +4,14 @@
 *
 --------------------------------------------- */
 
-const _ = require('lodash');
-const fs = require('fs');
 const path = require('path');
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const connect = require('gulp-connect');
-const handlebars = require('handlebars');
-const Metalsmith = require('metalsmith');
-const MetalsmithInPlace = require('metalsmith-in-place');
-const MetalsmithLayouts = require('metalsmith-layouts');
-const MetalsmithHTMLMinifier = require('metalsmith-html-minifier');
-const MetalsmithMapsite = require('metalsmith-mapsite');
+const nunjucksRender = require('gulp-nunjucks-render');
+const htmlmin = require('gulp-htmlmin');
 
 const HTML_DEST = 'demo/public';
 const HTML_FILES = 'demo/src/html/**/*';
@@ -34,84 +28,16 @@ const DEMO_CSS_DEST = 'demo/public/css';
 * HTML tasks.
 --------------------------------------------- */
 
-const layoutsPath = path.join(__dirname, 'demo/src/html/layouts');
-const includesPath = path.join(__dirname, 'demo/src/html/includes');
-
-function metalsmith() {
-  return new Promise((resolve, reject) => {
-    Metalsmith(__dirname)
-      .source('./demo/src/html/base')
-      .destination(HTML_DEST)
-      .clean(false)
-
-      .metadata({
-
-      })
-
-      // Includes plugin.
-      .use((files, ms, done) => {
-        const includes = {};
-
-        const items = fs.readdirSync(includesPath);
-
-        for (let i = 0; i < items.length; i += 1) {
-          const name = items[i];
-          const root = name.split('.')[0];
-          const data = fs.readFileSync(path.join(includesPath, name), 'utf-8');
-          includes[root] = data;
-        }
-
-        _.each(files, (file) => {
-          file.includes = {}; // eslint-disable-line
-          _.each(includes, (include, key) => {
-            const template = handlebars.compile(include);
-            const rendered = template(file);
-            file.includes[key] = rendered; // eslint-disable-line
-          });
-        });
-
-        done();
-      })
-
-      // Layout plugin.
-      .use(MetalsmithLayouts({
-        directory: layoutsPath,
-        partials: 'demo/src/html/layouts/partials',
-        engine: 'handlebars',
-      }))
-
-      // In Place plugin.
-      .use(MetalsmithInPlace())
-
-      // HTML Minification Plugin.
-      .use(MetalsmithHTMLMinifier())
-
-      // Sitemap plugin.
-      .use(MetalsmithMapsite('http://frontend.website.com'))
-
-      // // Print metadata.
-      // .use(function(files, metalsmith, done) {
-      //   console.log(files);
-      //   console.log(metalsmith);
-      //   done();
-      // })
-
-      .build((err) => {
-        if (err) {
-          reject(err);
-        } else {
-          resolve();
-        }
-      });
-  });
-}
-
-gulp.task('demo:html', (done) => {
-  metalsmith().then(() => {
-    done();
-  }, (err) => {
-    throw err;
-  });
+gulp.task('demo:html', () => {
+  gulp.src('demo/src/html/base/**/*.html')
+    .pipe(nunjucksRender({
+      path: ['demo/src/html/'],
+    }))
+    .pipe(htmlmin({ collapseWhitespace: true }))
+    .on('error', (err) => {
+      console.log(err); // eslint-disable-line
+    })
+    .pipe(gulp.dest(HTML_DEST));
 });
 
 gulp.task('demo:html:reload', ['demo:html'], () => {

@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %}
+{% from "macros/hero/hero.macro.html" import hero %}
+
+{% block content %}
+{{ hero('Verious', 'Very serious styles.') }}
+{% include "partials/code/code.html" %}
+{% include "partials/paragraph/paragraph.html" %}
+{% include "partials/list/list.html" %}
+{% include "partials/link/link.html" %}
+{% include "partials/heading/heading.html" %}
+
+{% endblock %}
