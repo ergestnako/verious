@@ -9,7 +9,7 @@
 //
 
 @for $i from 1 through 12 {
-  .vs-spacer-#{$i} {
+  .vs-spacer--#{$i} {
     @include vs-spacer($i);
   }
 }
