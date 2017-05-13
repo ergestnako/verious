@@ -26,22 +26,22 @@ const _ = require('lodash');
 --------------------------------------------- */
 
 const SCSS_FILES = [
-  'demo/src/scss/**/*',
+  'documentation/src/scss/**/*',
   'src/scss/**/*',
 ];
 const SCSS_FILE = 'src/scss/styles.scss';
 const CSS_DEST = 'dist';
-const SCSS_DEMO_FILE = 'demo/src/scss/styles.scss';
-const CSS_DEMO_DEST = 'demo/public/css';
+const SCSS_DEMO_FILE = 'documentation/src/scss/styles.scss';
+const CSS_DEMO_DEST = 'documentation/public/css';
 
 /** --------------------------------------------
 * HTML constants.
 --------------------------------------------- */
 
-const HTML_SOURCE_DIR = 'demo/src/html';
-const HTML_BASE_DIR = 'demo/src/html/base';
-const HTML_FILES = 'demo/src/html/**/*';
-const HTML_DEST_DIR = 'demo/public';
+const HTML_SOURCE_DIR = 'documentation/src/html';
+const HTML_BASE_DIR = 'documentation/src/html/base';
+const HTML_FILES = 'documentation/src/html/**/*';
+const HTML_DEST_DIR = 'documentation/public';
 
 /** --------------------------------------------
 * JS constants.
@@ -52,7 +52,7 @@ const JS_FILES = [
   'src/js/_components/**/*',
 ];
 const JS_DEST = 'dist';
-const JS_DEMO_DEST = 'demo/public/js';
+const JS_DEMO_DEST = 'documentation/public/js';
 
 /** --------------------------------------------
 * HTML tasks.
@@ -122,7 +122,7 @@ function metalsmith() {
   });
 }
 
-gulp.task('html:demo', (done) => {
+gulp.task('html:documentation', (done) => {
   metalsmith().then(() => {
     done();
   }, (err) => {
@@ -132,7 +132,7 @@ gulp.task('html:demo', (done) => {
   });
 });
 
-gulp.task('html:demo:reload', ['html:demo'], () => {
+gulp.task('html:documentation:reload', ['html:documentation'], () => {
   gulp.src(HTML_FILES)
     .pipe(connect.reload());
 });
@@ -154,9 +154,9 @@ const css = (basename, src, dest) => gulp.src(src)
     .pipe(gulp.dest(dest));
 
 gulp.task('css:verious', css.bind(null, 'verious', SCSS_FILE, CSS_DEST));
-gulp.task('css:demo', css.bind(null, 'demo', SCSS_DEMO_FILE, CSS_DEMO_DEST));
+gulp.task('css:documentation', css.bind(null, 'documentation', SCSS_DEMO_FILE, CSS_DEMO_DEST));
 
-gulp.task('css:demo:reload', ['css:demo'], () => gulp.src(SCSS_FILES)
+gulp.task('css:documentation:reload', ['css:documentation'], () => gulp.src(SCSS_FILES)
     .pipe(connect.reload()));
 
 /** --------------------------------------------
@@ -180,7 +180,7 @@ const js = (basename, dest, cb) => {
 };
 
 gulp.task('js:verious', js.bind(null, 'verious', JS_DEST));
-gulp.task('js:demo', js.bind(null, 'verious', JS_DEMO_DEST));
+gulp.task('js:documentation', js.bind(null, 'verious', JS_DEMO_DEST));
 
 gulp.task('js:vendor', () => {
   gulp.src([
@@ -190,7 +190,7 @@ gulp.task('js:vendor', () => {
     .pipe(gulp.dest(JS_DEMO_DEST));
 });
 
-gulp.task('js:demo:reload', ['js:demo', 'js:vendor'], () => {
+gulp.task('js:documentation:reload', ['js:documentation', 'js:vendor'], () => {
   gulp.src(JS_FILES)
     .pipe(connect.reload());
 });
@@ -201,7 +201,7 @@ gulp.task('js:demo:reload', ['js:demo', 'js:vendor'], () => {
 
 gulp.task('connect', () => {
   connect.server({
-    root: 'demo/public',
+    root: 'documentation/public',
     port: 3001,
     livereload: {
       port: 35732,
@@ -220,13 +220,13 @@ gulp.task('server', [
 --------------------------------------------- */
 
 gulp.task('default', [
-  'css:demo',
-  'html:demo',
-  'js:demo',
+  'css:documentation',
+  'html:documentation',
+  'js:documentation',
 ]);
 
 gulp.task('watch', () => {
-  gulp.watch(HTML_FILES, ['html:demo:reload']);
-  gulp.watch(SCSS_FILES, ['css:demo:reload']);
-  gulp.watch(JS_FILES, ['js:demo:reload']);
+  gulp.watch(HTML_FILES, ['html:documentation:reload']);
+  gulp.watch(SCSS_FILES, ['css:documentation:reload']);
+  gulp.watch(JS_FILES, ['js:documentation:reload']);
 });
