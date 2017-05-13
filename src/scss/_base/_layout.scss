@@ -37,6 +37,12 @@
       @include vs-col($vs-screen-sm, $span);
     }
   }
+
+  @for $push from 1 through $total-columns {
+    .vs-col-sm-push-#{$push} {
+      @include vs-col-push($vs-screen-sm, $push);
+    }
+  }
 }
 
 @include vs-at-breakpoint($vs-screen-md) {
@@ -44,6 +50,12 @@
   @for $span from 1 through $total-columns {
     .vs-col-md-#{$span} {
       @include vs-col($vs-screen-md, $span);
+    }
+  }
+
+  @for $push from 1 through $total-columns {
+    .vs-col-md-push-#{$push} {
+      @include vs-col-push($vs-screen-md, $push);
     }
   }
 }
@@ -55,6 +67,12 @@
       @include vs-col($vs-screen-lg, $span);
     }
   }
+
+  @for $push from 1 through $total-columns {
+    .vs-col-lg-push-#{$push} {
+      @include vs-col-push($vs-screen-lg, $push);
+    }
+  }
 }
 
 @include vs-at-breakpoint($vs-screen-xl) {
@@ -62,6 +80,12 @@
   @for $span from 1 through $total-columns {
     .vs-col-xl-#{$span} {
       @include vs-col($vs-screen-xl, $span);
+    }
+  }
+
+  @for $push from 1 through $total-columns {
+    .vs-col-xl-push-#{$push} {
+      @include vs-col-push($vs-screen-xl, $push);
     }
   }
 }
