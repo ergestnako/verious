@@ -6,45 +6,53 @@
 
 require('babel-register');
 const path = require('path');
+const pump = require('pump');
 const gulp = require('gulp');
 const rename = require('gulp-rename');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
 const connect = require('gulp-connect');
+const babel = require('gulp-babel');
+const concat = require('gulp-concat');
 const Metalsmith = require('metalsmith');
 const MetalsmithHTMLMinifier = require('metalsmith-html-minifier');
 const React = require('react');
 const ReactDOMServer = require('react-dom/server');
 const _ = require('lodash');
 
-const HTML_DEST = 'demo/public';
-const HTML_FILES = 'demo/src/html/**/*';
-const HTML_DIR = 'demo/src/html';
-const HTML_BASE = 'demo/src/html/base';
+
+/** --------------------------------------------
+* CSS constants.
+--------------------------------------------- */
+
 const SCSS_FILES = [
   'demo/src/scss/**/*',
   'src/**/*',
 ];
 const SCSS_FILE = 'src/styles.scss';
 const CSS_DEST = 'dist';
-const DEMO_SCSS_FILE = 'demo/src/scss/styles.scss';
-const DEMO_CSS_DEST = 'demo/public/css';
+const SCSS_DEMO_FILE = 'demo/src/scss/styles.scss';
+const CSS_DEMO_DEST = 'demo/public/css';
 
 /** --------------------------------------------
-* HTML tasks.
+* HTML constants.
 --------------------------------------------- */
 
-// gulp.task('demo:html', () => {
-//   gulp.src('demo/src/html/base/**/*.html')
-//     .pipe(nunjucksRender({
-//       path: ['demo/src/html/'],
-//     }))
-//     .pipe(htmlmin({ collapseWhitespace: true }))
-//     .on('error', (err) => {
-//       console.log(err); // eslint-disable-line
-//     })
-//     .pipe(gulp.dest(HTML_DEST));
-// });
+const HTML_SOURCE_DIR = 'demo/src/html';
+const HTML_BASE_DIR = 'demo/src/html/base';
+const HTML_FILES = 'demo/src/html/**/*';
+const HTML_DEST_DIR = 'demo/public';
+
+/** --------------------------------------------
+* JS constants.
+--------------------------------------------- */
+
+const JS_FILES = [
+  'src/js/_base/**/*',
+  'src/js/_components/**/*',
+];
+const JS_DEST = 'dist';
+const JS_DEMO_DEST = 'demo/public/js';
 
 /** --------------------------------------------
 * HTML tasks.
@@ -52,7 +60,7 @@ const DEMO_CSS_DEST = 'demo/public/css';
 
 function clearCache(cache) {
   _.each(cache, (val, key) => {
-    if (key.includes(path.join(__dirname, HTML_DIR))) {
+    if (key.includes(path.join(__dirname, HTML_SOURCE_DIR))) {
       delete cache[key]; // eslint-disable-line
     }
   });
@@ -61,8 +69,8 @@ function clearCache(cache) {
 function metalsmith() {
   return new Promise((resolve, reject) => {
     Metalsmith(__dirname)
-      .source(HTML_BASE)
-      .destination(HTML_DEST)
+      .source(HTML_BASE_DIR)
+      .destination(HTML_DEST_DIR)
       .clean(false)
 
       /** --------------------------------------------
@@ -71,7 +79,7 @@ function metalsmith() {
       .use((files, ms, done) => {
         Object.keys(files).forEach((filepath) => {
           if (path.extname(filepath) === '.jsx') {
-            const modulePath = path.join(__dirname, HTML_BASE, filepath);
+            const modulePath = path.join(__dirname, HTML_BASE_DIR, filepath);
             clearCache(require.cache);
             const template = require(modulePath); // eslint-disable-line
             const reactClass = template.default || template;
@@ -114,7 +122,7 @@ function metalsmith() {
   });
 }
 
-gulp.task('demo:html', (done) => {
+gulp.task('html:demo', (done) => {
   metalsmith().then(() => {
     done();
   }, (err) => {
@@ -124,7 +132,7 @@ gulp.task('demo:html', (done) => {
   });
 });
 
-gulp.task('demo:html:reload', ['demo:html'], () => {
+gulp.task('html:demo:reload', ['html:demo'], () => {
   gulp.src(HTML_FILES)
     .pipe(connect.reload());
 });
@@ -133,8 +141,7 @@ gulp.task('demo:html:reload', ['demo:html'], () => {
 * CSS tasks.
 --------------------------------------------- */
 
-gulp.task('verious:css', () => {
-  gulp.src(SCSS_FILE)
+const css = (basename, src, dest) => gulp.src(src)
     .pipe(sourcemaps.init())
     .pipe(sass({
       outputStyle: 'compressed',
@@ -142,27 +149,49 @@ gulp.task('verious:css', () => {
         path.join(__dirname, 'node_modules'),
       ],
     }).on('error', sass.logError))
+    .pipe(rename({ basename, suffix: '.min' }))
     .pipe(sourcemaps.write('.'))
-    .pipe(rename({ basename: 'verious', suffix: '.min' }))
-    .pipe(gulp.dest(CSS_DEST));
+    .pipe(gulp.dest(dest));
+
+gulp.task('css:verious', css.bind(null, 'verious', SCSS_FILE, CSS_DEST));
+gulp.task('css:demo', css.bind(null, 'demo', SCSS_DEMO_FILE, CSS_DEMO_DEST));
+
+gulp.task('css:demo:reload', ['css:demo'], () => gulp.src(SCSS_FILES)
+    .pipe(connect.reload()));
+
+/** --------------------------------------------
+* JS tasks.
+--------------------------------------------- */
+
+const js = (basename, dest, cb) => {
+  pump([
+    gulp.src(JS_FILES),
+    sourcemaps.init(),
+    babel({
+      presets: ['latest'],
+      minified: true,
+      comments: false,
+    }),
+    concat('verious.js'),
+    rename({ basename, suffix: '.min', extname: '.js' }),
+    sourcemaps.write('.'),
+    gulp.dest(dest),
+  ], cb);
+};
+
+gulp.task('js:verious', js.bind(null, 'verious', JS_DEST));
+gulp.task('js:demo', js.bind(null, 'verious', JS_DEMO_DEST));
+
+gulp.task('js:vendor', () => {
+  gulp.src([
+    // './node_modules/jquery/dist/jquery.min.js',
+    // './node_modules/jquery/dist/jquery.min.map',
+  ])
+    .pipe(gulp.dest(JS_DEMO_DEST));
 });
 
-gulp.task('demo:css', () => {
-  gulp.src(DEMO_SCSS_FILE)
-    .pipe(sourcemaps.init())
-    .pipe(sass({
-      outputStyle: 'compressed',
-      includePaths: [
-        path.join(__dirname, 'node_modules'),
-      ],
-    }).on('error', sass.logError))
-    .pipe(sourcemaps.write('.'))
-    .pipe(rename({ basename: 'demo', suffix: '.min' }))
-    .pipe(gulp.dest(DEMO_CSS_DEST));
-});
-
-gulp.task('demo:css:reload', ['demo:css'], () => {
-  gulp.src(SCSS_FILES)
+gulp.task('js:demo:reload', ['js:demo', 'js:vendor'], () => {
+  gulp.src(JS_FILES)
     .pipe(connect.reload());
 });
 
@@ -191,11 +220,13 @@ gulp.task('server', [
 --------------------------------------------- */
 
 gulp.task('default', [
-  'demo:css',
-  'demo:html',
+  'css:demo',
+  'html:demo',
+  'js:demo',
 ]);
 
 gulp.task('watch', () => {
-  gulp.watch(HTML_FILES, ['demo:html:reload']);
-  gulp.watch(SCSS_FILES, ['demo:css:reload']);
+  gulp.watch(HTML_FILES, ['html:demo:reload']);
+  gulp.watch(SCSS_FILES, ['css:demo:reload']);
+  gulp.watch(JS_FILES, ['js:demo:reload']);
 });

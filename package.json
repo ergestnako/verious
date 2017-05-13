@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
     "server": "gulp server"
   },
   "repository": {
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/cpinnix/verious#readme",
   "dependencies": {
     "babel-preset-es2017": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-register": "^6.24.1",
     "eslint": "^3.15.0",
@@ -27,6 +29,8 @@
     "eslint-plugin-jsx-a11y": "^3.0.2 || ^4.0.0",
     "eslint-plugin-react": "^6.9.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
@@ -35,6 +39,7 @@
     "metalsmith": "^2.3.0",
     "metalsmith-html-minifier": "^2.2.0",
     "prop-types": "^15.5.10",
+    "pump": "^1.0.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "sassline": "^2.1.2"
