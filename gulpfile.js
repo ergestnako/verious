@@ -27,9 +27,9 @@ const _ = require('lodash');
 
 const SCSS_FILES = [
   'demo/src/scss/**/*',
-  'src/**/*',
+  'src/scss/**/*',
 ];
-const SCSS_FILE = 'src/styles.scss';
+const SCSS_FILE = 'src/scss/styles.scss';
 const CSS_DEST = 'dist';
 const SCSS_DEMO_FILE = 'demo/src/scss/styles.scss';
 const CSS_DEMO_DEST = 'demo/public/css';
