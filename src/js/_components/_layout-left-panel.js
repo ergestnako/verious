@@ -17,7 +17,9 @@
       OVERLAY_ACTIVE_CLASSNAME,
     } = config;
 
-    panel.addClass(PANEL_OPEN_CLASSNAME);
+    setTimeout(() => {
+      panel.addClass(PANEL_OPEN_CLASSNAME);
+    }, 200);
     content.addClass(CONTENT_SHIFTED_CLASSNAME);
     overlay.addClass(OVERLAY_ACTIVE_CLASSNAME);
   }
@@ -41,7 +43,8 @@
     const { overlay } = config;
 
     const overlayHammer = new Hammer(overlay[0]);
-    overlayHammer.on('tap', () => {
+    overlayHammer.on('tap', (ev) => {
+      ev.preventDefault();
       close(config);
     });
   }
@@ -50,7 +53,8 @@
     const { button } = config;
 
     const buttonHammer = new Hammer(button[0]);
-    buttonHammer.on('tap', () => {
+    buttonHammer.on('tap', (ev) => {
+      ev.preventDefault();
       open(config);
     });
   }

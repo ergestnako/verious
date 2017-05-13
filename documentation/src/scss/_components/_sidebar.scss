@@ -13,4 +13,7 @@
   @include vs-padding(right, 2);
   @include vs-padding(bottom, 2);
   @include vs-padding(left, 2);
+
+  background-color: $vs-grey-100;
+  min-height: 100%;
 }
