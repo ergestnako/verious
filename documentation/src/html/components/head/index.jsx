@@ -8,5 +8,6 @@ module.exports = () => (
     <script src="/js/jquery.min.js" type="text/javascript" />
     <script src="/js/hammer.min.js" type="text/javascript" />
     <script src="/js/verious.min.js" type="text/javascript" />
+    <script src="/js/lodash.min.js" type="text/javascript" />
   </head>
 );

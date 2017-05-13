@@ -21,5 +21,10 @@ module.exports = () => (
       </li>
     </ul>
     {/* <div className="vs-baseline" /> */}
+    <div className="sidebar-baseline-button">
+      <div className="vs-baseline-button">
+        <i className="material-icons">format_line_spacing</i>
+      </div>
+    </div>
   </div>
 );

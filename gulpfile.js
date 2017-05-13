@@ -188,6 +188,7 @@ gulp.task('js:vendor', () => {
     './node_modules/jquery/dist/jquery.min.map',
     './node_modules/hammerjs/hammer.min.js',
     './node_modules/hammerjs/hammer.min.js.map',
+    './node_modules/lodash/lodash.min.js',
   ])
     .pipe(gulp.dest(JS_DEMO_DEST));
 });

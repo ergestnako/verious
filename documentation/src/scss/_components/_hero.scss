@@ -27,7 +27,7 @@
   }
 
   &-layout-button {
-    @include vs-position(absolute, 32px, null, null, 32px);
+    @include vs-position(absolute, 2rem, null, null, 2rem);
   }
 
   &-content {

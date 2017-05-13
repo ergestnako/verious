@@ -4,10 +4,16 @@ const PropTypes = require('prop-types');
 const component = ({ panel, content }) => (
   <div className="vs-layout-left-panel" data-script="vsLayoutLeftPanel">
     <div className="vs-layout-left-panel-panel">
-      { panel }
+      <div style={{ position: 'relative' }}>
+        { panel }
+        <div className="vs-baseline" />
+      </div>
     </div>
     <div className="vs-layout-left-panel-content">
-      { content }
+      <div style={{ position: 'relative' }}>
+        { content }
+        <div className="vs-baseline" />
+      </div>
       <div className="vs-layout-left-panel-overlay" />
     </div>
   </div>

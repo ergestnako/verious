@@ -59,17 +59,17 @@
   font-weight: map-get($bodytype, bold);
 
   @if $size == 1 {
-    @include fontsize(alpha, all);
-    @include baseline(alpha, $bodytype, 3, 2, all);
-  } @elseif $size == 2 {
     @include fontsize(beta, all);
     @include baseline(beta, $bodytype, 3, 2, all);
-  } @elseif $size == 3 {
+  } @elseif $size == 2 {
     @include fontsize(gamma, all);
-    @include baseline(gamma, $bodytype, 2, 2, all);
+    @include baseline(gamma, $bodytype, 3, 2, all);
   } @elseif $size == 3 {
     @include fontsize(delta, all);
     @include baseline(delta, $bodytype, 2, 2, all);
+  } @elseif $size == 3 {
+    @include fontsize(epsilon, all);
+    @include baseline(epsilon, $bodytype, 2, 2, all);
   } @elseif $size == 4 {
     @include fontsize(epsilon, all);
     @include baseline(epsilon, $bodytype, 2, 2, all);
