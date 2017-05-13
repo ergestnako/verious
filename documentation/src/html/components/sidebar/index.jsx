@@ -1,0 +1,25 @@
+const React = require('react');
+
+module.exports = () => (
+  <div className="sidebar verious">
+    <ul className="vs-ul--unstyled">
+      <li>Typography</li>
+      <li>
+        <ul className="vs-ul--unstyled">
+          <li><a href="/typography/heading">Headings</a></li>
+          <li><a href="/typography/paragraph">Paragraphs</a></li>
+          <li><a href="/typography/link">Links</a></li>
+          <li><a href="/typography/list">Lists</a></li>
+          <li><a href="/typography/code">Code</a></li>
+        </ul>
+      </li>
+      <li>Components</li>
+      <li>
+        <ul className="vs-ul--unstyled">
+          <li><a href="/components/layout-left-panel">Layout Left Panel</a></li>
+        </ul>
+      </li>
+    </ul>
+    {/* <div className="vs-baseline" /> */}
+  </div>
+);

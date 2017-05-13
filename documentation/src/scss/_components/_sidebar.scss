@@ -1,0 +1,16 @@
+//
+//    File:           _sidebar.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+.sidebar {
+  @include vs-padding(top, 2);
+  @include vs-padding(right, 2);
+  @include vs-padding(bottom, 2);
+  @include vs-padding(left, 2);
+}

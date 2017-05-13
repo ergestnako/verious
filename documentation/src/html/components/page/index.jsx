@@ -1,5 +1,7 @@
 const React = require('react');
 const Head = require('../head');
+const Sidebar = require('../sidebar');
+const LayoutLeftPanel = require('../layout-left-panel');
 const PropTypes = require('prop-types');
 
 const component = ({ children }) => (
@@ -7,7 +9,12 @@ const component = ({ children }) => (
     <Head />
     <body className="vs-layout-left-panel-body">
       <div className="vs-clearfix" style={{ position: 'relative' }} >
-        { children }
+        <LayoutLeftPanel
+          panel={
+            <Sidebar />
+          }
+          content={children}
+        />
       </div>
     </body>
   </html>
