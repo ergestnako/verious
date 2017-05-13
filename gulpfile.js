@@ -220,6 +220,11 @@ gulp.task('server', [
 --------------------------------------------- */
 
 gulp.task('default', [
+  'css:verious',
+  'js:verious',
+]);
+
+gulp.task('documentation', [
   'css:documentation',
   'html:documentation',
   'js:documentation',
