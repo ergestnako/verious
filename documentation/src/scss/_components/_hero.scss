@@ -26,6 +26,10 @@
     @include vs-row();
   }
 
+  &-layout-button {
+    @include vs-position(absolute, 32px, null, null, 32px);
+  }
+
   &-content {
     @include vs-clearfix();
     text-align: center;

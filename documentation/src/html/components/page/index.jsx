@@ -3,12 +3,11 @@ const Head = require('../head');
 const PropTypes = require('prop-types');
 
 const component = ({ children }) => (
-  <html className="vs-html" lang="en">
+  <html className="vs-html vs-layout-left-panel-html" lang="en">
     <Head />
-    <body>
+    <body className="vs-layout-left-panel-body">
       <div className="vs-clearfix" style={{ position: 'relative' }} >
         { children }
-        <div className="vs-baseline" />
       </div>
     </body>
   </html>

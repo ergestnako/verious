@@ -3,6 +3,11 @@ const PropTypes = require('prop-types');
 
 const component = ({ title, subtitle }) => (
   <div className="hero">
+    <div className="hero-layout-button">
+      <div className="vs-layout-left-panel-button">
+        <i className="material-icons">menu</i>
+      </div>
+    </div>
     <div className="hero-container">
       <div className="hero-row">
         <div className="hero-content">

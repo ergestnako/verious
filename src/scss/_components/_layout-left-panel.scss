@@ -1,0 +1,134 @@
+//
+//    File:           _layout-left-panel.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+$vs-layout-left-panel-sidebar-width-sm: 80%;
+$vs-layout-left-panel-sidebar-width-lg: 50%;
+
+.vs-layout-left-panel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  &-html,
+  &-body {
+    height: 100%;
+  }
+
+  &-panel {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -$vs-layout-left-panel-sidebar-width-lg;
+    width: $vs-layout-left-panel-sidebar-width-lg;
+    overflow-y: auto;
+
+    &--open {
+      left: 0;
+    }
+  }
+
+  &-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    overflow-y: auto;
+
+    &--shifted {
+      left: $vs-layout-left-panel-sidebar-width-lg;
+    }
+  }
+
+  &-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+
+    &--active {
+      height: 100%;
+    }
+  }
+}
+
+// html,
+// body {
+//   height: 100%;
+// }
+
+// .layout {
+//   position: relative;
+//   width: 100%;
+//   height: 100%;
+//   overflow: hidden;
+//
+//   &-button {
+//     color: $color-pink;
+//     height: 6rem;
+//     line-height: 6rem;
+//     @include vs-margin(bottom, 4);
+//   }
+//
+//   .left {
+//     position: absolute;
+//     top: 0;
+//     bottom: 0;
+//     left: -$sidebar-width-lg;
+//     width: $sidebar-width-lg;
+//     overflow-y: auto;
+//   }
+//
+//   .right {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     width: 100%;
+//     overflow-y: auto;
+//   }
+//
+//   .overlay {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     right: 0;
+//     bottom: 0;
+//     display: none;
+//   }
+//
+//   &.layout--active {
+//     .left {
+//       left: 0;
+//     }
+//
+//     .right {
+//       left: $sidebar-width-lg;
+//     }
+//
+//     .overlay {
+//       display: block;
+//     }
+//
+//     @media (max-width: 768px) {
+//       .left {
+//         width: $sidebar-width-sm;
+//       }
+//
+//       .right {
+//         width: 100%;
+//         overflow: hidden;
+//         left: $sidebar-width-sm;
+//       }
+//     }
+//   }
+// }

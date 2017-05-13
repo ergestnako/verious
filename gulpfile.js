@@ -184,8 +184,10 @@ gulp.task('js:documentation', js.bind(null, 'verious', JS_DEMO_DEST));
 
 gulp.task('js:vendor', () => {
   gulp.src([
-    // './node_modules/jquery/dist/jquery.min.js',
-    // './node_modules/jquery/dist/jquery.min.map',
+    './node_modules/jquery/dist/jquery.min.js',
+    './node_modules/jquery/dist/jquery.min.map',
+    './node_modules/hammerjs/hammer.min.js',
+    './node_modules/hammerjs/hammer.min.js.map',
   ])
     .pipe(gulp.dest(JS_DEMO_DEST));
 });
@@ -210,7 +212,7 @@ gulp.task('connect', () => {
 });
 
 gulp.task('server', [
-  'default',
+  'documentation',
   'connect',
   'watch',
 ]);
@@ -228,6 +230,7 @@ gulp.task('documentation', [
   'css:documentation',
   'html:documentation',
   'js:documentation',
+  'js:vendor',
 ]);
 
 gulp.task('watch', () => {
