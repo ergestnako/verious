@@ -2,11 +2,12 @@ const React = require('react');
 const Page = require('../components/page');
 const LayoutLeftPanel = require('../components/layout-left-panel');
 const Hero = require('../components/hero');
-const Heading = require('../components/documentation/typography/heading');
-const Paragraph = require('../components/documentation/typography/paragraph');
-const Link = require('../components/documentation/typography/link');
-const List = require('../components/documentation/typography/list');
-const Code = require('../components/documentation/typography/code');
+const HeadingDocumentation = require('../components/documentation/typography/heading');
+const ParagraphDocumentation = require('../components/documentation/typography/paragraph');
+const LinkDocumentation = require('../components/documentation/typography/link');
+const ListDocumentation = require('../components/documentation/typography/list');
+const CodeDocumentation = require('../components/documentation/typography/code');
+const LayoutLeftPanelDocumentation = require('../components/documentation/components/layout-left-panel');
 
 module.exports = () => (
   <Page>
@@ -20,11 +21,12 @@ module.exports = () => (
             title="Verious"
             subtitle="Very serious styles."
           />
-          <Heading />
-          <Paragraph />
-          <Link />
-          <List />
-          <Code />
+          <HeadingDocumentation />
+          <ParagraphDocumentation />
+          <LinkDocumentation />
+          <ListDocumentation />
+          <CodeDocumentation />
+          <LayoutLeftPanelDocumentation />
         </div>
       }
     />
