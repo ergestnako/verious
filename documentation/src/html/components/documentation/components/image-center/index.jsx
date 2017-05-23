@@ -1,5 +1,5 @@
 const React = require('react');
-const ImageCenter = require('../../../image-center');
+const ImageCenter = require('../../../../../../../src/react/image-center');
 
 module.exports = ({ caption }) => (
   <div className="image-center verious">
