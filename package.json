@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server/index.js",
     "build": "gulp",
-    "server": "gulp server"
+    "server": "gulp server",
+    "documentation": "gulp documentation"
   },
   "repository": {
     "type": "git",

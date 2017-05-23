@@ -17,7 +17,12 @@ module.exports = () => (
       <li>
         <ul className="vs-ul--unstyled">
           <li><a href="/components/layout-left-panel">Layout Left Panel</a></li>
-          <li><a href="/components/image-center">Image Center</a></li>
+        </ul>
+      </li>
+      <li>Blocks</li>
+      <li>
+        <ul className="vs-ul--unstyled">
+          <li><a href="/blocks/image-center">Image Center</a></li>
         </ul>
       </li>
     </ul>

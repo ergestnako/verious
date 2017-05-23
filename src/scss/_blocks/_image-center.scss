@@ -6,9 +6,10 @@
 //    Table of Contents:
 //
 //    1. Base
+//    2. Responsive
 //
 
-.vs-image-center {
+.vs-block-image-center {
 
   // ---------------------------------------------
   //    1. Base
@@ -24,19 +25,6 @@
 
   &-row {
     @include vs-row();
-  }
-
-  &-image {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-  }
-
-  &-source {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
   }
 
   // ---------------------------------------------

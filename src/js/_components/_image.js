@@ -39,8 +39,8 @@
   }
 
   VERIOUS.Modules.vsImageCenter = (m) => {
-    const IMAGE_CONTAINER_CLASSNAME = 'vs-image-center-image';
-    const IMAGE_SOURCE_CLASSNAME = 'vs-image-center-source';
+    const IMAGE_CONTAINER_CLASSNAME = 'vs-image-image';
+    const IMAGE_SOURCE_CLASSNAME = 'vs-image-source';
 
     const module = $(m);
     const w = $(window);

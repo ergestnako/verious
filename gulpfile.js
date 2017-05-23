@@ -40,7 +40,10 @@ const CSS_DEMO_DEST = 'documentation/public/css';
 
 const HTML_SOURCE_DIR = 'documentation/src/html';
 const HTML_BASE_DIR = 'documentation/src/html/base';
-const HTML_FILES = 'documentation/src/html/**/*';
+const HTML_FILES = [
+  'documentation/src/html/**/*',
+  'src/react/**/*',
+];
 const HTML_DEST_DIR = 'documentation/public';
 
 /** --------------------------------------------
