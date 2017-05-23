@@ -13,7 +13,8 @@
   // ---------------------------------------------
   //    1. Base
   // ---------------------------------------------
-  height: 12rem;
+
+  height: 6rem;
 
   &-baseline-button {
     @include vs-position(absolute, null,  2rem, 2rem, null);

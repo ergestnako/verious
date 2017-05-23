@@ -1,0 +1,77 @@
+//
+//    File:           _image-center.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+.vs-image-center {
+
+  // ---------------------------------------------
+  //    1. Base
+  // ---------------------------------------------
+
+  background-color: $vs-white;
+  @include vs-padding(top, 12);
+  @include vs-padding(bottom, 12);
+
+  &-container {
+    @include vs-container();
+  }
+
+  &-row {
+    @include vs-row();
+  }
+
+  &-image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  &-source {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  // ---------------------------------------------
+  //    2. Responsive
+  // ---------------------------------------------
+
+  @include vs-at-breakpoint($vs-screen-sm) {
+    $viewport: $vs-screen-sm;
+
+    &-content {
+      @include vs-col($viewport, 6);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-md) {
+    $viewport: $vs-screen-md;
+
+    &-content {
+      @include vs-col($viewport, 12);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-lg) {
+    $viewport: $vs-screen-lg;
+
+    &-content {
+      @include vs-col($viewport, 16);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    $viewport: $vs-screen-xl;
+
+    &-content {
+      @include vs-col($viewport, 16);
+    }
+  }
+}
