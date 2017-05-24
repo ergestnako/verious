@@ -1,25 +1,13 @@
-/** --------------------------------------------
- *
- * Global.
- *
- --------------------------------------------- */
-
 /* global window, $ */
 
 (() => {
   const VERIOUS = {};
 
   VERIOUS.Global = {
-    /** --------------------------------------------
-    * Initialize the global object.
-    --------------------------------------------- */
     init: function init() {
       VERIOUS.Global.loadModules();
     },
 
-    /** --------------------------------------------
-    * Load every single module and initialize.
-    --------------------------------------------- */
     loadModules: function loadModules() {
       const modules = $('body').find('[data-script]');
 
@@ -28,9 +16,9 @@
         const module = this;
 
         if (!module.getAttribute('data-loaded')) {
-          if (VERIOUS.Modules[moduleName]) {
+          if (VERIOUS.Runners[moduleName]) {
             try {
-              VERIOUS.Modules[moduleName](module);
+              VERIOUS.Runners[moduleName](module);
               $(module).attr('data-loaded', true);
             } catch (e) {
               console.log(moduleName, e); // eslint-disable-line
@@ -42,6 +30,7 @@
   };
 
   VERIOUS.Modules = {};
+  VERIOUS.Runners = {};
 
   $(VERIOUS.Global.init);
 

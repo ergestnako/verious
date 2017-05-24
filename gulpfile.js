@@ -14,6 +14,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const connect = require('gulp-connect');
 const babel = require('gulp-babel');
 const concat = require('gulp-concat');
+const documentation = require('gulp-documentation');
 const Metalsmith = require('metalsmith');
 const MetalsmithHTMLMinifier = require('metalsmith-html-minifier');
 const React = require('react');
@@ -51,7 +52,8 @@ const HTML_DEST_DIR = 'documentation/public';
 --------------------------------------------- */
 
 const JS_FILES = [
-  'src/js/_base/**/*',
+  'src/js/_base/_global.js',
+  'src/js/_base/_core.js',
   'src/js/_components/**/*',
 ];
 const JS_DEST = 'dist';
@@ -197,7 +199,18 @@ gulp.task('js:vendor', () => {
     .pipe(gulp.dest(JS_DEMO_DEST));
 });
 
-gulp.task('js:documentation:reload', ['js:documentation', 'js:vendor'], () => {
+gulp.task('js:documentation:docs', () =>
+  gulp.src(JS_FILES)
+    .pipe(documentation('md'))
+    .pipe(rename('documentation.md'))
+    .pipe(gulp.dest('./')) // eslint-disable-line
+);
+
+gulp.task('js:documentation:reload', [
+  'js:documentation',
+  'js:documentation:docs',
+  'js:vendor',
+], () => {
   gulp.src(JS_FILES)
     .pipe(connect.reload());
 });
@@ -235,6 +248,7 @@ gulp.task('documentation', [
   'css:documentation',
   'html:documentation',
   'js:documentation',
+  'js:documentation:docs',
   'js:vendor',
 ]);
 
