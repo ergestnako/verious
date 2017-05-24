@@ -3,7 +3,7 @@ const Head = require('../head');
 const PropTypes = require('prop-types');
 
 const component = ({ children }) => (
-  <html lang="en">
+  <html className="vs-html" lang="en">
     <Head />
     <body>
       { children }

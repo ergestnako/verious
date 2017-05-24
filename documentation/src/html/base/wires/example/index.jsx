@@ -19,14 +19,28 @@ module.exports = () => (
       <Square size="2" />
     </Layout>
 
+    <Layout direction="vertical" color="lightgrey">
+      <Square size="16" />
+      <Layout direction="horizontal" color="lightgrey">
+        <Spacer />
+        <Layout direction="vertical" color="lightgrey">
+          <Rectangle width="18" height="2" color="grey" />
+          <Square size="2" />
+          <Rectangle width="18" height="2" color="grey" />
+        </Layout>
+        <Spacer />
+      </Layout>
+      <Square size="16" />
+    </Layout>
+
     <Layout direction="vertical" color="white">
       <Square size="10" />
       <div className="vs-container">
         <div className="vs-row">
-          <div className="vs-col-xl-6">
-            <Rectangle height="24" color="lightgrey" />
+          <div className="vs-col-xl-12">
+            <Rectangle height="32" color="lightgrey" />
           </div>
-          <div className="vs-col-xl-6 vs-push-xl-2">
+          <div className="vs-col-xl-4">
             <Rectangle height="1" width="12" color="lightgrey" />
             <Rectangle height="3" />
             <Rectangle height="1" color="lightgrey" />

@@ -2,8 +2,8 @@ const React = require('react');
 
 function style({ size, color }) {
   return {
-    width: `${size * 16}px`,
-    height: `${size * 16}px`,
+    width: `${size}rem`,
+    height: `${size}rem`,
     backgroundColor: '' || color,
   };
 }
