@@ -11,6 +11,8 @@
     const {
       overlay,
       panel,
+      ANIMATION_DURATION,
+      ANIMATION_CURVE,
     } = config;
 
     // Overlay.
@@ -18,15 +20,15 @@
     anime({
       targets: overlay[0],
       opacity: 1,
-      duration: 250,
+      duration: ANIMATION_DURATION,
     });
 
     // Panel.
     anime({
       targets: panel[0],
       translateX: panel.width(),
-      easing: 'easeOutCubic',
-      duration: 250,
+      easing: ANIMATION_CURVE,
+      duration: ANIMATION_DURATION,
     });
   }
 
@@ -34,13 +36,15 @@
     const {
       overlay,
       panel,
+      ANIMATION_DURATION,
+      ANIMATION_CURVE,
     } = config;
 
     // Overlay.
     const overlayAnimation = anime({
       targets: overlay[0],
       opacity: 0,
-      duration: 250,
+      duration: ANIMATION_DURATION,
     });
     overlayAnimation.complete = () => overlay.height('0');
 
@@ -48,8 +52,8 @@
     anime({
       targets: panel[0],
       translateX: 0,
-      easing: 'easeOutCubic',
-      duration: 250,
+      easing: ANIMATION_CURVE,
+      duration: ANIMATION_DURATION,
     });
   }
 
@@ -92,6 +96,9 @@
     const BUTTON_CLASSNAME = 'vs-layout-left-panel-button';
     const PANEL_CLASSNAME = 'vs-layout-left-panel-panel';
 
+    const ANIMATION_DURATION = 500;
+    const ANIMATION_CURVE = [0.4, 0.0, 0.2, 1];
+
     const module = $(m);
     const w = $(window);
     const overlay = module.find(`.${OVERLAY_CLASSNAME}`);
@@ -104,6 +111,9 @@
       overlay,
       button,
       panel,
+
+      ANIMATION_DURATION,
+      ANIMATION_CURVE,
     };
 
     init(config);

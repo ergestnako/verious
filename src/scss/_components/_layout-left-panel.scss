@@ -8,9 +8,6 @@
 //    1. Base
 //
 
-$vs-layout-left-panel-sidebar-width-sm: 80%;
-$vs-layout-left-panel-sidebar-width-lg: 320px;
-
 .vs-layout-left-panel {
 
   // ---------------------------------------------
@@ -31,8 +28,6 @@ $vs-layout-left-panel-sidebar-width-lg: 320px;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: -$vs-layout-left-panel-sidebar-width-lg;
-    width: $vs-layout-left-panel-sidebar-width-lg;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -46,10 +41,6 @@ $vs-layout-left-panel-sidebar-width-lg: 320px;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
     @include transition(left 200ms cubic-bezier(0.4, 0.0, 0.2, 1));
-
-    &--shifted {
-      left: $vs-layout-left-panel-sidebar-width-lg;
-    }
   }
 
   &-overlay {
@@ -72,12 +63,29 @@ $vs-layout-left-panel-sidebar-width-lg: 320px;
 
   @include vs-at-breakpoint($vs-screen-sm) {
     &-panel {
-      left: -$vs-layout-left-panel-sidebar-width-sm;
-      width: $vs-layout-left-panel-sidebar-width-sm;
+      left: -280px;
+      width: 280px;
     }
   }
 
   @include vs-at-breakpoint($vs-screen-md) {
+    &-panel {
+      left: -480px;
+      width: 480px;
+    }
+  }
 
+  @include vs-at-breakpoint($vs-screen-lg) {
+    &-panel {
+      left: -520px;
+      width: 520px;
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    &-panel {
+      left: -640px;
+      width: 640px;
+    }
   }
 }
