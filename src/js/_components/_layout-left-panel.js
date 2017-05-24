@@ -4,39 +4,53 @@
 *
 --------------------------------------------- */
 
-/* global VERIOUS, $, Hammer */
+/* global VERIOUS, $, Hammer, anime, window */
 
-(($, Hammer) => {
+(($, Hammer, anime) => {
   function open(config) {
     const {
       overlay,
       panel,
-      content,
-      PANEL_OPEN_CLASSNAME,
-      CONTENT_SHIFTED_CLASSNAME,
-      OVERLAY_ACTIVE_CLASSNAME,
     } = config;
 
-    setTimeout(() => {
-      panel.addClass(PANEL_OPEN_CLASSNAME);
-    }, 200);
-    content.addClass(CONTENT_SHIFTED_CLASSNAME);
-    overlay.addClass(OVERLAY_ACTIVE_CLASSNAME);
+    // Overlay.
+    overlay.height('100%');
+    anime({
+      targets: overlay[0],
+      opacity: 1,
+      duration: 250,
+    });
+
+    // Panel.
+    anime({
+      targets: panel[0],
+      translateX: panel.width(),
+      easing: 'easeOutCubic',
+      duration: 250,
+    });
   }
 
   function close(config) {
     const {
       overlay,
       panel,
-      content,
-      PANEL_OPEN_CLASSNAME,
-      CONTENT_SHIFTED_CLASSNAME,
-      OVERLAY_ACTIVE_CLASSNAME,
     } = config;
 
-    panel.removeClass(PANEL_OPEN_CLASSNAME);
-    content.removeClass(CONTENT_SHIFTED_CLASSNAME);
-    overlay.removeClass(OVERLAY_ACTIVE_CLASSNAME);
+    // Overlay.
+    const overlayAnimation = anime({
+      targets: overlay[0],
+      opacity: 0,
+      duration: 250,
+    });
+    overlayAnimation.complete = () => overlay.height('0');
+
+    // Panel.
+    anime({
+      targets: panel[0],
+      translateX: 0,
+      easing: 'easeOutCubic',
+      duration: 250,
+    });
   }
 
   function initOverlay(config) {
@@ -59,38 +73,39 @@
     });
   }
 
+  function initWindow(config) {
+    const { w } = config;
+
+    w.on('resize', () => {
+      close(config);
+    });
+  }
+
   function init(config) {
     initButton(config);
     initOverlay(config);
+    initWindow(config);
   }
 
   VERIOUS.Modules.vsLayoutLeftPanel = (m) => {
     const OVERLAY_CLASSNAME = 'vs-layout-left-panel-overlay';
-    const OVERLAY_ACTIVE_CLASSNAME = 'vs-layout-left-panel-overlay--active';
     const BUTTON_CLASSNAME = 'vs-layout-left-panel-button';
     const PANEL_CLASSNAME = 'vs-layout-left-panel-panel';
-    const PANEL_OPEN_CLASSNAME = 'vs-layout-left-panel-panel--open';
-    const CONTENT_CLASSNAME = 'vs-layout-left-panel-content';
-    const CONTENT_SHIFTED_CLASSNAME = 'vs-layout-left-panel-content--shifted';
 
     const module = $(m);
+    const w = $(window);
     const overlay = module.find(`.${OVERLAY_CLASSNAME}`);
     const button = module.find(`.${BUTTON_CLASSNAME}`);
     const panel = module.find(`.${PANEL_CLASSNAME}`);
-    const content = module.find(`.${CONTENT_CLASSNAME}`);
 
     const config = {
       module,
+      w,
       overlay,
       button,
       panel,
-      content,
-
-      OVERLAY_ACTIVE_CLASSNAME,
-      PANEL_OPEN_CLASSNAME,
-      CONTENT_SHIFTED_CLASSNAME,
     };
 
     init(config);
   };
-})($, Hammer);
+})($, Hammer, anime);
