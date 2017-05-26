@@ -4,6 +4,12 @@
 
 Core functions available to all modules.
 
+### getSpacingUnit
+
+Get spacing unit based on document rem value.
+
+Returns **[number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)** 
+
 ### stopScroll
 
 Stop scroll.
@@ -157,6 +163,30 @@ Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Re
 ### initWindow
 
 Initiate Window.
+
+**Parameters**
+
+-   `config` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+
+Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)** 
+
+### init
+
+Initiate.
+
+**Parameters**
+
+-   `config` **[object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)** 
+
+Returns **[undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)** 
+
+## vsPresentation
+
+Module displaying and controlling slides.
+
+### initKeys
+
+Initiate keys.
 
 **Parameters**
 

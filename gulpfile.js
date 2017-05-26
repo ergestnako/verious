@@ -56,6 +56,9 @@ const JS_FILES = [
   'src/js/_base/_core.js',
   'src/js/_components/**/*',
 ];
+const JS_FILES_ALL = JS_FILES.concat([
+  'src/react/**/*',
+]);
 const JS_DEST = 'dist';
 const JS_DEMO_DEST = 'documentation/public/js';
 
@@ -255,5 +258,5 @@ gulp.task('documentation', [
 gulp.task('watch', () => {
   gulp.watch(HTML_FILES, ['html:documentation:reload']);
   gulp.watch(SCSS_FILES, ['css:documentation:reload']);
-  gulp.watch(JS_FILES, ['js:documentation:reload']);
+  gulp.watch(JS_FILES_ALL, ['js:documentation:reload']);
 });

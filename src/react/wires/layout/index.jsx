@@ -1,15 +1,15 @@
 const React = require('react');
 
-function style(direction, color) {
-  return {
+function getStyle({ direction, color, style }) {
+  return Object.assign({}, style, {
     display: 'flex',
     flexDirection: direction === 'horizontal' ? 'row' : 'column',
     backgroundColor: '' || color,
-  };
+  });
 }
 
-module.exports = ({ children, direction, color }) => (
-  <div style={style(direction, color)}>
+module.exports = ({ children, direction, color, style }) => (
+  <div style={getStyle({ direction, color, style })}>
     {children}
   </div>
 );

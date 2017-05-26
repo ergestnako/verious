@@ -1,4 +1,4 @@
-/* global VERIOUS, $, window */
+/* global VERIOUS, $, window, getComputedStyle, document */
 
 ((VERIOUS, $, window) => {
   /**
@@ -6,6 +6,13 @@
    * @module core
    */
   VERIOUS.core = { // eslint-disable-line
+    /**
+     * Get spacing unit based on document rem value.
+     * @return {number}
+     */
+    getSpacingUnit: function getSpacingUnit() {
+      return parseFloat(getComputedStyle(document.documentElement).fontSize);
+    },
 
     /**
      * Stop scroll.
