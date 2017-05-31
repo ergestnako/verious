@@ -2,9 +2,9 @@ const React = require('react');
 const Page = require('../../../components/blankPage');
 const Presentation = require('../../../../../../src/react/components/presentation');
 const Slide = require('../../../../../../src/react/components/slide');
-const Layout = require('../../../../../../src/react/wires/layout');
-const Square = require('../../../../../../src/react/wires/square');
-const Spacer = require('../../../../../../src/react/wires/spacer');
+const Layout = require('../../../../../../src/react/components/layout');
+const Square = require('../../../../../../src/react/components/square');
+const Spacer = require('../../../../../../src/react/components/spacer');
 
 module.exports = () => (
   <Page>

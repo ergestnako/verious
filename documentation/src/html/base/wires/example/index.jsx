@@ -1,9 +1,9 @@
 const React = require('react');
 const Page = require('../../../components/blankPage');
-const Layout = require('../../../../../../src/react/wires/layout');
-const Square = require('../../../../../../src/react/wires/square');
-const Rectangle = require('../../../../../../src/react/wires/rectangle');
-const Spacer = require('../../../../../../src/react/wires/spacer');
+const Layout = require('../../../../../../src/react/components/layout');
+const Square = require('../../../../../../src/react/components/square');
+const Rectangle = require('../../../../../../src/react/components/rectangle');
+const Spacer = require('../../../../../../src/react/components/spacer');
 
 module.exports = () => (
   <Page>
