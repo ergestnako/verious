@@ -16,7 +16,7 @@ module.exports = () => (
           <pre>
             <code>
               {`
-<div className="verious">
+<div class="verious">
   <h1>...</h1>
   <h2>...</h2>
   <h3>...</h3>
@@ -38,12 +38,12 @@ module.exports = () => (
           <pre>
             <code>
               {`
-<h1 className="vs-h1">...</h1>
-<h2 className="vs-h2">...</h2>
-<h3 className="vs-h3">...</h3>
-<h4 className="vs-h4">...</h4>
-<h5 className="vs-h5">...</h5>
-<h6 className="vs-h6">...</h6>
+<h1 class="vs-h1">...</h1>
+<h2 class="vs-h2">...</h2>
+<h3 class="vs-h3">...</h3>
+<h4 class="vs-h4">...</h4>
+<h5 class="vs-h5">...</h5>
+<h6 class="vs-h6">...</h6>
               `}
             </code>
           </pre>
