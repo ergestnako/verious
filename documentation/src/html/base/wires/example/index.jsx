@@ -4,6 +4,7 @@ const Layout = require('../../../../../../src/react/components/layout');
 const Square = require('../../../../../../src/react/components/square');
 const Rectangle = require('../../../../../../src/react/components/rectangle');
 const Spacer = require('../../../../../../src/react/components/spacer');
+const BackgroundImage = require('../../../../../../src/react/components/background-image');
 
 module.exports = () => (
   <Page>
@@ -19,19 +20,21 @@ module.exports = () => (
       <Square size="2" />
     </Layout>
 
-    <Layout direction="vertical" color="lightgrey">
-      <Square size="16" />
-      <Layout direction="horizontal" color="lightgrey">
-        <Spacer />
-        <Layout direction="vertical" color="lightgrey">
-          <Rectangle width="18" height="2" color="grey" />
-          <Square size="2" />
-          <Rectangle width="18" height="2" color="grey" />
+    <BackgroundImage source="https://s3.amazonaws.com/cpinnix/site/img/2017_01_28_14_51_15_2048.jpg">
+      <Layout direction="vertical">
+        <Square size="16" />
+        <Layout direction="horizontal">
+          <Spacer />
+          <Layout direction="vertical">
+            <Rectangle width="18" height="2" color="white" />
+            <Square size="2" />
+            <Rectangle width="18" height="2" color="white" />
+          </Layout>
+          <Spacer />
         </Layout>
-        <Spacer />
+        <Square size="16" />
       </Layout>
-      <Square size="16" />
-    </Layout>
+    </BackgroundImage>
 
     <Layout direction="vertical" color="white">
       <Square size="10" />
