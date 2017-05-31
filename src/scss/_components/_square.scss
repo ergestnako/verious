@@ -1,5 +1,5 @@
 //
-//    File:           _spacer.scss
+//    File:           _square.scss
 //    Description:
 //
 //
@@ -9,7 +9,7 @@
 //
 
 @for $i from 1 through 12 {
-  .vs-spacer--#{$i} {
-    @include vs-spacer($i);
+  .vs-square--#{$i} {
+    @include vs-square($i);
   }
 }

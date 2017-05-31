@@ -24,7 +24,7 @@ module.exports = ({ caption }) => (
             className="vs-image-source"
             src="https://s3.amazonaws.com/cpinnix/site/img/2017_01_28_15_11_08_1024.jpg" />
         </div>
-        <div className="vs-spacer--2" />
+        <div className="vs-square--2" />
         <p className="vs-block-image-center-caption">Pinnix, Charles. 2017_01_28_15_11_08. 2017. Washington, DC.</p>
       </div>
     </div>

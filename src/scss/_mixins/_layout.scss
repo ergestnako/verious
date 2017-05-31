@@ -182,6 +182,6 @@
 //    9. Spacer
 // ---------------------------------------------
 
-@mixin vs-spacer($multiplier) {
+@mixin vs-square($multiplier) {
   height: $multiplier * 1rem;
 }

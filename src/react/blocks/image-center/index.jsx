@@ -7,7 +7,7 @@ module.exports = ({ source, caption }) => (
       <div className="vs-block-image-center-row">
         <div className="vs-block-image-center-content">
           <Image source={ source } />
-          <div className="vs-spacer--2" />
+          <div className="vs-square--2" />
           <p className="vs-block-image-center-caption">{ caption }</p>
         </div>
       </div>
