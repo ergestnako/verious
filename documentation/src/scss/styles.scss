@@ -7,6 +7,7 @@
 //
 //    1. Verious
 //    2. Components
+//    3. Blocks
 //
 
 // ---------------------------------------------
@@ -28,4 +29,10 @@
 @import "_components/_documentation/_typography/_list";
 @import "_components/_documentation/_typography/_code";
 @import "_components/_documentation/_components/_layout-left-panel";
-@import "_components/_documentation/_components/_image-center";
+@import "_components/_documentation/_components/_image";
+
+// ---------------------------------------------
+//    3. Blocks
+// ---------------------------------------------
+
+@import "_components/_documentation/_blocks/_image-center";
