@@ -16,7 +16,7 @@ module.exports = () => (
               {`
 <div className="vs-image-image">
   <img
-    className="vs-image-source"
+    class="vs-image-source"
     src="https://s3.amazonaws.com/cpinnix/site/img/2017_01_28_15_11_08_1024.jpg" />
 </div>
               `}

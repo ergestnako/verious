@@ -17,6 +17,7 @@ module.exports = () => (
       <li>
         <ul className="vs-ul--unstyled">
           <li><a href="/components/image">Image</a></li>
+          <li><a href="/components/presentation">Presentation</a></li>
           <li><a href="/components/layout-left-panel">Layout Left Panel</a></li>
         </ul>
       </li>
