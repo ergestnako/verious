@@ -19,11 +19,15 @@ module.exports = () => (
             <code>
               {`
 <div className="vs-layout vs-layout--horizontal">
+  <div class="vs-spacer"></div>
   ...
+  <div class="vs-spacer"></div>
 </div>
 
 <div className="vs-layout vs-layout--vertical">
+  <div class="vs-spacer"></div>
   ...
+  <div class="vs-spacer"></div>
 </div>
               `}
             </code>
@@ -33,11 +37,15 @@ module.exports = () => (
             <code>
               {`
 <Layout direction="horizontal">
+  <Spacer />
   ...
+  <Spacer />
 </Layout>
 
 <Layout direction="vertical">
+  <Spacer />
   ...
+  <Spacer />
 </Layout>
               `}
             </code>
