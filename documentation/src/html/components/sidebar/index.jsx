@@ -19,6 +19,7 @@ module.exports = () => (
           <li><a href="/components/image">Image</a></li>
           <li><a href="/components/presentation">Presentation</a></li>
           <li><a href="/components/layout-left-panel">Layout Left Panel</a></li>
+          <li><a href="/components/layout">Layout</a></li>
         </ul>
       </li>
       <li>Blocks</li>
