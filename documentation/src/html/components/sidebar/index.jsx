@@ -27,6 +27,7 @@ module.exports = () => (
       <li>
         <ul className="vs-ul--unstyled">
           <li><a href="/blocks/image-center">Image Center</a></li>
+          <li><a href="/blocks/image-left">Image Left</a></li>
         </ul>
       </li>
     </ul>
