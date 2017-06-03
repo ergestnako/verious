@@ -203,3 +203,17 @@
 .vs-code {
   @include vs-code(1);
 }
+
+// ---------------------------------------------
+//    8. Blockquote
+// ---------------------------------------------
+
+.verious {
+  blockquote {
+    @include vs-blockquote();
+  }
+}
+
+.vs-blockquote {
+  @include vs-blockquote();
+}

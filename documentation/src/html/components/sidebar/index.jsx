@@ -11,6 +11,7 @@ module.exports = () => (
           <li><a href="/typography/link">Links</a></li>
           <li><a href="/typography/list">Lists</a></li>
           <li><a href="/typography/code">Code</a></li>
+          <li><a href="/typography/blockquote">Blockquote</a></li>
         </ul>
       </li>
       <li>Components</li>

@@ -1,0 +1,26 @@
+//
+//    File:           _blockquote.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+@mixin vs-blockquote($size: 1) {
+  // font-family: unquote(map-get($bodytype, font-family));
+  // font-style: normal;
+  // font-weight: map-get($bodytype, regular);
+  @include vs-clearfix();
+  border-left: (1rem / 2) solid $vs-grey-100;
+  @include vs-padding(top, 1);
+  @include vs-padding(left, 1);
+  // @include vs-padding(bottom, 1);
+  // @include vs-padding(bottom, 2);
+
+  // @if $size == 1 {
+  //   @include fontsize(zeta, all);
+  //   @include baseline(zeta, $bodytype, 2, 2, all);
+  // }
+}
