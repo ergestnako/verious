@@ -5,17 +5,17 @@
 https://github.com/jakegiltsoff/sassline
 https://github.com/simonlindsay/typographic-rhythm
 
-### Setup
+### Dependencies
 
-#### Pull down yarn
+#### Install
 
-    wget https://yarnpkg.com/latest.tar.gz
+    npm install
 
 ### Build & Run
 
 #### Build
 
-    ./build.sh
+    docker build -t cpinnix/verious .
 
 #### Run locally
 
