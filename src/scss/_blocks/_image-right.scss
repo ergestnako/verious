@@ -16,8 +16,8 @@
   // ---------------------------------------------
 
   background-color: $vs-white;
-  @include vs-padding(top, 12);
-  @include vs-padding(bottom, 12);
+  @include vs-padding(top, 6);
+  @include vs-padding(bottom, 6);
 
   &-container {
     @include vs-container();
@@ -25,6 +25,10 @@
 
   &-row {
     @include vs-row();
+  }
+
+  &-caption {
+    @include vs-p(1);
   }
 
   // ---------------------------------------------
@@ -35,7 +39,7 @@
     $viewport: $vs-screen-sm;
 
     &-content {
-      @include vs-col($viewport, 4, 2);
+      @include vs-col($viewport, 5, 1);
     }
   }
 
@@ -51,7 +55,7 @@
     $viewport: $vs-screen-lg;
 
     &-content {
-      @include vs-col($viewport, 8, 8);
+      @include vs-col($viewport, 12, 4);
     }
   }
 
@@ -59,7 +63,7 @@
     $viewport: $vs-screen-xl;
 
     &-content {
-      @include vs-col($viewport, 8, 8);
+      @include vs-col($viewport, 12, 4);
     }
   }
 }

@@ -29,6 +29,7 @@ module.exports = () => (
           <li><a href="/blocks/image-center">Image Center</a></li>
           <li><a href="/blocks/image-left">Image Left</a></li>
           <li><a href="/blocks/image-right">Image Right</a></li>
+          <li><a href="/blocks/image-full-width">Image Full Width</a></li>
         </ul>
       </li>
     </ul>

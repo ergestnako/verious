@@ -16,8 +16,8 @@
   // ---------------------------------------------
 
   background-color: $vs-white;
-  @include vs-padding(top, 12);
-  @include vs-padding(bottom, 12);
+  @include vs-padding(top, 6);
+  @include vs-padding(bottom, 6);
 
   &-container {
     @include vs-container();
@@ -25,6 +25,10 @@
 
   &-row {
     @include vs-row();
+  }
+
+  &-caption {
+    @include vs-p(1);
   }
 
   // ---------------------------------------------

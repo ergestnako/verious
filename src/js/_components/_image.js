@@ -55,6 +55,10 @@
     init: function init(config) {
       this.updateContainer(config);
       this.initWindow(config);
+
+      setTimeout(() => {
+        this.updateContainer(config);
+      }, 500);
     },
   };
 

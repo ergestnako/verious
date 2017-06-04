@@ -1,5 +1,5 @@
 //
-//    File:           _image-left.scss
+//    File:           _image-full-width.scss
 //    Description:
 //
 //
@@ -9,7 +9,7 @@
 //    2. Responsive
 //
 
-.vs-block-image-left {
+.vs-block-image-full-width {
 
   // ---------------------------------------------
   //    1. Base
@@ -39,7 +39,7 @@
     $viewport: $vs-screen-sm;
 
     &-content {
-      @include vs-col($viewport, 5);
+      @include vs-col($viewport, 6);
     }
   }
 
@@ -47,7 +47,7 @@
     $viewport: $vs-screen-md;
 
     &-content {
-      @include vs-col($viewport, 6);
+      @include vs-col($viewport, 12);
     }
   }
 
@@ -55,7 +55,7 @@
     $viewport: $vs-screen-lg;
 
     &-content {
-      @include vs-col($viewport, 12);
+      @include vs-col($viewport, 16);
     }
   }
 
@@ -63,7 +63,7 @@
     $viewport: $vs-screen-xl;
 
     &-content {
-      @include vs-col($viewport, 12);
+      @include vs-col($viewport, 16);
     }
   }
 }
