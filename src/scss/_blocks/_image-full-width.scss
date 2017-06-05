@@ -38,6 +38,9 @@
   @include vs-at-breakpoint($vs-screen-sm) {
     $viewport: $vs-screen-sm;
 
+    @include vs-padding(top, 2);
+    @include vs-padding(bottom, 2);
+
     &-content {
       @include vs-col($viewport, 6);
     }
@@ -45,6 +48,9 @@
 
   @include vs-at-breakpoint($vs-screen-md) {
     $viewport: $vs-screen-md;
+
+    @include vs-padding(top, 4);
+    @include vs-padding(bottom, 4);
 
     &-content {
       @include vs-col($viewport, 12);
