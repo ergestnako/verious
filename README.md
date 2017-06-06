@@ -13,10 +13,10 @@ https://github.com/simonlindsay/typographic-rhythm
 
 ### Build & Run
 
-#### Build
+#### Build Docker Image
 
     docker build -t cpinnix/verious .
 
-#### Run locally
+#### Run Docker Image
 
     docker run -d --publish 3000:8080 --name verious verious
