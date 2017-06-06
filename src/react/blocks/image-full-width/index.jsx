@@ -2,7 +2,7 @@ const React = require('react');
 const Image = require('../../components/image');
 
 module.exports = ({ source, caption }) => (
-  <div className="vs-block-image-full-width" data-script="vsImageCenter">
+  <div className="vs-block-image-full-width">
     <Image source={ source } />
     {/* <div className="vs-block-image-full-width-container">
       <div className="vs-block-image-full-width-row">

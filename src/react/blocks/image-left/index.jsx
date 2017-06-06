@@ -2,7 +2,7 @@ const React = require('react');
 const Image = require('../../components/image');
 
 module.exports = ({ source, caption }) => (
-  <div className="vs-block-image-left" data-script="vsImageCenter">
+  <div className="vs-block-image-left">
     <div className="vs-block-image-left-container">
       <div className="vs-block-image-left-row">
         <div className="vs-block-image-left-content">

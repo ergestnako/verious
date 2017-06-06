@@ -15,11 +15,11 @@ module.exports = ({ caption }) => (
           <pre>
             <code>
               {`
-<div className="vs-block-image-right" data-script="vsImageCenter">
+<div className="vs-block-image-right">
   <div className="vs-block-image-right-container">
     <div className="vs-block-image-right-row">
       <div className="vs-block-image-right-content">
-        <div className="vs-image-image">
+        <div className="vs-image-image" data-script="vsImage">
           <img
             className="vs-image-source"
             src="https://s3.amazonaws.com/cpinnix/site/img/2017_01_28_15_11_08_1024.jpg" />

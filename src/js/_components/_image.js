@@ -62,13 +62,13 @@
     },
   };
 
-  VERIOUS.Runners.vsImageCenter = (m) => { // eslint-disable-line
+  VERIOUS.Runners.vsImage = (m) => { // eslint-disable-line
     const IMAGE_CONTAINER_CLASSNAME = 'vs-image-image';
     const IMAGE_SOURCE_CLASSNAME = 'vs-image-source';
 
     const module = $(m);
     const w = $(window);
-    const container = module.find(`.${IMAGE_CONTAINER_CLASSNAME}`);
+    const container = module;
     const source = module.find(`.${IMAGE_SOURCE_CLASSNAME}`);
 
     const config = {
