@@ -218,6 +218,16 @@ gulp.task('js:documentation:reload', [
     .pipe(connect.reload());
 });
 
+gulp.task('js:react', () => {
+  gulp.src('src/react/**/*')
+    .pipe(babel({
+      presets: ['latest'],
+      minified: true,
+      comments: false,
+    }))
+    .pipe(gulp.dest('react'));
+});
+
 /** --------------------------------------------
 * Live reload.
 --------------------------------------------- */
@@ -245,6 +255,7 @@ gulp.task('server', [
 gulp.task('default', [
   'css:verious',
   'js:verious',
+  'js:react',
 ]);
 
 gulp.task('documentation', [

@@ -1,0 +1,1 @@
+'use strict';var React=require('react');var Image=require('../../components/image');module.exports=function(_ref){var source=_ref.source,caption=_ref.caption;return React.createElement('div',{className:'vs-block-image-full-width'},React.createElement(Image,{source:source}))};
