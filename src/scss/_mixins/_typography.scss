@@ -18,9 +18,9 @@
 //    1. Sassline
 // ---------------------------------------------
 
-@import "sassline/assets/sass/sassline-base/reset";
-@import "sassline/assets/sass/sassline-base/modular-scale";
-@import "sassline/assets/sass/sassline-base/mixins";
+@import "../_sassline/_reset";
+@import "../_sassline/_modular-scale";
+@import "../_sassline/_mixins";
 
 // ---------------------------------------------
 //    2. Html
