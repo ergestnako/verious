@@ -1,0 +1,26 @@
+//
+//    File:           _colors.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Background Color
+//    1. Text Color
+//
+
+// ---------------------------------------------
+//    1. Background Color
+// ---------------------------------------------
+
+.vs-background-color--red-50 {
+  @include vs-background-color($vs-red-50);
+}
+
+// ---------------------------------------------
+//    2. Text Color
+// ---------------------------------------------
+
+.vs-text-color--red-50 {
+  @include vs-text-color($vs-red-50);
+}
