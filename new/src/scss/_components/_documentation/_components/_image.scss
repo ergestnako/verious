@@ -1,0 +1,93 @@
+//
+//    File:           _image.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//    2. Responsive
+//
+
+.documentation-image {
+
+  // ---------------------------------------------
+  //    1. Base
+  // ---------------------------------------------
+
+  @include vs-clearfix();
+  @include vs-padding(top, 4);
+  @include vs-padding(bottom, 4);
+
+  &-container {
+    @include vs-container();
+  }
+
+  &-row {
+    @include vs-row();
+  }
+
+  &-content {
+    @include vs-clearfix();
+  }
+
+  // ---------------------------------------------
+  //    2. Responsive
+  // ---------------------------------------------
+
+  @include vs-at-breakpoint($vs-screen-sm) {
+    $viewport: $vs-screen-sm;
+
+    &-header,
+    &-content {
+      @include vs-col($viewport, 6);
+    }
+
+    &-left,
+    &-right {
+      @include vs-col($viewport, 6);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-md) {
+    $viewport: $vs-screen-md;
+
+    &-header,
+    &-content {
+      @include vs-col($viewport, 12);
+    }
+
+    &-left,
+    &-right {
+      @include vs-col($viewport, 6);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-lg) {
+    $viewport: $vs-screen-lg;
+
+    &-header,
+    &-content {
+      @include vs-col($viewport, 16);
+    }
+
+    &-left,
+    &-right {
+      @include vs-col($viewport, 8);
+    }
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    $viewport: $vs-screen-xl;
+
+    &-header,
+    &-content {
+      @include vs-col($viewport, 16);
+    }
+
+    &-left,
+    &-right {
+      @include vs-col($viewport, 8);
+    }
+  }
+}

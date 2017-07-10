@@ -1,0 +1,29 @@
+//
+//    File:           _image.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+.vs-image {
+
+  // ---------------------------------------------
+  //    1. Base
+  // ---------------------------------------------
+
+  &-image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  &-source {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

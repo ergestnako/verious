@@ -1,0 +1,26 @@
+//
+//    File:           _feature.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+.vs-feature {
+
+  // ---------------------------------------------
+  //    1. Base
+  // ---------------------------------------------
+
+  @include vs-clearfix();
+
+  &-container {
+    @include vs-container();
+  }
+
+  &-row {
+    @include vs-row();
+  }
+}

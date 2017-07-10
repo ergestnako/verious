@@ -1,0 +1,187 @@
+//
+//    File:           _layout.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. At Breakpoint
+//    2. Clearfix
+//    3. Container
+//    4. Row
+//    5. Column
+//    6. Positioning
+//    7. Padding
+//    8. Margin
+//    9. Spacer
+//
+
+// ---------------------------------------------
+//    1. At Breakpoint
+// ---------------------------------------------
+
+@mixin vs-at-breakpoint($viewport) {
+  @if length($viewport) == 2 {
+    @media all and (min-width: nth($viewport, 2)) {
+      @content;
+    }
+  } @else {
+    @media all and (min-width: nth($viewport, 2)) and (max-width: nth($viewport, 3)) {
+      @content;
+    }
+  }
+}
+
+// ---------------------------------------------
+//    2. Clearfix
+// ---------------------------------------------
+
+@mixin vs-clearfix {
+  zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    line-height: 0;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// ---------------------------------------------
+//    3. Container
+// ---------------------------------------------
+
+@mixin vs-container() {
+  margin: 0 auto;
+  @include vs-clearfix();
+
+  @include vs-at-breakpoint($vs-screen-sm) {
+    width: $vs-width-sm;
+    padding: 0 page-margin($vs-screen-sm);
+  }
+
+  @include vs-at-breakpoint($vs-screen-md) {
+    width: $vs-width-md;
+    padding: 0 page-margin($vs-screen-md);
+  }
+
+  @include vs-at-breakpoint($vs-screen-lg) {
+    width: $vs-width-lg;
+    padding: 0 page-margin($vs-screen-lg);
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    width: $vs-width-xl;
+    padding: 0 page-margin($vs-screen-xl);
+  }
+}
+
+// ---------------------------------------------
+//    4. Row
+// ---------------------------------------------
+
+@mixin vs-row() {
+  @include vs-clearfix();
+
+  @include vs-at-breakpoint($vs-screen-sm) {
+    $gutter: gutter($vs-screen-sm);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+
+  @include vs-at-breakpoint($vs-screen-md) {
+    $gutter: gutter($vs-screen-md);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+
+  @include vs-at-breakpoint($vs-screen-lg) {
+    $gutter: gutter($vs-screen-md);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    $gutter: gutter($vs-screen-lg);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+}
+
+// ---------------------------------------------
+//    5. Column
+// ---------------------------------------------
+
+@mixin vs-col-push($viewport, $push-columns) {
+  $total-columns: total-columns($viewport);
+  margin-left: (100 / ($total-columns / $push-columns) ) * 1%;
+}
+
+@mixin vs-col($viewport, $span-columns, $push-columns: null, $pull-columns: null) {
+  $gutter: gutter($viewport);
+  $page-margin: page-margin($viewport);
+  $total-columns: total-columns($viewport);
+
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 $gutter / 2;
+  width: (100 / ($total-columns / $span-columns) ) * 1%;
+
+  @if $push-columns {
+    margin-left: (100 / ($total-columns / $push-columns) ) * 1%;
+  }
+}
+
+@mixin vs-sub-col($viewport, $parent-columns, $span-columns, $push-columns: null, $pull-columns: null) {
+  $gutter: gutter($viewport);
+  $total-columns: total-columns($viewport);
+  $cols: $total-columns;
+  $one-col: 100% / $total-columns;
+  $parent-size: ($one-col * $parent-columns);
+  $child-size: ($one-col * $span-columns);
+
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 $gutter / 2;
+  width: ($child-size / $parent-size) * 100%;
+}
+
+// ---------------------------------------------
+//    6. Positioning
+// ---------------------------------------------
+
+@mixin vs-position($position, $top, $right, $bottom, $left) {
+  position: $position;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+
+// ---------------------------------------------
+//    7. Padding
+// ---------------------------------------------
+
+@mixin vs-padding($edge, $multiplier) {
+  padding-#{$edge}: $multiplier * 1rem;
+}
+
+// ---------------------------------------------
+//    8. Margin
+// ---------------------------------------------
+
+@mixin vs-margin($edge, $multiplier) {
+  margin-#{$edge}: $multiplier * 1rem;
+}
+
+// ---------------------------------------------
+//    9. Spacer
+// ---------------------------------------------
+
+@mixin vs-square($multiplier) {
+  height: $multiplier * 1rem;
+}
