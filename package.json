@@ -1,7 +1,7 @@
 {
-  "name": "new",
-  "version": "1.0.1",
-  "description": "",
+  "name": "verious",
+  "version": "0.7.0",
+  "description": "Very serious styles. No jokes here.",
   "main": "index.js",
   "scripts": {
     "develop": "./node_modules/.bin/gatsby develop",
@@ -10,7 +10,7 @@
     "build-css": "./node_modules/.bin/node-sass scss/styles.scss dist/css/styles.css --source-map dist/css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Charles Pinnix",
   "license": "ISC",
   "dependencies": {
     "gatsby": "^1.0.7",
