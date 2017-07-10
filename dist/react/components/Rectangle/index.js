@@ -1,11 +1,33 @@
 const React = require('react');
 
-function style({ width, height, color }) {
-  return {
-    width: width ? `${width}rem` : '',
-    height: height ? `${height}rem` : '',
-    backgroundColor: '' || color
-  };
+function getClassName({ backgroundColor }) {
+  const classes = [];
+
+  if (backgroundColor) {
+    if (backgroundColor.includes('vs-')) {
+      classes.push(`vs-background-color--${backgroundColor.slice(3)}`);
+    }
+  }
+
+  return classes.join(' ');
 }
 
-module.exports = props => React.createElement('div', { style: style(props) });
+function getStyles({ width, height, backgroundColor }) {
+  const styles = {
+    width: width ? `${width}rem` : '',
+    height: height ? `${height}rem` : ''
+  };
+
+  if (backgroundColor) {
+    if (!backgroundColor.includes('vs-')) {
+      styles.backgroundColor = backgroundColor;
+    }
+  }
+
+  return styles;
+}
+
+module.exports = props => React.createElement('div', {
+  style: getStyles(props),
+  className: getClassName(props)
+});

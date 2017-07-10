@@ -2595,6 +2595,12 @@ caption, th, td {
 .vs-background-color--blue-grey-900 {
   background-color: #263238; }
 
+.vs-background-color--white {
+  background-color: #ffffff; }
+
+.vs-background-color--black {
+  background-color: #000000; }
+
 .vs-text-color--red-50 {
   color: #ffebee; }
 
@@ -3164,6 +3170,12 @@ caption, th, td {
 
 .vs-text-color--blue-grey-900 {
   color: #263238; }
+
+.vs-text-color--white {
+  color: #ffffff; }
+
+.vs-text-color--black {
+  color: #000000; }
 
 .vs-baseline {
   z-index: 1;

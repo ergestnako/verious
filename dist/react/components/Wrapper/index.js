@@ -13,11 +13,8 @@ function getClassName({ backgroundColor }) {
   return classes.join(' ');
 }
 
-function getStyles({ size, style, backgroundColor }) {
-  const styles = {
-    width: `${size}rem`,
-    height: `${size}rem`
-  };
+function getStyles({ style, backgroundColor }) {
+  const styles = {};
 
   if (backgroundColor) {
     if (!utilities.isInternalColor(backgroundColor)) {
@@ -28,7 +25,11 @@ function getStyles({ size, style, backgroundColor }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = props => React.createElement('div', {
-  style: getStyles(props),
-  className: getClassName(props)
-});
+module.exports = ({ children, style, backgroundColor }) => React.createElement(
+  'div',
+  {
+    style: getStyles({ style, backgroundColor }),
+    className: getClassName({ backgroundColor })
+  },
+  children
+);
