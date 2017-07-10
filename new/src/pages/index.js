@@ -6,6 +6,7 @@ const Container = require('../../react/components/Container');
 const Row = require('../../react/components/Row');
 const Column = require('../../react/components/Column');
 const Code = require('../../react/components/Code');
+const Heading = require('../../react/components/Heading');
 
 module.exports = () => (
   <Page>
@@ -17,7 +18,7 @@ module.exports = () => (
     <Container>
       <Row>
         <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
-          <h2 className="vs-h2">Installation</h2>
+          <Heading size="2">Installation</Heading>
         </Column>
       </Row>
       <Square size="2" />
@@ -31,14 +32,14 @@ npm install verious
     <Container>
       <Row>
         <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
-          <h2 className="vs-h2">Core Principles</h2>
+          <Heading size="2">Core Principles</Heading>
         </Column>
       </Row>
       <Square size="2" />
       <Row>
         <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
           <div className="verious">
-            <h3>Opt-in styles.</h3>
+            <Heading size="3">Opt-in styles.</Heading>
             <p>All styles and mixins are name-spaced so designers can use what they want and drop what they do not.</p>
           </div>
           <Square size="2" />
