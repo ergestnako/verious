@@ -27,6 +27,13 @@
   }
 }
 
+.vs-background-color--white {
+  @include vs-background-color($vs-white);
+}
+
+.vs-background-color--black {
+  @include vs-background-color($vs-black);
+}
 
 // ---------------------------------------------
 //    2. Text Color
@@ -44,4 +51,12 @@
       @include vs-text-color($colorValue);
     }
   }
+}
+
+.vs-text-color--white {
+  @include vs-text-color($vs-white);
+}
+
+.vs-text-color--black {
+  @include vs-text-color($vs-black);
 }

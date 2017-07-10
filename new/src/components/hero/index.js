@@ -19,8 +19,8 @@ const component = ({ title, subtitle }) => (
           <Layout direction="horizontal">
             <Spacer />
             <div style={{ textAlign: 'center' }} >
-              <Heading size="1">{ title }</Heading>
-              <Paragraph>{ subtitle }</Paragraph>
+              <Heading size="1" textColor="vs-white">{ title }</Heading>
+              <Paragraph textColor="vs-white">{ subtitle }</Paragraph>
             </div>
             <Spacer />
           </Layout>
