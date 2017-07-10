@@ -1,6 +1,6 @@
 const React = require('react');
 const Page = require('../templates/Page');
-const Hero = require('../components/hero');
+const Hero = require('../components/Hero');
 const Square = require('../../react/components/Square');
 const Container = require('../../react/components/Container');
 const Row = require('../../react/components/Row');
