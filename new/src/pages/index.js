@@ -7,6 +7,7 @@ const Row = require('../../react/components/Row');
 const Column = require('../../react/components/Column');
 const Code = require('../../react/components/Code');
 const Heading = require('../../react/components/Heading');
+const Paragraph = require('../../react/components/Paragraph');
 
 module.exports = () => (
   <Page>
@@ -38,49 +39,37 @@ npm install verious
       <Square size="2" />
       <Row>
         <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-          <div className="verious">
-            <Heading size="3">Opt-in styles.</Heading>
-            <p>All styles and mixins are name-spaced so designers can use what they want and drop what they do not.</p>
-          </div>
+          <Heading size="3">Opt-in styles.</Heading>
+          <Paragraph>All styles and mixins are name-spaced so designers can use what they want and drop what they do not.</Paragraph>
           <Square size="2" />
         </Column>
         <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-          <div className="verious">
-            <h3>Responsive layout.</h3>
-            <p>Grid layout for phone, tablet, desktop, and large desktop.</p>
-          </div>
+          <Heading size="3">Responsive layout.</Heading>
+          <Paragraph>Grid layout for phone, tablet, desktop, and large desktop.</Paragraph>
           <Square size="2" />
         </Column>
       </Row>
       <Row>
         <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-          <div className="verious">
-            <h3>Baseline grid.</h3>
-            <p>All elements are aligned to the same vertical grid and a modular scale is used to ensure proper scale across all viewports.</p>
-          </div>
+          <Heading size="3">Baseline grid.</Heading>
+          <Paragraph>All elements are aligned to the same vertical grid and a modular scale is used to ensure proper scale across all viewports.</Paragraph>
           <Square size="2" />
         </Column>
         <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-          <div className="verious">
-            <h3>Component based design.</h3>
-            <p>Components encapsulate HTML, CSS, and javascript code into easy to use packages. Designers can use components to build webpages without getting into the weeds.</p>
-          </div>
+          <Heading size="3">Component based design.</Heading>
+          <Paragraph>Components encapsulate HTML, CSS, and javascript code into easy to use packages. Designers can use components to build webpages without getting into the weeds.</Paragraph>
           <Square size="2" />
         </Column>
       </Row>
       <Row>
         <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-          <div className="verious">
-            <h3>Reusability.</h3>
-            <p>Complex components can be isolated into a single file and included throughout a codebase.</p>
-          </div>
+          <Heading size="3">Reusability.</Heading>
+          <Paragraph>Complex components can be isolated into a single file and included throughout a codebase.</Paragraph>
           <Square size="2" />
         </Column>
         <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-          <div className="verious">
-            <h3>Abstract Measurements.</h3>
-            <p>The horizontal responsive grid and vertical baseline grid provide a set of abstract measurements to simplify design discussions and ensure responsiveness.</p>
-          </div>
+          <Heading size="3">Abstract Measurements.</Heading>
+          <Paragraph>The horizontal responsive grid and vertical baseline grid provide a set of abstract measurements to simplify design discussions and ensure responsiveness.</Paragraph>
           <Square size="2" />
         </Column>
       </Row>

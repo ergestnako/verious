@@ -1,21 +1,32 @@
 const React = require('react');
 const PropTypes = require('prop-types');
+const Container = require('../../../react/components/Container');
+const Row = require('../../../react/components/Row');
+const Column = require('../../../react/components/Column');
+const Heading = require('../../../react/components/Heading');
+const Paragraph = require('../../../react/components/Paragraph');
+const Layout = require('../../../react/components/Layout');
+const Spacer = require('../../../react/components/Spacer');
+const Square = require('../../../react/components/Square');
 
 const component = ({ title, subtitle }) => (
   <div className="hero">
-    <div className="hero-container">
-      <div className="hero-row">
-        <div className="hero-content">
-          <h1 className="hero-title">{ title }</h1>
-          <h2 className="hero-subtitle">{ subtitle }</h2>
-        </div>
-      </div>
-    </div>
-    <div className="hero-layout-button">
-      <div className="vs-layout-left-panel-button">
-        <i className="material-icons">menu</i>
-      </div>
-    </div>
+    <Container>
+      <Row>
+        <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]} >
+          <Square size="10" />
+          <Layout direction="horizontal">
+            <Spacer />
+            <div style={{ textAlign: 'center' }} >
+              <Heading size="1">{ title }</Heading>
+              <Paragraph>{ subtitle }</Paragraph>
+            </div>
+            <Spacer />
+          </Layout>
+          <Square size="10" />
+        </Column>
+      </Row>
+    </Container>
   </div>
 );
 
