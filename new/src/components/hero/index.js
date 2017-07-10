@@ -8,9 +8,10 @@ const Paragraph = require('../../../react/components/Paragraph');
 const Layout = require('../../../react/components/Layout');
 const Spacer = require('../../../react/components/Spacer');
 const Square = require('../../../react/components/Square');
+const Wrapper = require('../../../react/components/Wrapper');
 
 const component = ({ title, subtitle }) => (
-  <div className="hero">
+  <Wrapper backgroundColor="vs-pink-500">
     <Container>
       <Row>
         <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]} >
@@ -27,7 +28,7 @@ const component = ({ title, subtitle }) => (
         </Column>
       </Row>
     </Container>
-  </div>
+  </Wrapper>
 );
 
 component.propTypes = {
