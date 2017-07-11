@@ -1274,7 +1274,8 @@ caption, th, td {
       margin-bottom: 1.38823rem;
       padding-top: 0.61177rem; } }
   .verious p a {
-    display: inline; }
+    display: inline;
+    color: inherit; }
     .verious p a:visited {
       color: inherit; }
 
@@ -1308,7 +1309,8 @@ caption, th, td {
       margin-bottom: 1.38823rem;
       padding-top: 0.61177rem; } }
   .vs-p a {
-    display: inline; }
+    display: inline;
+    color: inherit; }
     .vs-p a:visited {
       color: inherit; }
 
@@ -1317,7 +1319,8 @@ caption, th, td {
   font-style: normal;
   font-weight: 400; }
   .verious a a {
-    display: inline; }
+    display: inline;
+    color: inherit; }
     .verious a a:visited {
       color: inherit; }
 
@@ -1920,7 +1923,8 @@ caption, th, td {
     font-size: 1.33333rem;
     line-height: 2rem;
     margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem; }
+    padding-top: 0.56001rem;
+    color: inherit; }
     @media screen and (min-width: 48em) {
       .verious li a {
         font-size: 1.21429rem; } }
@@ -1998,7 +2002,8 @@ caption, th, td {
     font-size: 1.33333rem;
     line-height: 2rem;
     margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem; }
+    padding-top: 0.56001rem;
+    color: inherit; }
     @media screen and (min-width: 48em) {
       .verious .vs-li a {
         font-size: 1.21429rem; } }
@@ -2076,7 +2081,8 @@ caption, th, td {
     font-size: 1.33333rem;
     line-height: 2rem;
     margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem; }
+    padding-top: 0.56001rem;
+    color: inherit; }
     @media screen and (min-width: 48em) {
       .vs-li a {
         font-size: 1.21429rem; } }
@@ -3910,7 +3916,8 @@ caption, th, td {
         margin-bottom: 1.38823rem;
         padding-top: 0.61177rem; } }
     .vs-block-image-center-caption a {
-      display: inline; }
+      display: inline;
+      color: inherit; }
       .vs-block-image-center-caption a:visited {
         color: inherit; }
   @media all and (min-width: 0) and (max-width: 767px) {
@@ -4027,7 +4034,8 @@ caption, th, td {
         margin-bottom: 1.38823rem;
         padding-top: 0.61177rem; } }
     .vs-block-image-left-caption a {
-      display: inline; }
+      display: inline;
+      color: inherit; }
       .vs-block-image-left-caption a:visited {
         color: inherit; }
   @media all and (min-width: 0) and (max-width: 767px) {
@@ -4144,7 +4152,8 @@ caption, th, td {
         margin-bottom: 1.38823rem;
         padding-top: 0.61177rem; } }
     .vs-block-image-right-caption a {
-      display: inline; }
+      display: inline;
+      color: inherit; }
       .vs-block-image-right-caption a:visited {
         color: inherit; }
   @media all and (min-width: 0) and (max-width: 767px) {
@@ -4265,7 +4274,8 @@ caption, th, td {
         margin-bottom: 1.38823rem;
         padding-top: 0.61177rem; } }
     .vs-block-image-full-width-caption a {
-      display: inline; }
+      display: inline;
+      color: inherit; }
       .vs-block-image-full-width-caption a:visited {
         color: inherit; }
   @media all and (min-width: 0) and (max-width: 767px) {
