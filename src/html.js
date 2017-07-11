@@ -1,5 +1,5 @@
 import React from 'react';
-// import favicon from './favicon.png';
+import favicon from './img/vs-favicon.png';
 
 let inlinedStyles = '';
 if (process.env.NODE_ENV === 'production') {
@@ -31,7 +31,7 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1.0"
           />
           {this.props.headComponents}
-          {/* <link rel="shortcut icon" href={favicon} />*/ }
+          <link rel="shortcut icon" href={favicon} />
           {css}
         </head>
         <body>
