@@ -23,6 +23,16 @@ export default ({ children }) =>
             </ListItem>
           </List>
         </ListItem>
+        <ListItem textColor="vs-pink-200">
+          External Links
+        </ListItem>
+        <ListItem textColor="vs-white">
+          <List unstyled>
+            <ListItem textColor="vs-white">
+              <a href="https://github.com/cpinnix/verious">Github</a>
+            </ListItem>
+          </List>
+        </ListItem>
       </List>
     </Navigation>
     {children}
