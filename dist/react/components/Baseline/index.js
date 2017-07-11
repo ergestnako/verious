@@ -7,9 +7,11 @@ class Baseline extends React.Component {
     super();
     this.state = { visible: false };
 
-    window.showBaseline = () => {
-      this.setState({ visible: true });
-    };
+    if (typeof window !== 'undefined') {
+      window.showBaseline = () => {
+        this.setState({ visible: true });
+      };
+    }
   }
 
   getClassName() {

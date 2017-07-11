@@ -16,7 +16,7 @@ class Navigation extends React.Component {
   render() {
     return React.createElement(
       Wrapper,
-      { backgroundColor: this.props.backgroundColor || 'vs-white' },
+      { padding: [1, 0, 1, 0], backgroundColor: this.props.backgroundColor || 'vs-white' },
       React.createElement(
         Container,
         null,
