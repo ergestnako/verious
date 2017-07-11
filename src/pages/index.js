@@ -8,13 +8,22 @@ const Column = require('../../react/components/Column');
 const Code = require('../../react/components/Code');
 const Heading = require('../../react/components/Heading');
 const Paragraph = require('../../react/components/Paragraph');
+const Image = require('../../react/components/Image');
+const Wrapper = require('../../react/components/Wrapper');
+const Logo = require('../img/vs-logo.png');
 
 module.exports = () => (
   <Page>
-    <Hero
-      title="Verious"
-      subtitle="Very serious styles."
-    />
+    <Wrapper backgroundColor="vs-pink-500" padding={[8, 0, 8, 0]}>
+      <Container>
+        <Row>
+          <Column span={[6, 6, 8, 8]} push={[0, 3, 4, 4]}>
+            <Image source={Logo} />
+            <Paragraph textColor="vs-white" style={{ textAlign: 'center' }}>Very serious styles.</Paragraph>
+          </Column>
+        </Row>
+      </Container>
+    </Wrapper>
     <Square size="10" />
     <Container>
       <Row>
