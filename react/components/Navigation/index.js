@@ -1,13 +1,13 @@
-import React from 'react';
-import Container from '../Container';
-import Row from '../Row';
-import Column from '../Column';
-import Wrapper from '../Wrapper';
-import Button from '../Button';
-import Layout from '../Layout';
-import Spacer from '../Spacer';
+const React = require('react');
+const Container = require('../Container');
+const Row = require('../Row');
+const Column = require('../Column');
+const Wrapper = require('../Wrapper');
+const Button = require('../Button');
+const Layout = require('../Layout');
+const Spacer = require('../Spacer');
 
-class Counter extends React.Component {
+class Navigation extends React.Component {
   constructor() {
     super();
     this.state = { open: false };
@@ -57,4 +57,4 @@ class Counter extends React.Component {
   }
 }
 
-export default Counter;
+module.exports = Navigation;
