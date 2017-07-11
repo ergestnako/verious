@@ -8,6 +8,7 @@
 //    1. Container
 //    2. Row
 //    3. Column
+//    4. Padding
 //
 
 // ---------------------------------------------
@@ -87,5 +88,27 @@
     .vs-col-xl-push-#{$push} {
       @include vs-col-push($vs-screen-xl, $push);
     }
+  }
+}
+
+// ---------------------------------------------
+//    4. Padding
+// ---------------------------------------------
+
+@for $i from 1 through 12 {
+  .vs-padding-top-#{$i} {
+    padding-top: $i + rem;
+  }
+
+  .vs-padding-right-#{$i} {
+    padding-right: $i + rem;
+  }
+
+  .vs-padding-bottom-#{$i} {
+    padding-bottom: $i + rem;
+  }
+
+  .vs-padding-left-#{$i} {
+    padding-left: $i + rem;
   }
 }
