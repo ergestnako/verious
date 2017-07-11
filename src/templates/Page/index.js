@@ -5,6 +5,7 @@ import '../../scss/styles.scss';
 import Navigation from '../../../react/components/Navigation';
 import List from '../../../react/components/List';
 import ListItem from '../../../react/components/ListItem';
+import Footer from '../../components/Footer';
 
 export default ({ children }) =>
   <div>
@@ -24,4 +25,5 @@ export default ({ children }) =>
       </List>
     </Navigation>
     {children}
+    <Footer />
   </div>;

@@ -46,6 +46,10 @@
 
   a {
     display: inline;
+
+    &:visited {
+      color: inherit;
+    }
   }
 }
 

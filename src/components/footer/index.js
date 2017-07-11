@@ -1,11 +1,18 @@
 const React = require('react');
+const Wrapper = require('../../../react/components/Wrapper');
+const Container = require('../../../react/components/Container');
+const Row = require('../../../react/components/Row');
+const Column = require('../../../react/components/Column');
+const Paragraph = require('../../../react/components/Paragraph');
 
 module.exports = () => (
-  <div className="footer verious">
-    <div className="footer-baseline-button">
-      <div className="vs-baseline-button">
-        <i className="material-icons">format_line_spacing</i>
-      </div>
-    </div>
-  </div>
+  <Wrapper backgroundColor="vs-grey-900" padding={[4, 0, 4, 0]}>
+    <Container>
+      <Row>
+        <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+          <Paragraph textColor="vs-white">This site is generated with <a href="https://www.gatsbyjs.org/">Gatsby</a> and built with love in Washington, DC.</Paragraph>
+        </Column>
+      </Row>
+    </Container>
+  </Wrapper>
 );
