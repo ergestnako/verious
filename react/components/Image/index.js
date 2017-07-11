@@ -4,6 +4,10 @@ const React = require('react');
 const Measure = require('react-measure').default;
 
 function getSpacingUnit() {
+  if (typeof getComputedStyle === 'undefined') {
+    return 0;
+  }
+
   return parseFloat(getComputedStyle(document.documentElement).fontSize);
 }
 
@@ -31,6 +35,8 @@ class Image extends React.Component {
         {({ measureRef }) => {
           const spacingUnit = getSpacingUnit();
           const newHeight = Math.floor(height / spacingUnit) * spacingUnit;
+
+          console.log(spacingUnit, height, newHeight);
 
           return (
             <div className="vs-image-image" style={{ height: newHeight }}>
