@@ -15,7 +15,7 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <Wrapper backgroundColor="vs-pink-700">
+      <Wrapper backgroundColor={this.props.backgroundColor || 'vs-white'}>
         <Container>
           <Row>
             <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
@@ -26,13 +26,13 @@ class Navigation extends React.Component {
                     onClick={() => this.setState({ open: true })}
                     style={{ display: this.state.open ? 'none' : '' }}
                     label="Menu"
-                    textColor="vs-white"
+                    textColor={this.props.textColor || 'vs-black'}
                   />
                   <Button
                     onClick={() => this.setState({ open: false })}
                     style={{ display: this.state.open ? '' : 'none' }}
                     label="Close"
-                    textColor="vs-white"
+                    textColor={this.props.textColor || 'vs-black'}
                   />
                 </Layout>
               </Wrapper>
@@ -41,7 +41,7 @@ class Navigation extends React.Component {
         </Container>
         <Wrapper
           style={{ display: this.state.open ? '' : 'none' }}
-          backgroundColor="vs-pink-700"
+          backgroundColor={this.props.backgroundColor || 'vs-white'}
           padding={[2, 0, 2, 0]}
         >
           <Container>

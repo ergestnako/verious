@@ -11,7 +11,10 @@ import Baseline from '../../../react/components/Baseline';
 export default ({ children }) =>
   <div style={{ position: 'relative' }}>
     <Helmet />
-    <Navigation>
+    <Navigation
+      backgroundColor="vs-pink-700"
+      textColor="vs-white"
+    >
       <List unstyled>
         <ListItem textColor="vs-pink-200">
           Typography

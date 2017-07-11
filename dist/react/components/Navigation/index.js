@@ -16,7 +16,7 @@ class Navigation extends React.Component {
   render() {
     return React.createElement(
       Wrapper,
-      { backgroundColor: 'vs-pink-700' },
+      { backgroundColor: this.props.backgroundColor || 'vs-white' },
       React.createElement(
         Container,
         null,
@@ -37,13 +37,13 @@ class Navigation extends React.Component {
                   onClick: () => this.setState({ open: true }),
                   style: { display: this.state.open ? 'none' : '' },
                   label: 'Menu',
-                  textColor: 'vs-white'
+                  textColor: this.props.textColor || 'vs-black'
                 }),
                 React.createElement(Button, {
                   onClick: () => this.setState({ open: false }),
                   style: { display: this.state.open ? '' : 'none' },
                   label: 'Close',
-                  textColor: 'vs-white'
+                  textColor: this.props.textColor || 'vs-black'
                 })
               )
             )
@@ -54,7 +54,7 @@ class Navigation extends React.Component {
         Wrapper,
         {
           style: { display: this.state.open ? '' : 'none' },
-          backgroundColor: 'vs-pink-700',
+          backgroundColor: this.props.backgroundColor || 'vs-white',
           padding: [2, 0, 2, 0]
         },
         React.createElement(
