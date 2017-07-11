@@ -15,7 +15,7 @@ class Navigation extends React.Component {
 
   render() {
     return (
-      <Wrapper backgroundColor={this.props.backgroundColor || 'vs-white'}>
+      <Wrapper padding={[1, 0, 1, 0]} backgroundColor={this.props.backgroundColor || 'vs-white'}>
         <Container>
           <Row>
             <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>

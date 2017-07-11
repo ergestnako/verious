@@ -13,7 +13,7 @@ const Logo = require('../img/vs-logo.png');
 
 module.exports = () => (
   <Page>
-    <Wrapper backgroundColor="vs-pink-500" padding={[8, 0, 8, 0]}>
+    <Wrapper backgroundColor="vs-pink-500" padding={[12, 0, 12, 0]}>
       <Container>
         <Row>
           <Column span={[6, 6, 8, 8]} push={[0, 3, 4, 4]}>
