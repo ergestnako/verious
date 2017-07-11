@@ -6,9 +6,10 @@ import Navigation from '../../../react/components/Navigation';
 import List from '../../../react/components/List';
 import ListItem from '../../../react/components/ListItem';
 import Footer from '../../components/Footer';
+import Baseline from '../../../react/components/Baseline';
 
 export default ({ children }) =>
-  <div>
+  <div style={{ position: 'relative' }}>
     <Helmet />
     <Navigation>
       <List unstyled>
@@ -26,4 +27,5 @@ export default ({ children }) =>
     </Navigation>
     {children}
     <Footer />
+    <Baseline />
   </div>;
