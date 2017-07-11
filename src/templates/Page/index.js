@@ -27,6 +27,16 @@ export default ({ children }) =>
           </List>
         </ListItem>
         <ListItem textColor="vs-pink-200">
+          Blocks
+        </ListItem>
+        <ListItem textColor="vs-white">
+          <List unstyled>
+            <ListItem textColor="vs-white">
+              <Link to="/blocks/image-center/">Image Center</Link>
+            </ListItem>
+          </List>
+        </ListItem>
+        <ListItem textColor="vs-pink-200">
           External Links
         </ListItem>
         <ListItem textColor="vs-white">

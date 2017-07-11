@@ -1,57 +1,35 @@
 const React = require('react');
-const ImageCenter = require('../../../../../../../src/react/blocks/image-center');
+const Wrapper = require('../../../../../react/components/Wrapper');
+const Container = require('../../../../../react/components/Container');
+const Row = require('../../../../../react/components/Row');
+const Column = require('../../../../../react/components/Column');
+const ImageCenter = require('../../../../../react/blocks/ImageCenter');
+const Code = require('../../../../../react/components/Code');
+const Heading = require('../../../../../react/components/Heading');
 
 module.exports = ({ caption }) => (
-  <div className="image-center verious">
-    <div className="image-center-container">
-      <div className="image-center-row">
-        <div className="image-center-header">
-          <h2>Image Center</h2>
-        </div>
-      </div>
-      <div className="image-center-row">
-        <div className="image-center-content">
-          <h3>Static Markup</h3>
-          <pre>
-            <code>
-              {`
-<div className="vs-block-image-center">
-  <div className="vs-block-image-center-container">
-    <div className="vs-block-image-center-row">
-      <div className="vs-block-image-center-content">
-        <div className="vs-image-image" data-script="vsImage">
-          <img
-            className="vs-image-source"
-            src="https://s3.amazonaws.com/cpinnix/site/img/2017_01_28_15_11_08_1024.jpg" />
-        </div>
-        <div className="vs-square--2" />
-        <p className="vs-block-image-center-caption">Pinnix, Charles. 2017_01_28_15_11_08. 2017. Washington, DC.</p>
-      </div>
-    </div>
-  </div>
-</div>
-              `}
-            </code>
-          </pre>
-          <h3>React Component</h3>
-          <pre>
-            <code>
-              {`
+  <Wrapper padding={[4, 0, 4, 0]}>
+    <Container>
+      <Row>
+        <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+          <Heading size="1">ImageCenter</Heading>
+          <Heading size="3">React</Heading>
+          <Code>
+            {`
 <ImageCenter
   source="https://s3.amazonaws.com/cpinnix/site/img/2017_01_28_15_11_08_1024.jpg"
   caption="Pinnix, Charles. 2017_01_28_15_11_08. 2017. Washington, DC."
 />
-              `}
-            </code>
-          </pre>
-        </div>
-      </div>
-    </div>
+            `}
+          </Code>
+        </Column>
+      </Row>
+    </Container>
     <div className="image-center-component">
       <ImageCenter
         source="https://s3.amazonaws.com/cpinnix/site/img/2017_01_28_15_11_08_1024.jpg"
         caption="Pinnix, Charles. 2017_01_28_15_11_08. 2017. Washington, DC."
       />
     </div>
-  </div>
+  </Wrapper>
 );
