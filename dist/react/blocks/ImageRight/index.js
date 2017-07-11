@@ -1,20 +1,19 @@
 const React = require('react');
-const Image = require('../../components/image');
+const Image = require('../../components/Image');
+const Container = require('../../components/Container');
+const Row = require('../../components/Row');
+const Column = require('../../components/Column');
 
 module.exports = ({ source, caption }) => React.createElement(
-  'div',
-  { className: 'vs-block-image-right' },
+  Container,
+  null,
   React.createElement(
-    'div',
-    { className: 'vs-block-image-right-container' },
+    Row,
+    null,
     React.createElement(
-      'div',
-      { className: 'vs-block-image-right-row' },
-      React.createElement(
-        'div',
-        { className: 'vs-block-image-right-content' },
-        React.createElement(Image, { source: source })
-      )
+      Column,
+      { span: [6, 6, 6, 6], push: [0, 6, 12, 12] },
+      React.createElement(Image, { source: source })
     )
   )
 );

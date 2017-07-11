@@ -1,8 +1,9 @@
 const React = require('react');
-const Image = require('../../components/image');
+const Image = require('../../components/Image');
+const Wrapper = require('../../components/Wrapper');
 
 module.exports = ({ source, caption }) => React.createElement(
-  'div',
-  { className: 'vs-block-image-full-width' },
+  Wrapper,
+  null,
   React.createElement(Image, { source: source })
 );
