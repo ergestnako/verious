@@ -34,6 +34,9 @@ export default ({ children }) =>
             <ListItem textColor="vs-white">
               <Link to="/blocks/image-center/">Image Center</Link>
             </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/blocks/image-left/">Image Left</Link>
+            </ListItem>
           </List>
         </ListItem>
         <ListItem textColor="vs-pink-200">

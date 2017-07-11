@@ -1,16 +1,15 @@
 const React = require('react');
-const Image = require('../../components/image');
+const Image = require('../../components/Image');
+const Container = require('../../components/Container');
+const Row = require('../../components/Row');
+const Column = require('../../components/Column');
 
 module.exports = ({ source, caption }) => (
-  <div className="vs-block-image-left">
-    <div className="vs-block-image-left-container">
-      <div className="vs-block-image-left-row">
-        <div className="vs-block-image-left-content">
-          <Image source={ source } />
-          {/* <div className="vs-square--2" />
-          <p className="vs-block-image-left-caption">{ caption }</p> */}
-        </div>
-      </div>
-    </div>
-  </div>
+  <Container>
+    <Row>
+      <Column span={[6, 6, 6, 6]} push={[0, 0, 0, 0]}>
+        <Image source={ source } />
+      </Column>
+    </Row>
+  </Container>
 );
