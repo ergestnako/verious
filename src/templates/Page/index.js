@@ -10,9 +10,16 @@ export default ({ children }) =>
   <div>
     <Helmet />
     <Navigation>
-      <List>
-        <ListItem>
-          <Link to="/typography/paragraph/">Paragraph</Link>
+      <List unstyled>
+        <ListItem textColor="vs-pink-200">
+          Typography
+        </ListItem>
+        <ListItem textColor="vs-white">
+          <List unstyled>
+            <ListItem textColor="vs-white">
+              <Link to="/typography/paragraph/">Paragraph</Link>
+            </ListItem>
+          </List>
         </ListItem>
       </List>
     </Navigation>

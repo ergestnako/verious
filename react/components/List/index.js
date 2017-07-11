@@ -1,7 +1,19 @@
 const React = require('react');
 
-module.exports = ({ children }) => (
-  <ul className="vs-ul">
+function getClassName({ unstyled }) {
+  let classes = ['vs-ul'];
+
+  if (unstyled) {
+    classes = [...classes, 'vs-ul--unstyled'];
+  }
+
+  return classes.join(' ');
+}
+
+module.exports = ({ children, unstyled }) => (
+  <ul
+    className={getClassName({ unstyled })}
+  >
     { children }
   </ul>
 );
