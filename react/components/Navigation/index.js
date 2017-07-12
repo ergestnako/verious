@@ -21,6 +21,7 @@ class Navigation extends React.Component {
             <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
               <Wrapper padding={[0, 0, 0, 0]}>
                 <Layout direction="horizontal">
+                  {this.props.left}
                   <Spacer />
                   <Button
                     onClick={() => this.setState({ open: true })}

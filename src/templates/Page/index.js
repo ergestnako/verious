@@ -7,6 +7,9 @@ import List from '../../../react/components/List';
 import ListItem from '../../../react/components/ListItem';
 import Footer from '../../components/Footer';
 import Baseline from '../../../react/components/Baseline';
+import Layout from '../../../react/components/Layout';
+import Spacer from '../../../react/components/Spacer';
+import Logo from '../../img/vs-logo.png';
 
 export default ({ children }) =>
   <div style={{ position: 'relative' }}>
@@ -14,6 +17,13 @@ export default ({ children }) =>
     <Navigation
       backgroundColor="vs-pink-700"
       textColor="vs-white"
+      left={(
+        <Layout direction="vertical">
+          <Spacer />
+          <img src={Logo} style={{ height: '1.5rem' }} alt="logo" />
+          <Spacer />
+        </Layout>
+      )}
     >
       <List unstyled>
         <ListItem textColor="vs-pink-200">

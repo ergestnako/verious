@@ -16,8 +16,9 @@ module.exports = () => (
     <Wrapper backgroundColor="vs-pink-500" padding={[12, 0, 12, 0]}>
       <Container>
         <Row>
-          <Column span={[6, 6, 8, 8]} push={[0, 3, 4, 4]}>
+          <Column span={[4, 4, 6, 6]} push={[1, 4, 5, 5]}>
             <Image source={Logo} />
+            <Square size="1" />
             <Paragraph textColor="vs-white" style={{ textAlign: 'center' }}>Very serious styles.</Paragraph>
           </Column>
         </Row>
