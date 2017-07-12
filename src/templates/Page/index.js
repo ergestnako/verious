@@ -20,7 +20,9 @@ export default ({ children }) =>
       left={(
         <Layout direction="vertical">
           <Spacer />
-          <img src={Logo} style={{ height: '1.5rem' }} alt="logo" />
+          <Link to="/">
+            <img src={Logo} style={{ height: '1.5rem' }} alt="logo" />
+          </Link>
           <Spacer />
         </Layout>
       )}
@@ -29,7 +31,7 @@ export default ({ children }) =>
         <ListItem textColor="vs-pink-200">
           Typography
         </ListItem>
-        <ListItem textColor="vs-white">
+        <ListItem>
           <List unstyled>
             <ListItem textColor="vs-white">
               <Link to="/typography/paragraph/">Paragraph</Link>
@@ -39,11 +41,11 @@ export default ({ children }) =>
         <ListItem textColor="vs-pink-200">
           Blocks
         </ListItem>
-        <ListItem textColor="vs-white">
+        <ListItem>
           <List unstyled>
-          <ListItem textColor="vs-white">
-            <Link to="/blocks/image-full-width/">ImageFullWidth</Link>
-          </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/blocks/image-full-width/">ImageFullWidth</Link>
+            </ListItem>
             <ListItem textColor="vs-white">
               <Link to="/blocks/image-center/">ImageCenter</Link>
             </ListItem>
@@ -58,7 +60,7 @@ export default ({ children }) =>
         <ListItem textColor="vs-pink-200">
           External Links
         </ListItem>
-        <ListItem textColor="vs-white">
+        <ListItem>
           <List unstyled>
             <ListItem textColor="vs-white">
               <a href="https://github.com/cpinnix/verious">Github</a>
