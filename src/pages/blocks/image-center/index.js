@@ -6,7 +6,7 @@ const ImageCenterDocumentation = require('../../../components/documentation/bloc
 module.exports = () => (
   <Page>
     <Hero
-      title="Image Center"
+      title="ImageCenter"
       subtitle="Documentation for center image block."
     />
     <ImageCenterDocumentation />

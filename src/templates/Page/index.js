@@ -41,11 +41,17 @@ export default ({ children }) =>
         </ListItem>
         <ListItem textColor="vs-white">
           <List unstyled>
+          <ListItem textColor="vs-white">
+            <Link to="/blocks/image-full-width/">ImageFullWidth</Link>
+          </ListItem>
             <ListItem textColor="vs-white">
-              <Link to="/blocks/image-center/">Image Center</Link>
+              <Link to="/blocks/image-center/">ImageCenter</Link>
             </ListItem>
             <ListItem textColor="vs-white">
-              <Link to="/blocks/image-left/">Image Left</Link>
+              <Link to="/blocks/image-left/">ImageLeft</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/blocks/image-right/">ImageRight</Link>
             </ListItem>
           </List>
         </ListItem>
