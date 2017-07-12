@@ -32,6 +32,7 @@ class Navigation extends React.Component {
               React.createElement(
                 Layout,
                 { direction: 'horizontal' },
+                this.props.left,
                 React.createElement(Spacer, null),
                 React.createElement(Button, {
                   onClick: () => this.setState({ open: true }),

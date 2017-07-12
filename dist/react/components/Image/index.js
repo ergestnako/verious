@@ -37,8 +37,6 @@ class Image extends React.Component {
         const spacingUnit = getSpacingUnit();
         const newHeight = Math.floor(height / spacingUnit) * spacingUnit;
 
-        console.log(spacingUnit, height, newHeight);
-
         return React.createElement(
           'div',
           { className: 'vs-image-image', style: { height: newHeight } },
