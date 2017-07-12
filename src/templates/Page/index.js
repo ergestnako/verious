@@ -13,7 +13,9 @@ import Logo from '../../img/vs-logo.png';
 
 export default ({ children }) =>
   <div style={{ position: 'relative' }}>
-    <Helmet />
+    <Helmet>
+      <title>Verious</title>
+    </Helmet>
     <Navigation
       backgroundColor="vs-pink-700"
       textColor="vs-white"
