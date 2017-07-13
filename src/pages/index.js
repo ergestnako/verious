@@ -83,11 +83,6 @@ module.exports = () => (
             </Code>
           </Column>
         </Row>
-        <Row>
-          <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
-            <Heading size="2">Usage</Heading>
-          </Column>
-        </Row>
       </Container>
     </Wrapper>
   </Page>
