@@ -2,7 +2,7 @@
 
 ## Mission
 
-To provide a set of easy to use React components for designing static websites with Gatsby.
+To provide a set of easy to use React components for designing static websites with Gatsby. Read more [here](https://www.verious.io).
 
 ## Reference
 
@@ -14,12 +14,12 @@ To provide a set of easy to use React components for designing static websites w
 
 ### Install Dependencies
 
-    npm install
+    yarn install
 
 ### Run Development Server
 
-    npm run develop
+    yarn develop
 
 ### Build for Production
 
-    npm run build
+    yarn build
