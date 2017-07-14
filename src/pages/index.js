@@ -34,42 +34,42 @@ module.exports = () => (
         </Row>
         <Row>
           <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
-            <Heading size="2">Core Principles</Heading>
+            <Heading size="2">Principles</Heading>
           </Column>
         </Row>
         <Row>
           <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-            <Heading size="3">Opt-in styles.</Heading>
-            <Paragraph>All styles and mixins are name-spaced so designers can use what they want and drop what they do not.</Paragraph>
+            <Heading size="3">Static Deployment</Heading>
+            <Paragraph>Gatsby is used to produce a static website that can be deployed to whole range of services. Verious is simply a component library built for Gatsby and React applications. Check out Gatsby for more information.</Paragraph>
             <Square size="2" />
           </Column>
           <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-            <Heading size="3">Responsive layout.</Heading>
-            <Paragraph>Grid layout for phone, tablet, desktop, and large desktop.</Paragraph>
-            <Square size="2" />
-          </Column>
-        </Row>
-        <Row>
-          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-            <Heading size="3">Baseline grid.</Heading>
-            <Paragraph>All elements are aligned to the same vertical grid and a modular scale is used to ensure proper scale across all viewports.</Paragraph>
-            <Square size="2" />
-          </Column>
-          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-            <Heading size="3">Component based design.</Heading>
-            <Paragraph>Components encapsulate HTML, CSS, and javascript code into easy to use packages. Designers can use components to build webpages without getting into the weeds.</Paragraph>
+            <Heading size="3">Component Based Design</Heading>
+            <Paragraph>Component HTML, CSS, and javascript code is isolated in a single React component. This abstraction allows designers to build complex layouts in single files using an easy to learn HTML-like syntax.</Paragraph>
             <Square size="2" />
           </Column>
         </Row>
         <Row>
           <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-            <Heading size="3">Reusability.</Heading>
-            <Paragraph>Complex components can be isolated into a single file and included throughout a codebase.</Paragraph>
+            <Heading size="3">Reusability</Heading>
+            <Paragraph>Components can be shared across other components and pages using a simple module system. This ensures a single source of truth for every component which increases efficiency and even allows components to be reused across projects.</Paragraph>
             <Square size="2" />
           </Column>
           <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
-            <Heading size="3">Abstract Measurements.</Heading>
-            <Paragraph>The horizontal responsive grid and vertical baseline grid provide a set of abstract measurements to simplify design discussions and ensure responsiveness.</Paragraph>
+            <Heading size="3">Vertical Rhythm</Heading>
+            <Paragraph>A website should have a regular repeated rhythm built on top of a common baseline to reduce friction and improve familiarity. The baseline grid is responsive to viewport width breaking with the responsive grid.</Paragraph>
+            <Square size="2" />
+          </Column>
+        </Row>
+        <Row>
+          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
+            <Heading size="3">Abstract Measurements</Heading>
+            <Paragraph>The responsive and baseline grids provide a set of abstract measurements in design. Designers are encouraged to avoid exact pixels values and instead adopt units that scale across devices.</Paragraph>
+            <Square size="2" />
+          </Column>
+          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
+            <Heading size="3">CSS Underneath</Heading>
+            <Paragraph>Under the hood, styles are written in SASS, namespaced by component, and compiled to CSS. This provides an easy escape hatch for translating components to vanilla CSS and HTML code.</Paragraph>
             <Square size="2" />
           </Column>
         </Row>

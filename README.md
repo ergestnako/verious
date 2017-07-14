@@ -1,28 +1,25 @@
 # Verious
 
-A library of very serious react components for building static websites with [Gatsby](https://www.gatsbyjs.org/).
+## Mission
+
+To provide a set of easy to use React components for designing static websites with Gatsby.
 
 ## Reference
 
-https://github.com/jakegiltsoff/sassline
-https://github.com/simonlindsay/typographic-rhythm
+- https://github.com/jakegiltsoff/sassline
+- https://github.com/simonlindsay/typographic-rhythm
+- https://www.gatsbyjs.org/
 
-### Dependencies
+## Development
 
-#### Install
+### Install Dependencies
 
     npm install
 
-### Build & Run
+### Run Development Server
 
-#### 1. Build Public Directory
+    npm run develop
+
+### Build for Production
 
     npm run build
-
-#### 2. Build Docker Image
-
-    docker build -t verious .
-
-#### 3. Run Docker Image
-
-    docker run -d --publish 3000:8080 --name verious verious
