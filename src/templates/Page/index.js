@@ -10,6 +10,7 @@ import Baseline from '../../../react/components/Baseline';
 import Layout from '../../../react/components/Layout';
 import Spacer from '../../../react/components/Spacer';
 import Logo from '../../img/vs-logo.png';
+import Dropdown from '../../../react/components/Dropdown';
 
 export default ({ children }) =>
   <div style={{ position: 'relative' }}>
@@ -30,45 +31,63 @@ export default ({ children }) =>
       )}
     >
       <List unstyled>
-        <ListItem textColor="vs-pink-200">
-          Typography
-        </ListItem>
-        <ListItem>
-          <List unstyled>
-            <ListItem textColor="vs-white">
-              <Link to="/typography/paragraph/">Paragraph</Link>
+        <Dropdown
+          button={(
+            <ListItem textColor="vs-pink-200">
+              Typography
             </ListItem>
-          </List>
-        </ListItem>
-        <ListItem textColor="vs-pink-200">
-          Blocks
-        </ListItem>
-        <ListItem>
-          <List unstyled>
-            <ListItem textColor="vs-white">
-              <Link to="/blocks/image-full-width/">ImageFullWidth</Link>
+          )}
+          children={(
+            <ListItem>
+              <List unstyled>
+                <ListItem textColor="vs-white">
+                  <Link to="/typography/paragraph/">Paragraph</Link>
+                </ListItem>
+              </List>
             </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/blocks/image-center/">ImageCenter</Link>
+          )}
+        />
+        <Dropdown
+          button={(
+            <ListItem textColor="vs-pink-200">
+              Blocks
             </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/blocks/image-left/">ImageLeft</Link>
+          )}
+          children={(
+            <ListItem>
+              <List unstyled>
+                <ListItem textColor="vs-white">
+                  <Link to="/blocks/image-full-width/">ImageFullWidth</Link>
+                </ListItem>
+                <ListItem textColor="vs-white">
+                  <Link to="/blocks/image-center/">ImageCenter</Link>
+                </ListItem>
+                <ListItem textColor="vs-white">
+                  <Link to="/blocks/image-left/">ImageLeft</Link>
+                </ListItem>
+                <ListItem textColor="vs-white">
+                  <Link to="/blocks/image-right/">ImageRight</Link>
+                </ListItem>
+              </List>
             </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/blocks/image-right/">ImageRight</Link>
+          )}
+        />
+        <Dropdown
+          button={(
+            <ListItem textColor="vs-pink-200">
+              External Links
             </ListItem>
-          </List>
-        </ListItem>
-        <ListItem textColor="vs-pink-200">
-          External Links
-        </ListItem>
-        <ListItem>
-          <List unstyled>
-            <ListItem textColor="vs-white">
-              <a href="https://github.com/cpinnix/verious">Github</a>
+          )}
+          children={(
+            <ListItem>
+              <List unstyled>
+                <ListItem textColor="vs-white">
+                  <a href="https://github.com/cpinnix/verious">Github</a>
+                </ListItem>
+              </List>
             </ListItem>
-          </List>
-        </ListItem>
+          )}
+        />
       </List>
     </Navigation>
     {children}
