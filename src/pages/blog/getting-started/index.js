@@ -1,5 +1,4 @@
 const React = require('react');
-const Link = require('gatsby-link');
 const Page = require('../../../templates/Page');
 const Hero = require('../../../components/Hero');
 const Wrapper = require('../../../../react/components/Wrapper');
@@ -9,6 +8,8 @@ const Column = require('../../../../react/components/Column');
 const Heading = require('../../../../react/components/Heading');
 const Paragraph = require('../../../../react/components/Paragraph');
 const Code = require('../../../../react/components/Code');
+const Square = require('../../../../react/components/Square');
+const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (
   <Page>
@@ -36,6 +37,11 @@ rm -rf .git
 yarn install
             `}</Code>
             <Paragraph>After these dependencies install, we are ready to rock. But first, we must learn to <a href="/blog/develop-and-deploy/">develop and deploy</a>.</Paragraph>
+            <Square size="8" />
+            <Navigator
+              nextLink="/blog/develop-and-deploy/"
+              nextLabel="Develop and Deploy"
+            />
           </Column>
         </Row>
       </Container>

@@ -8,6 +8,8 @@ const Column = require('../../../../react/components/Column');
 const Heading = require('../../../../react/components/Heading');
 const Paragraph = require('../../../../react/components/Paragraph');
 const Code = require('../../../../react/components/Code');
+const Square = require('../../../../react/components/Square');
+const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (
   <Page>
@@ -30,6 +32,13 @@ yarn develop
 yarn build
             `}</Code>
             <Paragraph>The site is now built to the /public directory where is can be deployed to any static hosting service. Our favorite is <a href="https://www.netlify.com/">Netlify</a> and you can find the Netlify quickstart <a href="https://www.netlify.com/docs/">here</a>.</Paragraph>
+            <Square size="8" />
+            <Navigator
+              previousLink="/blog/getting-started/"
+              previousLabel="Getting Started"
+              nextLink="/blog/directory-structure/"
+              nextLabel="Directory Structure"
+            />
           </Column>
         </Row>
       </Container>

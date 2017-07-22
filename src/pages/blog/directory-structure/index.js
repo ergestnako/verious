@@ -7,7 +7,9 @@ const Row = require('../../../../react/components/Row');
 const Column = require('../../../../react/components/Column');
 const Heading = require('../../../../react/components/Heading');
 const Paragraph = require('../../../../react/components/Paragraph');
+const Square = require('../../../../react/components/Square');
 const Code = require('../../../../react/components/Code');
+const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (
   <Page>
@@ -63,7 +65,12 @@ module.exports = () => (
       index.js
   html.js
             `}</Code>
-            <Paragraph>This structure provides the basic building blocks for building a website. Now let us begin development.</Paragraph>
+            <Paragraph>This structure provides the basic building blocks for building a website.</Paragraph>
+            <Square size="8" />
+            <Navigator
+              previousLink="/blog/develop-and-deploy/"
+              previousLabel="Develop and Deploy"
+            />
           </Column>
         </Row>
       </Container>
