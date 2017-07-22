@@ -34,6 +34,28 @@ export default ({ children }) =>
         <Dropdown
           button={(
             <ListItem textColor="vs-pink-200">
+              Documentation
+            </ListItem>
+          )}
+          children={(
+            <ListItem>
+              <List unstyled>
+                <ListItem textColor="vs-white">
+                  <Link to="/blog/getting-started/">Getting Started</Link>
+                </ListItem>
+                <ListItem textColor="vs-white">
+                  <Link to="/blog/develop-and-deploy/">Develop and Deploy</Link>
+                </ListItem>
+                <ListItem textColor="vs-white">
+                  <Link to="/blog/directory-structure/">Directory Structure</Link>
+                </ListItem>
+              </List>
+            </ListItem>
+          )}
+        />
+        <Dropdown
+          button={(
+            <ListItem textColor="vs-pink-200">
               Typography
             </ListItem>
           )}

@@ -1,4 +1,5 @@
 const React = require('react');
+const Link = require('gatsby-link');
 const Page = require('../../../templates/Page');
 const Hero = require('../../../components/Hero');
 const Wrapper = require('../../../../react/components/Wrapper');
@@ -30,6 +31,11 @@ mv verious-boilerplate your-project-name
 cd your-project-name
 rm -rf .git
             `}</Code>
+            <Paragraph>This project requires a handful of dependencies to run and luckily, these can be retrieved with a single command:</Paragraph>
+            <Code>{`
+yarn install
+            `}</Code>
+            <Paragraph>After these dependencies install, we are ready to rock. But first, we must learn to <a href="/blog/develop-and-deploy/">develop and deploy</a>.</Paragraph>
           </Column>
         </Row>
       </Container>
