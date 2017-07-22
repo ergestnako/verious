@@ -1,6 +1,6 @@
 const React = require('react');
 const Page = require('../../../templates/Page');
-const Hero = require('../../../components/Hero');
+const HeroGif = require('../../../components/HeroGif');
 const Wrapper = require('../../../../react/components/Wrapper');
 const Container = require('../../../../react/components/Container');
 const Row = require('../../../../react/components/Row');
@@ -13,7 +13,8 @@ const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (
   <Page>
-    <Hero
+    <HeroGif
+      source="https://media.giphy.com/media/3oEjHLC7SxZtxVW5eE/giphy.gif"
       title="Getting Started"
       subtitle="Things are going to get serious kids."
     />
