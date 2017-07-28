@@ -1,26 +1,37 @@
-const React = require('react');
-const utilities = require('../../utilities');
+'use strict';
 
-function getClassName({ backgroundColor, textColor }) {
-  let classes = ['vs-li'];
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+
+var React = require('react');
+var utilities = require('../../utilities');
+
+function getClassName(_ref) {
+  var backgroundColor = _ref.backgroundColor,
+      textColor = _ref.textColor;
+
+  var classes = ['vs-li'];
 
   if (backgroundColor) {
     if (utilities.isInternalColor(backgroundColor)) {
-      classes = [...classes, `vs-background-color--${backgroundColor.slice(3)}`];
+      classes = [].concat(_toConsumableArray(classes), ['vs-background-color--' + backgroundColor.slice(3)]);
     }
   }
 
   if (textColor) {
     if (utilities.isInternalColor(textColor)) {
-      classes = [...classes, `vs-text-color--${textColor.slice(3)}`];
+      classes = [].concat(_toConsumableArray(classes), ['vs-text-color--' + textColor.slice(3)]);
     }
   }
 
   return classes.join(' ');
 }
 
-function getStyle({ style, backgroundColor, textColor }) {
-  const styles = {};
+function getStyle(_ref2) {
+  var style = _ref2.style,
+      backgroundColor = _ref2.backgroundColor,
+      textColor = _ref2.textColor;
+
+  var styles = {};
 
   if (backgroundColor) {
     if (!utilities.isInternalColor(backgroundColor)) {
@@ -37,11 +48,17 @@ function getStyle({ style, backgroundColor, textColor }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ children, style, backgroundColor, textColor }) => React.createElement(
-  'li',
-  {
-    className: getClassName({ backgroundColor, textColor }),
-    style: getStyle({ style })
-  },
-  children
-);
+module.exports = function (_ref3) {
+  var children = _ref3.children,
+      style = _ref3.style,
+      backgroundColor = _ref3.backgroundColor,
+      textColor = _ref3.textColor;
+  return React.createElement(
+    'li',
+    {
+      className: getClassName({ backgroundColor: backgroundColor, textColor: textColor }),
+      style: getStyle({ style: style })
+    },
+    children
+  );
+};

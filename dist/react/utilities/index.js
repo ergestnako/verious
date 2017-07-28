@@ -1,5 +1,7 @@
+'use strict';
+
 module.exports = {
-  isInternalColor(color) {
+  isInternalColor: function isInternalColor(color) {
     return color.includes('vs-');
   }
 };

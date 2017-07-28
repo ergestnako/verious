@@ -1,20 +1,28 @@
-const React = require('react');
-const utilities = require('../../utilities');
+'use strict';
 
-function getClassName({ direction, backgroundColor }) {
-  const classes = ['vs-layout', direction === 'horizontal' ? 'vs-layout--horizontal' : 'vs-layout--vertical'];
+var React = require('react');
+var utilities = require('../../utilities');
+
+function getClassName(_ref) {
+  var direction = _ref.direction,
+      backgroundColor = _ref.backgroundColor;
+
+  var classes = ['vs-layout', direction === 'horizontal' ? 'vs-layout--horizontal' : 'vs-layout--vertical'];
 
   if (backgroundColor) {
     if (utilities.isInternalColor(backgroundColor)) {
-      classes.push(`vs-background-color--${backgroundColor.slice(3)}`);
+      classes.push('vs-background-color--' + backgroundColor.slice(3));
     }
   }
 
   return classes.join(' ');
 }
 
-function getStyles({ style, backgroundColor }) {
-  const styles = {};
+function getStyles(_ref2) {
+  var style = _ref2.style,
+      backgroundColor = _ref2.backgroundColor;
+
+  var styles = {};
 
   if (backgroundColor) {
     if (!utilities.isInternalColor(backgroundColor)) {
@@ -25,11 +33,17 @@ function getStyles({ style, backgroundColor }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ children, direction, backgroundColor, style }) => React.createElement(
-  'div',
-  {
-    className: getClassName({ direction, backgroundColor }),
-    style: getStyles({ direction, backgroundColor, style })
-  },
-  children
-);
+module.exports = function (_ref3) {
+  var children = _ref3.children,
+      direction = _ref3.direction,
+      backgroundColor = _ref3.backgroundColor,
+      style = _ref3.style;
+  return React.createElement(
+    'div',
+    {
+      className: getClassName({ direction: direction, backgroundColor: backgroundColor }),
+      style: getStyles({ direction: direction, backgroundColor: backgroundColor, style: style })
+    },
+    children
+  );
+};

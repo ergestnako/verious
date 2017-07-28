@@ -1,3 +1,7 @@
-const React = require('react');
+"use strict";
 
-module.exports = () => React.createElement("div", { className: "vs-spacer" });
+var React = require('react');
+
+module.exports = function () {
+  return React.createElement("div", { className: "vs-spacer" });
+};

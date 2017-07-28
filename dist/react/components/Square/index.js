@@ -1,22 +1,30 @@
-const React = require('react');
-const utilities = require('../../utilities');
+'use strict';
 
-function getClassName({ backgroundColor }) {
-  const classes = [];
+var React = require('react');
+var utilities = require('../../utilities');
+
+function getClassName(_ref) {
+  var backgroundColor = _ref.backgroundColor;
+
+  var classes = [];
 
   if (backgroundColor) {
     if (utilities.isInternalColor(backgroundColor)) {
-      classes.push(`vs-background-color--${backgroundColor.slice(3)}`);
+      classes.push('vs-background-color--' + backgroundColor.slice(3));
     }
   }
 
   return classes.join(' ');
 }
 
-function getStyles({ size, style, backgroundColor }) {
-  const styles = {
-    width: `${size}rem`,
-    height: `${size}rem`
+function getStyles(_ref2) {
+  var size = _ref2.size,
+      style = _ref2.style,
+      backgroundColor = _ref2.backgroundColor;
+
+  var styles = {
+    width: size + 'rem',
+    height: size + 'rem'
   };
 
   if (backgroundColor) {
@@ -28,7 +36,9 @@ function getStyles({ size, style, backgroundColor }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = props => React.createElement('div', {
-  style: getStyles(props),
-  className: getClassName(props)
-});
+module.exports = function (props) {
+  return React.createElement('div', {
+    style: getStyles(props),
+    className: getClassName(props)
+  });
+};

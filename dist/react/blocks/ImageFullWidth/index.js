@@ -1,9 +1,15 @@
-const React = require('react');
-const Image = require('../../components/Image');
-const Wrapper = require('../../components/Wrapper');
+'use strict';
 
-module.exports = ({ source, caption }) => React.createElement(
-  Wrapper,
-  null,
-  React.createElement(Image, { source: source })
-);
+var React = require('react');
+var Image = require('../../components/Image');
+var Wrapper = require('../../components/Wrapper');
+
+module.exports = function (_ref) {
+  var source = _ref.source,
+      caption = _ref.caption;
+  return React.createElement(
+    Wrapper,
+    null,
+    React.createElement(Image, { source: source })
+  );
+};

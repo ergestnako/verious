@@ -3813,7 +3813,8 @@ caption, th, td {
 
 .vs-background-image {
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center; }
 
 .vs-button {
   font-family: Helvetica, sans-serif;

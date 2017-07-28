@@ -1,11 +1,16 @@
-const React = require('react');
+"use strict";
 
-module.exports = ({ children }) => React.createElement(
-  "div",
-  { className: "verious" },
-  React.createElement(
-    "blockquote",
-    null,
-    children
-  )
-);
+var React = require('react');
+
+module.exports = function (_ref) {
+  var children = _ref.children;
+  return React.createElement(
+    "div",
+    { className: "verious" },
+    React.createElement(
+      "blockquote",
+      null,
+      children
+    )
+  );
+};
