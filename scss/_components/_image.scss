@@ -26,4 +26,8 @@
     top: 50%;
     transform: translateY(-50%);
   }
+
+  &-responsive {
+    @include vs-image-responsive();
+  }
 }
