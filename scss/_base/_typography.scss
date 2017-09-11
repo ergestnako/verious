@@ -56,77 +56,77 @@
 
 .verious {
   h1 {
-    @include vs-h(1);
+    @include vs-h($bodytype, 1);
   }
 
   h2 {
-    @include vs-h(2);
+    @include vs-h($bodytype, 2);
   }
 
   h3 {
-    @include vs-h(3);
+    @include vs-h($bodytype, 3);
   }
 
   h4 {
-    @include vs-h(4);
+    @include vs-h($bodytype, 4);
   }
 
   h5 {
-    @include vs-h(5);
+    @include vs-h($bodytype, 5);
   }
 
   h6 {
-    @include vs-h(6);
+    @include vs-h($bodytype, 6);
   }
 }
 
 .vs-h1 {
-  @include vs-h(1);
+  @include vs-h($bodytype, 1);
 }
 
 .vs-h2 {
-  @include vs-h(2);
+  @include vs-h($bodytype, 2);
 }
 
 .vs-h3 {
-  @include vs-h(3);
+  @include vs-h($bodytype, 3);
 }
 
 .vs-h4 {
-  @include vs-h(4);
+  @include vs-h($bodytype, 4);
 }
 
 .vs-h5 {
-  @include vs-h(5);
+  @include vs-h($bodytype, 5);
 }
 
 .vs-h6 {
-  @include vs-h(6);
+  @include vs-h($bodytype, 6);
 }
 
 .verious {
   .vs-h1 {
-    @include vs-h(1);
+    @include vs-h($bodytype, 1);
   }
 
   .vs-h2 {
-    @include vs-h(2);
+    @include vs-h($bodytype, 2);
   }
 
   .vs-h3 {
-    @include vs-h(3);
+    @include vs-h($bodytype, 3);
   }
 
   .vs-h4 {
-    @include vs-h(4);
+    @include vs-h($bodytype, 4);
   }
 
   .vs-h5 {
-    @include vs-h(5);
+    @include vs-h($bodytype, 5);
   }
 
   .vs-h6 {
-    @include vs-h(6);
+    @include vs-h($bodytype, 6);
   }
 }
 
