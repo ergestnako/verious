@@ -1,0 +1,50 @@
+//
+//    File:           _visibility.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Visible
+//    2. Hidden
+//
+
+// ---------------------------------------------
+//    1. Visible
+// ---------------------------------------------
+
+.vs-visible-sm {
+  @include vs-visible($vs-screen-sm):
+}
+
+.vs-visible-md {
+  @include vs-visible($vs-screen-md):
+}
+
+.vs-visible-lg {
+  @include vs-visible($vs-screen-lg):
+}
+
+.vs-visible-xl {
+  @include vs-visible($vs-screen-xl):
+}
+
+// ---------------------------------------------
+//    2. Hidden
+// ---------------------------------------------
+
+.vs-hidden-sm {
+  @include vs-hidden($vs-screen-sm):
+}
+
+.vs-hidden-md {
+  @include vs-hidden($vs-screen-md):
+}
+
+.vs-hidden-lg {
+  @include vs-hidden($vs-screen-lg):
+}
+
+.vs-hidden-xl {
+  @include vs-hidden($vs-screen-xl):
+}

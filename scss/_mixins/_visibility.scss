@@ -1,0 +1,25 @@
+//
+//    File:           _visibility.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+// ---------------------------------------------
+//    1. Base
+// ---------------------------------------------
+
+@mixin vs-visible($viewport) {
+  @include at-breakpoint($viewport) {
+    display: block;
+  }
+}
+
+@mixin vs-hidden($viewport) {
+  @include at-breakpoint($viewport) {
+    display: none;
+  }
+}
