@@ -1,0 +1,21 @@
+//
+//    File:           _horizontal-scroll.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+// ---------------------------------------------
+//    1. Base
+// ---------------------------------------------
+
+.vs-horizontal-scroll {
+  @include vs-horizontal-scroll();
+}
+
+.vs-horizontal-scroll-item {
+  @include vs-horizontal-scroll-item();
+}

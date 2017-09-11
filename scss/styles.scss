@@ -41,10 +41,12 @@
 @import "_mixins/_typography/_blockquote";
 @import "_mixins/_color/_color";
 @import "_mixins/_transition";
+@import "_mixins/_visibility";
 @import "_mixins/_background-image";
 @import "_mixins/_components/_button";
 @import "_mixins/_components/_image";
 @import "_mixins/_components/_horizontal-rule";
+@import "_mixins/_components/_horizontal-scroll";
 @import "_mixins/_components/_shadow";
 
 // ---------------------------------------------
@@ -54,6 +56,7 @@
 @import "_base/_layout";
 @import "_base/_typography";
 @import "_base/_color";
+@import "_base/_visibility";
 
 // ---------------------------------------------
 //    6. Components
@@ -68,6 +71,7 @@
 @import "_components/_background-image";
 @import "_components/_button";
 @import "_components/_horizontal-rule";
+@import "_components/_horizontal-scroll";
 @import "_components/_shadow";
 
 // ---------------------------------------------

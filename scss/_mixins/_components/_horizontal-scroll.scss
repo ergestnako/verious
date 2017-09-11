@@ -1,0 +1,22 @@
+//
+//    File:           _horizontal-scroll.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+// ---------------------------------------------
+//    1. Base
+// ---------------------------------------------
+
+@mixin vs-horizontal-scroll() {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+@mixin vs-horizontal-scroll-item() {
+  display: inline-block;
+}

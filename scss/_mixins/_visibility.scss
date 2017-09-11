@@ -13,13 +13,13 @@
 // ---------------------------------------------
 
 @mixin vs-visible($viewport) {
-  @include at-breakpoint($viewport) {
+  @include vs-at-breakpoint($viewport) {
     display: block;
   }
 }
 
 @mixin vs-hidden($viewport) {
-  @include at-breakpoint($viewport) {
+  @include vs-at-breakpoint($viewport) {
     display: none;
   }
 }
