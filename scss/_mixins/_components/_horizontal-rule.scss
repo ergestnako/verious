@@ -1,0 +1,21 @@
+//
+//    File:           _horizontal-rule.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+// ---------------------------------------------
+//    1. Base
+// ---------------------------------------------
+
+@mixin vs-horizontal-rule($size) {
+  height: $size * 1rem;
+}
+
+@mixin vs-horizontal-rule-line {
+  height: 1px;
+}
