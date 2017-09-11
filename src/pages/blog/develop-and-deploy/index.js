@@ -16,7 +16,7 @@ module.exports = () => (
     <HeroGif
       source="https://media.giphy.com/media/QjgVkFzoTxMYg/giphy.gif"
       title="Develop and Deploy"
-      subtitle="Let's put this thing on the interwebs."
+      subtitle="Time to get this thing on the interwebs."
     />
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>

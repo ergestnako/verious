@@ -3801,6 +3801,9 @@ caption, th, td {
   top: 50%;
   transform: translateY(-50%); }
 
+.vs-image-responsive {
+  width: 100%; }
+
 .vs-layout {
   display: flex; }
   .vs-layout--horizontal {
