@@ -49,6 +49,11 @@ $vs-total-columns-xl: 16;
 //    3. Sassline
 // ---------------------------------------------
 
+$modularscale: (
+  base: 1em,
+  ratio: 1.5
+);
+
 // Note: For the following Sass maps enter values as if they would be px units.
 
 // Breakpoint sizes from px to ems. Add more values here to add more breakpoints.
