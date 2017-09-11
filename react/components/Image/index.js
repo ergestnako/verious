@@ -15,11 +15,18 @@ class Image extends React.Component {
   constructor() {
     super();
     this.state = {
+      loaded: false,
       dimensions: {
         width: -1,
         height: -1,
       },
     };
+
+    this.handleLoad = this.handleLoad.bind(this);
+  }
+
+  handleLoad() {
+    this.setState(Object.assign({}, this.state, { loaded: true }));
   }
 
   render() {
@@ -38,12 +45,17 @@ class Image extends React.Component {
 
           return (
             <div className="vs-image-image" style={{ height: newHeight }}>
-              <img src={this.props.source} className="vs-image-source" ref={measureRef} />
+              <img
+                src={this.props.source}
+                alt={this.props.source}
+                className="vs-image-source"
+                ref={measureRef}
+                onLoad={this.handleLoad}
+              />
             </div>
           );
         }}
       </Measure>
-
     );
   }
 }
