@@ -7,7 +7,8 @@ var utilities = require('../../utilities');
 
 function getClassName(_ref) {
   var backgroundColor = _ref.backgroundColor,
-      padding = _ref.padding;
+      padding = _ref.padding,
+      visibility = _ref.visibility;
 
   var classes = [];
 
@@ -19,6 +20,26 @@ function getClassName(_ref) {
 
   if (padding) {
     classes = [].concat(_toConsumableArray(classes), ['vs-padding-top-' + padding[0], 'vs-padding-right-' + padding[1], 'vs-padding-bottom-' + padding[2], 'vs-padding-left-' + padding[3]]);
+  }
+
+  if (visibility) {
+    classes = [].concat(_toConsumableArray(classes), ['vs-padding-top-' + padding[0], 'vs-padding-right-' + padding[1], 'vs-padding-bottom-' + padding[2], 'vs-padding-left-' + padding[3]]);
+
+    if (visibility[0] === false) {
+      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-sm']);
+    }
+
+    if (visibility[1] === false) {
+      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-md']);
+    }
+
+    if (visibility[2] === false) {
+      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-lg']);
+    }
+
+    if (visibility[3] === false) {
+      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-xl']);
+    }
   }
 
   return classes.join(' ');
@@ -43,12 +64,13 @@ module.exports = function (_ref3) {
   var children = _ref3.children,
       style = _ref3.style,
       backgroundColor = _ref3.backgroundColor,
-      padding = _ref3.padding;
+      padding = _ref3.padding,
+      visibility = _ref3.visibility;
   return React.createElement(
     'div',
     {
       style: getStyles({ style: style, backgroundColor: backgroundColor }),
-      className: getClassName({ backgroundColor: backgroundColor, padding: padding })
+      className: getClassName({ backgroundColor: backgroundColor, padding: padding, visibility: visibility })
     },
     children
   );

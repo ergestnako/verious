@@ -30,15 +30,23 @@ var Image = function (_React$Component) {
     var _this = _possibleConstructorReturn(this, (Image.__proto__ || Object.getPrototypeOf(Image)).call(this));
 
     _this.state = {
+      loaded: false,
       dimensions: {
         width: -1,
         height: -1
       }
     };
+
+    _this.handleLoad = _this.handleLoad.bind(_this);
     return _this;
   }
 
   _createClass(Image, [{
+    key: 'handleLoad',
+    value: function handleLoad() {
+      this.setState(Object.assign({}, this.state, { loaded: true }));
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
@@ -63,7 +71,13 @@ var Image = function (_React$Component) {
           return React.createElement(
             'div',
             { className: 'vs-image-image', style: { height: newHeight } },
-            React.createElement('img', { src: _this2.props.source, className: 'vs-image-source', ref: measureRef })
+            React.createElement('img', {
+              src: _this2.props.source,
+              alt: _this2.props.source,
+              className: 'vs-image-source',
+              ref: measureRef,
+              onLoad: _this2.handleLoad
+            })
           );
         }
       );

@@ -1233,46 +1233,28 @@ caption, th, td {
   padding-left: 12rem; }
 
 .vs-html {
-  font-size: 75%; }
+  font-size: 87.5%; }
   @media screen and (min-width: 48em) {
     .vs-html {
       font-size: 87.5%; } }
   @media screen and (min-width: 64em) {
     .vs-html {
-      font-size: 93.75%; } }
+      font-size: 100%; } }
   @media screen and (min-width: 80em) {
     .vs-html {
-      font-size: 106.25%; } }
+      font-size: 112.5%; } }
 
 .verious p {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.33333rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: 1.43999rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .verious p {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .verious p {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .verious p {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .verious p {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .verious p {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .verious p {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 400; }
   .verious p a {
     display: inline;
     color: inherit; }
@@ -1281,33 +1263,15 @@ caption, th, td {
 
 .vs-p {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.33333rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: 1.43999rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .vs-p {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-p {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-p {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-p {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-p {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-p {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 400; }
   .vs-p a {
     display: inline;
     color: inherit; }
@@ -1316,6 +1280,13 @@ caption, th, td {
 
 .verious a {
   font-family: Helvetica, sans-serif;
+  font-size: 1;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 1rem;
   font-style: normal;
   font-weight: 400; }
   .verious a a {
@@ -1327,6 +1298,13 @@ caption, th, td {
 .vs-a {
   display: inline-block;
   font-family: Helvetica, sans-serif;
+  font-size: 1;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 0rem;
   font-style: normal;
   font-weight: 400; }
   .vs-a:visited {
@@ -1334,549 +1312,219 @@ caption, th, td {
 
 .verious h1 {
   font-family: Helvetica, sans-serif;
+  font-size: 1.80203;
+  font-size: 1.80203rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.31703rem;
+  padding-bottom: 0.68297rem;
+  margin-bottom: 1rem;
   font-style: normal;
-  font-weight: 700;
-  font-size: 2.08333rem;
-  line-height: 3rem;
-  margin-bottom: 1.18749rem;
-  padding-top: 0.81251rem; }
-  @media screen and (min-width: 48em) {
-    .verious h1 {
-      font-size: 1.9rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h1 {
-      font-size: 1.87333rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h1 {
-      font-size: 2.08824rem; } }
-  @media screen and (min-width: 48em) {
-    .verious h1 {
-      margin-bottom: 1.12699rem;
-      padding-top: 0.87301rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h1 {
-      margin-bottom: 1.11819rem;
-      padding-top: 0.88181rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h1 {
-      margin-bottom: 1.18911rem;
-      padding-top: 0.81089rem; } }
+  font-weight: 700; }
 
 .verious h2 {
   font-family: Helvetica, sans-serif;
+  font-size: 1.60181;
+  font-size: 1.60181rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.39292rem;
+  padding-bottom: 0.60708rem;
+  margin-bottom: 1rem;
   font-style: normal;
-  font-weight: 700;
-  font-size: 1.86667rem;
-  line-height: 3rem;
-  margin-bottom: 1.11599rem;
-  padding-top: 0.88401rem; }
-  @media screen and (min-width: 48em) {
-    .verious h2 {
-      font-size: 1.71429rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h2 {
-      font-size: 1.70667rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h2 {
-      font-size: 1.76471rem; } }
-  @media screen and (min-width: 48em) {
-    .verious h2 {
-      margin-bottom: 1.0657rem;
-      padding-top: 0.9343rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h2 {
-      margin-bottom: 1.06319rem;
-      padding-top: 0.93681rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h2 {
-      margin-bottom: 1.08234rem;
-      padding-top: 0.91766rem; } }
+  font-weight: 700; }
 
 .verious h3 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.66667rem;
+  font-size: 1.42383;
+  font-size: 1.42383rem;
   line-height: 2rem;
-  margin-bottom: 1.54999rem;
-  padding-top: 0.45001rem; }
-  @media screen and (min-width: 48em) {
-    .verious h3 {
-      font-size: 1.52143rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h3 {
-      font-size: 1.5rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h3 {
-      font-size: 1.57059rem; } }
-  @media screen and (min-width: 48em) {
-    .verious h3 {
-      margin-bottom: 1.50206rem;
-      padding-top: 0.49794rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h3 {
-      margin-bottom: 1.49499rem;
-      padding-top: 0.50501rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h3 {
-      margin-bottom: 1.51828rem;
-      padding-top: 0.48172rem; } }
+  margin-top: 0rem;
+  padding-top: 0.46037rem;
+  padding-bottom: 0.53963rem;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .verious h4 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.49167rem;
+  font-size: 1.26562;
+  font-size: 1.26562rem;
   line-height: 2rem;
-  margin-bottom: 1.49224rem;
-  padding-top: 0.50776rem; }
-  @media screen and (min-width: 48em) {
-    .verious h4 {
-      font-size: 1.37143rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h4 {
-      font-size: 1.36667rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h4 {
-      font-size: 1.32353rem; } }
-  @media screen and (min-width: 48em) {
-    .verious h4 {
-      margin-bottom: 1.45256rem;
-      padding-top: 0.54744rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h4 {
-      margin-bottom: 1.45099rem;
-      padding-top: 0.54901rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h4 {
-      margin-bottom: 1.43675rem;
-      padding-top: 0.56325rem; } }
+  margin-top: -1rem;
+  padding-top: 0.52033rem;
+  padding-bottom: 0.47967rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .verious h5 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.33333rem;
+  font-size: 1.125;
+  font-size: 1.125rem;
   line-height: 2rem;
-  margin-bottom: 1.43999rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .verious h5 {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h5 {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h5 {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .verious h5 {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h5 {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h5 {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.57363rem;
+  padding-bottom: 0.42637rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .verious h6 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.06667rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: 1.35199rem;
-  padding-top: 0.64801rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem; }
-  @media screen and (min-width: 48em) {
-    .verious h6 {
-      font-size: 0.97143rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h6 {
-      font-size: 0.96rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h6 {
-      font-size: 0.88235rem; } }
-  @media screen and (min-width: 48em) {
-    .verious h6 {
-      margin-bottom: 1.32056rem;
-      padding-top: 0.67944rem; } }
-  @media screen and (min-width: 64em) {
-    .verious h6 {
-      margin-bottom: 1.31679rem;
-      padding-top: 0.68321rem; } }
-  @media screen and (min-width: 80em) {
-    .verious h6 {
-      margin-bottom: 1.29117rem;
-      padding-top: 0.70883rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .vs-h1 {
   font-family: Helvetica, sans-serif;
+  font-size: 1.80203;
+  font-size: 1.80203rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.31703rem;
+  padding-bottom: 0.68297rem;
+  margin-bottom: 1rem;
   font-style: normal;
-  font-weight: 700;
-  font-size: 2.08333rem;
-  line-height: 3rem;
-  margin-bottom: 1.18749rem;
-  padding-top: 0.81251rem; }
-  @media screen and (min-width: 48em) {
-    .vs-h1 {
-      font-size: 1.9rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h1 {
-      font-size: 1.87333rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h1 {
-      font-size: 2.08824rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-h1 {
-      margin-bottom: 1.12699rem;
-      padding-top: 0.87301rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h1 {
-      margin-bottom: 1.11819rem;
-      padding-top: 0.88181rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h1 {
-      margin-bottom: 1.18911rem;
-      padding-top: 0.81089rem; } }
+  font-weight: 700; }
 
 .vs-h2 {
   font-family: Helvetica, sans-serif;
+  font-size: 1.60181;
+  font-size: 1.60181rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.39292rem;
+  padding-bottom: 0.60708rem;
+  margin-bottom: 1rem;
   font-style: normal;
-  font-weight: 700;
-  font-size: 1.86667rem;
-  line-height: 3rem;
-  margin-bottom: 1.11599rem;
-  padding-top: 0.88401rem; }
-  @media screen and (min-width: 48em) {
-    .vs-h2 {
-      font-size: 1.71429rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h2 {
-      font-size: 1.70667rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h2 {
-      font-size: 1.76471rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-h2 {
-      margin-bottom: 1.0657rem;
-      padding-top: 0.9343rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h2 {
-      margin-bottom: 1.06319rem;
-      padding-top: 0.93681rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h2 {
-      margin-bottom: 1.08234rem;
-      padding-top: 0.91766rem; } }
+  font-weight: 700; }
 
 .vs-h3 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.66667rem;
+  font-size: 1.42383;
+  font-size: 1.42383rem;
   line-height: 2rem;
-  margin-bottom: 1.54999rem;
-  padding-top: 0.45001rem; }
-  @media screen and (min-width: 48em) {
-    .vs-h3 {
-      font-size: 1.52143rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h3 {
-      font-size: 1.5rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h3 {
-      font-size: 1.57059rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-h3 {
-      margin-bottom: 1.50206rem;
-      padding-top: 0.49794rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h3 {
-      margin-bottom: 1.49499rem;
-      padding-top: 0.50501rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h3 {
-      margin-bottom: 1.51828rem;
-      padding-top: 0.48172rem; } }
+  margin-top: 0rem;
+  padding-top: 0.46037rem;
+  padding-bottom: 0.53963rem;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .vs-h4 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.49167rem;
+  font-size: 1.26562;
+  font-size: 1.26562rem;
   line-height: 2rem;
-  margin-bottom: 1.49224rem;
-  padding-top: 0.50776rem; }
-  @media screen and (min-width: 48em) {
-    .vs-h4 {
-      font-size: 1.37143rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h4 {
-      font-size: 1.36667rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h4 {
-      font-size: 1.32353rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-h4 {
-      margin-bottom: 1.45256rem;
-      padding-top: 0.54744rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h4 {
-      margin-bottom: 1.45099rem;
-      padding-top: 0.54901rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h4 {
-      margin-bottom: 1.43675rem;
-      padding-top: 0.56325rem; } }
+  margin-top: -1rem;
+  padding-top: 0.52033rem;
+  padding-bottom: 0.47967rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .vs-h5 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.33333rem;
+  font-size: 1.125;
+  font-size: 1.125rem;
   line-height: 2rem;
-  margin-bottom: 1.43999rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .vs-h5 {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h5 {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h5 {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-h5 {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h5 {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h5 {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.57363rem;
+  padding-bottom: 0.42637rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .vs-h6 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.06667rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: 1.35199rem;
-  padding-top: 0.64801rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem; }
-  @media screen and (min-width: 48em) {
-    .vs-h6 {
-      font-size: 0.97143rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h6 {
-      font-size: 0.96rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h6 {
-      font-size: 0.88235rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-h6 {
-      margin-bottom: 1.32056rem;
-      padding-top: 0.67944rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-h6 {
-      margin-bottom: 1.31679rem;
-      padding-top: 0.68321rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-h6 {
-      margin-bottom: 1.29117rem;
-      padding-top: 0.70883rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .verious .vs-h1 {
   font-family: Helvetica, sans-serif;
+  font-size: 1.80203;
+  font-size: 1.80203rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.31703rem;
+  padding-bottom: 0.68297rem;
+  margin-bottom: 1rem;
   font-style: normal;
-  font-weight: 700;
-  font-size: 2.08333rem;
-  line-height: 3rem;
-  margin-bottom: 1.18749rem;
-  padding-top: 0.81251rem; }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h1 {
-      font-size: 1.9rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h1 {
-      font-size: 1.87333rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h1 {
-      font-size: 2.08824rem; } }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h1 {
-      margin-bottom: 1.12699rem;
-      padding-top: 0.87301rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h1 {
-      margin-bottom: 1.11819rem;
-      padding-top: 0.88181rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h1 {
-      margin-bottom: 1.18911rem;
-      padding-top: 0.81089rem; } }
+  font-weight: 700; }
 
 .verious .vs-h2 {
   font-family: Helvetica, sans-serif;
+  font-size: 1.60181;
+  font-size: 1.60181rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.39292rem;
+  padding-bottom: 0.60708rem;
+  margin-bottom: 1rem;
   font-style: normal;
-  font-weight: 700;
-  font-size: 1.86667rem;
-  line-height: 3rem;
-  margin-bottom: 1.11599rem;
-  padding-top: 0.88401rem; }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h2 {
-      font-size: 1.71429rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h2 {
-      font-size: 1.70667rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h2 {
-      font-size: 1.76471rem; } }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h2 {
-      margin-bottom: 1.0657rem;
-      padding-top: 0.9343rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h2 {
-      margin-bottom: 1.06319rem;
-      padding-top: 0.93681rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h2 {
-      margin-bottom: 1.08234rem;
-      padding-top: 0.91766rem; } }
+  font-weight: 700; }
 
 .verious .vs-h3 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.66667rem;
+  font-size: 1.42383;
+  font-size: 1.42383rem;
   line-height: 2rem;
-  margin-bottom: 1.54999rem;
-  padding-top: 0.45001rem; }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h3 {
-      font-size: 1.52143rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h3 {
-      font-size: 1.5rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h3 {
-      font-size: 1.57059rem; } }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h3 {
-      margin-bottom: 1.50206rem;
-      padding-top: 0.49794rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h3 {
-      margin-bottom: 1.49499rem;
-      padding-top: 0.50501rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h3 {
-      margin-bottom: 1.51828rem;
-      padding-top: 0.48172rem; } }
+  margin-top: 0rem;
+  padding-top: 0.46037rem;
+  padding-bottom: 0.53963rem;
+  margin-bottom: 1rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .verious .vs-h4 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.49167rem;
+  font-size: 1.26562;
+  font-size: 1.26562rem;
   line-height: 2rem;
-  margin-bottom: 1.49224rem;
-  padding-top: 0.50776rem; }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h4 {
-      font-size: 1.37143rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h4 {
-      font-size: 1.36667rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h4 {
-      font-size: 1.32353rem; } }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h4 {
-      margin-bottom: 1.45256rem;
-      padding-top: 0.54744rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h4 {
-      margin-bottom: 1.45099rem;
-      padding-top: 0.54901rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h4 {
-      margin-bottom: 1.43675rem;
-      padding-top: 0.56325rem; } }
+  margin-top: -1rem;
+  padding-top: 0.52033rem;
+  padding-bottom: 0.47967rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .verious .vs-h5 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.33333rem;
+  font-size: 1.125;
+  font-size: 1.125rem;
   line-height: 2rem;
-  margin-bottom: 1.43999rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h5 {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h5 {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h5 {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h5 {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h5 {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h5 {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.57363rem;
+  padding-bottom: 0.42637rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .verious .vs-h6 {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1.06667rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: 1.35199rem;
-  padding-top: 0.64801rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem; }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h6 {
-      font-size: 0.97143rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h6 {
-      font-size: 0.96rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h6 {
-      font-size: 0.88235rem; } }
-  @media screen and (min-width: 48em) {
-    .verious .vs-h6 {
-      margin-bottom: 1.32056rem;
-      padding-top: 0.67944rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-h6 {
-      margin-bottom: 1.31679rem;
-      padding-top: 0.68321rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-h6 {
-      margin-bottom: 1.29117rem;
-      padding-top: 0.70883rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: 700; }
 
 .verious ul {
   margin-left: 2rem;
@@ -1887,65 +1535,29 @@ caption, th, td {
 
 .verious li {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.33333rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: -0.56001rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .verious li {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .verious li {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .verious li {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .verious li {
-      margin-bottom: -0.5993rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .verious li {
-      margin-bottom: -0.60401rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .verious li {
-      margin-bottom: -0.61177rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 0rem;
+  font-style: normal;
+  font-weight: 400; }
   .verious li a {
     display: inline;
     font-family: Helvetica, sans-serif;
+    font-size: 1;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: -1rem;
+    padding-top: 0.621rem;
+    padding-bottom: 0.379rem;
+    margin-bottom: 0rem;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
-    font-size: 1.33333rem;
-    line-height: 2rem;
-    margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem;
     color: inherit; }
-    @media screen and (min-width: 48em) {
-      .verious li a {
-        font-size: 1.21429rem; } }
-    @media screen and (min-width: 64em) {
-      .verious li a {
-        font-size: 1.2rem; } }
-    @media screen and (min-width: 80em) {
-      .verious li a {
-        font-size: 1.17647rem; } }
-    @media screen and (min-width: 48em) {
-      .verious li a {
-        margin-bottom: 1.4007rem;
-        padding-top: 0.5993rem; } }
-    @media screen and (min-width: 64em) {
-      .verious li a {
-        margin-bottom: 1.39599rem;
-        padding-top: 0.60401rem; } }
-    @media screen and (min-width: 80em) {
-      .verious li a {
-        margin-bottom: 1.38823rem;
-        padding-top: 0.61177rem; } }
     .verious li a:visited {
       color: inherit; }
   .verious li > ul > li:first-child {
@@ -1966,65 +1578,29 @@ caption, th, td {
 
 .verious .vs-li {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.33333rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: -0.56001rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .verious .vs-li {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-li {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-li {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .verious .vs-li {
-      margin-bottom: -0.5993rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .verious .vs-li {
-      margin-bottom: -0.60401rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .verious .vs-li {
-      margin-bottom: -0.61177rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 0rem;
+  font-style: normal;
+  font-weight: 400; }
   .verious .vs-li a {
     display: inline;
     font-family: Helvetica, sans-serif;
+    font-size: 1;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: -1rem;
+    padding-top: 0.621rem;
+    padding-bottom: 0.379rem;
+    margin-bottom: 0rem;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
-    font-size: 1.33333rem;
-    line-height: 2rem;
-    margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem;
     color: inherit; }
-    @media screen and (min-width: 48em) {
-      .verious .vs-li a {
-        font-size: 1.21429rem; } }
-    @media screen and (min-width: 64em) {
-      .verious .vs-li a {
-        font-size: 1.2rem; } }
-    @media screen and (min-width: 80em) {
-      .verious .vs-li a {
-        font-size: 1.17647rem; } }
-    @media screen and (min-width: 48em) {
-      .verious .vs-li a {
-        margin-bottom: 1.4007rem;
-        padding-top: 0.5993rem; } }
-    @media screen and (min-width: 64em) {
-      .verious .vs-li a {
-        margin-bottom: 1.39599rem;
-        padding-top: 0.60401rem; } }
-    @media screen and (min-width: 80em) {
-      .verious .vs-li a {
-        margin-bottom: 1.38823rem;
-        padding-top: 0.61177rem; } }
     .verious .vs-li a:visited {
       color: inherit; }
   .verious .vs-li > ul > li:first-child {
@@ -2045,65 +1621,29 @@ caption, th, td {
 
 .vs-li {
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.33333rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: -0.56001rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .vs-li {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-li {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-li {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-li {
-      margin-bottom: -0.5993rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-li {
-      margin-bottom: -0.60401rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-li {
-      margin-bottom: -0.61177rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 0rem;
+  font-style: normal;
+  font-weight: 400; }
   .vs-li a {
     display: inline;
     font-family: Helvetica, sans-serif;
+    font-size: 1;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: -1rem;
+    padding-top: 0.621rem;
+    padding-bottom: 0.379rem;
+    margin-bottom: 0rem;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
-    font-size: 1.33333rem;
-    line-height: 2rem;
-    margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem;
     color: inherit; }
-    @media screen and (min-width: 48em) {
-      .vs-li a {
-        font-size: 1.21429rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-li a {
-        font-size: 1.2rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-li a {
-        font-size: 1.17647rem; } }
-    @media screen and (min-width: 48em) {
-      .vs-li a {
-        margin-bottom: 1.4007rem;
-        padding-top: 0.5993rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-li a {
-        margin-bottom: 1.39599rem;
-        padding-top: 0.60401rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-li a {
-        margin-bottom: 1.38823rem;
-        padding-top: 0.61177rem; } }
     .vs-li a:visited {
       color: inherit; }
   .vs-li > ul > li:first-child {
@@ -2112,66 +1652,30 @@ caption, th, td {
 .verious a {
   display: inline-block;
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.33333rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: 1.43999rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .verious a {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .verious a {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .verious a {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .verious a {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .verious a {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .verious a {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 0rem;
+  font-style: normal;
+  font-weight: 400; }
   .verious a:visited {
     color: inherit; }
 
 .vs-a {
   display: inline-block;
   font-family: Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1.33333rem;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: 1.43999rem;
-  padding-top: 0.56001rem; }
-  @media screen and (min-width: 48em) {
-    .vs-a {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-a {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-a {
-      font-size: 1.17647rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-a {
-      margin-bottom: 1.4007rem;
-      padding-top: 0.5993rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-a {
-      margin-bottom: 1.39599rem;
-      padding-top: 0.60401rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-a {
-      margin-bottom: 1.38823rem;
-      padding-top: 0.61177rem; } }
+  margin-top: -1rem;
+  padding-top: 0.621rem;
+  padding-bottom: 0.379rem;
+  margin-bottom: 0rem;
+  font-style: normal;
+  font-weight: 400; }
   .vs-a:visited {
     color: inherit; }
 
@@ -2186,34 +1690,16 @@ caption, th, td {
 
 .verious code {
   white-space: pre;
-  font-family: Menlo, monospace;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.06667rem;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: -0.63734rem;
-  padding-top: 0.63734rem; }
-  @media screen and (min-width: 48em) {
-    .verious code {
-      font-size: 0.97143rem; } }
-  @media screen and (min-width: 64em) {
-    .verious code {
-      font-size: 0.96rem; } }
-  @media screen and (min-width: 80em) {
-    .verious code {
-      font-size: 0.88235rem; } }
-  @media screen and (min-width: 48em) {
-    .verious code {
-      margin-bottom: -0.66972rem;
-      padding-top: 0.66972rem; } }
-  @media screen and (min-width: 64em) {
-    .verious code {
-      margin-bottom: -0.67361rem;
-      padding-top: 0.67361rem; } }
-  @media screen and (min-width: 80em) {
-    .verious code {
-      margin-bottom: -0.70001rem;
-      padding-top: 0.70001rem; } }
+  margin-top: -1rem;
+  padding-top: 0.67rem;
+  padding-bottom: 0.33rem;
+  margin-bottom: 0rem; }
 
 .vs-pre {
   background-color: #f5f5f5;
@@ -2226,34 +1712,16 @@ caption, th, td {
 
 .vs-code {
   white-space: pre;
-  font-family: Menlo, monospace;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.06667rem;
+  font-family: "Ubuntu Mono", sans-serif;
+  font-size: 1;
+  font-size: 1rem;
   line-height: 2rem;
-  margin-bottom: -0.63734rem;
-  padding-top: 0.63734rem; }
-  @media screen and (min-width: 48em) {
-    .vs-code {
-      font-size: 0.97143rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-code {
-      font-size: 0.96rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-code {
-      font-size: 0.88235rem; } }
-  @media screen and (min-width: 48em) {
-    .vs-code {
-      margin-bottom: -0.66972rem;
-      padding-top: 0.66972rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-code {
-      margin-bottom: -0.67361rem;
-      padding-top: 0.67361rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-code {
-      margin-bottom: -0.70001rem;
-      padding-top: 0.70001rem; } }
+  margin-top: -1rem;
+  padding-top: 0.67rem;
+  padding-bottom: 0.33rem;
+  margin-bottom: 0rem; }
 
 .verious blockquote {
   zoom: 1;
@@ -2278,6 +1746,166 @@ caption, th, td {
     content: ""; }
   .vs-blockquote:after {
     clear: both; }
+
+.vs-text-montserrat--0 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.6415rem;
+  padding-bottom: 0.3585rem;
+  margin-bottom: 0rem; }
+
+.vs-text-montserrat--1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.125;
+  font-size: 1.125rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.59669rem;
+  padding-bottom: 0.40331rem;
+  margin-bottom: 0rem; }
+
+.vs-text-montserrat--2 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.26562;
+  font-size: 1.26562rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.54627rem;
+  padding-bottom: 0.45373rem;
+  margin-bottom: 0rem; }
+
+.vs-text-montserrat--3 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.42383;
+  font-size: 1.42383rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.48956rem;
+  padding-bottom: 0.51044rem;
+  margin-bottom: -1rem; }
+
+.vs-text-montserrat--4 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.60181;
+  font-size: 1.60181rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.42575rem;
+  padding-bottom: 0.57425rem;
+  margin-bottom: -1rem; }
+
+.vs-text-montserrat--5 {
+  font-family: Montserrat, sans-serif;
+  font-size: 1.80203;
+  font-size: 1.80203rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.35397rem;
+  padding-bottom: 0.64603rem;
+  margin-bottom: -1rem; }
+
+.vs-text-montserrat--6 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.02729;
+  font-size: 2.02729rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.27322rem;
+  padding-bottom: 0.72678rem;
+  margin-bottom: -1rem; }
+
+.vs-text-montserrat--7 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.2807;
+  font-size: 2.2807rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.18237rem;
+  padding-bottom: 0.81763rem;
+  margin-bottom: -1rem; }
+
+.vs-text-montserrat--8 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.56578;
+  font-size: 2.56578rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.08017rem;
+  padding-bottom: 0.91983rem;
+  margin-bottom: -1rem; }
+
+.vs-text-montserrat--9 {
+  font-family: Montserrat, sans-serif;
+  font-size: 2.88651;
+  font-size: 2.88651rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.96519rem;
+  padding-bottom: 0.03481rem;
+  margin-bottom: 0rem; }
+
+.vs-text-montserrat--10 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.24732;
+  font-size: 3.24732rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.83584rem;
+  padding-bottom: 0.16416rem;
+  margin-bottom: 0rem; }
+
+.vs-text-montserrat--11 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.65324;
+  font-size: 3.65324rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.69031rem;
+  padding-bottom: 0.30969rem;
+  margin-bottom: 0rem; }
+
+.vs-text-montserrat--12 {
+  font-family: Montserrat, sans-serif;
+  font-size: 4.10989;
+  font-size: 4.10989rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.5266rem;
+  padding-bottom: 0.4734rem;
+  margin-bottom: 0rem; }
+
+.vs-text-montserrat--13 {
+  font-family: Montserrat, sans-serif;
+  font-size: 4.62363;
+  font-size: 4.62363rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.34243rem;
+  padding-bottom: 0.65757rem;
+  margin-bottom: -1rem; }
+
+.vs-text-montserrat--14 {
+  font-family: Montserrat, sans-serif;
+  font-size: 5.20158;
+  font-size: 5.20158rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.13523rem;
+  padding-bottom: 0.86477rem;
+  margin-bottom: -1rem; }
+
+.vs-text-montserrat--15 {
+  font-family: Montserrat, sans-serif;
+  font-size: 5.85178;
+  font-size: 5.85178rem;
+  line-height: 2rem;
+  margin-top: -1rem;
+  padding-top: 0.90214rem;
+  padding-bottom: 0.09786rem;
+  margin-bottom: 0rem; }
 
 .vs-background-color--red-50 {
   background-color: #ffebee; }
@@ -3431,6 +3059,38 @@ caption, th, td {
 .vs-text-color--black {
   color: #000000; }
 
+@media all and (min-width: 0) and (max-width: 767px) {
+  .vs-visible-sm {
+    display: block; } }
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .vs-visible-md {
+    display: block; } }
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .vs-visible-lg {
+    display: block; } }
+
+@media all and (min-width: 1280px) {
+  .vs-visible-xl {
+    display: block; } }
+
+@media all and (min-width: 0) and (max-width: 767px) {
+  .vs-hidden-sm {
+    display: none; } }
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  .vs-hidden-md {
+    display: none; } }
+
+@media all and (min-width: 1024px) and (max-width: 1279px) {
+  .vs-hidden-lg {
+    display: none; } }
+
+@media all and (min-width: 1280px) {
+  .vs-hidden-xl {
+    display: none; } }
+
 .vs-baseline {
   z-index: 1;
   position: absolute;
@@ -3823,24 +3483,328 @@ caption, th, td {
   font-family: Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.33333rem;
+  font-size: 1.125;
   line-height: 3rem;
   height: 3rem;
   padding-left: 1rem;
   padding-right: 1rem;
   border: 0;
   cursor: pointer; }
-  @media screen and (min-width: 48em) {
-    .vs-button {
-      font-size: 1.21429rem; } }
-  @media screen and (min-width: 64em) {
-    .vs-button {
-      font-size: 1.2rem; } }
-  @media screen and (min-width: 80em) {
-    .vs-button {
-      font-size: 1.17647rem; } }
   .vs-button:focus {
     outline: none; }
+
+.vs-horizontal-rule--1 {
+  height: 1rem; }
+
+.vs-horizontal-rule--2 {
+  height: 2rem; }
+
+.vs-horizontal-rule--3 {
+  height: 3rem; }
+
+.vs-horizontal-rule--4 {
+  height: 4rem; }
+
+.vs-horizontal-rule--5 {
+  height: 5rem; }
+
+.vs-horizontal-rule--6 {
+  height: 6rem; }
+
+.vs-horizontal-rule--7 {
+  height: 7rem; }
+
+.vs-horizontal-rule--8 {
+  height: 8rem; }
+
+.vs-horizontal-rule--9 {
+  height: 9rem; }
+
+.vs-horizontal-rule--10 {
+  height: 10rem; }
+
+.vs-horizontal-rule--11 {
+  height: 11rem; }
+
+.vs-horizontal-rule--12 {
+  height: 12rem; }
+
+.vs-horizontal-rule--13 {
+  height: 13rem; }
+
+.vs-horizontal-rule--14 {
+  height: 14rem; }
+
+.vs-horizontal-rule--15 {
+  height: 15rem; }
+
+.vs-horizontal-rule--16 {
+  height: 16rem; }
+
+.vs-horizontal-rule--17 {
+  height: 17rem; }
+
+.vs-horizontal-rule--18 {
+  height: 18rem; }
+
+.vs-horizontal-rule--19 {
+  height: 19rem; }
+
+.vs-horizontal-rule--20 {
+  height: 20rem; }
+
+.vs-horizontal-rule--21 {
+  height: 21rem; }
+
+.vs-horizontal-rule--22 {
+  height: 22rem; }
+
+.vs-horizontal-rule--23 {
+  height: 23rem; }
+
+.vs-horizontal-rule--24 {
+  height: 24rem; }
+
+.vs-horizontal-rule--25 {
+  height: 25rem; }
+
+.vs-horizontal-rule--26 {
+  height: 26rem; }
+
+.vs-horizontal-rule--27 {
+  height: 27rem; }
+
+.vs-horizontal-rule--28 {
+  height: 28rem; }
+
+.vs-horizontal-rule--29 {
+  height: 29rem; }
+
+.vs-horizontal-rule--30 {
+  height: 30rem; }
+
+.vs-horizontal-rule--31 {
+  height: 31rem; }
+
+.vs-horizontal-rule--32 {
+  height: 32rem; }
+
+.vs-horizontal-rule--33 {
+  height: 33rem; }
+
+.vs-horizontal-rule--34 {
+  height: 34rem; }
+
+.vs-horizontal-rule--35 {
+  height: 35rem; }
+
+.vs-horizontal-rule--36 {
+  height: 36rem; }
+
+.vs-horizontal-rule--37 {
+  height: 37rem; }
+
+.vs-horizontal-rule--38 {
+  height: 38rem; }
+
+.vs-horizontal-rule--39 {
+  height: 39rem; }
+
+.vs-horizontal-rule--40 {
+  height: 40rem; }
+
+.vs-horizontal-rule--41 {
+  height: 41rem; }
+
+.vs-horizontal-rule--42 {
+  height: 42rem; }
+
+.vs-horizontal-rule--43 {
+  height: 43rem; }
+
+.vs-horizontal-rule--44 {
+  height: 44rem; }
+
+.vs-horizontal-rule--45 {
+  height: 45rem; }
+
+.vs-horizontal-rule--46 {
+  height: 46rem; }
+
+.vs-horizontal-rule--47 {
+  height: 47rem; }
+
+.vs-horizontal-rule--48 {
+  height: 48rem; }
+
+.vs-horizontal-rule--49 {
+  height: 49rem; }
+
+.vs-horizontal-rule--50 {
+  height: 50rem; }
+
+.vs-horizontal-rule--51 {
+  height: 51rem; }
+
+.vs-horizontal-rule--52 {
+  height: 52rem; }
+
+.vs-horizontal-rule--53 {
+  height: 53rem; }
+
+.vs-horizontal-rule--54 {
+  height: 54rem; }
+
+.vs-horizontal-rule--55 {
+  height: 55rem; }
+
+.vs-horizontal-rule--56 {
+  height: 56rem; }
+
+.vs-horizontal-rule--57 {
+  height: 57rem; }
+
+.vs-horizontal-rule--58 {
+  height: 58rem; }
+
+.vs-horizontal-rule--59 {
+  height: 59rem; }
+
+.vs-horizontal-rule--60 {
+  height: 60rem; }
+
+.vs-horizontal-rule--61 {
+  height: 61rem; }
+
+.vs-horizontal-rule--62 {
+  height: 62rem; }
+
+.vs-horizontal-rule--63 {
+  height: 63rem; }
+
+.vs-horizontal-rule--64 {
+  height: 64rem; }
+
+.vs-horizontal-rule--65 {
+  height: 65rem; }
+
+.vs-horizontal-rule--66 {
+  height: 66rem; }
+
+.vs-horizontal-rule--67 {
+  height: 67rem; }
+
+.vs-horizontal-rule--68 {
+  height: 68rem; }
+
+.vs-horizontal-rule--69 {
+  height: 69rem; }
+
+.vs-horizontal-rule--70 {
+  height: 70rem; }
+
+.vs-horizontal-rule--71 {
+  height: 71rem; }
+
+.vs-horizontal-rule--72 {
+  height: 72rem; }
+
+.vs-horizontal-rule--73 {
+  height: 73rem; }
+
+.vs-horizontal-rule--74 {
+  height: 74rem; }
+
+.vs-horizontal-rule--75 {
+  height: 75rem; }
+
+.vs-horizontal-rule--76 {
+  height: 76rem; }
+
+.vs-horizontal-rule--77 {
+  height: 77rem; }
+
+.vs-horizontal-rule--78 {
+  height: 78rem; }
+
+.vs-horizontal-rule--79 {
+  height: 79rem; }
+
+.vs-horizontal-rule--80 {
+  height: 80rem; }
+
+.vs-horizontal-rule--81 {
+  height: 81rem; }
+
+.vs-horizontal-rule--82 {
+  height: 82rem; }
+
+.vs-horizontal-rule--83 {
+  height: 83rem; }
+
+.vs-horizontal-rule--84 {
+  height: 84rem; }
+
+.vs-horizontal-rule--85 {
+  height: 85rem; }
+
+.vs-horizontal-rule--86 {
+  height: 86rem; }
+
+.vs-horizontal-rule--87 {
+  height: 87rem; }
+
+.vs-horizontal-rule--88 {
+  height: 88rem; }
+
+.vs-horizontal-rule--89 {
+  height: 89rem; }
+
+.vs-horizontal-rule--90 {
+  height: 90rem; }
+
+.vs-horizontal-rule--91 {
+  height: 91rem; }
+
+.vs-horizontal-rule--92 {
+  height: 92rem; }
+
+.vs-horizontal-rule--93 {
+  height: 93rem; }
+
+.vs-horizontal-rule--94 {
+  height: 94rem; }
+
+.vs-horizontal-rule--95 {
+  height: 95rem; }
+
+.vs-horizontal-rule--96 {
+  height: 96rem; }
+
+.vs-horizontal-rule-line {
+  height: 1px; }
+
+.vs-horizontal-scroll {
+  overflow: auto;
+  white-space: nowrap; }
+
+.vs-horizontal-scroll-item {
+  display: inline-block; }
+
+.vs-shadow--1 {
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12); }
+
+.vs-shadow--2 {
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16); }
+
+.vs-shadow--3 {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+
+.vs-shadow--4 {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.22), 0 14px 56px rgba(0, 0, 0, 0.25); }
+
+.vs-shadow--5 {
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3); }
 
 .vs-block-image-center {
   background-color: #ffffff;
@@ -3893,33 +3857,15 @@ caption, th, td {
         margin: 0 -16px; } }
   .vs-block-image-center-caption {
     font-family: Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.33333rem;
+    font-size: 1.125;
+    font-size: 1.125rem;
     line-height: 2rem;
-    margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem; }
-    @media screen and (min-width: 48em) {
-      .vs-block-image-center-caption {
-        font-size: 1.21429rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-block-image-center-caption {
-        font-size: 1.2rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-block-image-center-caption {
-        font-size: 1.17647rem; } }
-    @media screen and (min-width: 48em) {
-      .vs-block-image-center-caption {
-        margin-bottom: 1.4007rem;
-        padding-top: 0.5993rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-block-image-center-caption {
-        margin-bottom: 1.39599rem;
-        padding-top: 0.60401rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-block-image-center-caption {
-        margin-bottom: 1.38823rem;
-        padding-top: 0.61177rem; } }
+    margin-top: -1rem;
+    padding-top: 0.57363rem;
+    padding-bottom: 0.42637rem;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 400; }
     .vs-block-image-center-caption a {
       display: inline;
       color: inherit; }
@@ -4011,33 +3957,15 @@ caption, th, td {
         margin: 0 -16px; } }
   .vs-block-image-left-caption {
     font-family: Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.33333rem;
+    font-size: 1.125;
+    font-size: 1.125rem;
     line-height: 2rem;
-    margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem; }
-    @media screen and (min-width: 48em) {
-      .vs-block-image-left-caption {
-        font-size: 1.21429rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-block-image-left-caption {
-        font-size: 1.2rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-block-image-left-caption {
-        font-size: 1.17647rem; } }
-    @media screen and (min-width: 48em) {
-      .vs-block-image-left-caption {
-        margin-bottom: 1.4007rem;
-        padding-top: 0.5993rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-block-image-left-caption {
-        margin-bottom: 1.39599rem;
-        padding-top: 0.60401rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-block-image-left-caption {
-        margin-bottom: 1.38823rem;
-        padding-top: 0.61177rem; } }
+    margin-top: -1rem;
+    padding-top: 0.57363rem;
+    padding-bottom: 0.42637rem;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 400; }
     .vs-block-image-left-caption a {
       display: inline;
       color: inherit; }
@@ -4129,33 +4057,15 @@ caption, th, td {
         margin: 0 -16px; } }
   .vs-block-image-right-caption {
     font-family: Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.33333rem;
+    font-size: 1.125;
+    font-size: 1.125rem;
     line-height: 2rem;
-    margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem; }
-    @media screen and (min-width: 48em) {
-      .vs-block-image-right-caption {
-        font-size: 1.21429rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-block-image-right-caption {
-        font-size: 1.2rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-block-image-right-caption {
-        font-size: 1.17647rem; } }
-    @media screen and (min-width: 48em) {
-      .vs-block-image-right-caption {
-        margin-bottom: 1.4007rem;
-        padding-top: 0.5993rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-block-image-right-caption {
-        margin-bottom: 1.39599rem;
-        padding-top: 0.60401rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-block-image-right-caption {
-        margin-bottom: 1.38823rem;
-        padding-top: 0.61177rem; } }
+    margin-top: -1rem;
+    padding-top: 0.57363rem;
+    padding-bottom: 0.42637rem;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 400; }
     .vs-block-image-right-caption a {
       display: inline;
       color: inherit; }
@@ -4251,33 +4161,15 @@ caption, th, td {
         margin: 0 -16px; } }
   .vs-block-image-full-width-caption {
     font-family: Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.33333rem;
+    font-size: 1.125;
+    font-size: 1.125rem;
     line-height: 2rem;
-    margin-bottom: 1.43999rem;
-    padding-top: 0.56001rem; }
-    @media screen and (min-width: 48em) {
-      .vs-block-image-full-width-caption {
-        font-size: 1.21429rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-block-image-full-width-caption {
-        font-size: 1.2rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-block-image-full-width-caption {
-        font-size: 1.17647rem; } }
-    @media screen and (min-width: 48em) {
-      .vs-block-image-full-width-caption {
-        margin-bottom: 1.4007rem;
-        padding-top: 0.5993rem; } }
-    @media screen and (min-width: 64em) {
-      .vs-block-image-full-width-caption {
-        margin-bottom: 1.39599rem;
-        padding-top: 0.60401rem; } }
-    @media screen and (min-width: 80em) {
-      .vs-block-image-full-width-caption {
-        margin-bottom: 1.38823rem;
-        padding-top: 0.61177rem; } }
+    margin-top: -1rem;
+    padding-top: 0.57363rem;
+    padding-bottom: 0.42637rem;
+    margin-bottom: 1rem;
+    font-style: normal;
+    font-weight: 400; }
     .vs-block-image-full-width-caption a {
       display: inline;
       color: inherit; }
