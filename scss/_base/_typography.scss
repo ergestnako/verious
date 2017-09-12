@@ -12,6 +12,8 @@
 //    5. List
 //    6. Link
 //    7. Code
+//    8. Blockquote
+//    9. Type
 //
 
 // ---------------------------------------------
@@ -28,12 +30,12 @@
 
 .verious {
   p {
-    @include vs-p(1);
+    @include vs-p(0);
   }
 }
 
 .vs-p {
-  @include vs-p(1);
+  @include vs-p(0);
 }
 
 // ---------------------------------------------
@@ -42,12 +44,12 @@
 
 .verious {
   a {
-    @include vs-p(3);
+    @include vs-p(0);
   }
 }
 
 .vs-a {
-  @include vs-a(3);
+  @include vs-a(0);
 }
 
 // ---------------------------------------------
@@ -56,77 +58,77 @@
 
 .verious {
   h1 {
-    @include vs-h($bodytype, 1);
+    @include vs-h($type-helvetica, 5);
   }
 
   h2 {
-    @include vs-h($bodytype, 2);
+    @include vs-h($type-helvetica, 4);
   }
 
   h3 {
-    @include vs-h($bodytype, 3);
+    @include vs-h($type-helvetica, 3);
   }
 
   h4 {
-    @include vs-h($bodytype, 4);
+    @include vs-h($type-helvetica, 2);
   }
 
   h5 {
-    @include vs-h($bodytype, 5);
+    @include vs-h($type-helvetica, 1);
   }
 
   h6 {
-    @include vs-h($bodytype, 6);
+    @include vs-h($type-helvetica, 0);
   }
 }
 
 .vs-h1 {
-  @include vs-h($bodytype, 1);
+  @include vs-h($type-helvetica, 5);
 }
 
 .vs-h2 {
-  @include vs-h($bodytype, 2);
+  @include vs-h($type-helvetica, 4);
 }
 
 .vs-h3 {
-  @include vs-h($bodytype, 3);
+  @include vs-h($type-helvetica, 3);
 }
 
 .vs-h4 {
-  @include vs-h($bodytype, 4);
+  @include vs-h($type-helvetica, 2);
 }
 
 .vs-h5 {
-  @include vs-h($bodytype, 5);
+  @include vs-h($type-helvetica, 1);
 }
 
 .vs-h6 {
-  @include vs-h($bodytype, 6);
+  @include vs-h($type-helvetica, 0);
 }
 
 .verious {
   .vs-h1 {
-    @include vs-h($bodytype, 1);
+    @include vs-h($type-helvetica, 5);
   }
 
   .vs-h2 {
-    @include vs-h($bodytype, 2);
+    @include vs-h($type-helvetica, 4);
   }
 
   .vs-h3 {
-    @include vs-h($bodytype, 3);
+    @include vs-h($type-helvetica, 3);
   }
 
   .vs-h4 {
-    @include vs-h($bodytype, 4);
+    @include vs-h($type-helvetica, 2);
   }
 
   .vs-h5 {
-    @include vs-h($bodytype, 5);
+    @include vs-h($type-helvetica, 1);
   }
 
   .vs-h6 {
-    @include vs-h($bodytype, 6);
+    @include vs-h($type-helvetica, 0);
   }
 }
 
@@ -140,7 +142,7 @@
   }
 
   li {
-    @include vs-li(1);
+    @include vs-li(0);
   }
 
   .vs-ul {
@@ -152,7 +154,7 @@
   }
 
   .vs-li {
-    @include vs-li(1);
+    @include vs-li(0);
   }
 }
 
@@ -165,7 +167,7 @@
 }
 
 .vs-li {
-  @include vs-li(1);
+  @include vs-li(0);
 }
 
 // ---------------------------------------------
@@ -174,12 +176,12 @@
 
 .verious {
   a {
-    @include vs-a(1);
+    @include vs-a(0);
   }
 }
 
 .vs-a {
-  @include vs-a(1);
+  @include vs-a(0);
 }
 
 // ---------------------------------------------
@@ -192,7 +194,7 @@
   }
 
   code {
-    @include vs-code(1);
+    @include vs-code(0);
   }
 }
 
@@ -201,7 +203,7 @@
 }
 
 .vs-code {
-  @include vs-code(1);
+  @include vs-code(0);
 }
 
 // ---------------------------------------------
@@ -216,4 +218,14 @@
 
 .vs-blockquote {
   @include vs-blockquote();
+}
+
+// ---------------------------------------------
+//    9. Type
+// ---------------------------------------------
+
+@for $i from 0 through 15 {
+  .vs-type-montserrat--#{$i} {
+    @include vs-type($type-montserrat, $i);
+  }
 }

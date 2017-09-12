@@ -12,15 +12,16 @@
 //    5. List
 //    6. Link
 //    7. Code
+//    8. Type
 //
 
 // ---------------------------------------------
 //    1. Sassline
 // ---------------------------------------------
 
+@import "../_plumber/_plumber";
 @import "../_modular-scale/_modular-scale";
 @import "../_sassline/_reset";
-@import "../_sassline/_modular-scale";
 @import "../_sassline/_mixins";
 
 // ---------------------------------------------
@@ -36,14 +37,12 @@
 // ---------------------------------------------
 
 @mixin vs-p($size) {
-  font-family: unquote(map-get($bodytype, font-family));
+  font-family: unquote(map-get($type-helvetica, font-family));
   font-style: normal;
-  font-weight: map-get($bodytype, regular);
+  font-weight: map-get($type-helvetica, regular);
 
-  @if $size == 1 {
-    @include fontsize(zeta, all);
-    @include baseline(zeta, $bodytype, 2, 2, all);
-  }
+  @include fontsize($size);
+  @include baseline($size, $type-helvetica, 0, 1);
 
   a {
     display: inline;
@@ -63,31 +62,8 @@
   font-family: unquote(map-get($type, font-family));
   font-style: normal;
   font-weight: map-get($type, bold);
-
-  @if $size == 1 {
-    @include fontsize(beta, all);
-    @include baseline(beta, $type, 3, 2, all);
-  } @elseif $size == 2 {
-    @include fontsize(gamma, all);
-    @include baseline(gamma, $type, 3, 2, all);
-  } @elseif $size == 3 {
-    @include fontsize(delta, all);
-    @include baseline(delta, $type, 2, 2, all);
-  } @elseif $size == 3 {
-    @include fontsize(epsilon, all);
-    @include baseline(epsilon, $type, 2, 2, all);
-  } @elseif $size == 4 {
-    @include fontsize(epsilon, all);
-    @include baseline(epsilon, $type, 2, 2, all);
-  } @elseif $size == 5 {
-    @include fontsize(zeta, all);
-    @include baseline(zeta, $type, 2, 2, all);
-  } @elseif $size == 6 {
-    @include fontsize(theta, all);
-    @include baseline(theta, $type, 2, 2, all);
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
-  }
+  @include fontsize($size);
+  @include baseline($size, $type, 0, 2);
 }
 
 // ---------------------------------------------
@@ -95,23 +71,21 @@
 // ---------------------------------------------
 
 @mixin vs-li($size) {
-  font-family: unquote(map-get($bodytype, font-family));
+  font-family: unquote(map-get($type-helvetica, font-family));
   font-style: normal;
-  font-weight: map-get($bodytype, regular);
+  font-weight: map-get($type-helvetica, regular);
 
-  @if $size == 1 {
-    @include fontsize(zeta, all);
-    @include baseline(zeta, $bodytype, 2, 0, all);
-  }
+  @include fontsize($size);
+  @include baseline($size, $type-helvetica);
 
   a {
     display: inline;
-    font-family: unquote(map-get($bodytype, font-family));
+    font-family: unquote(map-get($type-helvetica, font-family));
     font-style: normal;
-    font-weight: map-get($bodytype, regular);
+    font-weight: map-get($type-helvetica, regular);
     text-decoration: none;
-    @include fontsize(zeta, all);
-    @include baseline(zeta, $bodytype, 2, 2, all);
+    @include fontsize(0);
+    @include baseline(0, $type-helvetica);
     color: inherit;
 
     &:visited {
@@ -151,14 +125,12 @@
 
 @mixin vs-a($size) {
   display: inline-block;
-  font-family: unquote(map-get($bodytype, font-family));
+  font-family: unquote(map-get($type-helvetica, font-family));
   font-style: normal;
-  font-weight: map-get($bodytype, regular);
+  font-weight: map-get($type-helvetica, regular);
 
-  @if $size == 1 {
-    @include fontsize(zeta, all);
-    @include baseline(zeta, $bodytype, 2, 2, all);
-  }
+  @include fontsize($size);
+  @include baseline($size, $type-helvetica);
 
   &:visited {
     color: inherit;
@@ -181,12 +153,19 @@
 
 @mixin vs-code($size) {
   white-space: pre;
-  font-family: unquote(map-get($monospacetype, font-family));
+  font-family: unquote(map-get($type-ubuntu-mono, font-family));
   font-style: normal;
-  font-weight: map-get($monospacetype, regular);
+  font-weight: map-get($type-ubuntu-mono, regular);
+  @include fontsize($size);
+  @include baseline($size, $type-ubuntu-mono);
+}
 
-  @if $size == 1 {
-    @include fontsize(theta, all);
-    @include baseline(theta, $monospacetype, 2, 0, all);
-  }
+// ---------------------------------------------
+//    8. Type
+// ---------------------------------------------
+
+@mixin vs-type($type, $size) {
+  font-family: unquote(map-get($type, font-family));
+  @include fontsize($size);
+  @include baseline($size, $type);
 }

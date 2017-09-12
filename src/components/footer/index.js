@@ -6,7 +6,7 @@ const Column = require('../../../react/components/Column');
 const Paragraph = require('../../../react/components/Paragraph');
 
 module.exports = () => (
-  <Wrapper backgroundColor="vs-grey-900" padding={[4, 0, 4, 0]}>
+  <Wrapper backgroundColor="vs-grey-900" padding={[4, 0, 2, 0]}>
     <Container>
       <Row>
         <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>

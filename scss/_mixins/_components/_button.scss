@@ -13,10 +13,10 @@
 // ---------------------------------------------
 
 @mixin vs-button() {
-  font-family: unquote(map-get($bodytype, font-family));
+  font-family: unquote(map-get($type-helvetica, font-family));
   font-style: normal;
-  font-weight: map-get($bodytype, regular);
-  @include fontsize(zeta, all);
+  font-weight: map-get($type-helvetica, regular);
+  @include fontsize(1);
   line-height: 3rem;
   height: 3rem;
   @include vs-padding(left, 1);

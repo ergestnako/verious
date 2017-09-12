@@ -38,19 +38,17 @@ export default ({ children }) =>
             </ListItem>
           )}
           children={(
-            <ListItem>
-              <List unstyled>
-                <ListItem textColor="vs-white">
-                  <Link to="/blog/getting-started/">Getting Started</Link>
-                </ListItem>
-                <ListItem textColor="vs-white">
-                  <Link to="/blog/develop-and-deploy/">Develop and Deploy</Link>
-                </ListItem>
-                <ListItem textColor="vs-white">
-                  <Link to="/blog/directory-structure/">Directory Structure</Link>
-                </ListItem>
-              </List>
-            </ListItem>
+            <List unstyled>
+              <ListItem textColor="vs-white">
+                <Link to="/blog/getting-started/">Getting Started</Link>
+              </ListItem>
+              <ListItem textColor="vs-white">
+                <Link to="/blog/develop-and-deploy/">Develop and Deploy</Link>
+              </ListItem>
+              <ListItem textColor="vs-white">
+                <Link to="/blog/directory-structure/">Directory Structure</Link>
+              </ListItem>
+            </List>
           )}
         />
         <Dropdown
@@ -60,13 +58,11 @@ export default ({ children }) =>
             </ListItem>
           )}
           children={(
-            <ListItem>
-              <List unstyled>
-                <ListItem textColor="vs-white">
-                  <Link to="/typography/paragraph/">Paragraph</Link>
-                </ListItem>
-              </List>
-            </ListItem>
+            <List unstyled>
+              <ListItem textColor="vs-white">
+                <Link to="/typography/paragraph/">Paragraph</Link>
+              </ListItem>
+            </List>
           )}
         />
         <Dropdown
@@ -76,22 +72,20 @@ export default ({ children }) =>
             </ListItem>
           )}
           children={(
-            <ListItem>
-              <List unstyled>
-                <ListItem textColor="vs-white">
-                  <Link to="/blocks/image-full-width/">ImageFullWidth</Link>
-                </ListItem>
-                <ListItem textColor="vs-white">
-                  <Link to="/blocks/image-center/">ImageCenter</Link>
-                </ListItem>
-                <ListItem textColor="vs-white">
-                  <Link to="/blocks/image-left/">ImageLeft</Link>
-                </ListItem>
-                <ListItem textColor="vs-white">
-                  <Link to="/blocks/image-right/">ImageRight</Link>
-                </ListItem>
-              </List>
-            </ListItem>
+            <List unstyled>
+              <ListItem textColor="vs-white">
+                <Link to="/blocks/image-full-width/">ImageFullWidth</Link>
+              </ListItem>
+              <ListItem textColor="vs-white">
+                <Link to="/blocks/image-center/">ImageCenter</Link>
+              </ListItem>
+              <ListItem textColor="vs-white">
+                <Link to="/blocks/image-left/">ImageLeft</Link>
+              </ListItem>
+              <ListItem textColor="vs-white">
+                <Link to="/blocks/image-right/">ImageRight</Link>
+              </ListItem>
+            </List>
           )}
         />
         <Dropdown
@@ -101,13 +95,11 @@ export default ({ children }) =>
             </ListItem>
           )}
           children={(
-            <ListItem>
-              <List unstyled>
-                <ListItem textColor="vs-white">
-                  <a href="https://github.com/cpinnix/verious">Github</a>
-                </ListItem>
-              </List>
-            </ListItem>
+            <List unstyled>
+              <ListItem textColor="vs-white">
+                <a href="https://github.com/cpinnix/verious">Github</a>
+              </ListItem>
+            </List>
           )}
         />
       </List>
