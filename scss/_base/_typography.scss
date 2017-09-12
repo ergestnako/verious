@@ -13,7 +13,7 @@
 //    6. Link
 //    7. Code
 //    8. Blockquote
-//    9. Type
+//    9. Text
 //
 
 // ---------------------------------------------
@@ -221,11 +221,11 @@
 }
 
 // ---------------------------------------------
-//    9. Type
+//    9. Text
 // ---------------------------------------------
 
 @for $i from 0 through 15 {
-  .vs-type-montserrat--#{$i} {
-    @include vs-type($type-montserrat, $i);
+  .vs-text-montserrat--#{$i} {
+    @include vs-text($type-montserrat, $i);
   }
 }

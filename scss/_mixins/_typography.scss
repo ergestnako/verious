@@ -23,6 +23,7 @@
 @import "../_modular-scale/_modular-scale";
 @import "../_sassline/_reset";
 @import "../_sassline/_mixins";
+@import "_typography/_text";
 
 // ---------------------------------------------
 //    2. Html
@@ -37,12 +38,9 @@
 // ---------------------------------------------
 
 @mixin vs-p($size) {
-  font-family: unquote(map-get($type-helvetica, font-family));
+  @include vs-text($type-helvetica, $size, 0, 1);
   font-style: normal;
   font-weight: map-get($type-helvetica, regular);
-
-  @include fontsize($size);
-  @include baseline($size, $type-helvetica, 0, 1);
 
   a {
     display: inline;
@@ -59,11 +57,9 @@
 // ---------------------------------------------
 
 @mixin vs-h($type, $size) {
-  font-family: unquote(map-get($type, font-family));
+  @include vs-text($type-helvetica, $size, 0, 2);
   font-style: normal;
   font-weight: map-get($type, bold);
-  @include fontsize($size);
-  @include baseline($size, $type, 0, 2);
 }
 
 // ---------------------------------------------
@@ -71,21 +67,16 @@
 // ---------------------------------------------
 
 @mixin vs-li($size) {
-  font-family: unquote(map-get($type-helvetica, font-family));
+  @include vs-text($type-helvetica, $size);
   font-style: normal;
   font-weight: map-get($type-helvetica, regular);
 
-  @include fontsize($size);
-  @include baseline($size, $type-helvetica);
-
   a {
     display: inline;
-    font-family: unquote(map-get($type-helvetica, font-family));
+    @include vs-text($type-helvetica, $size);
     font-style: normal;
     font-weight: map-get($type-helvetica, regular);
     text-decoration: none;
-    @include fontsize(0);
-    @include baseline(0, $type-helvetica);
     color: inherit;
 
     &:visited {
@@ -125,12 +116,9 @@
 
 @mixin vs-a($size) {
   display: inline-block;
-  font-family: unquote(map-get($type-helvetica, font-family));
+  @include vs-text($type-helvetica, $size);
   font-style: normal;
   font-weight: map-get($type-helvetica, regular);
-
-  @include fontsize($size);
-  @include baseline($size, $type-helvetica);
 
   &:visited {
     color: inherit;
@@ -153,19 +141,7 @@
 
 @mixin vs-code($size) {
   white-space: pre;
-  font-family: unquote(map-get($type-ubuntu-mono, font-family));
   font-style: normal;
   font-weight: map-get($type-ubuntu-mono, regular);
-  @include fontsize($size);
-  @include baseline($size, $type-ubuntu-mono);
-}
-
-// ---------------------------------------------
-//    8. Type
-// ---------------------------------------------
-
-@mixin vs-type($type, $size) {
-  font-family: unquote(map-get($type, font-family));
-  @include fontsize($size);
-  @include baseline($size, $type);
+  @include vs-text($type-ubuntu-mono, $size);
 }

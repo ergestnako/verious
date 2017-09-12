@@ -1,0 +1,15 @@
+//
+//    File:           _text.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+@mixin vs-text($type, $size, $leading-top: 0, $leading-bottom: 0) {
+  font-family: unquote(map-get($type, font-family));
+  @include fontsize($size);
+  @include baseline($size, $type, $leading-top, $leading-bottom);
+}
