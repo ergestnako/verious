@@ -2,10 +2,21 @@ const React = require('react');
 const utilities = require('../../utilities');
 
 function getClassName({ direction, backgroundColor }) {
-  const classes = [
-    'vs-layout',
-    direction === 'horizontal' ? 'vs-layout--horizontal' : 'vs-layout--vertical',
-  ];
+  let classes = ['vs-layout'];
+
+  switch (direction) {
+    case 'horizontal':
+      classes = [...classes, 'vs-layout--horizontal'];
+      break;
+    case 'vertical':
+      classes = [...classes, 'vs-layout--vertical'];
+      break;
+    case 'center':
+      classes = [...classes, 'vs-layout--center'];
+      break;
+    default:
+      break;
+  }
 
   if (backgroundColor) {
     if (utilities.isInternalColor(backgroundColor)) {
@@ -28,11 +39,10 @@ function getStyles({ style, backgroundColor }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ children, direction, backgroundColor, style }) => (
-  <div
+module.exports = ({ children, direction, backgroundColor, style }) =>
+  (<div
     className={getClassName({ direction, backgroundColor })}
     style={getStyles({ direction, backgroundColor, style })}
   >
     {children}
-  </div>
-);
+  </div>);
