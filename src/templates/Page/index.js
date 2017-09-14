@@ -13,14 +13,14 @@ import Logo from '../../img/vs-logo.png';
 import Dropdown from '../../../react/components/Dropdown';
 
 export default ({ children }) =>
-  <div style={{ position: 'relative' }}>
+  (<div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
     <Helmet>
       <title>Verious</title>
     </Helmet>
     <Navigation
       backgroundColor="vs-pink-700"
       textColor="vs-white"
-      left={(
+      left={
         <Layout direction="vertical">
           <Spacer />
           <Link to="/">
@@ -28,16 +28,12 @@ export default ({ children }) =>
           </Link>
           <Spacer />
         </Layout>
-      )}
+      }
     >
       <List unstyled>
         <Dropdown
-          button={(
-            <ListItem textColor="vs-pink-200">
-              Documentation
-            </ListItem>
-          )}
-          children={(
+          button={<ListItem textColor="vs-pink-200">Documentation</ListItem>}
+          children={
             <List unstyled>
               <ListItem textColor="vs-white">
                 <Link to="/blog/getting-started/">Getting Started</Link>
@@ -49,29 +45,21 @@ export default ({ children }) =>
                 <Link to="/blog/directory-structure/">Directory Structure</Link>
               </ListItem>
             </List>
-          )}
+          }
         />
         <Dropdown
-          button={(
-            <ListItem textColor="vs-pink-200">
-              Typography
-            </ListItem>
-          )}
-          children={(
+          button={<ListItem textColor="vs-pink-200">Typography</ListItem>}
+          children={
             <List unstyled>
               <ListItem textColor="vs-white">
                 <Link to="/typography/paragraph/">Paragraph</Link>
               </ListItem>
             </List>
-          )}
+          }
         />
         <Dropdown
-          button={(
-            <ListItem textColor="vs-pink-200">
-              Blocks
-            </ListItem>
-          )}
-          children={(
+          button={<ListItem textColor="vs-pink-200">Blocks</ListItem>}
+          children={
             <List unstyled>
               <ListItem textColor="vs-white">
                 <Link to="/blocks/image-full-width/">ImageFullWidth</Link>
@@ -86,25 +74,21 @@ export default ({ children }) =>
                 <Link to="/blocks/image-right/">ImageRight</Link>
               </ListItem>
             </List>
-          )}
+          }
         />
         <Dropdown
-          button={(
-            <ListItem textColor="vs-pink-200">
-              External Links
-            </ListItem>
-          )}
-          children={(
+          button={<ListItem textColor="vs-pink-200">External Links</ListItem>}
+          children={
             <List unstyled>
               <ListItem textColor="vs-white">
                 <a href="https://github.com/cpinnix/verious">Github</a>
               </ListItem>
             </List>
-          )}
+          }
         />
       </List>
     </Navigation>
     {children}
     <Footer />
     <Baseline />
-  </div>;
+  </div>);
