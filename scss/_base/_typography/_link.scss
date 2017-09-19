@@ -8,10 +8,10 @@
 
 .verious {
   a {
-    @include vs-a(0);
+    @include vs-link(0);
   }
 }
 
 .vs-a {
-  @include vs-a(0);
+  @include vs-link(0);
 }

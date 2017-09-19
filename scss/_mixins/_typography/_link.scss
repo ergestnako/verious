@@ -6,7 +6,7 @@
 //    Table of Contents:
 //
 
-@mixin vs-a($size) {
+@mixin vs-link($size) {
   display: inline-block;
   @include vs-text($type-helvetica, $size);
   font-style: normal;
