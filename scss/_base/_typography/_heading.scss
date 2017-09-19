@@ -1,0 +1,83 @@
+//
+//    File:           _heading.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+.verious {
+  h1 {
+    @include vs-heading(5);
+  }
+
+  h2 {
+    @include vs-heading(4);
+  }
+
+  h3 {
+    @include vs-heading(3);
+  }
+
+  h4 {
+    @include vs-heading(2);
+  }
+
+  h5 {
+    @include vs-heading(1);
+  }
+
+  h6 {
+    @include vs-heading(0);
+  }
+}
+
+.vs-h1 {
+  @include vs-heading(5);
+}
+
+.vs-h2 {
+  @include vs-heading(4);
+}
+
+.vs-h3 {
+  @include vs-heading(3);
+}
+
+.vs-h4 {
+  @include vs-heading(2);
+}
+
+.vs-h5 {
+  @include vs-heading(1);
+}
+
+.vs-h6 {
+  @include vs-heading(0);
+}
+
+.verious {
+  .vs-h1 {
+    @include vs-heading(5);
+  }
+
+  .vs-h2 {
+    @include vs-heading(4);
+  }
+
+  .vs-h3 {
+    @include vs-heading(3);
+  }
+
+  .vs-h4 {
+    @include vs-heading(2);
+  }
+
+  .vs-h5 {
+    @include vs-heading(1);
+  }
+
+  .vs-h6 {
+    @include vs-heading(0);
+  }
+}

@@ -1,0 +1,24 @@
+//
+//    File:           _code.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+@mixin vs-pre() {
+  background-color: $vs-grey-100;
+  overflow: auto;
+  white-space: inherit;
+  margin: 0;
+  @include vs-padding(right, 2);
+  @include vs-padding(left, 2);
+  @include vs-margin(bottom, 2);
+}
+
+@mixin vs-code($size) {
+  white-space: pre;
+  font-style: normal;
+  font-weight: map-get($type-ubuntu-mono, regular);
+  @include vs-text($type-ubuntu-mono, $size);
+}

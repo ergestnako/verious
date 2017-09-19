@@ -1,0 +1,22 @@
+//
+//    File:           _paragraph.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+@mixin vs-paragraph($size) {
+  @include vs-text($type-helvetica, $size, 0, 1);
+  font-style: normal;
+  font-weight: map-get($type-helvetica, regular);
+
+  a {
+    display: inline;
+    color: inherit;
+
+    &:visited {
+      color: inherit;
+    }
+  }
+}

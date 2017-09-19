@@ -1,0 +1,13 @@
+//
+//    File:           _text.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+@for $i from 0 through 15 {
+  .vs-text-montserrat--#{$i} {
+    @include vs-text($type-montserrat, $i);
+  }
+}

@@ -1,0 +1,13 @@
+//
+//    File:           _heading.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+@mixin vs-heading($size) {
+  @include vs-text($type-helvetica, $size, 0, 2);
+  font-style: normal;
+  font-weight: bold;
+}

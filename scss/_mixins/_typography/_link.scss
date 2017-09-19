@@ -1,0 +1,18 @@
+//
+//    File:           _link.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+@mixin vs-a($size) {
+  display: inline-block;
+  @include vs-text($type-helvetica, $size);
+  font-style: normal;
+  font-weight: map-get($type-helvetica, regular);
+
+  &:visited {
+    color: inherit;
+  }
+}

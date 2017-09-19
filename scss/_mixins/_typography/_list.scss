@@ -1,0 +1,49 @@
+//
+//    File:           _list.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+@mixin vs-list-item($size) {
+  @include vs-text($type-helvetica, $size);
+  font-style: normal;
+  font-weight: map-get($type-helvetica, regular);
+
+  a {
+    display: inline;
+    @include vs-text($type-helvetica, $size);
+    font-style: normal;
+    font-weight: map-get($type-helvetica, regular);
+    text-decoration: none;
+    color: inherit;
+
+    &:visited {
+      color: inherit;
+    }
+  }
+
+  > ul > li:first-child {
+    padding-top: 0;
+  }
+}
+
+@mixin vs-list() {
+  @include vs-margin(left, 2);
+  @include vs-margin(bottom, 2);
+
+  ul {
+    @include vs-margin(left, 2);
+    margin-bottom: 0;
+  }
+}
+
+@mixin vs-ul--unstyled() {
+  margin-left: 0;
+  list-style: none;
+
+  ul {
+    @include vs-margin(left, 2);
+  }
+}

@@ -1,0 +1,17 @@
+//
+//    File:           _link.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+.verious {
+  a {
+    @include vs-a(0);
+  }
+}
+
+.vs-a {
+  @include vs-a(0);
+}

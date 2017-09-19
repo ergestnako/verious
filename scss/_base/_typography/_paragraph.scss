@@ -1,0 +1,17 @@
+//
+//    File:           _paragraph.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+
+.verious {
+  p {
+    @include vs-paragraph(0);
+  }
+}
+
+.vs-p {
+  @include vs-paragraph(0);
+}
