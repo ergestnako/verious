@@ -37,10 +37,30 @@ module.exports = () =>
         <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
           <Wrapper pull={[24, 0, 0, 0]} backgroundColor="vs-white">
             <Shadow depth={5}>
+              <Square size={24} />
+            </Shadow>
+          </Wrapper>
+        </Column>
+      </Row>
+      <Square size={12} />
+      <Row>
+        <Column span={[6, 8, 8, 8]} push={[0, 0, 0, 0]}>
+          <Wrapper backgroundColor="vs-white">
+            <Shadow depth={5}>
               <Square size={12} />
             </Shadow>
           </Wrapper>
         </Column>
       </Row>
+      <Row>
+        <Column span={[6, 8, 12, 12]} push={[0, 4, 4, 4]}>
+          <Wrapper backgroundColor="vs-white" pull={[6, 0, 0, 0]}>
+            <Shadow depth={5}>
+              <Square size={12} />
+            </Shadow>
+          </Wrapper>
+        </Column>
+      </Row>
+      <Square size={12} />
     </Container>
   </Page>);
