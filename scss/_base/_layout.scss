@@ -9,6 +9,7 @@
 //    2. Row
 //    3. Column
 //    4. Padding
+//    5. Pull
 //
 
 // ---------------------------------------------
@@ -110,5 +111,49 @@
 
   .vs-padding-left-#{$i} {
     padding-left: $i + rem;
+  }
+}
+
+// ---------------------------------------------
+//    5. Margin
+// ---------------------------------------------
+
+@for $i from 1 through 24 {
+  .vs-margin-top-#{$i} {
+    @include vs-margin(top, $i);
+  }
+
+  .vs-margin-right-#{$i} {
+    @include vs-margin(right, $i);
+  }
+
+  .vs-margin-bottom-#{$i} {
+    @include vs-margin(bottom, $i);
+  }
+
+  .vs-margin-left-#{$i} {
+    @include vs-margin(left, $i);
+  }
+}
+
+// ---------------------------------------------
+//    6. Pull
+// ---------------------------------------------
+
+@for $i from 1 through 24 {
+  .vs-pull-top-#{$i} {
+    @include vs-pull(top, $i);
+  }
+
+  .vs-pull-right-#{$i} {
+    @include vs-pull(right, $i);
+  }
+
+  .vs-pull-bottom-#{$i} {
+    @include vs-pull(bottom, $i);
+  }
+
+  .vs-pull-left-#{$i} {
+    @include vs-pull(left, $i);
   }
 }

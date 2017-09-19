@@ -1,7 +1,7 @@
 const React = require('react');
 const utilities = require('../../utilities');
 
-function getClassName({ backgroundColor, padding, visibility }) {
+function getClassName({ backgroundColor, padding, visibility, pull }) {
   let classes = [];
 
   if (backgroundColor) {
@@ -17,6 +17,16 @@ function getClassName({ backgroundColor, padding, visibility }) {
       `vs-padding-right-${padding[1]}`,
       `vs-padding-bottom-${padding[2]}`,
       `vs-padding-left-${padding[3]}`,
+    ];
+  }
+
+  if (pull) {
+    classes = [
+      ...classes,
+      `vs-pull-top-${pull[0]}`,
+      `vs-pull-right-${pull[1]}`,
+      `vs-pull-bottom-${pull[2]}`,
+      `vs-pull-left-${pull[3]}`,
     ];
   }
 
@@ -61,10 +71,10 @@ function getStyles({ style, backgroundColor }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ children, style, backgroundColor, padding, visibility }) =>
+module.exports = ({ children, style, backgroundColor, padding, visibility, pull }) =>
   (<div
     style={getStyles({ style, backgroundColor })}
-    className={getClassName({ backgroundColor, padding, visibility })}
+    className={getClassName({ backgroundColor, padding, visibility, pull })}
   >
     {children}
   </div>);
