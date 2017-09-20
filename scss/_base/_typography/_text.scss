@@ -6,6 +6,13 @@
 //    Table of Contents:
 //
 
+
+@for $i from 0 through 15 {
+  .vs-text-helvetica--#{$i} {
+    @include vs-text($type-helvetica, $i);
+  }
+}
+
 @for $i from 0 through 15 {
   .vs-text-montserrat--#{$i} {
     @include vs-text($type-montserrat, $i);

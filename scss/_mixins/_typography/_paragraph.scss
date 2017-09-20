@@ -7,9 +7,9 @@
 //
 
 @mixin vs-paragraph($size) {
-  @include vs-text($type-helvetica, $size, 0, 1);
   font-style: normal;
-  font-weight: map-get($type-helvetica, regular);
+  font-weight: normal;
+  @include vs-margin(bottom, 1);
 
   a {
     display: inline;
