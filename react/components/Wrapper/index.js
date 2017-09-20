@@ -1,14 +1,9 @@
 const React = require('react');
+const BackgroundColor = require('../BackgroundColor');
 const utilities = require('../../utilities');
 
-function getClassName({ backgroundColor, padding, visibility, pull }) {
+function getClassName({ padding, visibility, pull }) {
   let classes = [];
-
-  if (backgroundColor) {
-    if (utilities.isInternalColor(backgroundColor)) {
-      classes.push(`vs-background-color--${backgroundColor.slice(3)}`);
-    }
-  }
 
   if (padding) {
     classes = [
@@ -63,8 +58,8 @@ function getStyles({ style, backgroundColor }) {
   const styles = {};
 
   if (backgroundColor) {
-    if (!utilities.isInternalColor(backgroundColor)) {
-      styles.backgroundColor = backgroundColor;
+    if (utilities.isInternalColor(backgroundColor)) {
+      styles.backgroundColor = '';
     }
   }
 
@@ -72,9 +67,11 @@ function getStyles({ style, backgroundColor }) {
 }
 
 module.exports = ({ children, style, backgroundColor, padding, visibility, pull }) =>
-  (<div
-    style={getStyles({ style, backgroundColor })}
-    className={getClassName({ backgroundColor, padding, visibility, pull })}
-  >
-    {children}
-  </div>);
+  (<BackgroundColor color={backgroundColor}>
+    <div
+      style={getStyles({ style, backgroundColor })}
+      className={getClassName({ backgroundColor, padding, visibility, pull })}
+    >
+      {children}
+    </div>
+  </BackgroundColor>);
