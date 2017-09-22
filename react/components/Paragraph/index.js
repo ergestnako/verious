@@ -7,7 +7,7 @@ module.exports = ({ children, style, size, textColor }) => (
   >
     <Text
       style={style}
-      size={1}
+      size={0}
       font="helvetica"
       color={textColor}
     >
