@@ -1,36 +1,21 @@
 const React = require('react');
-const utilities = require('../../utilities');
+const BackgroundColor = require('../BackgroundColor');
 
-function getClassName({ backgroundColor }) {
-  const classes = [];
-
-  if (backgroundColor) {
-    if (utilities.isInternalColor(backgroundColor)) {
-      classes.push(`vs-background-color--${backgroundColor.slice(3)}`);
-    }
-  }
-
-  return classes.join(' ');
-}
-
-function getStyles({ size, style, backgroundColor }) {
+function getStyles({ size, style }) {
   const styles = {
     width: `${size}rem`,
     height: `${size}rem`,
   };
 
-  if (backgroundColor) {
-    if (!utilities.isInternalColor(backgroundColor)) {
-      styles.backgroundColor = backgroundColor;
-    }
-  }
-
   return Object.assign({}, style, styles);
 }
 
-module.exports = (props) => (
-  <div
-    style={getStyles(props)}
-    className={getClassName(props)}
-  />
+module.exports = props => (
+  <div style={{ display: 'inline-block' }}>
+    <BackgroundColor color={props.backgroundColor}>
+      <div
+        style={getStyles(props)}
+      />
+    </BackgroundColor>
+  </div>
 );

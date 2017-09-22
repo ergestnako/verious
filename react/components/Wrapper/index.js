@@ -1,5 +1,4 @@
 const React = require('react');
-const BackgroundColor = require('../BackgroundColor');
 const utilities = require('../../utilities');
 
 function getClassName({ padding, visibility, pull }) {
@@ -67,11 +66,9 @@ function getStyles({ style, backgroundColor }) {
 }
 
 module.exports = ({ children, style, backgroundColor, padding, visibility, pull }) =>
-  (<BackgroundColor color={backgroundColor}>
-    <div
-      style={getStyles({ style, backgroundColor })}
-      className={getClassName({ backgroundColor, padding, visibility, pull })}
-    >
-      {children}
-    </div>
-  </BackgroundColor>);
+  (<div
+    style={getStyles({ style, backgroundColor })}
+    className={getClassName({ backgroundColor, padding, visibility, pull })}
+  >
+    {children}
+  </div>);
