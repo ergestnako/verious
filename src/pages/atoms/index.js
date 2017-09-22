@@ -8,6 +8,7 @@ const Column = require('../../../react/components/Column');
 const Button = require('../../../react/components/Button');
 const HorizontalRule = require('../../../react/components/HorizontalRule');
 const Square = require('../../../react/components/Square');
+const Paragraph = require('../../../react/components/Paragraph');
 
 module.exports = () => (
   <Page>
@@ -19,20 +20,27 @@ module.exports = () => (
       <Container>
         <Row>
           <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+            <Paragraph>Button</Paragraph>
             <Button
               backgroundColor="vs-pink-500"
               textColor="vs-white"
               label="Button"
             />
+            <Paragraph>HorizontalRule</Paragraph>
             <HorizontalRule
               height={3}
               backgroundColor="vs-grey-100"
               lineColor="vs-grey-400"
             />
+            <Paragraph>Square</Paragraph>
             <Square
               size={3}
               backgroundColor="vs-grey-100"
             />
+            <Paragraph>Rectangle</Paragraph>
+            <Paragraph>Angle</Paragraph>
+            <Paragraph>Image</Paragraph>
+            <Paragraph>Dropdown</Paragraph>
           </Column>
         </Row>
       </Container>
