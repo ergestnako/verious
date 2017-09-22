@@ -9,21 +9,24 @@ const Heading = require('../../react/components/Heading');
 const Paragraph = require('../../react/components/Paragraph');
 const Image = require('../../react/components/Image');
 const Wrapper = require('../../react/components/Wrapper');
+const BackgroundColor = require('../../react/components/BackgroundColor');
 const Logo = require('../img/vs-logo.png');
 
 module.exports = () => (
   <Page>
-    <Wrapper backgroundColor="vs-pink-500" padding={[12, 0, 12, 0]}>
-      <Container>
-        <Row>
-          <Column span={[4, 4, 6, 6]} push={[1, 4, 5, 5]}>
-            <Image source={Logo} />
-            <Square size="1" />
-            <Paragraph textColor="vs-white" style={{ textAlign: 'center' }}>Very serious styles.</Paragraph>
-          </Column>
-        </Row>
-      </Container>
-    </Wrapper>
+    <BackgroundColor color="vs-pink-500">
+      <Wrapper padding={[12, 0, 12, 0]}>
+        <Container>
+          <Row>
+            <Column span={[4, 4, 6, 6]} push={[1, 4, 5, 5]}>
+              <Image source={Logo} />
+              <Square size="1" />
+              <Paragraph textColor="vs-white" style={{ textAlign: 'center' }}>Very serious styles.</Paragraph>
+            </Column>
+          </Row>
+        </Container>
+      </Wrapper>
+    </BackgroundColor>
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
         <Row>

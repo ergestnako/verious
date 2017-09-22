@@ -11,7 +11,7 @@ function getStyles({ width, height }) {
 }
 
 module.exports = props => (
-  <div style={{ display: 'inline-block' }}>
+  <div style={{ display: 'flex' }}>
     <BackgroundColor color={props.backgroundColor}>
       <div style={getStyles(props)} />
     </BackgroundColor>

@@ -21,7 +21,9 @@ function getClassName({ size, font, color }) {
 }
 
 function getStyles({ style, color }) {
-  const styles = {};
+  const styles = {
+    display: 'inherit'
+  };
 
   if (color) {
     if (!utilities.isInternalColor(color)) {
@@ -33,9 +35,9 @@ function getStyles({ style, color }) {
 }
 
 module.exports = ({ children, style, size, font, color }) =>
-  (<div
+  (<span
     className={getClassName({ size, font, color })}
     style={getStyles({ style, size, font, color })}
   >
     {children}
-  </div>);
+  </span>);
