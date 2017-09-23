@@ -16,6 +16,7 @@ var Wrapper = require('../Wrapper');
 var Button = require('../Button');
 var Layout = require('../Layout');
 var Spacer = require('../Spacer');
+var BackgroundColor = require('../BackgroundColor');
 
 var Navigation = function (_React$Component) {
   _inherits(Navigation, _React$Component);
@@ -35,53 +36,11 @@ var Navigation = function (_React$Component) {
       var _this2 = this;
 
       return React.createElement(
-        Wrapper,
-        { padding: [1, 0, 1, 0], backgroundColor: this.props.backgroundColor || 'vs-white' },
-        React.createElement(
-          Container,
-          null,
-          React.createElement(
-            Row,
-            null,
-            React.createElement(
-              Column,
-              { span: [6, 12, 16, 16], push: [0, 0, 0, 0] },
-              React.createElement(
-                Wrapper,
-                { padding: [0, 0, 0, 0] },
-                React.createElement(
-                  Layout,
-                  { direction: 'horizontal' },
-                  this.props.left,
-                  React.createElement(Spacer, null),
-                  React.createElement(Button, {
-                    onClick: function onClick() {
-                      return _this2.setState({ open: true });
-                    },
-                    style: { display: this.state.open ? 'none' : '' },
-                    label: 'Menu',
-                    textColor: this.props.textColor || 'vs-black'
-                  }),
-                  React.createElement(Button, {
-                    onClick: function onClick() {
-                      return _this2.setState({ open: false });
-                    },
-                    style: { display: this.state.open ? '' : 'none' },
-                    label: 'Close',
-                    textColor: this.props.textColor || 'vs-black'
-                  })
-                )
-              )
-            )
-          )
-        ),
+        BackgroundColor,
+        { color: this.props.backgroundColor || 'vs-white' },
         React.createElement(
           Wrapper,
-          {
-            style: { display: this.state.open ? '' : 'none' },
-            backgroundColor: this.props.backgroundColor || 'vs-white',
-            padding: [2, 0, 2, 0]
-          },
+          { padding: [1, 0, 1, 0] },
           React.createElement(
             Container,
             null,
@@ -91,7 +50,59 @@ var Navigation = function (_React$Component) {
               React.createElement(
                 Column,
                 { span: [6, 12, 16, 16], push: [0, 0, 0, 0] },
-                this.props.children
+                React.createElement(
+                  Wrapper,
+                  { padding: [0, 0, 0, 0] },
+                  React.createElement(
+                    Layout,
+                    { direction: 'horizontal' },
+                    this.props.left,
+                    React.createElement(Spacer, null),
+                    React.createElement(
+                      'div',
+                      { style: { display: this.state.open ? 'none' : '' } },
+                      React.createElement(Button, {
+                        onClick: function onClick() {
+                          return _this2.setState({ open: true });
+                        },
+                        label: 'Menu',
+                        textColor: this.props.textColor || 'vs-black'
+                      })
+                    ),
+                    React.createElement(
+                      'div',
+                      { style: { display: this.state.open ? '' : 'none' } },
+                      React.createElement(Button, {
+                        onClick: function onClick() {
+                          return _this2.setState({ open: false });
+                        },
+                        label: 'Close',
+                        textColor: this.props.textColor || 'vs-black'
+                      })
+                    )
+                  )
+                )
+              )
+            )
+          ),
+          React.createElement(
+            'div',
+            { style: { display: this.state.open ? '' : 'none' } },
+            React.createElement(
+              Wrapper,
+              { padding: [2, 0, 2, 0] },
+              React.createElement(
+                Container,
+                null,
+                React.createElement(
+                  Row,
+                  null,
+                  React.createElement(
+                    Column,
+                    { span: [6, 12, 16, 16], push: [0, 0, 0, 0] },
+                    this.props.children
+                  )
+                )
               )
             )
           )
