@@ -8,8 +8,8 @@ const Heading = require('../../../../../react/components/Heading');
 const HorizontalRule = require('../../../../../react/components/HorizontalRule');
 const Square = require('../../../../../react/components/Square');
 
-module.exports = () =>
-  (<div>
+module.exports = () => (
+  <div>
     <Square size="4" />
 
     <Container>
@@ -19,8 +19,13 @@ module.exports = () =>
         </Column>
         <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
           <HorizontalRule backgroundColor="red" lineColor="blue" height={8} />
-          <HorizontalRule backgroundColor="vs-grey-100" lineColor="vs-blue-500" height={1} />
+          <HorizontalRule
+            backgroundColor="vs-grey-100"
+            lineColor="vs-blue-500"
+            height={1}
+          />
         </Column>
       </Row>
     </Container>
-  </div>);
+  </div>
+);

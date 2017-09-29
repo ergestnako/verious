@@ -9,7 +9,7 @@ function getClassName({ padding, visibility, pull }) {
       `vs-padding-top-${padding[0]}`,
       `vs-padding-right-${padding[1]}`,
       `vs-padding-bottom-${padding[2]}`,
-      `vs-padding-left-${padding[3]}`,
+      `vs-padding-left-${padding[3]}`
     ];
   }
 
@@ -19,7 +19,7 @@ function getClassName({ padding, visibility, pull }) {
       `vs-pull-top-${pull[0]}`,
       `vs-pull-right-${pull[1]}`,
       `vs-pull-bottom-${pull[2]}`,
-      `vs-pull-left-${pull[3]}`,
+      `vs-pull-left-${pull[3]}`
     ];
   }
 
@@ -29,7 +29,7 @@ function getClassName({ padding, visibility, pull }) {
       `vs-padding-top-${padding[0]}`,
       `vs-padding-right-${padding[1]}`,
       `vs-padding-bottom-${padding[2]}`,
-      `vs-padding-left-${padding[3]}`,
+      `vs-padding-left-${padding[3]}`
     ];
 
     if (visibility[0] === false) {
@@ -52,10 +52,8 @@ function getClassName({ padding, visibility, pull }) {
   return classes.join(' ');
 }
 
-module.exports = ({ children, style, padding, visibility, pull }) =>
-  (<div
-    style={style}
-    className={getClassName({ padding, visibility, pull })}
-  >
+module.exports = ({ children, style, padding, visibility, pull }) => (
+  <div style={style} className={getClassName({ padding, visibility, pull })}>
     {children}
-  </div>);
+  </div>
+);

@@ -47,7 +47,10 @@ function getBackgroundClassName({ backgroundColor }) {
 
   if (backgroundColor) {
     if (utilities.isInternalColor(backgroundColor)) {
-      classes = [...classes, `vs-background-color--${backgroundColor.slice(3)}`];
+      classes = [
+        ...classes,
+        `vs-background-color--${backgroundColor.slice(3)}`
+      ];
     }
   }
 
@@ -58,7 +61,7 @@ function getBackgroundStyle({ style, backgroundColor, width, height }) {
   const spacingUnit = getSpacingUnit();
   const styles = {
     width: width * spacingUnit,
-    height: height * spacingUnit,
+    height: height * spacingUnit
   };
 
   if (backgroundColor) {
@@ -94,8 +97,15 @@ function getAngleStyle({ style, angleColor }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ backgroundColor, angleColor, width, height, leftPosition, rightPosition }) =>
-  (<div
+module.exports = ({
+  backgroundColor,
+  angleColor,
+  width,
+  height,
+  leftPosition,
+  rightPosition
+}) => (
+  <div
     className={getBackgroundClassName({ backgroundColor })}
     style={getBackgroundStyle({ backgroundColor, width, height })}
   >
@@ -110,8 +120,14 @@ module.exports = ({ backgroundColor, angleColor, width, height, leftPosition, ri
         style={getAngleStyle({ angleColor })}
       >
         <polygon
-          points={generatePoints({ width, height, leftPosition, rightPosition })}
+          points={generatePoints({
+            width,
+            height,
+            leftPosition,
+            rightPosition
+          })}
         />
       </g>
     </svg>
-  </div>);
+  </div>
+);

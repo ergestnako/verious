@@ -49,7 +49,7 @@ class Navigation extends React.Component {
               <Container>
                 <Row>
                   <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
-                    { this.props.children }
+                    {this.props.children}
                   </Column>
                 </Row>
               </Container>

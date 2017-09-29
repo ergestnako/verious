@@ -5,14 +5,12 @@ const PropTypes = require('prop-types');
 const component = ({ children }) => (
   <html className="vs-html" lang="en">
     <Head />
-    <body>
-      { children }
-    </body>
+    <body>{children}</body>
   </html>
 );
 
 component.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 };
 
 module.exports = component;

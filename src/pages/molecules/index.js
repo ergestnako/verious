@@ -9,10 +9,7 @@ const Paragraph = require('../../../react/components/Paragraph');
 
 module.exports = () => (
   <Page>
-    <Hero
-      title="Molecules"
-      subtitle="Documentation for molecules."
-    />
+    <Hero title="Molecules" subtitle="Documentation for molecules." />
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
         <Row>

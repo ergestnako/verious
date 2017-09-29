@@ -6,30 +6,58 @@ module.exports = () => (
       <li>Typography</li>
       <li>
         <ul className="vs-ul--unstyled">
-          <li><a href="/typography/heading">Headings</a></li>
-          <li><a href="/typography/paragraph">Paragraphs</a></li>
-          <li><a href="/typography/link">Links</a></li>
-          <li><a href="/typography/list">Lists</a></li>
-          <li><a href="/typography/code">Code</a></li>
-          <li><a href="/typography/blockquote">Blockquote</a></li>
+          <li>
+            <a href="/typography/heading">Headings</a>
+          </li>
+          <li>
+            <a href="/typography/paragraph">Paragraphs</a>
+          </li>
+          <li>
+            <a href="/typography/link">Links</a>
+          </li>
+          <li>
+            <a href="/typography/list">Lists</a>
+          </li>
+          <li>
+            <a href="/typography/code">Code</a>
+          </li>
+          <li>
+            <a href="/typography/blockquote">Blockquote</a>
+          </li>
         </ul>
       </li>
       <li>Components</li>
       <li>
         <ul className="vs-ul--unstyled">
-          <li><a href="/components/image">Image</a></li>
-          <li><a href="/components/presentation">Presentation</a></li>
-          <li><a href="/components/layout-left-panel">Layout Left Panel</a></li>
-          <li><a href="/components/layout">Layout</a></li>
+          <li>
+            <a href="/components/image">Image</a>
+          </li>
+          <li>
+            <a href="/components/presentation">Presentation</a>
+          </li>
+          <li>
+            <a href="/components/layout-left-panel">Layout Left Panel</a>
+          </li>
+          <li>
+            <a href="/components/layout">Layout</a>
+          </li>
         </ul>
       </li>
       <li>Blocks</li>
       <li>
         <ul className="vs-ul--unstyled">
-          <li><a href="/blocks/image-center">Image Center</a></li>
-          <li><a href="/blocks/image-left">Image Left</a></li>
-          <li><a href="/blocks/image-right">Image Right</a></li>
-          <li><a href="/blocks/image-full-width">Image Full Width</a></li>
+          <li>
+            <a href="/blocks/image-center">Image Center</a>
+          </li>
+          <li>
+            <a href="/blocks/image-left">Image Left</a>
+          </li>
+          <li>
+            <a href="/blocks/image-right">Image Right</a>
+          </li>
+          <li>
+            <a href="/blocks/image-full-width">Image Full Width</a>
+          </li>
         </ul>
       </li>
     </ul>

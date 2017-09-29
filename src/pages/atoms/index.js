@@ -12,10 +12,7 @@ const Paragraph = require('../../../react/components/Paragraph');
 
 module.exports = () => (
   <Page>
-    <Hero
-      title="Atoms"
-      subtitle="Documentation for atoms."
-    />
+    <Hero title="Atoms" subtitle="Documentation for atoms." />
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
         <Row>
@@ -33,10 +30,7 @@ module.exports = () => (
               lineColor="vs-grey-400"
             />
             <Paragraph>Square</Paragraph>
-            <Square
-              size={3}
-              backgroundColor="vs-grey-100"
-            />
+            <Square size={3} backgroundColor="vs-grey-100" />
             <Paragraph>Rectangle</Paragraph>
             <Paragraph>Angle</Paragraph>
             <Paragraph>Image</Paragraph>

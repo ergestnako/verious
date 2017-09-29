@@ -15,12 +15,14 @@ const component = ({ title, subtitle }) => (
     <Wrapper backgroundColor="vs-pink-500" padding={[12, 0, 12, 0]}>
       <Container>
         <Row>
-          <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]} >
+          <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
             <Layout direction="horizontal">
               <Spacer />
-              <div style={{ textAlign: 'center' }} >
-                <Heading size="1" textColor="vs-white">{ title }</Heading>
-                <Paragraph textColor="vs-white">{ subtitle }</Paragraph>
+              <div style={{ textAlign: 'center' }}>
+                <Heading size="1" textColor="vs-white">
+                  {title}
+                </Heading>
+                <Paragraph textColor="vs-white">{subtitle}</Paragraph>
               </div>
               <Spacer />
             </Layout>
@@ -33,7 +35,7 @@ const component = ({ title, subtitle }) => (
 
 component.propTypes = {
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired
 };
 
 module.exports = component;

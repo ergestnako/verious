@@ -2,16 +2,8 @@ const React = require('react');
 const Text = require('../Text');
 
 module.exports = ({ children, style, textColor }) => (
-  <li
-    className="vs-li"
-    style={style}
-  >
-    <Text
-      style={style}
-      size={0}
-      font="helvetica"
-      color={textColor}
-    >
+  <li className="vs-li" style={style}>
+    <Text style={style} size={0} font="helvetica" color={textColor}>
       {children}
     </Text>
   </li>

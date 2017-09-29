@@ -8,8 +8,8 @@ const Heading = require('../../../../../react/components/Heading');
 const Shadow = require('../../../../../react/components/Shadow');
 const Square = require('../../../../../react/components/Square');
 
-module.exports = () =>
-  (<div>
+module.exports = () => (
+  <div>
     <Square size="4" />
 
     <Container>
@@ -51,4 +51,5 @@ module.exports = () =>
     </Container>
 
     <Square size="4" />
-  </div>);
+  </div>
+);

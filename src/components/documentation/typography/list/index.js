@@ -85,32 +85,58 @@ li {
           <ul>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
             <li>Cras at turpis ante. Cras aliquet fringilla feugiat.</li>
-            <li>Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus lacus, et mattis dolor mi sit amet tellus.</li>
+            <li>
+              Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus
+              lacus, et mattis dolor mi sit amet tellus.
+            </li>
             <ul>
               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
               <li>Cras at turpis ante. Cras aliquet fringilla feugiat.</li>
-              <li>Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus lacus, et mattis dolor mi sit amet tellus.</li>
+              <li>
+                Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus
+                lacus, et mattis dolor mi sit amet tellus.
+              </li>
               <ul>
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
                 <li>Cras at turpis ante. Cras aliquet fringilla feugiat.</li>
-                <li>Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus lacus, et mattis dolor mi sit amet tellus.</li>
+                <li>
+                  Donec hendrerit, ex vitae pellentesque luctus, ante nunc
+                  luctus lacus, et mattis dolor mi sit amet tellus.
+                </li>
               </ul>
             </ul>
           </ul>
           <ul className="vs-ul--unstyled">
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
             <li>Cras at turpis ante. Cras aliquet fringilla feugiat.</li>
-            <li>Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus lacus, et mattis dolor mi sit amet tellus.</li>
+            <li>
+              Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus
+              lacus, et mattis dolor mi sit amet tellus.
+            </li>
             <li>
               <ul className="vs-ul--unstyled">
-                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
                 <li>Cras at turpis ante. Cras aliquet fringilla feugiat.</li>
-                <li>Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus lacus, et mattis dolor mi sit amet tellus.</li>
+                <li>
+                  Donec hendrerit, ex vitae pellentesque luctus, ante nunc
+                  luctus lacus, et mattis dolor mi sit amet tellus.
+                </li>
                 <li>
                   <ul className="vs-ul--unstyled">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-                    <li>Cras at turpis ante. Cras aliquet fringilla feugiat.</li>
-                    <li>Donec hendrerit, ex vitae pellentesque luctus, ante nunc luctus lacus, et mattis dolor mi sit amet tellus.</li>
+                    <li>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </li>
+                    <li>
+                      Cras at turpis ante. Cras aliquet fringilla feugiat.
+                    </li>
+                    <li>
+                      Donec hendrerit, ex vitae pellentesque luctus, ante nunc
+                      luctus lacus, et mattis dolor mi sit amet tellus.
+                    </li>
                   </ul>
                 </li>
               </ul>

@@ -34,10 +34,11 @@ function getStyles({ style, color }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ children, style, size, font, color }) =>
-  (<span
+module.exports = ({ children, style, size, font, color }) => (
+  <span
     className={getClassName({ size, font, color })}
     style={getStyles({ style, size, font, color })}
   >
     {children}
-  </span>);
+  </span>
+);

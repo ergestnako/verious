@@ -10,7 +10,9 @@ class Dropdown extends React.Component {
     return (
       <div>
         <div
-          onClick={() => { this.setState({ open: !this.state.open }); }}
+          onClick={() => {
+            this.setState({ open: !this.state.open });
+          }}
           role="button"
           style={{ cursor: 'pointer' }}
         >

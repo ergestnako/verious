@@ -12,8 +12,8 @@ import Spacer from '../../../react/components/Spacer';
 import Logo from '../../img/vs-logo.png';
 import Dropdown from '../../../react/components/Dropdown';
 
-export default ({ children }) =>
-  (<div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
+export default ({ children }) => (
+  <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
     <Helmet>
       <title>Verious</title>
     </Helmet>
@@ -55,4 +55,5 @@ export default ({ children }) =>
     {children}
     <Footer />
     <Baseline />
-  </div>);
+  </div>
+);

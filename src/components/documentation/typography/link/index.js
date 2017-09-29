@@ -63,10 +63,16 @@ module.exports = () => (
         <div className="list-content">
           <h3 className="vs-h5">Sample</h3>
           <a href="http://charlespinnix.com">charlespinnix.com</a>
-          <p><a href="http://charlespinnix.com">charlespinnix.com</a></p>
+          <p>
+            <a href="http://charlespinnix.com">charlespinnix.com</a>
+          </p>
           <ul>
-            <li><a href="http://charlespinnix.com">charlespinnix.com</a></li>
-            <li><a href="http://charlespinnix.com">charlespinnix.com</a></li>
+            <li>
+              <a href="http://charlespinnix.com">charlespinnix.com</a>
+            </li>
+            <li>
+              <a href="http://charlespinnix.com">charlespinnix.com</a>
+            </li>
           </ul>
         </div>
       </div>

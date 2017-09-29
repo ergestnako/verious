@@ -23,21 +23,39 @@ module.exports = () => (
         <Row>
           <Column span={[6, 8, 8, 8]} push={[0, 2, 4, 4]}>
             <Heading size="2">The Boilerplate, Get It!</Heading>
-            <Paragraph>Everyone needs a good starting point. To download the <a href="https://github.com/cpinnix/verious-boilerplate">verious boilerplate</a> run:</Paragraph>
+            <Paragraph>
+              Everyone needs a good starting point. To download the{' '}
+              <a href="https://github.com/cpinnix/verious-boilerplate">
+                verious boilerplate
+              </a>{' '}
+              run:
+            </Paragraph>
             <Code>{`
 git clone git@github.com:cpinnix/verious-boilerplate.git
             `}</Code>
-            <Paragraph>The boilerplate comes with Gatsby and Verious code built right in. Because the boilerplate is a git repository, the first thing to do is rename the root directory and delete the git directory inside. To do that run:</Paragraph>
+            <Paragraph>
+              The boilerplate comes with Gatsby and Verious code built right in.
+              Because the boilerplate is a git repository, the first thing to do
+              is rename the root directory and delete the git directory inside.
+              To do that run:
+            </Paragraph>
             <Code>{`
 mv verious-boilerplate your-project-name
 cd your-project-name
 rm -rf .git
             `}</Code>
-            <Paragraph>This project requires a handful of dependencies to run and luckily, these can be retrieved with a single command:</Paragraph>
+            <Paragraph>
+              This project requires a handful of dependencies to run and
+              luckily, these can be retrieved with a single command:
+            </Paragraph>
             <Code>{`
 yarn install
             `}</Code>
-            <Paragraph>After these dependencies install, we are ready to rock. But first, we must learn to <a href="/blog/develop-and-deploy/">develop and deploy</a>.</Paragraph>
+            <Paragraph>
+              After these dependencies install, we are ready to rock. But first,
+              we must learn to{' '}
+              <a href="/blog/develop-and-deploy/">develop and deploy</a>.
+            </Paragraph>
             <Square size="8" />
             <Navigator
               nextLink="/blog/develop-and-deploy/"

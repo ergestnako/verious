@@ -9,14 +9,12 @@ function getClassName({ span, push }) {
     `vs-col-lg-${span[2]}`,
     `vs-col-lg-push-${push[2]}`,
     `vs-col-xl-${span[3]}`,
-    `vs-col-xl-push-${push[3]}`,
+    `vs-col-xl-push-${push[3]}`
   ];
 
   return classes.join(' ');
 }
 
 module.exports = ({ children, span, push }) => (
-  <div className={getClassName({ span, push })}>
-    { children }
-  </div>
+  <div className={getClassName({ span, push })}>{children}</div>
 );

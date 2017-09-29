@@ -11,8 +11,8 @@ const HorizontalScrollItem = require('../../../../../react/components/Horizontal
 const Shadow = require('../../../../../react/components/Shadow');
 const Square = require('../../../../../react/components/Square');
 
-module.exports = () =>
-  (<div>
+module.exports = () => (
+  <div>
     <Square size={8} />
 
     <Container>
@@ -81,4 +81,5 @@ module.exports = () =>
         </Wrapper>
       </HorizontalScrollItem>
     </HorizontalScroll>
-  </div>);
+  </div>
+);

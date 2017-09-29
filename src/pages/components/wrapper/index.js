@@ -10,8 +10,8 @@ const Square = require('../../../../react/components/Square');
 const Wrapper = require('../../../../react/components/Wrapper');
 const Shadow = require('../../../../react/components/Shadow');
 
-module.exports = () =>
-  (<Page>
+module.exports = () => (
+  <Page>
     <Hero title="Wrapper" subtitle="Documentation for wrapper." />
     <Container>
       <Row>
@@ -19,7 +19,7 @@ module.exports = () =>
           <Layout
             direction="center"
             style={{
-              width: '100%',
+              width: '100%'
             }}
           >
             <Angle
@@ -63,4 +63,5 @@ module.exports = () =>
       </Row>
       <Square size={12} />
     </Container>
-  </Page>);
+  </Page>
+);

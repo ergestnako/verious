@@ -18,8 +18,8 @@ class Image extends React.Component {
       loaded: false,
       dimensions: {
         width: -1,
-        height: -1,
-      },
+        height: -1
+      }
     };
 
     this.handleLoad = this.handleLoad.bind(this);
@@ -35,7 +35,7 @@ class Image extends React.Component {
     return (
       <Measure
         bounds
-        onResize={(contentRect) => {
+        onResize={contentRect => {
           this.setState({ dimensions: contentRect.bounds });
         }}
       >

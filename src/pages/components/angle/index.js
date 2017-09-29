@@ -9,8 +9,8 @@ const Layout = require('../../../../react/components/Layout');
 const Heading = require('../../../../react/components/Heading');
 const Code = require('../../../../react/components/Code');
 
-module.exports = () =>
-  (<Page>
+module.exports = () => (
+  <Page>
     <Hero title="Angle" subtitle="Documentation for angle." />
     <Container>
       <Row>
@@ -18,7 +18,7 @@ module.exports = () =>
           <Layout
             direction="center"
             style={{
-              width: '100%',
+              width: '100%'
             }}
           >
             <Angle
@@ -58,7 +58,7 @@ module.exports = () =>
           <Layout
             direction="center"
             style={{
-              width: '100%',
+              width: '100%'
             }}
           >
             <Angle
@@ -73,4 +73,5 @@ module.exports = () =>
         </Column>
       </Row>
     </Container>
-  </Page>);
+  </Page>
+);

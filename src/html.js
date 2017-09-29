@@ -22,7 +22,6 @@ export default class HTML extends React.Component {
       );
     }
     return (
-
       <html lang="en" className="vs-html">
         <head>
           <meta charSet="utf-8" />
@@ -32,9 +31,18 @@ export default class HTML extends React.Component {
           />
           {this.props.headComponents}
           <link rel="shortcut icon" href={favicon} />
-          <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet" />
-          <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Source+Code+Pro"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Ubuntu+Mono"
+            rel="stylesheet"
+          />
+          <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            rel="stylesheet"
+          />
           {css}
         </head>
         <body>

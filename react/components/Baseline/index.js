@@ -26,7 +26,10 @@ class Baseline extends React.Component {
 
   render() {
     return (
-      <div className={this.getClassName()} onClick={() => this.setState({ visible: false })} />
+      <div
+        className={this.getClassName()}
+        onClick={() => this.setState({ visible: false })}
+      />
     );
   }
 }
