@@ -1,1 +1,0 @@
-'use strict';var React=require('react');function style(_ref){var size=_ref.size,color=_ref.color;return{width:size+'rem',height:size+'rem',backgroundColor:''||color}}module.exports=function(props){return React.createElement('div',{style:style(props)})};

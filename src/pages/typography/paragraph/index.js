@@ -5,10 +5,7 @@ const ParagraphDocumentation = require('../../../components/documentation/typogr
 
 module.exports = () => (
   <Page>
-    <Hero
-      title="Paragraph"
-      subtitle="Documentation for paragraphs."
-    />
+    <Hero title="Paragraph" subtitle="Documentation for paragraphs." />
     <ParagraphDocumentation />
   </Page>
 );

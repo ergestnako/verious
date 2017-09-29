@@ -5,10 +5,7 @@ const ImageLeftDocumentation = require('../../../components/documentation/blocks
 
 module.exports = () => (
   <Page>
-    <Hero
-      title="ImageLeft"
-      subtitle="Documentation for left image block."
-    />
+    <Hero title="ImageLeft" subtitle="Documentation for left image block." />
     <ImageLeftDocumentation />
   </Page>
 );

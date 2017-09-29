@@ -26,8 +26,8 @@ function getLineClassName({ lineColor }) {
   return classes.join(' ');
 }
 
-module.exports = ({ height, style, backgroundColor, lineColor }) =>
-  (<BackgroundColor color={backgroundColor}>
+module.exports = ({ height, style, backgroundColor, lineColor }) => (
+  <BackgroundColor color={backgroundColor}>
     <div className={getClassName({ height })}>
       <Layout direction="vertical" style={{ height: '100%' }}>
         <Spacer />
@@ -37,4 +37,5 @@ module.exports = ({ height, style, backgroundColor, lineColor }) =>
         <Spacer />
       </Layout>
     </div>
-  </BackgroundColor>);
+  </BackgroundColor>
+);

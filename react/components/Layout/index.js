@@ -39,10 +39,11 @@ function getStyles({ style, backgroundColor }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ children, direction, backgroundColor, style }) =>
-  (<div
+module.exports = ({ children, direction, backgroundColor, style }) => (
+  <div
     className={getClassName({ direction, backgroundColor })}
     style={getStyles({ direction, backgroundColor, style })}
   >
     {children}
-  </div>);
+  </div>
+);

@@ -10,7 +10,10 @@ module.exports = () => (
       </div>
       <div className="documentation-presentation-row">
         <div className="documentation-presentation-content">
-          <p>Sample presentation can be found <a href="/presentations/example">here</a>.</p>
+          <p>
+            Sample presentation can be found{' '}
+            <a href="/presentations/example">here</a>.
+          </p>
           <h3>Static Markup</h3>
           <pre>
             <code>

@@ -25,10 +25,8 @@ function getStyles({ color }) {
   return Object.assign({}, styles);
 }
 
-module.exports = ({ children, color }) =>
-  (<div
-    className={getClassName({ color })}
-    style={getStyles({ color })}
-  >
+module.exports = ({ children, color }) => (
+  <div className={getClassName({ color })} style={getStyles({ color })}>
     {children}
-  </div>);
+  </div>
+);

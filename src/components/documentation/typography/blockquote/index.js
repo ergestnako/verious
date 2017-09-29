@@ -88,7 +88,12 @@ module.exports = () => (
       <div className="blockquote-documentation-row">
         <div className="blockquote-documentation-content">
           <Blockquote>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci lorem, congue vel tellus vitae, pretium ullamcorper tortor. Phasellus ante augue, consequat blandit quam quis, fermentum dignissim est.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci
+              lorem, congue vel tellus vitae, pretium ullamcorper tortor.
+              Phasellus ante augue, consequat blandit quam quis, fermentum
+              dignissim est.
+            </p>
           </Blockquote>
         </div>
       </div>

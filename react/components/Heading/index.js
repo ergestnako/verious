@@ -1,19 +1,20 @@
 const React = require('react');
 const Text = require('../Text');
 
-module.exports = ({ children, style, size, textColor }) => React.createElement(
-  `h${size}`,
-  {
-    className: `vs-h${size}`,
-  },
+module.exports = ({ children, style, size, textColor }) =>
   React.createElement(
-    Text,
+    `h${size}`,
     {
-      style,
-      size: 6 - size,
-      font: 'helvetica',
-      color: textColor,
+      className: `vs-h${size}`
     },
-    children,
-  ),
-);
+    React.createElement(
+      Text,
+      {
+        style,
+        size: 6 - size,
+        font: 'helvetica',
+        color: textColor
+      },
+      children
+    )
+  );

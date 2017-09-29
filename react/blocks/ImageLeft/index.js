@@ -10,7 +10,7 @@ module.exports = ({ source, caption }) => (
     <Container>
       <Row>
         <Column span={[6, 6, 6, 6]} push={[0, 0, 0, 0]}>
-          <Image source={ source } />
+          <Image source={source} />
         </Column>
       </Row>
     </Container>

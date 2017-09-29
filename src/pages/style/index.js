@@ -11,10 +11,7 @@ const BackgroundGradient = require('../../../react/components/BackgroundGradient
 
 module.exports = () => (
   <Page>
-    <Hero
-      title="Style"
-      subtitle="Documentation for style."
-    />
+    <Hero title="Style" subtitle="Documentation for style." />
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
         <Row>

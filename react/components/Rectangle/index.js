@@ -4,7 +4,7 @@ const BackgroundColor = require('../BackgroundColor');
 function getStyles({ width, height }) {
   const styles = {
     width: width ? `${width}rem` : '',
-    height: height ? `${height}rem` : '',
+    height: height ? `${height}rem` : ''
   };
 
   return styles;

@@ -11,9 +11,5 @@ function getClassName({ unstyled }) {
 }
 
 module.exports = ({ children, unstyled }) => (
-  <ul
-    className={getClassName({ unstyled })}
-  >
-    { children }
-  </ul>
+  <ul className={getClassName({ unstyled })}>{children}</ul>
 );

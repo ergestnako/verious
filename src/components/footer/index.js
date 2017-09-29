@@ -12,7 +12,11 @@ module.exports = () => (
       <Container>
         <Row>
           <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
-            <Paragraph textColor="vs-white">This site is generated with <a href="https://www.gatsbyjs.org/">Gatsby</a> and built with love in Washington, DC.</Paragraph>
+            <Paragraph textColor="vs-white">
+              This site is generated with{' '}
+              <a href="https://www.gatsbyjs.org/">Gatsby</a> and built with love
+              in Washington, DC.
+            </Paragraph>
           </Column>
         </Row>
       </Container>

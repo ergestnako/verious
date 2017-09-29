@@ -16,11 +16,13 @@ const component = ({ source, title, subtitle }) => (
       <Wrapper backgroundColor="rgba(0,0,0,0.5)" padding={[12, 0, 12, 0]}>
         <Container>
           <Row>
-            <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]} >
+            <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
               <Layout direction="horizontal">
                 <Spacer />
-                <div style={{ textAlign: 'center' }} >
-                  <Heading size="1" textColor="vs-white">{title}</Heading>
+                <div style={{ textAlign: 'center' }}>
+                  <Heading size="1" textColor="vs-white">
+                    {title}
+                  </Heading>
                   <Paragraph textColor="vs-white">{subtitle}</Paragraph>
                 </div>
                 <Spacer />
@@ -36,7 +38,7 @@ const component = ({ source, title, subtitle }) => (
 component.propTypes = {
   source: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
+  subtitle: PropTypes.string.isRequired
 };
 
 module.exports = component;

@@ -50,16 +50,28 @@
 
     .vs-text-color--#{$colorName}-#{$suffix} {
       @include vs-text-color($colorValue);
+
+      a {
+        @include vs-text-color($colorValue);
+      }
     }
   }
 }
 
 .vs-text-color--white {
   @include vs-text-color($vs-white);
+
+  a {
+    @include vs-text-color($vs-white);
+  }
 }
 
 .vs-text-color--black {
   @include vs-text-color($vs-black);
+
+  a {
+    @include vs-text-color($vs-black);
+  }
 }
 
 // ---------------------------------------------
