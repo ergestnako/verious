@@ -9,6 +9,7 @@ const Button = require('../../../react/components/Button');
 const HorizontalRule = require('../../../react/components/HorizontalRule');
 const Square = require('../../../react/components/Square');
 const Paragraph = require('../../../react/components/Paragraph');
+const Image = require('../../../react/components/Image');
 
 module.exports = () => (
   <Page>
@@ -34,6 +35,7 @@ module.exports = () => (
             <Paragraph>Rectangle</Paragraph>
             <Paragraph>Angle</Paragraph>
             <Paragraph>Image</Paragraph>
+            <Image source="https://bigcatrescue.org/wp-content/uploads/2011/05/Peaches.jpg" />
             <Paragraph>Dropdown</Paragraph>
           </Column>
         </Row>

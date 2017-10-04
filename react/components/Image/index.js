@@ -48,7 +48,7 @@ class Image extends React.Component {
               <img
                 src={this.props.source}
                 alt={this.props.source}
-                className="vs-image-source"
+                className={this.state.loaded ? 'vs-image-source' : ''}
                 ref={measureRef}
                 onLoad={this.handleLoad}
               />
