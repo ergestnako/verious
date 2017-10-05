@@ -1,5 +1,5 @@
 //
-//    File:           _colors.scss
+//    File:           _typography.scss
 //    Description:
 //
 //
@@ -12,6 +12,11 @@
 //    1. Imports
 // ---------------------------------------------
 
-@import "_background-color";
-@import "_fill-color";
-@import "_text-color";
+@import "_html";
+@import "_text";
+@import "_heading";
+@import "_paragraph";
+@import "_link";
+@import "_list";
+@import "_code";
+@import "_blockquote";

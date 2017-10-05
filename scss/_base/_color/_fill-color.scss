@@ -1,0 +1,26 @@
+//
+//    File:           _fill-color.scss
+//    Description:
+//
+
+@for $j from 1 through length($vs-colors) {
+  $colorSet: nth($vs-colors, $j);
+  $colorName: nth($vs-color-names, $j);
+
+  @for $i from 1 through length($vs-color-suffixes) {
+    $suffix: nth($vs-color-suffixes, $i);
+    $colorValue: nth($colorSet, $i);
+
+    .vs-fill-color--#{$colorName}-#{$suffix} {
+      @include vs-fill-color($colorValue);
+    }
+  }
+}
+
+.vs-fill-color--white {
+  @include vs-fill-color($vs-white);
+}
+
+.vs-fill-color--black {
+  @include vs-fill-color($vs-black);
+}

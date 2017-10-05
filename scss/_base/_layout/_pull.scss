@@ -1,0 +1,22 @@
+//
+//    File:           _pull.scss
+//    Description:
+//
+
+@for $i from 1 through 24 {
+  .vs-pull-top-#{$i} {
+    @include vs-pull(top, $i);
+  }
+
+  .vs-pull-right-#{$i} {
+    @include vs-pull(right, $i);
+  }
+
+  .vs-pull-bottom-#{$i} {
+    @include vs-pull(bottom, $i);
+  }
+
+  .vs-pull-left-#{$i} {
+    @include vs-pull(left, $i);
+  }
+}

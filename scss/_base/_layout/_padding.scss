@@ -1,0 +1,22 @@
+//
+//    File:           _padding.scss
+//    Description:
+//
+
+@for $i from 1 through 12 {
+  .vs-padding-top-#{$i} {
+    padding-top: $i + rem;
+  }
+
+  .vs-padding-right-#{$i} {
+    padding-right: $i + rem;
+  }
+
+  .vs-padding-bottom-#{$i} {
+    padding-bottom: $i + rem;
+  }
+
+  .vs-padding-left-#{$i} {
+    padding-left: $i + rem;
+  }
+}

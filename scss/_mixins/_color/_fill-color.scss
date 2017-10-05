@@ -1,0 +1,8 @@
+//
+//    File:           _fill-color.scss
+//    Description:
+//
+
+@mixin vs-fill-color($color) {
+  fill: $color;
+}

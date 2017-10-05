@@ -1,5 +1,5 @@
 //
-//    File:           _colors.scss
+//    File:           _blocks.scss
 //    Description:
 //
 //
@@ -12,6 +12,7 @@
 //    1. Imports
 // ---------------------------------------------
 
-@import "_background-color";
-@import "_fill-color";
-@import "_text-color";
+@import "_image-center";
+@import "_image-full-width";
+@import "_image-left";
+@import "_image-right";

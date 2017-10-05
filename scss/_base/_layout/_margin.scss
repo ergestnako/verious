@@ -1,0 +1,22 @@
+//
+//    File:           _margin.scss
+//    Description:
+//
+
+@for $i from 1 through 24 {
+  .vs-margin-top-#{$i} {
+    @include vs-margin(top, $i);
+  }
+
+  .vs-margin-right-#{$i} {
+    @include vs-margin(right, $i);
+  }
+
+  .vs-margin-bottom-#{$i} {
+    @include vs-margin(bottom, $i);
+  }
+
+  .vs-margin-left-#{$i} {
+    @include vs-margin(left, $i);
+  }
+}

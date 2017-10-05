@@ -1,5 +1,5 @@
 //
-//    File:           _colors.scss
+//    File:           _components.scss
 //    Description:
 //
 //
@@ -12,6 +12,9 @@
 //    1. Imports
 // ---------------------------------------------
 
-@import "_background-color";
-@import "_fill-color";
-@import "_text-color";
+@import "_background-image";
+@import "_button";
+@import "_horizontal-rule";
+@import "_horizontal-scroll";
+@import "_image";
+@import "_shadow";
