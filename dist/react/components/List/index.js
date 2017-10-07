@@ -21,9 +21,7 @@ module.exports = function (_ref2) {
       unstyled = _ref2.unstyled;
   return React.createElement(
     'ul',
-    {
-      className: getClassName({ unstyled: unstyled })
-    },
+    { className: getClassName({ unstyled: unstyled }) },
     children
   );
 };

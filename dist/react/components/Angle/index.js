@@ -150,7 +150,12 @@ module.exports = function (_ref9) {
           style: getAngleStyle({ angleColor: angleColor })
         },
         React.createElement('polygon', {
-          points: generatePoints({ width: width, height: height, leftPosition: leftPosition, rightPosition: rightPosition })
+          points: generatePoints({
+            width: width,
+            height: height,
+            leftPosition: leftPosition,
+            rightPosition: rightPosition
+          })
         })
       )
     )

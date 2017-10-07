@@ -8,6 +8,14 @@ module.exports = {
   },
   getInternalColor: function getInternalColor(color) {
     var parts = color.split('-');
-    return Color[parts[1]][parts[2]];
+    var c = '';
+
+    if (parts.length < 3) {
+      c = Color[parts[1]];
+    } else {
+      c = Color[parts[1]][parts[2]];
+    }
+
+    return c;
   }
 };

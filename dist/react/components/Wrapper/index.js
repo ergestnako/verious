@@ -50,10 +50,7 @@ module.exports = function (_ref2) {
       pull = _ref2.pull;
   return React.createElement(
     'div',
-    {
-      style: style,
-      className: getClassName({ padding: padding, visibility: visibility, pull: pull })
-    },
+    { style: style, className: getClassName({ padding: padding, visibility: visibility, pull: pull }) },
     children
   );
 };

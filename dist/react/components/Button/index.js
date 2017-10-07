@@ -12,7 +12,12 @@ module.exports = function (_ref) {
       textColor = _ref.textColor;
   return React.createElement(
     'div',
-    { role: 'button', tabIndex: 0, onClick: onClick, style: { display: 'inline-block' } },
+    {
+      role: 'button',
+      tabIndex: 0,
+      onClick: onClick,
+      style: { display: 'inline-block' }
+    },
     React.createElement(
       BackgroundColor,
       { color: backgroundColor },
@@ -21,11 +26,7 @@ module.exports = function (_ref) {
         { padding: [1, 1, 0, 1] },
         React.createElement(
           Text,
-          {
-            size: 0,
-            font: 'helvetica',
-            color: textColor
-          },
+          { size: 0, font: 'helvetica', color: textColor },
           label
         )
       )

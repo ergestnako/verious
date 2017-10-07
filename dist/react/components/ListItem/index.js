@@ -9,18 +9,10 @@ module.exports = function (_ref) {
       textColor = _ref.textColor;
   return React.createElement(
     'li',
-    {
-      className: 'vs-li',
-      style: style
-    },
+    { style: style },
     React.createElement(
       Text,
-      {
-        style: style,
-        size: 0,
-        font: 'helvetica',
-        color: textColor
-      },
+      { style: style, size: 0, font: 'helvetica', color: textColor },
       children
     )
   );

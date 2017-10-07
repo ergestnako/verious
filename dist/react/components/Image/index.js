@@ -74,7 +74,7 @@ var Image = function (_React$Component) {
             React.createElement('img', {
               src: _this2.props.source,
               alt: _this2.props.source,
-              className: 'vs-image-source',
+              className: _this2.state.loaded ? 'vs-image-source' : '',
               ref: measureRef,
               onLoad: _this2.handleLoad
             })

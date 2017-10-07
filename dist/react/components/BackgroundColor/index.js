@@ -36,10 +36,7 @@ module.exports = function (_ref3) {
       color = _ref3.color;
   return React.createElement(
     'div',
-    {
-      className: getClassName({ color: color }),
-      style: getStyles({ color: color })
-    },
+    { className: getClassName({ color: color }), style: getStyles({ color: color }) },
     children
   );
 };
