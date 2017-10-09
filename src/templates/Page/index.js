@@ -34,39 +34,46 @@ export default ({ children }) => (
       <List unstyled>
         <Dropdown
           button={<ListItem textColor="vs-pink-200">Getting Started</ListItem>}
-          children={
-            <List unstyled>
-              <ListItem textColor="vs-white">
-                <Link to="/blog/getting-started/">Getting Started</Link>
-              </ListItem>
-              <ListItem textColor="vs-white">
-                <Link to="/blog/develop-and-deploy/">Develop and Deploy</Link>
-              </ListItem>
-              <ListItem textColor="vs-white">
-                <Link to="/blog/directory-structure/">Directory Structure</Link>
-              </ListItem>
-            </List>
-          }
-        />
+        >
+          <List unstyled>
+            <ListItem textColor="vs-white">
+              <Link to="/blog/getting-started/">Getting Started</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/blog/develop-and-deploy/">Develop and Deploy</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/blog/directory-structure/">Directory Structure</Link>
+            </ListItem>
+          </List>
+        </Dropdown>
         <Dropdown
           button={<ListItem textColor="vs-pink-200">Documentation</ListItem>}
-          children={
-            <List unstyled>
-              <ListItem textColor="vs-white">
-                <Link to="/atoms/">Atoms</Link>
-              </ListItem>
-              <ListItem textColor="vs-white">
-                <Link to="/molecules/">Molecules</Link>
-              </ListItem>
-              <ListItem textColor="vs-white">
-                <Link to="/interactions/">Interactions</Link>
-              </ListItem>
-              <ListItem textColor="vs-white">
-                <Link to="/color/">Color</Link>
-              </ListItem>
-            </List>
-          }
-        />
+        >
+          <List unstyled>
+            <ListItem textColor="vs-white">
+              <Link to="/color/">Color</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/layout/">Layout</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/style/">Style</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/typography/">Typography</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/components/">Components</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/blocks/">Blocks</Link>
+            </ListItem>
+            <ListItem textColor="vs-white">
+              <Link to="/interactions/">Interactions</Link>
+            </ListItem>
+          </List>
+        </Dropdown>
         <ListItem textColor="vs-white">
           <a href="https://github.com/cpinnix/verious">Github</a>
         </ListItem>

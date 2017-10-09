@@ -37,6 +37,9 @@ module.exports = () => (
             <Paragraph>Image</Paragraph>
             <Image source="https://bigcatrescue.org/wp-content/uploads/2011/05/Peaches.jpg" />
             <Paragraph>Dropdown</Paragraph>
+            <Paragraph>Blockquote</Paragraph>
+            <Paragraph>Presentation</Paragraph>
+            <Paragraph>HorizontalScroll</Paragraph>
           </Column>
         </Row>
       </Container>
