@@ -6118,6 +6118,9 @@ caption, th, td {
   height: 96rem; }
 
 .vs-circle--1 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 1rem;
   height: 1rem;
   -webkit-border-radius: 0.5rem;
@@ -6126,6 +6129,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--2 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 2rem;
   height: 2rem;
   -webkit-border-radius: 1rem;
@@ -6134,6 +6140,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--3 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 3rem;
   height: 3rem;
   -webkit-border-radius: 1.5rem;
@@ -6142,6 +6151,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--4 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 4rem;
   height: 4rem;
   -webkit-border-radius: 2rem;
@@ -6150,6 +6162,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--5 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 5rem;
   height: 5rem;
   -webkit-border-radius: 2.5rem;
@@ -6158,6 +6173,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--6 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 6rem;
   height: 6rem;
   -webkit-border-radius: 3rem;
@@ -6166,6 +6184,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--7 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 7rem;
   height: 7rem;
   -webkit-border-radius: 3.5rem;
@@ -6174,6 +6195,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--8 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 8rem;
   height: 8rem;
   -webkit-border-radius: 4rem;
@@ -6182,6 +6206,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--9 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 9rem;
   height: 9rem;
   -webkit-border-radius: 4.5rem;
@@ -6190,6 +6217,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--10 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 10rem;
   height: 10rem;
   -webkit-border-radius: 5rem;
@@ -6198,6 +6228,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--11 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 11rem;
   height: 11rem;
   -webkit-border-radius: 5.5rem;
@@ -6206,6 +6239,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--12 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 12rem;
   height: 12rem;
   -webkit-border-radius: 6rem;
@@ -6214,6 +6250,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--13 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 13rem;
   height: 13rem;
   -webkit-border-radius: 6.5rem;
@@ -6222,6 +6261,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--14 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 14rem;
   height: 14rem;
   -webkit-border-radius: 7rem;
@@ -6230,6 +6272,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--15 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 15rem;
   height: 15rem;
   -webkit-border-radius: 7.5rem;
@@ -6238,6 +6283,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--16 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 16rem;
   height: 16rem;
   -webkit-border-radius: 8rem;
@@ -6246,6 +6294,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--17 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 17rem;
   height: 17rem;
   -webkit-border-radius: 8.5rem;
@@ -6254,6 +6305,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--18 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 18rem;
   height: 18rem;
   -webkit-border-radius: 9rem;
@@ -6262,6 +6316,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--19 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 19rem;
   height: 19rem;
   -webkit-border-radius: 9.5rem;
@@ -6270,6 +6327,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--20 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 20rem;
   height: 20rem;
   -webkit-border-radius: 10rem;
@@ -6278,6 +6338,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--21 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 21rem;
   height: 21rem;
   -webkit-border-radius: 10.5rem;
@@ -6286,6 +6349,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--22 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 22rem;
   height: 22rem;
   -webkit-border-radius: 11rem;
@@ -6294,6 +6360,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--23 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 23rem;
   height: 23rem;
   -webkit-border-radius: 11.5rem;
@@ -6302,6 +6371,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--24 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 24rem;
   height: 24rem;
   -webkit-border-radius: 12rem;
@@ -6310,6 +6382,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--25 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 25rem;
   height: 25rem;
   -webkit-border-radius: 12.5rem;
@@ -6318,6 +6393,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--26 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 26rem;
   height: 26rem;
   -webkit-border-radius: 13rem;
@@ -6326,6 +6404,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--27 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 27rem;
   height: 27rem;
   -webkit-border-radius: 13.5rem;
@@ -6334,6 +6415,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--28 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 28rem;
   height: 28rem;
   -webkit-border-radius: 14rem;
@@ -6342,6 +6426,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--29 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 29rem;
   height: 29rem;
   -webkit-border-radius: 14.5rem;
@@ -6350,6 +6437,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--30 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 30rem;
   height: 30rem;
   -webkit-border-radius: 15rem;
@@ -6358,6 +6448,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--31 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 31rem;
   height: 31rem;
   -webkit-border-radius: 15.5rem;
@@ -6366,6 +6459,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--32 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 32rem;
   height: 32rem;
   -webkit-border-radius: 16rem;
@@ -6374,6 +6470,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--33 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 33rem;
   height: 33rem;
   -webkit-border-radius: 16.5rem;
@@ -6382,6 +6481,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--34 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 34rem;
   height: 34rem;
   -webkit-border-radius: 17rem;
@@ -6390,6 +6492,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--35 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 35rem;
   height: 35rem;
   -webkit-border-radius: 17.5rem;
@@ -6398,6 +6503,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--36 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 36rem;
   height: 36rem;
   -webkit-border-radius: 18rem;
@@ -6406,6 +6514,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--37 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 37rem;
   height: 37rem;
   -webkit-border-radius: 18.5rem;
@@ -6414,6 +6525,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--38 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 38rem;
   height: 38rem;
   -webkit-border-radius: 19rem;
@@ -6422,6 +6536,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--39 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 39rem;
   height: 39rem;
   -webkit-border-radius: 19.5rem;
@@ -6430,6 +6547,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--40 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 40rem;
   height: 40rem;
   -webkit-border-radius: 20rem;
@@ -6438,6 +6558,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--41 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 41rem;
   height: 41rem;
   -webkit-border-radius: 20.5rem;
@@ -6446,6 +6569,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--42 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 42rem;
   height: 42rem;
   -webkit-border-radius: 21rem;
@@ -6454,6 +6580,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--43 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 43rem;
   height: 43rem;
   -webkit-border-radius: 21.5rem;
@@ -6462,6 +6591,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--44 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 44rem;
   height: 44rem;
   -webkit-border-radius: 22rem;
@@ -6470,6 +6602,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--45 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 45rem;
   height: 45rem;
   -webkit-border-radius: 22.5rem;
@@ -6478,6 +6613,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--46 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 46rem;
   height: 46rem;
   -webkit-border-radius: 23rem;
@@ -6486,6 +6624,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--47 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 47rem;
   height: 47rem;
   -webkit-border-radius: 23.5rem;
@@ -6494,6 +6635,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--48 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 48rem;
   height: 48rem;
   -webkit-border-radius: 24rem;
@@ -6502,6 +6646,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--49 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 49rem;
   height: 49rem;
   -webkit-border-radius: 24.5rem;
@@ -6510,6 +6657,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--50 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 50rem;
   height: 50rem;
   -webkit-border-radius: 25rem;
@@ -6518,6 +6668,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--51 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 51rem;
   height: 51rem;
   -webkit-border-radius: 25.5rem;
@@ -6526,6 +6679,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--52 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 52rem;
   height: 52rem;
   -webkit-border-radius: 26rem;
@@ -6534,6 +6690,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--53 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 53rem;
   height: 53rem;
   -webkit-border-radius: 26.5rem;
@@ -6542,6 +6701,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--54 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 54rem;
   height: 54rem;
   -webkit-border-radius: 27rem;
@@ -6550,6 +6712,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--55 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 55rem;
   height: 55rem;
   -webkit-border-radius: 27.5rem;
@@ -6558,6 +6723,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--56 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 56rem;
   height: 56rem;
   -webkit-border-radius: 28rem;
@@ -6566,6 +6734,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--57 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 57rem;
   height: 57rem;
   -webkit-border-radius: 28.5rem;
@@ -6574,6 +6745,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--58 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 58rem;
   height: 58rem;
   -webkit-border-radius: 29rem;
@@ -6582,6 +6756,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--59 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 59rem;
   height: 59rem;
   -webkit-border-radius: 29.5rem;
@@ -6590,6 +6767,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--60 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 60rem;
   height: 60rem;
   -webkit-border-radius: 30rem;
@@ -6598,6 +6778,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--61 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 61rem;
   height: 61rem;
   -webkit-border-radius: 30.5rem;
@@ -6606,6 +6789,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--62 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 62rem;
   height: 62rem;
   -webkit-border-radius: 31rem;
@@ -6614,6 +6800,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--63 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 63rem;
   height: 63rem;
   -webkit-border-radius: 31.5rem;
@@ -6622,6 +6811,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--64 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 64rem;
   height: 64rem;
   -webkit-border-radius: 32rem;
@@ -6630,6 +6822,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--65 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 65rem;
   height: 65rem;
   -webkit-border-radius: 32.5rem;
@@ -6638,6 +6833,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--66 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 66rem;
   height: 66rem;
   -webkit-border-radius: 33rem;
@@ -6646,6 +6844,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--67 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 67rem;
   height: 67rem;
   -webkit-border-radius: 33.5rem;
@@ -6654,6 +6855,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--68 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 68rem;
   height: 68rem;
   -webkit-border-radius: 34rem;
@@ -6662,6 +6866,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--69 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 69rem;
   height: 69rem;
   -webkit-border-radius: 34.5rem;
@@ -6670,6 +6877,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--70 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 70rem;
   height: 70rem;
   -webkit-border-radius: 35rem;
@@ -6678,6 +6888,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--71 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 71rem;
   height: 71rem;
   -webkit-border-radius: 35.5rem;
@@ -6686,6 +6899,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--72 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 72rem;
   height: 72rem;
   -webkit-border-radius: 36rem;
@@ -6694,6 +6910,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--73 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 73rem;
   height: 73rem;
   -webkit-border-radius: 36.5rem;
@@ -6702,6 +6921,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--74 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 74rem;
   height: 74rem;
   -webkit-border-radius: 37rem;
@@ -6710,6 +6932,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--75 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 75rem;
   height: 75rem;
   -webkit-border-radius: 37.5rem;
@@ -6718,6 +6943,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--76 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 76rem;
   height: 76rem;
   -webkit-border-radius: 38rem;
@@ -6726,6 +6954,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--77 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 77rem;
   height: 77rem;
   -webkit-border-radius: 38.5rem;
@@ -6734,6 +6965,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--78 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 78rem;
   height: 78rem;
   -webkit-border-radius: 39rem;
@@ -6742,6 +6976,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--79 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 79rem;
   height: 79rem;
   -webkit-border-radius: 39.5rem;
@@ -6750,6 +6987,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--80 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 80rem;
   height: 80rem;
   -webkit-border-radius: 40rem;
@@ -6758,6 +6998,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--81 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 81rem;
   height: 81rem;
   -webkit-border-radius: 40.5rem;
@@ -6766,6 +7009,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--82 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 82rem;
   height: 82rem;
   -webkit-border-radius: 41rem;
@@ -6774,6 +7020,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--83 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 83rem;
   height: 83rem;
   -webkit-border-radius: 41.5rem;
@@ -6782,6 +7031,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--84 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 84rem;
   height: 84rem;
   -webkit-border-radius: 42rem;
@@ -6790,6 +7042,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--85 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 85rem;
   height: 85rem;
   -webkit-border-radius: 42.5rem;
@@ -6798,6 +7053,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--86 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 86rem;
   height: 86rem;
   -webkit-border-radius: 43rem;
@@ -6806,6 +7064,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--87 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 87rem;
   height: 87rem;
   -webkit-border-radius: 43.5rem;
@@ -6814,6 +7075,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--88 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 88rem;
   height: 88rem;
   -webkit-border-radius: 44rem;
@@ -6822,6 +7086,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--89 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 89rem;
   height: 89rem;
   -webkit-border-radius: 44.5rem;
@@ -6830,6 +7097,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--90 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 90rem;
   height: 90rem;
   -webkit-border-radius: 45rem;
@@ -6838,6 +7108,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--91 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 91rem;
   height: 91rem;
   -webkit-border-radius: 45.5rem;
@@ -6846,6 +7119,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--92 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 92rem;
   height: 92rem;
   -webkit-border-radius: 46rem;
@@ -6854,6 +7130,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--93 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 93rem;
   height: 93rem;
   -webkit-border-radius: 46.5rem;
@@ -6862,6 +7141,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--94 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 94rem;
   height: 94rem;
   -webkit-border-radius: 47rem;
@@ -6870,6 +7152,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--95 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 95rem;
   height: 95rem;
   -webkit-border-radius: 47.5rem;
@@ -6878,6 +7163,9 @@ caption, th, td {
   /* stops bg color from leaking outside the border: */ }
 
 .vs-circle--96 {
+  position: relative;
+  display: flex;
+  overflow: hidden;
   width: 96rem;
   height: 96rem;
   -webkit-border-radius: 48rem;

@@ -1,15 +1,6 @@
 const React = require('react');
 const BackgroundColor = require('../BackgroundColor');
 
-function getStyle({ style }) {
-  const newStyle = {
-    display: 'flex',
-    overflow: 'hidden'
-  };
-
-  return Object.assign({}, style, newStyle);
-}
-
 function getClassName({ size }) {
   let classes = [];
 
@@ -21,10 +12,17 @@ function getClassName({ size }) {
 }
 
 module.exports = props => (
-  <div style={getStyle(props)} className={getClassName(props)}>
+  <div style={props.style} className={getClassName(props)}>
     <BackgroundColor
       color={props.backgroundColor}
-      style={{ height: '100%', width: '100%' }}
+      style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        height: '100%',
+        width: '100%'
+      }}
     />
+    {props.children && props.children}
   </div>
 );

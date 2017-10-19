@@ -5,19 +5,8 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 var React = require('react');
 var BackgroundColor = require('../BackgroundColor');
 
-function getStyle(_ref) {
-  var style = _ref.style;
-
-  var newStyle = {
-    display: 'flex',
-    overflow: 'hidden'
-  };
-
-  return Object.assign({}, style, newStyle);
-}
-
-function getClassName(_ref2) {
-  var size = _ref2.size;
+function getClassName(_ref) {
+  var size = _ref.size;
 
   var classes = [];
 
@@ -31,10 +20,17 @@ function getClassName(_ref2) {
 module.exports = function (props) {
   return React.createElement(
     'div',
-    { style: getStyle(props), className: getClassName(props) },
+    { style: props.style, className: getClassName(props) },
     React.createElement(BackgroundColor, {
       color: props.backgroundColor,
-      style: { height: '100%', width: '100%' }
-    })
+      style: {
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        height: '100%',
+        width: '100%'
+      }
+    }),
+    props.children && props.children
   );
 };
