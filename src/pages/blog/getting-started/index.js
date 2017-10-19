@@ -24,31 +24,30 @@ module.exports = () => (
           <Column span={[6, 8, 8, 8]} push={[0, 2, 4, 4]}>
             <Heading size="2">The Boilerplate, Get It!</Heading>
             <Paragraph>
-              Everyone needs a good starting point. To download the{' '}
-              <a href="https://github.com/cpinnix/verious-boilerplate">
-                verious boilerplate
+              Everyone needs a good starting point. Head over to the{' '}
+              <a href="https://www.gatsbyjs.org/docs/">
+                Gatsby documentation
               </a>{' '}
-              run:
+              to install the command line interface globally.
             </Paragraph>
-            <Code>{`
-git clone git@github.com:cpinnix/verious-boilerplate.git
-            `}</Code>
             <Paragraph>
-              The boilerplate comes with Gatsby and Verious code built right in.
-              Because the boilerplate is a git repository, the first thing to do
-              is rename the root directory and delete the git directory inside.
-              To do that run:
+              The{' '}
+              <a href="https://github.com/cpinnix/verious-boilerplate">
+                Verious boilerplate
+              </a>{' '}
+              comes with Gatsby and Verious code built right in. To start a new
+              website with the boilerplate run:
             </Paragraph>
             <Code>{`
-mv verious-boilerplate your-project-name
-cd your-project-name
-rm -rf .git
+gatsby new [SITE_DIRECTORY] https://github.com/cpinnix/verious-boilerplate
             `}</Code>
+            <Paragraph />
             <Paragraph>
               This project requires a handful of dependencies to run and
               luckily, these can be retrieved with a single command:
             </Paragraph>
             <Code>{`
+cd [SITE_DIRECTORY]
 yarn install
             `}</Code>
             <Paragraph>

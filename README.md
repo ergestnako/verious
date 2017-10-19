@@ -6,9 +6,11 @@ To provide a set of easy to use React components for designing static websites w
 
 ## Reference
 
-- https://github.com/jakegiltsoff/sassline
-- https://github.com/simonlindsay/typographic-rhythm
 - https://www.gatsbyjs.org/
+
+## Getting Started
+
+Head over to the [getting started page](https://www.verious.io/blog/getting-started/) for instructions.
 
 ## Development
 

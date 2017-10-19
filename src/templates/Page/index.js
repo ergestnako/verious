@@ -54,24 +54,6 @@ export default ({ children }) => (
             <ListItem textColor="vs-white">
               <Link to="/color/">Color</Link>
             </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/layout/">Layout</Link>
-            </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/style/">Style</Link>
-            </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/typography/">Typography</Link>
-            </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/components/">Components</Link>
-            </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/blocks/">Blocks</Link>
-            </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/interactions/">Interactions</Link>
-            </ListItem>
           </List>
         </Dropdown>
         <ListItem textColor="vs-white">
