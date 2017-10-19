@@ -1,0 +1,15 @@
+//
+//    File:           _circle.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Base
+//
+
+@for $i from 1 through 96 {
+  .vs-circle--#{$i} {
+    @include vs-circle($i);
+  }
+}

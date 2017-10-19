@@ -1,0 +1,10 @@
+//
+//    File:           _circle.scss
+//    Description:
+//
+
+@mixin vs-circle($multiplier) {
+  width: $multiplier * 1rem;
+  height: $multiplier * 1rem;
+  @include vs-border-radius($multiplier / 2 * 1rem);
+}

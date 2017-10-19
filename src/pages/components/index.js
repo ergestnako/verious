@@ -10,6 +10,7 @@ const HorizontalRule = require('../../../react/components/HorizontalRule');
 const Square = require('../../../react/components/Square');
 const Paragraph = require('../../../react/components/Paragraph');
 const Image = require('../../../react/components/Image');
+const Circle = require('../../../react/components/Circle');
 
 module.exports = () => (
   <Page>
@@ -40,6 +41,8 @@ module.exports = () => (
             <Paragraph>Blockquote</Paragraph>
             <Paragraph>Presentation</Paragraph>
             <Paragraph>HorizontalScroll</Paragraph>
+            <Paragraph>Circle</Paragraph>
+            <Circle size={2} backgroundColor="vs-black" />
           </Column>
         </Row>
       </Container>

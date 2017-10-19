@@ -20,8 +20,6 @@ function getClassName(_ref) {
   }
 
   if (visibility) {
-    classes = [].concat(_toConsumableArray(classes), ['vs-padding-top-' + padding[0], 'vs-padding-right-' + padding[1], 'vs-padding-bottom-' + padding[2], 'vs-padding-left-' + padding[3]]);
-
     if (visibility[0] === false) {
       classes = [].concat(_toConsumableArray(classes), ['vs-hidden-sm']);
     }

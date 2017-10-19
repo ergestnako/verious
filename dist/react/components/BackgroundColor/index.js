@@ -18,25 +18,24 @@ function getClassName(_ref) {
 }
 
 function getStyles(_ref2) {
-  var color = _ref2.color;
+  var style = _ref2.style,
+      color = _ref2.color;
 
-  var styles = {};
+  var newStyle = {};
 
   if (color) {
     if (!utilities.isInternalColor(color)) {
-      styles.backgroundColor = color;
+      newStyle.backgroundColor = color;
     }
   }
 
-  return Object.assign({}, styles);
+  return Object.assign({}, style, newStyle);
 }
 
-module.exports = function (_ref3) {
-  var children = _ref3.children,
-      color = _ref3.color;
+module.exports = function (props) {
   return React.createElement(
     'div',
-    { className: getClassName({ color: color }), style: getStyles({ color: color }) },
-    children
+    { className: getClassName(props), style: getStyles(props) },
+    props.children
   );
 };

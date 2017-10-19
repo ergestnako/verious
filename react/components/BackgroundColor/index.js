@@ -13,20 +13,20 @@ function getClassName({ color }) {
   return classes.join(' ');
 }
 
-function getStyles({ color }) {
-  const styles = {};
+function getStyles({ style, color }) {
+  const newStyle = {};
 
   if (color) {
     if (!utilities.isInternalColor(color)) {
-      styles.backgroundColor = color;
+      newStyle.backgroundColor = color;
     }
   }
 
-  return Object.assign({}, styles);
+  return Object.assign({}, style, newStyle);
 }
 
-module.exports = ({ children, color }) => (
-  <div className={getClassName({ color })} style={getStyles({ color })}>
-    {children}
+module.exports = props => (
+  <div className={getClassName(props)} style={getStyles(props)}>
+    {props.children}
   </div>
 );

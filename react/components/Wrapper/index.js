@@ -24,14 +24,6 @@ function getClassName({ padding, visibility, pull }) {
   }
 
   if (visibility) {
-    classes = [
-      ...classes,
-      `vs-padding-top-${padding[0]}`,
-      `vs-padding-right-${padding[1]}`,
-      `vs-padding-bottom-${padding[2]}`,
-      `vs-padding-left-${padding[3]}`
-    ];
-
     if (visibility[0] === false) {
       classes = [...classes, 'vs-hidden-sm'];
     }
