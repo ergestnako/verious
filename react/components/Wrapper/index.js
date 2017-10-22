@@ -78,7 +78,10 @@ function getClassName({ padding, margin, pull, visibility }) {
 }
 
 module.exports = ({ children, style, padding, margin, pull, visibility }) => (
-  <div style={style} className={getClassName({ padding, visibility, pull })}>
+  <div
+    style={style}
+    className={getClassName({ padding, margin, pull, visibility })}
+  >
     {children}
   </div>
 );

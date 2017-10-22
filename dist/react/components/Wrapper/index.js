@@ -77,7 +77,10 @@ module.exports = function (_ref2) {
       visibility = _ref2.visibility;
   return React.createElement(
     'div',
-    { style: style, className: getClassName({ padding: padding, visibility: visibility, pull: pull }) },
+    {
+      style: style,
+      className: getClassName({ padding: padding, margin: margin, pull: pull, visibility: visibility })
+    },
     children
   );
 };
