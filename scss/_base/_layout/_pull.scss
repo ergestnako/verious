@@ -3,7 +3,7 @@
 //    Description:
 //
 
-@for $i from 1 through 24 {
+@for $i from 1 through 96 {
   .vs-pull-top-#{$i} {
     @include vs-pull(top, $i);
   }
@@ -20,97 +20,97 @@
     @include vs-pull(left, $i);
   }
 
-  .vs-sm-pull-top-#{$i} {
+  .vs-pull-sm-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       @include vs-pull(top, $i);
     }
   }
 
-  .vs-sm-pull-right-#{$i} {
+  .vs-pull-sm-right-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       @include vs-pull(right, $i);
     }
   }
 
-  .vs-sm-pull-bottom-#{$i} {
+  .vs-pull-sm-bottom-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       @include vs-pull(bottom, $i);
     }
   }
 
-  .vs-sm-pull-left-#{$i} {
+  .vs-pull-sm-left-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       @include vs-pull(left, $i);
     }
   }
 
-  .vs-md-pull-top-#{$i} {
+  .vs-pull-md-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       @include vs-pull(top, $i);
     }
   }
 
-  .vs-md-pull-right-#{$i} {
+  .vs-pull-md-right-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       @include vs-pull(right, $i);
     }
   }
 
-  .vs-md-pull-bottom-#{$i} {
+  .vs-pull-md-bottom-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       @include vs-pull(bottom, $i);
     }
   }
 
-  .vs-md-pull-left-#{$i} {
+  .vs-pull-md-left-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       @include vs-pull(left, $i);
     }
   }
 
-  .vs-lg-pull-top-#{$i} {
+  .vs-pull-lg-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       @include vs-pull(top, $i);
     }
   }
 
-  .vs-lg-pull-right-#{$i} {
+  .vs-pull-lg-right-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       @include vs-pull(right, $i);
     }
   }
 
-  .vs-lg-pull-bottom-#{$i} {
+  .vs-pull-lg-bottom-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       @include vs-pull(bottom, $i);
     }
   }
 
-  .vs-lg-pull-left-#{$i} {
+  .vs-pull-lg-left-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       @include vs-pull(left, $i);
     }
   }
 
-  .vs-xl-pull-top-#{$i} {
+  .vs-pull-xl-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {
       @include vs-pull(top, $i);
     }
   }
 
-  .vs-xl-pull-right-#{$i} {
+  .vs-pull-xl-right-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {
       @include vs-pull(right, $i);
     }
   }
 
-  .vs-xl-pull-bottom-#{$i} {
+  .vs-pull-xl-bottom-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {
       @include vs-pull(bottom, $i);
     }
   }
 
-  .vs-xl-pull-left-#{$i} {
+  .vs-pull-xl-left-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {
       @include vs-pull(left, $i);
     }

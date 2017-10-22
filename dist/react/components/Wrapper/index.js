@@ -20,7 +20,7 @@ function getClassName(_ref) {
       if (typeof p === 'number') {
         classes = [].concat(_toConsumableArray(classes), ['vs-padding-' + edges[i] + '-' + p]);
       } else if (Array.isArray(p)) {
-        classes = [].concat(_toConsumableArray(classes), ['vs-sm-padding-' + edges[i] + '-' + p[0], 'vs-md-padding-' + edges[i] + '-' + p[1], 'vs-lg-padding-' + edges[i] + '-' + p[2], 'vs-xl-padding-' + edges[i] + '-' + p[3]]);
+        classes = [].concat(_toConsumableArray(classes), ['vs-padding-sm-' + edges[i] + '-' + p[0], 'vs-padding-md-' + edges[i] + '-' + p[1], 'vs-padding-lg-' + edges[i] + '-' + p[2], 'vs-padding-xl-' + edges[i] + '-' + p[3]]);
       }
     }
   }
@@ -31,7 +31,7 @@ function getClassName(_ref) {
       if (typeof _p === 'number') {
         classes = [].concat(_toConsumableArray(classes), ['vs-margin-' + edges[_i] + '-' + _p]);
       } else if (Array.isArray(_p)) {
-        classes = [].concat(_toConsumableArray(classes), ['vs-sm-margin-' + edges[_i] + '-' + _p[0], 'vs-md-margin-' + edges[_i] + '-' + _p[1], 'vs-lg-margin-' + edges[_i] + '-' + _p[2], 'vs-xl-margin-' + edges[_i] + '-' + _p[3]]);
+        classes = [].concat(_toConsumableArray(classes), ['vs-margin-sm-' + edges[_i] + '-' + _p[0], 'vs-margin-md-' + edges[_i] + '-' + _p[1], 'vs-margin-lg-' + edges[_i] + '-' + _p[2], 'vs-margin-xl-' + edges[_i] + '-' + _p[3]]);
       }
     }
   }
@@ -42,7 +42,7 @@ function getClassName(_ref) {
       if (typeof _p2 === 'number') {
         classes = [].concat(_toConsumableArray(classes), ['vs-pull-' + edges[_i2] + '-' + _p2]);
       } else if (Array.isArray(_p2)) {
-        classes = [].concat(_toConsumableArray(classes), ['vs-sm-pull-' + edges[_i2] + '-' + _p2[0], 'vs-md-pull-' + edges[_i2] + '-' + _p2[1], 'vs-lg-pull-' + edges[_i2] + '-' + _p2[2], 'vs-xl-pull-' + edges[_i2] + '-' + _p2[3]]);
+        classes = [].concat(_toConsumableArray(classes), ['vs-pull-sm-' + edges[_i2] + '-' + _p2[0], 'vs-pull-md-' + edges[_i2] + '-' + _p2[1], 'vs-pull-lg-' + edges[_i2] + '-' + _p2[2], 'vs-pull-xl-' + edges[_i2] + '-' + _p2[3]]);
       }
     }
   }

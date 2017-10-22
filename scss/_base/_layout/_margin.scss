@@ -3,7 +3,7 @@
 //    Description:
 //
 
-@for $i from 1 through 24 {
+@for $i from 1 through 96 {
   .vs-margin-top-#{$i} {
     @include vs-margin(top, $i);
   }
@@ -20,97 +20,97 @@
     @include vs-margin(left, $i);
   }
 
-  .vs-sm-margin-top-#{$i} {
+  .vs-margin-sm-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       margin-top: $i + rem;
     }
   }
 
-  .vs-sm-margin-right-#{$i} {
+  .vs-margin-sm-right-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       margin-right: $i + rem;
     }
   }
 
-  .vs-sm-margin-bottom-#{$i} {
+  .vs-margin-sm-bottom-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       margin-bottom: $i + rem;
     }
   }
 
-  .vs-sm-margin-left-#{$i} {
+  .vs-margin-sm-left-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       margin-left: $i + rem;
     }
   }
 
-  .vs-md-margin-top-#{$i} {
+  .vs-margin-md-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       margin-top: $i + rem;
     }
   }
 
-  .vs-md-margin-right-#{$i} {
+  .vs-margin-md-right-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       margin-right: $i + rem;
     }
   }
 
-  .vs-md-margin-bottom-#{$i} {
+  .vs-margin-md-bottom-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       margin-bottom: $i + rem;
     }
   }
 
-  .vs-md-margin-left-#{$i} {
+  .vs-margin-md-left-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       margin-left: $i + rem;
     }
   }
 
-  .vs-lg-margin-top-#{$i} {
+  .vs-margin-lg-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       margin-top: $i + rem;
     }
   }
 
-  .vs-lg-margin-right-#{$i} {
+  .vs-margin-lg-right-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       margin-right: $i + rem;
     }
   }
 
-  .vs-lg-margin-bottom-#{$i} {
+  .vs-margin-lg-bottom-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       margin-bottom: $i + rem;
     }
   }
 
-  .vs-lg-margin-left-#{$i} {
+  .vs-margin-lg-left-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       margin-left: $i + rem;
     }
   }
 
-  .vs-xl-margin-top-#{$i} {
+  .vs-margin-xl-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {
       margin-top: $i + rem;
     }
   }
 
-  .vs-xl-margin-right-#{$i} {
+  .vs-margin-xl-right-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {
       margin-right: $i + rem;
     }
   }
 
-  .vs-xl-margin-bottom-#{$i} {
+  .vs-margin-xl-bottom-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {
       margin-bottom: $i + rem;
     }
   }
 
-  .vs-xl-margin-left-#{$i} {
+  .vs-margin-xl-left-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {
       margin-left: $i + rem;
     }

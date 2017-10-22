@@ -13,10 +13,10 @@ function getClassName({ padding, margin, pull, visibility }) {
       } else if (Array.isArray(p)) {
         classes = [
           ...classes,
-          `vs-sm-padding-${edges[i]}-${p[0]}`,
-          `vs-md-padding-${edges[i]}-${p[1]}`,
-          `vs-lg-padding-${edges[i]}-${p[2]}`,
-          `vs-xl-padding-${edges[i]}-${p[3]}`
+          `vs-padding-sm-${edges[i]}-${p[0]}`,
+          `vs-padding-md-${edges[i]}-${p[1]}`,
+          `vs-padding-lg-${edges[i]}-${p[2]}`,
+          `vs-padding-xl-${edges[i]}-${p[3]}`
         ];
       }
     }
@@ -30,10 +30,10 @@ function getClassName({ padding, margin, pull, visibility }) {
       } else if (Array.isArray(p)) {
         classes = [
           ...classes,
-          `vs-sm-margin-${edges[i]}-${p[0]}`,
-          `vs-md-margin-${edges[i]}-${p[1]}`,
-          `vs-lg-margin-${edges[i]}-${p[2]}`,
-          `vs-xl-margin-${edges[i]}-${p[3]}`
+          `vs-margin-sm-${edges[i]}-${p[0]}`,
+          `vs-margin-md-${edges[i]}-${p[1]}`,
+          `vs-margin-lg-${edges[i]}-${p[2]}`,
+          `vs-margin-xl-${edges[i]}-${p[3]}`
         ];
       }
     }
@@ -47,10 +47,10 @@ function getClassName({ padding, margin, pull, visibility }) {
       } else if (Array.isArray(p)) {
         classes = [
           ...classes,
-          `vs-sm-pull-${edges[i]}-${p[0]}`,
-          `vs-md-pull-${edges[i]}-${p[1]}`,
-          `vs-lg-pull-${edges[i]}-${p[2]}`,
-          `vs-xl-pull-${edges[i]}-${p[3]}`
+          `vs-pull-sm-${edges[i]}-${p[0]}`,
+          `vs-pull-md-${edges[i]}-${p[1]}`,
+          `vs-pull-lg-${edges[i]}-${p[2]}`,
+          `vs-pull-xl-${edges[i]}-${p[3]}`
         ];
       }
     }
