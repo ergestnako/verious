@@ -11,6 +11,7 @@ const Square = require('../../../react/components/Square');
 const Paragraph = require('../../../react/components/Paragraph');
 const Image = require('../../../react/components/Image');
 const Circle = require('../../../react/components/Circle');
+const Code = require('../../../react/components/Code');
 
 module.exports = () => (
   <Page>
@@ -36,7 +37,40 @@ module.exports = () => (
             <Paragraph>Rectangle</Paragraph>
             <Paragraph>Angle</Paragraph>
             <Paragraph>Image</Paragraph>
+            <Code>
+              {`
+import React from 'react';
+import Image from 'verious/dist/react/components/Image';
+
+module.exports = () => <Image source="https://bigcatrescue.org/wp-content/uploads/2011/05/Peaches.jpg"/>
+              `}
+            </Code>
             <Image source="https://bigcatrescue.org/wp-content/uploads/2011/05/Peaches.jpg" />
+            <Square size={2} />
+            <Code>
+              {`
+import React from 'react';
+import Image from 'verious/dist/react/components/Image';
+
+module.exports = () =>
+  <Image
+    source={[
+      'http://r.ddmcdn.com/s_f/o_1/cx_462/cy_245/cw_1349/ch_1349/w_720/APL/uploads/2015/06/caturday-shutterstock_149320799.jpg',
+      'https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg',
+      'https://www.petfinder.com/wp-content/uploads/2012/11/152177319-declawing-cats-632x475-e1354303246526-632x353.jpg',
+      'https://www.petfinder.com/wp-content/uploads/2012/11/92259289-coping-allergies-pets-632x475.jpg'
+    ]}
+  />;
+              `}
+            </Code>
+            <Image
+              source={[
+                'http://r.ddmcdn.com/s_f/o_1/cx_462/cy_245/cw_1349/ch_1349/w_720/APL/uploads/2015/06/caturday-shutterstock_149320799.jpg',
+                'https://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/grief-and-loss.jpg',
+                'https://www.petfinder.com/wp-content/uploads/2012/11/152177319-declawing-cats-632x475-e1354303246526-632x353.jpg',
+                'https://www.petfinder.com/wp-content/uploads/2012/11/92259289-coping-allergies-pets-632x475.jpg'
+              ]}
+            />
             <Paragraph>Dropdown</Paragraph>
             <Paragraph>Blockquote</Paragraph>
             <Paragraph>Presentation</Paragraph>

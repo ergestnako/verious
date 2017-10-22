@@ -1,62 +1,33 @@
-/* global document, getComputedStyle */
-
 const React = require('react');
-const Measure = require('react-measure').default;
-
-function getSpacingUnit() {
-  if (typeof getComputedStyle === 'undefined') {
-    return 0;
-  }
-
-  return parseFloat(getComputedStyle(document.documentElement).fontSize);
-}
+const Wrapper = require('../Wrapper');
+const ImageBaseline = require('../ImageBaseline');
 
 class Image extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      loaded: false,
-      dimensions: {
-        width: -1,
-        height: -1
-      }
-    };
-
-    this.handleLoad = this.handleLoad.bind(this);
-  }
-
-  handleLoad() {
-    this.setState(Object.assign({}, this.state, { loaded: true }));
-  }
-
   render() {
-    const { height } = this.state.dimensions;
+    let element = <div />;
 
-    return (
-      <Measure
-        bounds
-        onResize={contentRect => {
-          this.setState({ dimensions: contentRect.bounds });
-        }}
-      >
-        {({ measureRef }) => {
-          const spacingUnit = getSpacingUnit();
-          const newHeight = Math.floor(height / spacingUnit) * spacingUnit;
+    if (Array.isArray(this.props.source)) {
+      element = (
+        <Wrapper>
+          <Wrapper visibility={[true, false, false, false]}>
+            <ImageBaseline source={this.props.source[0]} />
+          </Wrapper>
+          <Wrapper visibility={[false, true, false, false]}>
+            <ImageBaseline source={this.props.source[1]} />
+          </Wrapper>
+          <Wrapper visibility={[false, false, true, false]}>
+            <ImageBaseline source={this.props.source[2]} />
+          </Wrapper>
+          <Wrapper visibility={[false, false, false, true]}>
+            <ImageBaseline source={this.props.source[3]} />
+          </Wrapper>
+        </Wrapper>
+      );
+    } else {
+      element = <ImageBaseline source={this.props.source} />;
+    }
 
-          return (
-            <div className="vs-image-image" style={{ height: newHeight }}>
-              <img
-                src={this.props.source}
-                alt={this.props.source}
-                className={this.state.loaded ? 'vs-image-source' : ''}
-                ref={measureRef}
-                onLoad={this.handleLoad}
-              />
-            </div>
-          );
-        }}
-      </Measure>
-    );
+    return element;
   }
 }
 
