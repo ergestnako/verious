@@ -19,4 +19,100 @@
   .vs-pull-left-#{$i} {
     @include vs-pull(left, $i);
   }
+
+  .vs-sm-pull-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      @include vs-pull(top, $i);
+    }
+  }
+
+  .vs-sm-pull-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      @include vs-pull(right, $i);
+    }
+  }
+
+  .vs-sm-pull-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      @include vs-pull(bottom, $i);
+    }
+  }
+
+  .vs-sm-pull-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      @include vs-pull(left, $i);
+    }
+  }
+
+  .vs-md-pull-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      @include vs-pull(top, $i);
+    }
+  }
+
+  .vs-md-pull-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      @include vs-pull(right, $i);
+    }
+  }
+
+  .vs-md-pull-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      @include vs-pull(bottom, $i);
+    }
+  }
+
+  .vs-md-pull-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      @include vs-pull(left, $i);
+    }
+  }
+
+  .vs-lg-pull-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      @include vs-pull(top, $i);
+    }
+  }
+
+  .vs-lg-pull-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      @include vs-pull(right, $i);
+    }
+  }
+
+  .vs-lg-pull-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      @include vs-pull(bottom, $i);
+    }
+  }
+
+  .vs-lg-pull-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      @include vs-pull(left, $i);
+    }
+  }
+
+  .vs-xl-pull-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      @include vs-pull(top, $i);
+    }
+  }
+
+  .vs-xl-pull-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      @include vs-pull(right, $i);
+    }
+  }
+
+  .vs-xl-pull-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      @include vs-pull(bottom, $i);
+    }
+  }
+
+  .vs-xl-pull-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      @include vs-pull(left, $i);
+    }
+  }
 }

@@ -19,4 +19,100 @@
   .vs-margin-left-#{$i} {
     @include vs-margin(left, $i);
   }
+
+  .vs-sm-margin-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      margin-top: $i + rem;
+    }
+  }
+
+  .vs-sm-margin-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      margin-right: $i + rem;
+    }
+  }
+
+  .vs-sm-margin-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      margin-bottom: $i + rem;
+    }
+  }
+
+  .vs-sm-margin-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      margin-left: $i + rem;
+    }
+  }
+
+  .vs-md-margin-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      margin-top: $i + rem;
+    }
+  }
+
+  .vs-md-margin-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      margin-right: $i + rem;
+    }
+  }
+
+  .vs-md-margin-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      margin-bottom: $i + rem;
+    }
+  }
+
+  .vs-md-margin-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      margin-left: $i + rem;
+    }
+  }
+
+  .vs-lg-margin-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      margin-top: $i + rem;
+    }
+  }
+
+  .vs-lg-margin-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      margin-right: $i + rem;
+    }
+  }
+
+  .vs-lg-margin-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      margin-bottom: $i + rem;
+    }
+  }
+
+  .vs-lg-margin-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      margin-left: $i + rem;
+    }
+  }
+
+  .vs-xl-margin-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      margin-top: $i + rem;
+    }
+  }
+
+  .vs-xl-margin-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      margin-right: $i + rem;
+    }
+  }
+
+  .vs-xl-margin-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      margin-bottom: $i + rem;
+    }
+  }
+
+  .vs-xl-margin-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      margin-left: $i + rem;
+    }
+  }
 }

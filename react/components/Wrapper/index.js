@@ -1,26 +1,59 @@
 const React = require('react');
 
-function getClassName({ padding, visibility, pull }) {
+const edges = ['top', 'right', 'bottom', 'left'];
+
+function getClassName({ padding, margin, pull, visibility }) {
   let classes = [];
 
   if (padding) {
-    classes = [
-      ...classes,
-      `vs-padding-top-${padding[0]}`,
-      `vs-padding-right-${padding[1]}`,
-      `vs-padding-bottom-${padding[2]}`,
-      `vs-padding-left-${padding[3]}`
-    ];
+    for (let i = 0; i < padding.length; i += 1) {
+      const p = padding[i];
+      if (typeof p === 'number') {
+        classes = [...classes, `vs-padding-${edges[i]}-${p}`];
+      } else if (Array.isArray(p)) {
+        classes = [
+          ...classes,
+          `vs-sm-padding-${edges[i]}-${p[0]}`,
+          `vs-md-padding-${edges[i]}-${p[1]}`,
+          `vs-lg-padding-${edges[i]}-${p[2]}`,
+          `vs-xl-padding-${edges[i]}-${p[3]}`
+        ];
+      }
+    }
+  }
+
+  if (margin) {
+    for (let i = 0; i < padding.length; i += 1) {
+      const p = margin[i];
+      if (typeof p === 'number') {
+        classes = [...classes, `vs-margin-${edges[i]}-${p}`];
+      } else if (Array.isArray(p)) {
+        classes = [
+          ...classes,
+          `vs-sm-margin-${edges[i]}-${p[0]}`,
+          `vs-md-margin-${edges[i]}-${p[1]}`,
+          `vs-lg-margin-${edges[i]}-${p[2]}`,
+          `vs-xl-margin-${edges[i]}-${p[3]}`
+        ];
+      }
+    }
   }
 
   if (pull) {
-    classes = [
-      ...classes,
-      `vs-pull-top-${pull[0]}`,
-      `vs-pull-right-${pull[1]}`,
-      `vs-pull-bottom-${pull[2]}`,
-      `vs-pull-left-${pull[3]}`
-    ];
+    for (let i = 0; i < padding.length; i += 1) {
+      const p = pull[i];
+      if (typeof p === 'number') {
+        classes = [...classes, `vs-pull-${edges[i]}-${p}`];
+      } else if (Array.isArray(p)) {
+        classes = [
+          ...classes,
+          `vs-sm-pull-${edges[i]}-${p[0]}`,
+          `vs-md-pull-${edges[i]}-${p[1]}`,
+          `vs-lg-pull-${edges[i]}-${p[2]}`,
+          `vs-xl-pull-${edges[i]}-${p[3]}`
+        ];
+      }
+    }
   }
 
   if (visibility) {
@@ -44,7 +77,7 @@ function getClassName({ padding, visibility, pull }) {
   return classes.join(' ');
 }
 
-module.exports = ({ children, style, padding, visibility, pull }) => (
+module.exports = ({ children, style, padding, margin, pull, visibility }) => (
   <div style={style} className={getClassName({ padding, visibility, pull })}>
     {children}
   </div>

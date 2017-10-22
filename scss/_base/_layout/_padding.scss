@@ -19,4 +19,100 @@
   .vs-padding-left-#{$i} {
     padding-left: $i + rem;
   }
+
+  .vs-sm-padding-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      padding-top: $i + rem;
+    }
+  }
+
+  .vs-sm-padding-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      padding-right: $i + rem;
+    }
+  }
+
+  .vs-sm-padding-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      padding-bottom: $i + rem;
+    }
+  }
+
+  .vs-sm-padding-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      padding-left: $i + rem;
+    }
+  }
+
+  .vs-md-padding-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      padding-top: $i + rem;
+    }
+  }
+
+  .vs-md-padding-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      padding-right: $i + rem;
+    }
+  }
+
+  .vs-md-padding-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      padding-bottom: $i + rem;
+    }
+  }
+
+  .vs-md-padding-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      padding-left: $i + rem;
+    }
+  }
+
+  .vs-lg-padding-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      padding-top: $i + rem;
+    }
+  }
+
+  .vs-lg-padding-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      padding-right: $i + rem;
+    }
+  }
+
+  .vs-lg-padding-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      padding-bottom: $i + rem;
+    }
+  }
+
+  .vs-lg-padding-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      padding-left: $i + rem;
+    }
+  }
+
+  .vs-xl-padding-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      padding-top: $i + rem;
+    }
+  }
+
+  .vs-xl-padding-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      padding-right: $i + rem;
+    }
+  }
+
+  .vs-xl-padding-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      padding-bottom: $i + rem;
+    }
+  }
+
+  .vs-xl-padding-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      padding-left: $i + rem;
+    }
+  }
 }
