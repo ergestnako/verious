@@ -26,6 +26,7 @@ module.exports = () => (
               textColor="vs-white"
               label="Button"
             />
+            <Square size={2} />
             <Paragraph>HorizontalRule</Paragraph>
             <HorizontalRule
               height={3}
@@ -33,7 +34,26 @@ module.exports = () => (
               lineColor="vs-grey-400"
             />
             <Paragraph>Square</Paragraph>
-            <Square size={3} backgroundColor="vs-grey-100" />
+            <Code>
+              {`
+import React from 'react';
+import Square from 'verious/dist/react/components/Square';
+
+module.exports = () => <Square size={3} backgroundColor="vs-blue-500" />;
+              `}
+            </Code>
+            <Square size={3} backgroundColor="vs-pink-500" />
+            <Square size={2} />
+            <Code>
+              {`
+import React from 'react';
+import Square from 'verious/dist/react/components/Square';
+
+module.exports = () => <Square size={[1, 2, 3, 4]} backgroundColor="vs-blue-500" />;
+              `}
+            </Code>
+            <Square size={[2, 4, 6, 8]} backgroundColor="vs-pink-500" />
+            <Square size={2} />
             <Paragraph>Rectangle</Paragraph>
             <Paragraph>Angle</Paragraph>
             <Paragraph>Image</Paragraph>

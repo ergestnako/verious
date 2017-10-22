@@ -1,0 +1,78 @@
+//
+//    File:           _dimensions.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Width
+//    2. Height
+//
+
+// ---------------------------------------------
+//    1. Width
+// ---------------------------------------------
+
+@for $i from 1 through 96 {
+  .vs-width-#{$i} {
+    @include vs-width($i);
+  }
+
+  .vs-width-sm-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      @include vs-width($i);
+    }
+  }
+
+  .vs-width-md-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      @include vs-width($i);
+    }
+  }
+
+  .vs-width-lg-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      @include vs-width($i);
+    }
+  }
+
+  .vs-width-xl-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      @include vs-width($i);
+    }
+  }
+}
+
+// ---------------------------------------------
+//    1. Height
+// ---------------------------------------------
+
+@for $i from 1 through 96 {
+  .vs-height-#{$i} {
+    @include vs-height($i);
+  }
+
+  .vs-height-sm-#{$i} {
+    @include vs-at-breakpoint($vs-screen-sm) {
+      @include vs-height($i);
+    }
+  }
+
+  .vs-height-md-#{$i} {
+    @include vs-at-breakpoint($vs-screen-md) {
+      @include vs-height($i);
+    }
+  }
+
+  .vs-height-lg-#{$i} {
+    @include vs-at-breakpoint($vs-screen-lg) {
+      @include vs-height($i);
+    }
+  }
+
+  .vs-height-xl-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xl) {
+      @include vs-height($i);
+    }
+  }
+}
