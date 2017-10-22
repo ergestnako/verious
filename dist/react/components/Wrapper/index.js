@@ -26,7 +26,7 @@ function getClassName(_ref) {
   }
 
   if (margin) {
-    for (var _i = 0; _i < padding.length; _i += 1) {
+    for (var _i = 0; _i < margin.length; _i += 1) {
       var _p = margin[_i];
       if (typeof _p === 'number') {
         classes = [].concat(_toConsumableArray(classes), ['vs-margin-' + edges[_i] + '-' + _p]);
@@ -37,7 +37,7 @@ function getClassName(_ref) {
   }
 
   if (pull) {
-    for (var _i2 = 0; _i2 < padding.length; _i2 += 1) {
+    for (var _i2 = 0; _i2 < pull.length; _i2 += 1) {
       var _p2 = pull[_i2];
       if (typeof _p2 === 'number') {
         classes = [].concat(_toConsumableArray(classes), ['vs-pull-' + edges[_i2] + '-' + _p2]);

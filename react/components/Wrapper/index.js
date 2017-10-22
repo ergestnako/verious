@@ -23,7 +23,7 @@ function getClassName({ padding, margin, pull, visibility }) {
   }
 
   if (margin) {
-    for (let i = 0; i < padding.length; i += 1) {
+    for (let i = 0; i < margin.length; i += 1) {
       const p = margin[i];
       if (typeof p === 'number') {
         classes = [...classes, `vs-margin-${edges[i]}-${p}`];
@@ -40,7 +40,7 @@ function getClassName({ padding, margin, pull, visibility }) {
   }
 
   if (pull) {
-    for (let i = 0; i < padding.length; i += 1) {
+    for (let i = 0; i < pull.length; i += 1) {
       const p = pull[i];
       if (typeof p === 'number') {
         classes = [...classes, `vs-pull-${edges[i]}-${p}`];
