@@ -20,10 +20,10 @@ function getClassName(_ref) {
   }
 
   if (height) {
-    if (Array.isArray(width)) {
-      classes = [].concat(_toConsumableArray(classes), ['vs-height-sm-' + width[0], 'vs-height-md-' + width[1], 'vs-height-lg-' + width[2], 'vs-height-xl-' + width[3]]);
+    if (Array.isArray(height)) {
+      classes = [].concat(_toConsumableArray(classes), ['vs-height-sm-' + height[0], 'vs-height-md-' + height[1], 'vs-height-lg-' + height[2], 'vs-height-xl-' + height[3]]);
     } else {
-      classes = [].concat(_toConsumableArray(classes), ['vs-height-' + width]);
+      classes = [].concat(_toConsumableArray(classes), ['vs-height-' + height]);
     }
   }
 
