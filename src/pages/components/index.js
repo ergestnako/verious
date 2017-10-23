@@ -42,17 +42,17 @@ import Square from 'verious/dist/react/components/Square';
 module.exports = () => <Square size={3} backgroundColor="vs-blue-500" />;
               `}
             </Code>
-            <Square size={3} backgroundColor="vs-pink-500" />
+            <Square size={3} backgroundColor="vs-blue-500" />
             <Square size={2} />
             <Code>
               {`
 import React from 'react';
 import Square from 'verious/dist/react/components/Square';
 
-module.exports = () => <Square size={[1, 2, 3, 4]} backgroundColor="vs-blue-500" />;
+module.exports = () => <Square size={[2, 4, 6, 8]} backgroundColor="vs-blue-500" />;
               `}
             </Code>
-            <Square size={[2, 4, 6, 8]} backgroundColor="vs-pink-500" />
+            <Square size={[2, 4, 6, 8]} backgroundColor="vs-blue-500" />
             <Square size={2} />
             <Paragraph>Rectangle</Paragraph>
             <Paragraph>Angle</Paragraph>
