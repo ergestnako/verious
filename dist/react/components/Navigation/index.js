@@ -13,10 +13,11 @@ var Container = require('../Container');
 var Row = require('../Row');
 var Column = require('../Column');
 var Wrapper = require('../Wrapper');
-var Button = require('../Button');
 var Layout = require('../Layout');
 var Spacer = require('../Spacer');
 var BackgroundColor = require('../BackgroundColor');
+var IconButton = require('../IconButton');
+var IconMenu = require('../IconMenu');
 
 var Navigation = function (_React$Component) {
   _inherits(Navigation, _React$Component);
@@ -59,25 +60,15 @@ var Navigation = function (_React$Component) {
                     this.props.left,
                     React.createElement(Spacer, null),
                     React.createElement(
-                      'div',
-                      { style: { display: this.state.open ? 'none' : '' } },
-                      React.createElement(Button, {
+                      IconButton,
+                      {
                         onClick: function onClick() {
-                          return _this2.setState({ open: true });
-                        },
-                        label: 'Menu',
-                        textColor: this.props.textColor || 'vs-black'
-                      })
-                    ),
-                    React.createElement(
-                      'div',
-                      { style: { display: this.state.open ? '' : 'none' } },
-                      React.createElement(Button, {
-                        onClick: function onClick() {
-                          return _this2.setState({ open: false });
-                        },
-                        label: 'Close',
-                        textColor: this.props.textColor || 'vs-black'
+                          return _this2.setState({ open: !_this2.state.open });
+                        }
+                      },
+                      React.createElement(IconMenu, {
+                        iconColor: 'vs-white',
+                        mode: this.state.open ? 'cross' : ''
                       })
                     )
                   )

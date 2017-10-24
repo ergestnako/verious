@@ -9,7 +9,7 @@ function getClassName(_ref) {
   var width = _ref.width,
       height = _ref.height;
 
-  var classes = [];
+  var classes = ['vs-rectangle'];
 
   if (width) {
     if (Array.isArray(width)) {
@@ -33,11 +33,14 @@ function getClassName(_ref) {
 module.exports = function (props) {
   return React.createElement(
     'div',
-    { style: { display: 'flex' } },
+    { className: getClassName(props) },
     React.createElement(
       BackgroundColor,
-      { color: props.backgroundColor },
-      React.createElement('div', { className: getClassName(props) })
+      {
+        color: props.backgroundColor,
+        style: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }
+      },
+      props.children && props.children
     )
   );
 };
