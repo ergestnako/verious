@@ -3,10 +3,11 @@ const Container = require('../Container');
 const Row = require('../Row');
 const Column = require('../Column');
 const Wrapper = require('../Wrapper');
-const Button = require('../Button');
 const Layout = require('../Layout');
 const Spacer = require('../Spacer');
 const BackgroundColor = require('../BackgroundColor');
+const IconButton = require('../IconButton');
+const IconMenu = require('../IconMenu');
 
 class Navigation extends React.Component {
   constructor() {
@@ -25,20 +26,14 @@ class Navigation extends React.Component {
                   <Layout direction="horizontal">
                     {this.props.left}
                     <Spacer />
-                    <div style={{ display: this.state.open ? 'none' : '' }}>
-                      <Button
-                        onClick={() => this.setState({ open: true })}
-                        label="Menu"
-                        textColor={this.props.textColor || 'vs-black'}
+                    <IconButton
+                      onClick={() => this.setState({ open: !this.state.open })}
+                    >
+                      <IconMenu
+                        iconColor="vs-white"
+                        mode={this.state.open ? 'cross' : ''}
                       />
-                    </div>
-                    <div style={{ display: this.state.open ? '' : 'none' }}>
-                      <Button
-                        onClick={() => this.setState({ open: false })}
-                        label="Close"
-                        textColor={this.props.textColor || 'vs-black'}
-                      />
-                    </div>
+                    </IconButton>
                   </Layout>
                 </Wrapper>
               </Column>

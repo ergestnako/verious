@@ -4,9 +4,6 @@
 //
 
 @mixin vs-circle($multiplier) {
-  position: relative;
-  display: flex;
-  overflow: hidden;
   width: $multiplier * 1rem;
   height: $multiplier * 1rem;
   @include vs-border-radius($multiplier / 2 * 1rem);

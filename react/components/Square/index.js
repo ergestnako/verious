@@ -6,5 +6,8 @@ module.exports = props => (
     width={props.size}
     height={props.size}
     backgroundColor={props.backgroundColor}
-  />
+    style={props.style}
+  >
+    {props.children && props.children}
+  </Rectangle>
 );

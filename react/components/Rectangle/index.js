@@ -2,7 +2,7 @@ const React = require('react');
 const BackgroundColor = require('../BackgroundColor');
 
 function getClassName({ width, height }) {
-  let classes = [];
+  let classes = ['vs-rectangle'];
 
   if (width) {
     if (Array.isArray(width)) {
@@ -36,9 +36,12 @@ function getClassName({ width, height }) {
 }
 
 module.exports = props => (
-  <div style={{ display: 'flex' }}>
-    <BackgroundColor color={props.backgroundColor}>
-      <div className={getClassName(props)} />
+  <div className={getClassName(props)}>
+    <BackgroundColor
+      color={props.backgroundColor}
+      style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
+    >
+      {props.children && props.children}
     </BackgroundColor>
   </div>
 );

@@ -1,5 +1,5 @@
 //
-//    File:           _circle.scss
+//    File:           _rectangle.scss
 //    Description:
 //
 //
@@ -8,14 +8,8 @@
 //    1. Base
 //
 
-.vs-circle {
+.vs-rectangle {
   position: relative;
   display: table;
   overflow: hidden;
-}
-
-@for $i from 1 through 96 {
-  .vs-circle--#{$i} {
-    @include vs-circle($i);
-  }
 }

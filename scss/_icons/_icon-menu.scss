@@ -1,0 +1,32 @@
+//
+//    File:           _icon-menu.scss
+//    Description:
+//
+
+.vs-icon-menu {
+  &-top {
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    width: 20px;
+    height: 2px;
+    @include transition(all 0.2s linear);
+
+    &--cross {
+      transform: rotate(135deg) translate(2px, -2px);
+    }
+  }
+
+  &-bottom {
+    position: absolute;
+    top: 12px;
+    left: 2px;
+    width: 20px;
+    height: 2px;
+    @include transition(all 0.2s linear);
+
+    &--cross {
+      transform: rotate(45deg) translate(-2px, -2px);
+    }
+  }
+}
