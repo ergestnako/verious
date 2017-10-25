@@ -3,7 +3,7 @@ const Text = require('../Text');
 
 module.exports = ({ children, style, size, textColor }) => (
   <p className="vs-p">
-    <Text style={style} size={0} font="helvetica" color={textColor}>
+    <Text style={style} size={1} font="helvetica" color={textColor}>
       {children}
     </Text>
   </p>

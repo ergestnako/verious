@@ -17,7 +17,7 @@ $points: map-values($breakpoints);
   font-size: ms($fontsize);
 }
 
-@mixin baseline($font-size, $font, $leading-top: 0, $leading-bottom: 0) {
+@mixin baseline($font-size, $font, $line-height: 2, $leading-top: 0, $leading-bottom: 0) {
   $get-size: ms($font-size);
   $get-baseline: map-get($font, baseline);
 
@@ -25,7 +25,7 @@ $points: map-values($breakpoints);
     $grid-height: 1rem,
     $baseline: $get-baseline,
     $font-size: $get-size,
-    $line-height: 2,
+    $line-height: $line-height,
     $leading-top: $leading-top,
     $leading-bottom: $leading-bottom
   );

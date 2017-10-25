@@ -11,7 +11,7 @@ module.exports = ({ children, style, size, textColor }) =>
       Text,
       {
         style,
-        size: 6 - size,
+        size: 7 - size,
         font: 'helvetica',
         color: textColor
       },

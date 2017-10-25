@@ -12,7 +12,7 @@ module.exports = ({ label, onClick, backgroundColor, textColor }) => (
   >
     <BackgroundColor color={backgroundColor}>
       <Wrapper padding={[1, 1, 0, 1]}>
-        <Text size={0} font="helvetica" color={textColor}>
+        <Text size={1} font="helvetica" color={textColor}>
           {label}
         </Text>
       </Wrapper>
