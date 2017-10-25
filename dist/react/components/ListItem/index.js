@@ -12,7 +12,7 @@ module.exports = function (_ref) {
     { style: style },
     React.createElement(
       Text,
-      { style: style, size: 0, font: 'helvetica', color: textColor },
+      { style: style, size: 1, font: 'helvetica', color: textColor },
       children
     )
   );

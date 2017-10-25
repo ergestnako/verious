@@ -26,7 +26,7 @@ module.exports = function (_ref) {
         { padding: [1, 1, 0, 1] },
         React.createElement(
           Text,
-          { size: 0, font: 'helvetica', color: textColor },
+          { size: 1, font: 'helvetica', color: textColor },
           label
         )
       )

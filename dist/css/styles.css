@@ -29576,13 +29576,13 @@ caption, th, td {
   font-size: 87.5%; }
   @media screen and (min-width: 48em) {
     .vs-html {
-      font-size: 87.5%; } }
+      font-size: 93.75%; } }
   @media screen and (min-width: 64em) {
     .vs-html {
       font-size: 100%; } }
   @media screen and (min-width: 80em) {
     .vs-html {
-      font-size: 112.5%; } }
+      font-size: 106.25%; } }
 
 .vs-text-helvetica--0 {
   font-family: Helvetica, sans-serif;
@@ -29638,57 +29638,57 @@ caption, th, td {
   font-family: Helvetica, sans-serif;
   font-size: 1.80203;
   font-size: 1.80203rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.31703rem;
-  padding-bottom: 0.68297rem;
-  margin-bottom: -1rem; }
+  line-height: 3rem;
+  margin-top: -1rem;
+  padding-top: 0.81703rem;
+  padding-bottom: 0.18297rem;
+  margin-bottom: 0rem; }
 
 .vs-text-helvetica--6 {
   font-family: Helvetica, sans-serif;
   font-size: 2.02729;
   font-size: 2.02729rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.23166rem;
-  padding-bottom: 0.76834rem;
-  margin-bottom: -1rem; }
+  line-height: 3rem;
+  margin-top: -1rem;
+  padding-top: 0.73166rem;
+  padding-bottom: 0.26834rem;
+  margin-bottom: 0rem; }
 
 .vs-text-helvetica--7 {
   font-family: Helvetica, sans-serif;
   font-size: 2.2807;
   font-size: 2.2807rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.13562rem;
-  padding-bottom: 0.86438rem;
-  margin-bottom: -1rem; }
+  line-height: 3rem;
+  margin-top: -1rem;
+  padding-top: 0.63562rem;
+  padding-bottom: 0.36438rem;
+  margin-bottom: 0rem; }
 
 .vs-text-helvetica--8 {
   font-family: Helvetica, sans-serif;
   font-size: 2.56578;
   font-size: 2.56578rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.02757rem;
-  padding-bottom: 0.97243rem;
-  margin-bottom: -1rem; }
+  line-height: 3rem;
+  margin-top: -1rem;
+  padding-top: 0.52757rem;
+  padding-bottom: 0.47243rem;
+  margin-bottom: 0rem; }
 
 .vs-text-helvetica--9 {
   font-family: Helvetica, sans-serif;
   font-size: 2.88651;
   font-size: 2.88651rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.90601rem;
-  padding-bottom: 0.09399rem;
-  margin-bottom: 0rem; }
+  line-height: 3rem;
+  margin-top: 0rem;
+  padding-top: 0.40601rem;
+  padding-bottom: 0.59399rem;
+  margin-bottom: -1rem; }
 
 .vs-text-helvetica--10 {
   font-family: Helvetica, sans-serif;
   font-size: 3.24732;
   font-size: 3.24732rem;
-  line-height: 2rem;
+  line-height: 4rem;
   margin-top: -1rem;
   padding-top: 0.76927rem;
   padding-bottom: 0.23073rem;
@@ -29698,7 +29698,7 @@ caption, th, td {
   font-family: Helvetica, sans-serif;
   font-size: 3.65324;
   font-size: 3.65324rem;
-  line-height: 2rem;
+  line-height: 4rem;
   margin-top: -1rem;
   padding-top: 0.61542rem;
   padding-bottom: 0.38458rem;
@@ -29708,27 +29708,27 @@ caption, th, td {
   font-family: Helvetica, sans-serif;
   font-size: 4.10989;
   font-size: 4.10989rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.44235rem;
-  padding-bottom: 0.55765rem;
-  margin-bottom: -1rem; }
+  line-height: 5rem;
+  margin-top: -1rem;
+  padding-top: 0.94235rem;
+  padding-bottom: 0.05765rem;
+  margin-bottom: 0rem; }
 
 .vs-text-helvetica--13 {
   font-family: Helvetica, sans-serif;
   font-size: 4.62363;
   font-size: 4.62363rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.24765rem;
-  padding-bottom: 0.75235rem;
-  margin-bottom: -1rem; }
+  line-height: 5rem;
+  margin-top: -1rem;
+  padding-top: 0.74765rem;
+  padding-bottom: 0.25235rem;
+  margin-bottom: 0rem; }
 
 .vs-text-helvetica--14 {
   font-family: Helvetica, sans-serif;
   font-size: 5.20158;
   font-size: 5.20158rem;
-  line-height: 2rem;
+  line-height: 6rem;
   margin-top: 0rem;
   padding-top: 0.0286rem;
   padding-bottom: 0.9714rem;
@@ -29738,10 +29738,20 @@ caption, th, td {
   font-family: Helvetica, sans-serif;
   font-size: 5.85178;
   font-size: 5.85178rem;
-  line-height: 2rem;
+  line-height: 6rem;
   margin-top: -1rem;
   padding-top: 0.78218rem;
   padding-bottom: 0.21782rem;
+  margin-bottom: 0rem; }
+
+.vs-text-helvetica--16 {
+  font-family: Helvetica, sans-serif;
+  font-size: 6.58325;
+  font-size: 6.58325rem;
+  line-height: 6rem;
+  margin-top: -1rem;
+  padding-top: 0.50495rem;
+  padding-bottom: 0.49505rem;
   margin-bottom: 0rem; }
 
 .vs-text-montserrat--0 {

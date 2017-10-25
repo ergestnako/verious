@@ -12,7 +12,7 @@ module.exports = function (_ref) {
     className: 'vs-h' + size
   }, React.createElement(Text, {
     style: style,
-    size: 6 - size,
+    size: 7 - size,
     font: 'helvetica',
     color: textColor
   }, children));

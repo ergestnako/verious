@@ -13,7 +13,7 @@ module.exports = function (_ref) {
     { className: 'vs-p' },
     React.createElement(
       Text,
-      { style: style, size: 0, font: 'helvetica', color: textColor },
+      { style: style, size: 1, font: 'helvetica', color: textColor },
       children
     )
   );
