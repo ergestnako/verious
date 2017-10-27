@@ -25924,3652 +25924,3652 @@ caption, th, td {
   .vs-pull-xl-left-96 {
     margin-left: -96rem; } }
 
-.vs-width-1 {
+.vs-width--1 {
   width: 1rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-1 {
+  .vs-width--sm-1 {
     width: 1rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-1 {
+  .vs-width--md-1 {
     width: 1rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-1 {
+  .vs-width--lg-1 {
     width: 1rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-1 {
+  .vs-width--xl-1 {
     width: 1rem; } }
 
-.vs-width-2 {
+.vs-width--2 {
   width: 2rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-2 {
+  .vs-width--sm-2 {
     width: 2rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-2 {
+  .vs-width--md-2 {
     width: 2rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-2 {
+  .vs-width--lg-2 {
     width: 2rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-2 {
+  .vs-width--xl-2 {
     width: 2rem; } }
 
-.vs-width-3 {
+.vs-width--3 {
   width: 3rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-3 {
+  .vs-width--sm-3 {
     width: 3rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-3 {
+  .vs-width--md-3 {
     width: 3rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-3 {
+  .vs-width--lg-3 {
     width: 3rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-3 {
+  .vs-width--xl-3 {
     width: 3rem; } }
 
-.vs-width-4 {
+.vs-width--4 {
   width: 4rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-4 {
+  .vs-width--sm-4 {
     width: 4rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-4 {
+  .vs-width--md-4 {
     width: 4rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-4 {
+  .vs-width--lg-4 {
     width: 4rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-4 {
+  .vs-width--xl-4 {
     width: 4rem; } }
 
-.vs-width-5 {
+.vs-width--5 {
   width: 5rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-5 {
+  .vs-width--sm-5 {
     width: 5rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-5 {
+  .vs-width--md-5 {
     width: 5rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-5 {
+  .vs-width--lg-5 {
     width: 5rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-5 {
+  .vs-width--xl-5 {
     width: 5rem; } }
 
-.vs-width-6 {
+.vs-width--6 {
   width: 6rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-6 {
+  .vs-width--sm-6 {
     width: 6rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-6 {
+  .vs-width--md-6 {
     width: 6rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-6 {
+  .vs-width--lg-6 {
     width: 6rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-6 {
+  .vs-width--xl-6 {
     width: 6rem; } }
 
-.vs-width-7 {
+.vs-width--7 {
   width: 7rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-7 {
+  .vs-width--sm-7 {
     width: 7rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-7 {
+  .vs-width--md-7 {
     width: 7rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-7 {
+  .vs-width--lg-7 {
     width: 7rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-7 {
+  .vs-width--xl-7 {
     width: 7rem; } }
 
-.vs-width-8 {
+.vs-width--8 {
   width: 8rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-8 {
+  .vs-width--sm-8 {
     width: 8rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-8 {
+  .vs-width--md-8 {
     width: 8rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-8 {
+  .vs-width--lg-8 {
     width: 8rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-8 {
+  .vs-width--xl-8 {
     width: 8rem; } }
 
-.vs-width-9 {
+.vs-width--9 {
   width: 9rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-9 {
+  .vs-width--sm-9 {
     width: 9rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-9 {
+  .vs-width--md-9 {
     width: 9rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-9 {
+  .vs-width--lg-9 {
     width: 9rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-9 {
+  .vs-width--xl-9 {
     width: 9rem; } }
 
-.vs-width-10 {
+.vs-width--10 {
   width: 10rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-10 {
+  .vs-width--sm-10 {
     width: 10rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-10 {
+  .vs-width--md-10 {
     width: 10rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-10 {
+  .vs-width--lg-10 {
     width: 10rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-10 {
+  .vs-width--xl-10 {
     width: 10rem; } }
 
-.vs-width-11 {
+.vs-width--11 {
   width: 11rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-11 {
+  .vs-width--sm-11 {
     width: 11rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-11 {
+  .vs-width--md-11 {
     width: 11rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-11 {
+  .vs-width--lg-11 {
     width: 11rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-11 {
+  .vs-width--xl-11 {
     width: 11rem; } }
 
-.vs-width-12 {
+.vs-width--12 {
   width: 12rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-12 {
+  .vs-width--sm-12 {
     width: 12rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-12 {
+  .vs-width--md-12 {
     width: 12rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-12 {
+  .vs-width--lg-12 {
     width: 12rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-12 {
+  .vs-width--xl-12 {
     width: 12rem; } }
 
-.vs-width-13 {
+.vs-width--13 {
   width: 13rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-13 {
+  .vs-width--sm-13 {
     width: 13rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-13 {
+  .vs-width--md-13 {
     width: 13rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-13 {
+  .vs-width--lg-13 {
     width: 13rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-13 {
+  .vs-width--xl-13 {
     width: 13rem; } }
 
-.vs-width-14 {
+.vs-width--14 {
   width: 14rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-14 {
+  .vs-width--sm-14 {
     width: 14rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-14 {
+  .vs-width--md-14 {
     width: 14rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-14 {
+  .vs-width--lg-14 {
     width: 14rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-14 {
+  .vs-width--xl-14 {
     width: 14rem; } }
 
-.vs-width-15 {
+.vs-width--15 {
   width: 15rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-15 {
+  .vs-width--sm-15 {
     width: 15rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-15 {
+  .vs-width--md-15 {
     width: 15rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-15 {
+  .vs-width--lg-15 {
     width: 15rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-15 {
+  .vs-width--xl-15 {
     width: 15rem; } }
 
-.vs-width-16 {
+.vs-width--16 {
   width: 16rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-16 {
+  .vs-width--sm-16 {
     width: 16rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-16 {
+  .vs-width--md-16 {
     width: 16rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-16 {
+  .vs-width--lg-16 {
     width: 16rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-16 {
+  .vs-width--xl-16 {
     width: 16rem; } }
 
-.vs-width-17 {
+.vs-width--17 {
   width: 17rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-17 {
+  .vs-width--sm-17 {
     width: 17rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-17 {
+  .vs-width--md-17 {
     width: 17rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-17 {
+  .vs-width--lg-17 {
     width: 17rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-17 {
+  .vs-width--xl-17 {
     width: 17rem; } }
 
-.vs-width-18 {
+.vs-width--18 {
   width: 18rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-18 {
+  .vs-width--sm-18 {
     width: 18rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-18 {
+  .vs-width--md-18 {
     width: 18rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-18 {
+  .vs-width--lg-18 {
     width: 18rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-18 {
+  .vs-width--xl-18 {
     width: 18rem; } }
 
-.vs-width-19 {
+.vs-width--19 {
   width: 19rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-19 {
+  .vs-width--sm-19 {
     width: 19rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-19 {
+  .vs-width--md-19 {
     width: 19rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-19 {
+  .vs-width--lg-19 {
     width: 19rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-19 {
+  .vs-width--xl-19 {
     width: 19rem; } }
 
-.vs-width-20 {
+.vs-width--20 {
   width: 20rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-20 {
+  .vs-width--sm-20 {
     width: 20rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-20 {
+  .vs-width--md-20 {
     width: 20rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-20 {
+  .vs-width--lg-20 {
     width: 20rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-20 {
+  .vs-width--xl-20 {
     width: 20rem; } }
 
-.vs-width-21 {
+.vs-width--21 {
   width: 21rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-21 {
+  .vs-width--sm-21 {
     width: 21rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-21 {
+  .vs-width--md-21 {
     width: 21rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-21 {
+  .vs-width--lg-21 {
     width: 21rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-21 {
+  .vs-width--xl-21 {
     width: 21rem; } }
 
-.vs-width-22 {
+.vs-width--22 {
   width: 22rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-22 {
+  .vs-width--sm-22 {
     width: 22rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-22 {
+  .vs-width--md-22 {
     width: 22rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-22 {
+  .vs-width--lg-22 {
     width: 22rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-22 {
+  .vs-width--xl-22 {
     width: 22rem; } }
 
-.vs-width-23 {
+.vs-width--23 {
   width: 23rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-23 {
+  .vs-width--sm-23 {
     width: 23rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-23 {
+  .vs-width--md-23 {
     width: 23rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-23 {
+  .vs-width--lg-23 {
     width: 23rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-23 {
+  .vs-width--xl-23 {
     width: 23rem; } }
 
-.vs-width-24 {
+.vs-width--24 {
   width: 24rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-24 {
+  .vs-width--sm-24 {
     width: 24rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-24 {
+  .vs-width--md-24 {
     width: 24rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-24 {
+  .vs-width--lg-24 {
     width: 24rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-24 {
+  .vs-width--xl-24 {
     width: 24rem; } }
 
-.vs-width-25 {
+.vs-width--25 {
   width: 25rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-25 {
+  .vs-width--sm-25 {
     width: 25rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-25 {
+  .vs-width--md-25 {
     width: 25rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-25 {
+  .vs-width--lg-25 {
     width: 25rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-25 {
+  .vs-width--xl-25 {
     width: 25rem; } }
 
-.vs-width-26 {
+.vs-width--26 {
   width: 26rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-26 {
+  .vs-width--sm-26 {
     width: 26rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-26 {
+  .vs-width--md-26 {
     width: 26rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-26 {
+  .vs-width--lg-26 {
     width: 26rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-26 {
+  .vs-width--xl-26 {
     width: 26rem; } }
 
-.vs-width-27 {
+.vs-width--27 {
   width: 27rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-27 {
+  .vs-width--sm-27 {
     width: 27rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-27 {
+  .vs-width--md-27 {
     width: 27rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-27 {
+  .vs-width--lg-27 {
     width: 27rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-27 {
+  .vs-width--xl-27 {
     width: 27rem; } }
 
-.vs-width-28 {
+.vs-width--28 {
   width: 28rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-28 {
+  .vs-width--sm-28 {
     width: 28rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-28 {
+  .vs-width--md-28 {
     width: 28rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-28 {
+  .vs-width--lg-28 {
     width: 28rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-28 {
+  .vs-width--xl-28 {
     width: 28rem; } }
 
-.vs-width-29 {
+.vs-width--29 {
   width: 29rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-29 {
+  .vs-width--sm-29 {
     width: 29rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-29 {
+  .vs-width--md-29 {
     width: 29rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-29 {
+  .vs-width--lg-29 {
     width: 29rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-29 {
+  .vs-width--xl-29 {
     width: 29rem; } }
 
-.vs-width-30 {
+.vs-width--30 {
   width: 30rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-30 {
+  .vs-width--sm-30 {
     width: 30rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-30 {
+  .vs-width--md-30 {
     width: 30rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-30 {
+  .vs-width--lg-30 {
     width: 30rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-30 {
+  .vs-width--xl-30 {
     width: 30rem; } }
 
-.vs-width-31 {
+.vs-width--31 {
   width: 31rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-31 {
+  .vs-width--sm-31 {
     width: 31rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-31 {
+  .vs-width--md-31 {
     width: 31rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-31 {
+  .vs-width--lg-31 {
     width: 31rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-31 {
+  .vs-width--xl-31 {
     width: 31rem; } }
 
-.vs-width-32 {
+.vs-width--32 {
   width: 32rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-32 {
+  .vs-width--sm-32 {
     width: 32rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-32 {
+  .vs-width--md-32 {
     width: 32rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-32 {
+  .vs-width--lg-32 {
     width: 32rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-32 {
+  .vs-width--xl-32 {
     width: 32rem; } }
 
-.vs-width-33 {
+.vs-width--33 {
   width: 33rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-33 {
+  .vs-width--sm-33 {
     width: 33rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-33 {
+  .vs-width--md-33 {
     width: 33rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-33 {
+  .vs-width--lg-33 {
     width: 33rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-33 {
+  .vs-width--xl-33 {
     width: 33rem; } }
 
-.vs-width-34 {
+.vs-width--34 {
   width: 34rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-34 {
+  .vs-width--sm-34 {
     width: 34rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-34 {
+  .vs-width--md-34 {
     width: 34rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-34 {
+  .vs-width--lg-34 {
     width: 34rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-34 {
+  .vs-width--xl-34 {
     width: 34rem; } }
 
-.vs-width-35 {
+.vs-width--35 {
   width: 35rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-35 {
+  .vs-width--sm-35 {
     width: 35rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-35 {
+  .vs-width--md-35 {
     width: 35rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-35 {
+  .vs-width--lg-35 {
     width: 35rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-35 {
+  .vs-width--xl-35 {
     width: 35rem; } }
 
-.vs-width-36 {
+.vs-width--36 {
   width: 36rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-36 {
+  .vs-width--sm-36 {
     width: 36rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-36 {
+  .vs-width--md-36 {
     width: 36rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-36 {
+  .vs-width--lg-36 {
     width: 36rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-36 {
+  .vs-width--xl-36 {
     width: 36rem; } }
 
-.vs-width-37 {
+.vs-width--37 {
   width: 37rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-37 {
+  .vs-width--sm-37 {
     width: 37rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-37 {
+  .vs-width--md-37 {
     width: 37rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-37 {
+  .vs-width--lg-37 {
     width: 37rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-37 {
+  .vs-width--xl-37 {
     width: 37rem; } }
 
-.vs-width-38 {
+.vs-width--38 {
   width: 38rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-38 {
+  .vs-width--sm-38 {
     width: 38rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-38 {
+  .vs-width--md-38 {
     width: 38rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-38 {
+  .vs-width--lg-38 {
     width: 38rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-38 {
+  .vs-width--xl-38 {
     width: 38rem; } }
 
-.vs-width-39 {
+.vs-width--39 {
   width: 39rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-39 {
+  .vs-width--sm-39 {
     width: 39rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-39 {
+  .vs-width--md-39 {
     width: 39rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-39 {
+  .vs-width--lg-39 {
     width: 39rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-39 {
+  .vs-width--xl-39 {
     width: 39rem; } }
 
-.vs-width-40 {
+.vs-width--40 {
   width: 40rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-40 {
+  .vs-width--sm-40 {
     width: 40rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-40 {
+  .vs-width--md-40 {
     width: 40rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-40 {
+  .vs-width--lg-40 {
     width: 40rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-40 {
+  .vs-width--xl-40 {
     width: 40rem; } }
 
-.vs-width-41 {
+.vs-width--41 {
   width: 41rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-41 {
+  .vs-width--sm-41 {
     width: 41rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-41 {
+  .vs-width--md-41 {
     width: 41rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-41 {
+  .vs-width--lg-41 {
     width: 41rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-41 {
+  .vs-width--xl-41 {
     width: 41rem; } }
 
-.vs-width-42 {
+.vs-width--42 {
   width: 42rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-42 {
+  .vs-width--sm-42 {
     width: 42rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-42 {
+  .vs-width--md-42 {
     width: 42rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-42 {
+  .vs-width--lg-42 {
     width: 42rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-42 {
+  .vs-width--xl-42 {
     width: 42rem; } }
 
-.vs-width-43 {
+.vs-width--43 {
   width: 43rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-43 {
+  .vs-width--sm-43 {
     width: 43rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-43 {
+  .vs-width--md-43 {
     width: 43rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-43 {
+  .vs-width--lg-43 {
     width: 43rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-43 {
+  .vs-width--xl-43 {
     width: 43rem; } }
 
-.vs-width-44 {
+.vs-width--44 {
   width: 44rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-44 {
+  .vs-width--sm-44 {
     width: 44rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-44 {
+  .vs-width--md-44 {
     width: 44rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-44 {
+  .vs-width--lg-44 {
     width: 44rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-44 {
+  .vs-width--xl-44 {
     width: 44rem; } }
 
-.vs-width-45 {
+.vs-width--45 {
   width: 45rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-45 {
+  .vs-width--sm-45 {
     width: 45rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-45 {
+  .vs-width--md-45 {
     width: 45rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-45 {
+  .vs-width--lg-45 {
     width: 45rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-45 {
+  .vs-width--xl-45 {
     width: 45rem; } }
 
-.vs-width-46 {
+.vs-width--46 {
   width: 46rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-46 {
+  .vs-width--sm-46 {
     width: 46rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-46 {
+  .vs-width--md-46 {
     width: 46rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-46 {
+  .vs-width--lg-46 {
     width: 46rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-46 {
+  .vs-width--xl-46 {
     width: 46rem; } }
 
-.vs-width-47 {
+.vs-width--47 {
   width: 47rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-47 {
+  .vs-width--sm-47 {
     width: 47rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-47 {
+  .vs-width--md-47 {
     width: 47rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-47 {
+  .vs-width--lg-47 {
     width: 47rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-47 {
+  .vs-width--xl-47 {
     width: 47rem; } }
 
-.vs-width-48 {
+.vs-width--48 {
   width: 48rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-48 {
+  .vs-width--sm-48 {
     width: 48rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-48 {
+  .vs-width--md-48 {
     width: 48rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-48 {
+  .vs-width--lg-48 {
     width: 48rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-48 {
+  .vs-width--xl-48 {
     width: 48rem; } }
 
-.vs-width-49 {
+.vs-width--49 {
   width: 49rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-49 {
+  .vs-width--sm-49 {
     width: 49rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-49 {
+  .vs-width--md-49 {
     width: 49rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-49 {
+  .vs-width--lg-49 {
     width: 49rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-49 {
+  .vs-width--xl-49 {
     width: 49rem; } }
 
-.vs-width-50 {
+.vs-width--50 {
   width: 50rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-50 {
+  .vs-width--sm-50 {
     width: 50rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-50 {
+  .vs-width--md-50 {
     width: 50rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-50 {
+  .vs-width--lg-50 {
     width: 50rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-50 {
+  .vs-width--xl-50 {
     width: 50rem; } }
 
-.vs-width-51 {
+.vs-width--51 {
   width: 51rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-51 {
+  .vs-width--sm-51 {
     width: 51rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-51 {
+  .vs-width--md-51 {
     width: 51rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-51 {
+  .vs-width--lg-51 {
     width: 51rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-51 {
+  .vs-width--xl-51 {
     width: 51rem; } }
 
-.vs-width-52 {
+.vs-width--52 {
   width: 52rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-52 {
+  .vs-width--sm-52 {
     width: 52rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-52 {
+  .vs-width--md-52 {
     width: 52rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-52 {
+  .vs-width--lg-52 {
     width: 52rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-52 {
+  .vs-width--xl-52 {
     width: 52rem; } }
 
-.vs-width-53 {
+.vs-width--53 {
   width: 53rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-53 {
+  .vs-width--sm-53 {
     width: 53rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-53 {
+  .vs-width--md-53 {
     width: 53rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-53 {
+  .vs-width--lg-53 {
     width: 53rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-53 {
+  .vs-width--xl-53 {
     width: 53rem; } }
 
-.vs-width-54 {
+.vs-width--54 {
   width: 54rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-54 {
+  .vs-width--sm-54 {
     width: 54rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-54 {
+  .vs-width--md-54 {
     width: 54rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-54 {
+  .vs-width--lg-54 {
     width: 54rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-54 {
+  .vs-width--xl-54 {
     width: 54rem; } }
 
-.vs-width-55 {
+.vs-width--55 {
   width: 55rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-55 {
+  .vs-width--sm-55 {
     width: 55rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-55 {
+  .vs-width--md-55 {
     width: 55rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-55 {
+  .vs-width--lg-55 {
     width: 55rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-55 {
+  .vs-width--xl-55 {
     width: 55rem; } }
 
-.vs-width-56 {
+.vs-width--56 {
   width: 56rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-56 {
+  .vs-width--sm-56 {
     width: 56rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-56 {
+  .vs-width--md-56 {
     width: 56rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-56 {
+  .vs-width--lg-56 {
     width: 56rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-56 {
+  .vs-width--xl-56 {
     width: 56rem; } }
 
-.vs-width-57 {
+.vs-width--57 {
   width: 57rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-57 {
+  .vs-width--sm-57 {
     width: 57rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-57 {
+  .vs-width--md-57 {
     width: 57rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-57 {
+  .vs-width--lg-57 {
     width: 57rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-57 {
+  .vs-width--xl-57 {
     width: 57rem; } }
 
-.vs-width-58 {
+.vs-width--58 {
   width: 58rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-58 {
+  .vs-width--sm-58 {
     width: 58rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-58 {
+  .vs-width--md-58 {
     width: 58rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-58 {
+  .vs-width--lg-58 {
     width: 58rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-58 {
+  .vs-width--xl-58 {
     width: 58rem; } }
 
-.vs-width-59 {
+.vs-width--59 {
   width: 59rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-59 {
+  .vs-width--sm-59 {
     width: 59rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-59 {
+  .vs-width--md-59 {
     width: 59rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-59 {
+  .vs-width--lg-59 {
     width: 59rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-59 {
+  .vs-width--xl-59 {
     width: 59rem; } }
 
-.vs-width-60 {
+.vs-width--60 {
   width: 60rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-60 {
+  .vs-width--sm-60 {
     width: 60rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-60 {
+  .vs-width--md-60 {
     width: 60rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-60 {
+  .vs-width--lg-60 {
     width: 60rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-60 {
+  .vs-width--xl-60 {
     width: 60rem; } }
 
-.vs-width-61 {
+.vs-width--61 {
   width: 61rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-61 {
+  .vs-width--sm-61 {
     width: 61rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-61 {
+  .vs-width--md-61 {
     width: 61rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-61 {
+  .vs-width--lg-61 {
     width: 61rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-61 {
+  .vs-width--xl-61 {
     width: 61rem; } }
 
-.vs-width-62 {
+.vs-width--62 {
   width: 62rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-62 {
+  .vs-width--sm-62 {
     width: 62rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-62 {
+  .vs-width--md-62 {
     width: 62rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-62 {
+  .vs-width--lg-62 {
     width: 62rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-62 {
+  .vs-width--xl-62 {
     width: 62rem; } }
 
-.vs-width-63 {
+.vs-width--63 {
   width: 63rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-63 {
+  .vs-width--sm-63 {
     width: 63rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-63 {
+  .vs-width--md-63 {
     width: 63rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-63 {
+  .vs-width--lg-63 {
     width: 63rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-63 {
+  .vs-width--xl-63 {
     width: 63rem; } }
 
-.vs-width-64 {
+.vs-width--64 {
   width: 64rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-64 {
+  .vs-width--sm-64 {
     width: 64rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-64 {
+  .vs-width--md-64 {
     width: 64rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-64 {
+  .vs-width--lg-64 {
     width: 64rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-64 {
+  .vs-width--xl-64 {
     width: 64rem; } }
 
-.vs-width-65 {
+.vs-width--65 {
   width: 65rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-65 {
+  .vs-width--sm-65 {
     width: 65rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-65 {
+  .vs-width--md-65 {
     width: 65rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-65 {
+  .vs-width--lg-65 {
     width: 65rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-65 {
+  .vs-width--xl-65 {
     width: 65rem; } }
 
-.vs-width-66 {
+.vs-width--66 {
   width: 66rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-66 {
+  .vs-width--sm-66 {
     width: 66rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-66 {
+  .vs-width--md-66 {
     width: 66rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-66 {
+  .vs-width--lg-66 {
     width: 66rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-66 {
+  .vs-width--xl-66 {
     width: 66rem; } }
 
-.vs-width-67 {
+.vs-width--67 {
   width: 67rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-67 {
+  .vs-width--sm-67 {
     width: 67rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-67 {
+  .vs-width--md-67 {
     width: 67rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-67 {
+  .vs-width--lg-67 {
     width: 67rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-67 {
+  .vs-width--xl-67 {
     width: 67rem; } }
 
-.vs-width-68 {
+.vs-width--68 {
   width: 68rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-68 {
+  .vs-width--sm-68 {
     width: 68rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-68 {
+  .vs-width--md-68 {
     width: 68rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-68 {
+  .vs-width--lg-68 {
     width: 68rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-68 {
+  .vs-width--xl-68 {
     width: 68rem; } }
 
-.vs-width-69 {
+.vs-width--69 {
   width: 69rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-69 {
+  .vs-width--sm-69 {
     width: 69rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-69 {
+  .vs-width--md-69 {
     width: 69rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-69 {
+  .vs-width--lg-69 {
     width: 69rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-69 {
+  .vs-width--xl-69 {
     width: 69rem; } }
 
-.vs-width-70 {
+.vs-width--70 {
   width: 70rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-70 {
+  .vs-width--sm-70 {
     width: 70rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-70 {
+  .vs-width--md-70 {
     width: 70rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-70 {
+  .vs-width--lg-70 {
     width: 70rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-70 {
+  .vs-width--xl-70 {
     width: 70rem; } }
 
-.vs-width-71 {
+.vs-width--71 {
   width: 71rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-71 {
+  .vs-width--sm-71 {
     width: 71rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-71 {
+  .vs-width--md-71 {
     width: 71rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-71 {
+  .vs-width--lg-71 {
     width: 71rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-71 {
+  .vs-width--xl-71 {
     width: 71rem; } }
 
-.vs-width-72 {
+.vs-width--72 {
   width: 72rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-72 {
+  .vs-width--sm-72 {
     width: 72rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-72 {
+  .vs-width--md-72 {
     width: 72rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-72 {
+  .vs-width--lg-72 {
     width: 72rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-72 {
+  .vs-width--xl-72 {
     width: 72rem; } }
 
-.vs-width-73 {
+.vs-width--73 {
   width: 73rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-73 {
+  .vs-width--sm-73 {
     width: 73rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-73 {
+  .vs-width--md-73 {
     width: 73rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-73 {
+  .vs-width--lg-73 {
     width: 73rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-73 {
+  .vs-width--xl-73 {
     width: 73rem; } }
 
-.vs-width-74 {
+.vs-width--74 {
   width: 74rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-74 {
+  .vs-width--sm-74 {
     width: 74rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-74 {
+  .vs-width--md-74 {
     width: 74rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-74 {
+  .vs-width--lg-74 {
     width: 74rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-74 {
+  .vs-width--xl-74 {
     width: 74rem; } }
 
-.vs-width-75 {
+.vs-width--75 {
   width: 75rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-75 {
+  .vs-width--sm-75 {
     width: 75rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-75 {
+  .vs-width--md-75 {
     width: 75rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-75 {
+  .vs-width--lg-75 {
     width: 75rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-75 {
+  .vs-width--xl-75 {
     width: 75rem; } }
 
-.vs-width-76 {
+.vs-width--76 {
   width: 76rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-76 {
+  .vs-width--sm-76 {
     width: 76rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-76 {
+  .vs-width--md-76 {
     width: 76rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-76 {
+  .vs-width--lg-76 {
     width: 76rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-76 {
+  .vs-width--xl-76 {
     width: 76rem; } }
 
-.vs-width-77 {
+.vs-width--77 {
   width: 77rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-77 {
+  .vs-width--sm-77 {
     width: 77rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-77 {
+  .vs-width--md-77 {
     width: 77rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-77 {
+  .vs-width--lg-77 {
     width: 77rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-77 {
+  .vs-width--xl-77 {
     width: 77rem; } }
 
-.vs-width-78 {
+.vs-width--78 {
   width: 78rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-78 {
+  .vs-width--sm-78 {
     width: 78rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-78 {
+  .vs-width--md-78 {
     width: 78rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-78 {
+  .vs-width--lg-78 {
     width: 78rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-78 {
+  .vs-width--xl-78 {
     width: 78rem; } }
 
-.vs-width-79 {
+.vs-width--79 {
   width: 79rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-79 {
+  .vs-width--sm-79 {
     width: 79rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-79 {
+  .vs-width--md-79 {
     width: 79rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-79 {
+  .vs-width--lg-79 {
     width: 79rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-79 {
+  .vs-width--xl-79 {
     width: 79rem; } }
 
-.vs-width-80 {
+.vs-width--80 {
   width: 80rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-80 {
+  .vs-width--sm-80 {
     width: 80rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-80 {
+  .vs-width--md-80 {
     width: 80rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-80 {
+  .vs-width--lg-80 {
     width: 80rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-80 {
+  .vs-width--xl-80 {
     width: 80rem; } }
 
-.vs-width-81 {
+.vs-width--81 {
   width: 81rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-81 {
+  .vs-width--sm-81 {
     width: 81rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-81 {
+  .vs-width--md-81 {
     width: 81rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-81 {
+  .vs-width--lg-81 {
     width: 81rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-81 {
+  .vs-width--xl-81 {
     width: 81rem; } }
 
-.vs-width-82 {
+.vs-width--82 {
   width: 82rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-82 {
+  .vs-width--sm-82 {
     width: 82rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-82 {
+  .vs-width--md-82 {
     width: 82rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-82 {
+  .vs-width--lg-82 {
     width: 82rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-82 {
+  .vs-width--xl-82 {
     width: 82rem; } }
 
-.vs-width-83 {
+.vs-width--83 {
   width: 83rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-83 {
+  .vs-width--sm-83 {
     width: 83rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-83 {
+  .vs-width--md-83 {
     width: 83rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-83 {
+  .vs-width--lg-83 {
     width: 83rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-83 {
+  .vs-width--xl-83 {
     width: 83rem; } }
 
-.vs-width-84 {
+.vs-width--84 {
   width: 84rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-84 {
+  .vs-width--sm-84 {
     width: 84rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-84 {
+  .vs-width--md-84 {
     width: 84rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-84 {
+  .vs-width--lg-84 {
     width: 84rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-84 {
+  .vs-width--xl-84 {
     width: 84rem; } }
 
-.vs-width-85 {
+.vs-width--85 {
   width: 85rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-85 {
+  .vs-width--sm-85 {
     width: 85rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-85 {
+  .vs-width--md-85 {
     width: 85rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-85 {
+  .vs-width--lg-85 {
     width: 85rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-85 {
+  .vs-width--xl-85 {
     width: 85rem; } }
 
-.vs-width-86 {
+.vs-width--86 {
   width: 86rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-86 {
+  .vs-width--sm-86 {
     width: 86rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-86 {
+  .vs-width--md-86 {
     width: 86rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-86 {
+  .vs-width--lg-86 {
     width: 86rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-86 {
+  .vs-width--xl-86 {
     width: 86rem; } }
 
-.vs-width-87 {
+.vs-width--87 {
   width: 87rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-87 {
+  .vs-width--sm-87 {
     width: 87rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-87 {
+  .vs-width--md-87 {
     width: 87rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-87 {
+  .vs-width--lg-87 {
     width: 87rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-87 {
+  .vs-width--xl-87 {
     width: 87rem; } }
 
-.vs-width-88 {
+.vs-width--88 {
   width: 88rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-88 {
+  .vs-width--sm-88 {
     width: 88rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-88 {
+  .vs-width--md-88 {
     width: 88rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-88 {
+  .vs-width--lg-88 {
     width: 88rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-88 {
+  .vs-width--xl-88 {
     width: 88rem; } }
 
-.vs-width-89 {
+.vs-width--89 {
   width: 89rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-89 {
+  .vs-width--sm-89 {
     width: 89rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-89 {
+  .vs-width--md-89 {
     width: 89rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-89 {
+  .vs-width--lg-89 {
     width: 89rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-89 {
+  .vs-width--xl-89 {
     width: 89rem; } }
 
-.vs-width-90 {
+.vs-width--90 {
   width: 90rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-90 {
+  .vs-width--sm-90 {
     width: 90rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-90 {
+  .vs-width--md-90 {
     width: 90rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-90 {
+  .vs-width--lg-90 {
     width: 90rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-90 {
+  .vs-width--xl-90 {
     width: 90rem; } }
 
-.vs-width-91 {
+.vs-width--91 {
   width: 91rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-91 {
+  .vs-width--sm-91 {
     width: 91rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-91 {
+  .vs-width--md-91 {
     width: 91rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-91 {
+  .vs-width--lg-91 {
     width: 91rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-91 {
+  .vs-width--xl-91 {
     width: 91rem; } }
 
-.vs-width-92 {
+.vs-width--92 {
   width: 92rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-92 {
+  .vs-width--sm-92 {
     width: 92rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-92 {
+  .vs-width--md-92 {
     width: 92rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-92 {
+  .vs-width--lg-92 {
     width: 92rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-92 {
+  .vs-width--xl-92 {
     width: 92rem; } }
 
-.vs-width-93 {
+.vs-width--93 {
   width: 93rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-93 {
+  .vs-width--sm-93 {
     width: 93rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-93 {
+  .vs-width--md-93 {
     width: 93rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-93 {
+  .vs-width--lg-93 {
     width: 93rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-93 {
+  .vs-width--xl-93 {
     width: 93rem; } }
 
-.vs-width-94 {
+.vs-width--94 {
   width: 94rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-94 {
+  .vs-width--sm-94 {
     width: 94rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-94 {
+  .vs-width--md-94 {
     width: 94rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-94 {
+  .vs-width--lg-94 {
     width: 94rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-94 {
+  .vs-width--xl-94 {
     width: 94rem; } }
 
-.vs-width-95 {
+.vs-width--95 {
   width: 95rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-95 {
+  .vs-width--sm-95 {
     width: 95rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-95 {
+  .vs-width--md-95 {
     width: 95rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-95 {
+  .vs-width--lg-95 {
     width: 95rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-95 {
+  .vs-width--xl-95 {
     width: 95rem; } }
 
-.vs-width-96 {
+.vs-width--96 {
   width: 96rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-width-sm-96 {
+  .vs-width--sm-96 {
     width: 96rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-width-md-96 {
+  .vs-width--md-96 {
     width: 96rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-width-lg-96 {
+  .vs-width--lg-96 {
     width: 96rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-width-xl-96 {
+  .vs-width--xl-96 {
     width: 96rem; } }
 
-.vs-height-1 {
+.vs-height--1 {
   height: 1rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-1 {
+  .vs-height--sm-1 {
     height: 1rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-1 {
+  .vs-height--md-1 {
     height: 1rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-1 {
+  .vs-height--lg-1 {
     height: 1rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-1 {
+  .vs-height--xl-1 {
     height: 1rem; } }
 
-.vs-height-2 {
+.vs-height--2 {
   height: 2rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-2 {
+  .vs-height--sm-2 {
     height: 2rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-2 {
+  .vs-height--md-2 {
     height: 2rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-2 {
+  .vs-height--lg-2 {
     height: 2rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-2 {
+  .vs-height--xl-2 {
     height: 2rem; } }
 
-.vs-height-3 {
+.vs-height--3 {
   height: 3rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-3 {
+  .vs-height--sm-3 {
     height: 3rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-3 {
+  .vs-height--md-3 {
     height: 3rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-3 {
+  .vs-height--lg-3 {
     height: 3rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-3 {
+  .vs-height--xl-3 {
     height: 3rem; } }
 
-.vs-height-4 {
+.vs-height--4 {
   height: 4rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-4 {
+  .vs-height--sm-4 {
     height: 4rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-4 {
+  .vs-height--md-4 {
     height: 4rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-4 {
+  .vs-height--lg-4 {
     height: 4rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-4 {
+  .vs-height--xl-4 {
     height: 4rem; } }
 
-.vs-height-5 {
+.vs-height--5 {
   height: 5rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-5 {
+  .vs-height--sm-5 {
     height: 5rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-5 {
+  .vs-height--md-5 {
     height: 5rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-5 {
+  .vs-height--lg-5 {
     height: 5rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-5 {
+  .vs-height--xl-5 {
     height: 5rem; } }
 
-.vs-height-6 {
+.vs-height--6 {
   height: 6rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-6 {
+  .vs-height--sm-6 {
     height: 6rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-6 {
+  .vs-height--md-6 {
     height: 6rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-6 {
+  .vs-height--lg-6 {
     height: 6rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-6 {
+  .vs-height--xl-6 {
     height: 6rem; } }
 
-.vs-height-7 {
+.vs-height--7 {
   height: 7rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-7 {
+  .vs-height--sm-7 {
     height: 7rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-7 {
+  .vs-height--md-7 {
     height: 7rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-7 {
+  .vs-height--lg-7 {
     height: 7rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-7 {
+  .vs-height--xl-7 {
     height: 7rem; } }
 
-.vs-height-8 {
+.vs-height--8 {
   height: 8rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-8 {
+  .vs-height--sm-8 {
     height: 8rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-8 {
+  .vs-height--md-8 {
     height: 8rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-8 {
+  .vs-height--lg-8 {
     height: 8rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-8 {
+  .vs-height--xl-8 {
     height: 8rem; } }
 
-.vs-height-9 {
+.vs-height--9 {
   height: 9rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-9 {
+  .vs-height--sm-9 {
     height: 9rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-9 {
+  .vs-height--md-9 {
     height: 9rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-9 {
+  .vs-height--lg-9 {
     height: 9rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-9 {
+  .vs-height--xl-9 {
     height: 9rem; } }
 
-.vs-height-10 {
+.vs-height--10 {
   height: 10rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-10 {
+  .vs-height--sm-10 {
     height: 10rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-10 {
+  .vs-height--md-10 {
     height: 10rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-10 {
+  .vs-height--lg-10 {
     height: 10rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-10 {
+  .vs-height--xl-10 {
     height: 10rem; } }
 
-.vs-height-11 {
+.vs-height--11 {
   height: 11rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-11 {
+  .vs-height--sm-11 {
     height: 11rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-11 {
+  .vs-height--md-11 {
     height: 11rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-11 {
+  .vs-height--lg-11 {
     height: 11rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-11 {
+  .vs-height--xl-11 {
     height: 11rem; } }
 
-.vs-height-12 {
+.vs-height--12 {
   height: 12rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-12 {
+  .vs-height--sm-12 {
     height: 12rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-12 {
+  .vs-height--md-12 {
     height: 12rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-12 {
+  .vs-height--lg-12 {
     height: 12rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-12 {
+  .vs-height--xl-12 {
     height: 12rem; } }
 
-.vs-height-13 {
+.vs-height--13 {
   height: 13rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-13 {
+  .vs-height--sm-13 {
     height: 13rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-13 {
+  .vs-height--md-13 {
     height: 13rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-13 {
+  .vs-height--lg-13 {
     height: 13rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-13 {
+  .vs-height--xl-13 {
     height: 13rem; } }
 
-.vs-height-14 {
+.vs-height--14 {
   height: 14rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-14 {
+  .vs-height--sm-14 {
     height: 14rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-14 {
+  .vs-height--md-14 {
     height: 14rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-14 {
+  .vs-height--lg-14 {
     height: 14rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-14 {
+  .vs-height--xl-14 {
     height: 14rem; } }
 
-.vs-height-15 {
+.vs-height--15 {
   height: 15rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-15 {
+  .vs-height--sm-15 {
     height: 15rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-15 {
+  .vs-height--md-15 {
     height: 15rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-15 {
+  .vs-height--lg-15 {
     height: 15rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-15 {
+  .vs-height--xl-15 {
     height: 15rem; } }
 
-.vs-height-16 {
+.vs-height--16 {
   height: 16rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-16 {
+  .vs-height--sm-16 {
     height: 16rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-16 {
+  .vs-height--md-16 {
     height: 16rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-16 {
+  .vs-height--lg-16 {
     height: 16rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-16 {
+  .vs-height--xl-16 {
     height: 16rem; } }
 
-.vs-height-17 {
+.vs-height--17 {
   height: 17rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-17 {
+  .vs-height--sm-17 {
     height: 17rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-17 {
+  .vs-height--md-17 {
     height: 17rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-17 {
+  .vs-height--lg-17 {
     height: 17rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-17 {
+  .vs-height--xl-17 {
     height: 17rem; } }
 
-.vs-height-18 {
+.vs-height--18 {
   height: 18rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-18 {
+  .vs-height--sm-18 {
     height: 18rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-18 {
+  .vs-height--md-18 {
     height: 18rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-18 {
+  .vs-height--lg-18 {
     height: 18rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-18 {
+  .vs-height--xl-18 {
     height: 18rem; } }
 
-.vs-height-19 {
+.vs-height--19 {
   height: 19rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-19 {
+  .vs-height--sm-19 {
     height: 19rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-19 {
+  .vs-height--md-19 {
     height: 19rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-19 {
+  .vs-height--lg-19 {
     height: 19rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-19 {
+  .vs-height--xl-19 {
     height: 19rem; } }
 
-.vs-height-20 {
+.vs-height--20 {
   height: 20rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-20 {
+  .vs-height--sm-20 {
     height: 20rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-20 {
+  .vs-height--md-20 {
     height: 20rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-20 {
+  .vs-height--lg-20 {
     height: 20rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-20 {
+  .vs-height--xl-20 {
     height: 20rem; } }
 
-.vs-height-21 {
+.vs-height--21 {
   height: 21rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-21 {
+  .vs-height--sm-21 {
     height: 21rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-21 {
+  .vs-height--md-21 {
     height: 21rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-21 {
+  .vs-height--lg-21 {
     height: 21rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-21 {
+  .vs-height--xl-21 {
     height: 21rem; } }
 
-.vs-height-22 {
+.vs-height--22 {
   height: 22rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-22 {
+  .vs-height--sm-22 {
     height: 22rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-22 {
+  .vs-height--md-22 {
     height: 22rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-22 {
+  .vs-height--lg-22 {
     height: 22rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-22 {
+  .vs-height--xl-22 {
     height: 22rem; } }
 
-.vs-height-23 {
+.vs-height--23 {
   height: 23rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-23 {
+  .vs-height--sm-23 {
     height: 23rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-23 {
+  .vs-height--md-23 {
     height: 23rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-23 {
+  .vs-height--lg-23 {
     height: 23rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-23 {
+  .vs-height--xl-23 {
     height: 23rem; } }
 
-.vs-height-24 {
+.vs-height--24 {
   height: 24rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-24 {
+  .vs-height--sm-24 {
     height: 24rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-24 {
+  .vs-height--md-24 {
     height: 24rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-24 {
+  .vs-height--lg-24 {
     height: 24rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-24 {
+  .vs-height--xl-24 {
     height: 24rem; } }
 
-.vs-height-25 {
+.vs-height--25 {
   height: 25rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-25 {
+  .vs-height--sm-25 {
     height: 25rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-25 {
+  .vs-height--md-25 {
     height: 25rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-25 {
+  .vs-height--lg-25 {
     height: 25rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-25 {
+  .vs-height--xl-25 {
     height: 25rem; } }
 
-.vs-height-26 {
+.vs-height--26 {
   height: 26rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-26 {
+  .vs-height--sm-26 {
     height: 26rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-26 {
+  .vs-height--md-26 {
     height: 26rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-26 {
+  .vs-height--lg-26 {
     height: 26rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-26 {
+  .vs-height--xl-26 {
     height: 26rem; } }
 
-.vs-height-27 {
+.vs-height--27 {
   height: 27rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-27 {
+  .vs-height--sm-27 {
     height: 27rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-27 {
+  .vs-height--md-27 {
     height: 27rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-27 {
+  .vs-height--lg-27 {
     height: 27rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-27 {
+  .vs-height--xl-27 {
     height: 27rem; } }
 
-.vs-height-28 {
+.vs-height--28 {
   height: 28rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-28 {
+  .vs-height--sm-28 {
     height: 28rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-28 {
+  .vs-height--md-28 {
     height: 28rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-28 {
+  .vs-height--lg-28 {
     height: 28rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-28 {
+  .vs-height--xl-28 {
     height: 28rem; } }
 
-.vs-height-29 {
+.vs-height--29 {
   height: 29rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-29 {
+  .vs-height--sm-29 {
     height: 29rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-29 {
+  .vs-height--md-29 {
     height: 29rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-29 {
+  .vs-height--lg-29 {
     height: 29rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-29 {
+  .vs-height--xl-29 {
     height: 29rem; } }
 
-.vs-height-30 {
+.vs-height--30 {
   height: 30rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-30 {
+  .vs-height--sm-30 {
     height: 30rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-30 {
+  .vs-height--md-30 {
     height: 30rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-30 {
+  .vs-height--lg-30 {
     height: 30rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-30 {
+  .vs-height--xl-30 {
     height: 30rem; } }
 
-.vs-height-31 {
+.vs-height--31 {
   height: 31rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-31 {
+  .vs-height--sm-31 {
     height: 31rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-31 {
+  .vs-height--md-31 {
     height: 31rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-31 {
+  .vs-height--lg-31 {
     height: 31rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-31 {
+  .vs-height--xl-31 {
     height: 31rem; } }
 
-.vs-height-32 {
+.vs-height--32 {
   height: 32rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-32 {
+  .vs-height--sm-32 {
     height: 32rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-32 {
+  .vs-height--md-32 {
     height: 32rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-32 {
+  .vs-height--lg-32 {
     height: 32rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-32 {
+  .vs-height--xl-32 {
     height: 32rem; } }
 
-.vs-height-33 {
+.vs-height--33 {
   height: 33rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-33 {
+  .vs-height--sm-33 {
     height: 33rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-33 {
+  .vs-height--md-33 {
     height: 33rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-33 {
+  .vs-height--lg-33 {
     height: 33rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-33 {
+  .vs-height--xl-33 {
     height: 33rem; } }
 
-.vs-height-34 {
+.vs-height--34 {
   height: 34rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-34 {
+  .vs-height--sm-34 {
     height: 34rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-34 {
+  .vs-height--md-34 {
     height: 34rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-34 {
+  .vs-height--lg-34 {
     height: 34rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-34 {
+  .vs-height--xl-34 {
     height: 34rem; } }
 
-.vs-height-35 {
+.vs-height--35 {
   height: 35rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-35 {
+  .vs-height--sm-35 {
     height: 35rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-35 {
+  .vs-height--md-35 {
     height: 35rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-35 {
+  .vs-height--lg-35 {
     height: 35rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-35 {
+  .vs-height--xl-35 {
     height: 35rem; } }
 
-.vs-height-36 {
+.vs-height--36 {
   height: 36rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-36 {
+  .vs-height--sm-36 {
     height: 36rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-36 {
+  .vs-height--md-36 {
     height: 36rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-36 {
+  .vs-height--lg-36 {
     height: 36rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-36 {
+  .vs-height--xl-36 {
     height: 36rem; } }
 
-.vs-height-37 {
+.vs-height--37 {
   height: 37rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-37 {
+  .vs-height--sm-37 {
     height: 37rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-37 {
+  .vs-height--md-37 {
     height: 37rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-37 {
+  .vs-height--lg-37 {
     height: 37rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-37 {
+  .vs-height--xl-37 {
     height: 37rem; } }
 
-.vs-height-38 {
+.vs-height--38 {
   height: 38rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-38 {
+  .vs-height--sm-38 {
     height: 38rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-38 {
+  .vs-height--md-38 {
     height: 38rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-38 {
+  .vs-height--lg-38 {
     height: 38rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-38 {
+  .vs-height--xl-38 {
     height: 38rem; } }
 
-.vs-height-39 {
+.vs-height--39 {
   height: 39rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-39 {
+  .vs-height--sm-39 {
     height: 39rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-39 {
+  .vs-height--md-39 {
     height: 39rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-39 {
+  .vs-height--lg-39 {
     height: 39rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-39 {
+  .vs-height--xl-39 {
     height: 39rem; } }
 
-.vs-height-40 {
+.vs-height--40 {
   height: 40rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-40 {
+  .vs-height--sm-40 {
     height: 40rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-40 {
+  .vs-height--md-40 {
     height: 40rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-40 {
+  .vs-height--lg-40 {
     height: 40rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-40 {
+  .vs-height--xl-40 {
     height: 40rem; } }
 
-.vs-height-41 {
+.vs-height--41 {
   height: 41rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-41 {
+  .vs-height--sm-41 {
     height: 41rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-41 {
+  .vs-height--md-41 {
     height: 41rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-41 {
+  .vs-height--lg-41 {
     height: 41rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-41 {
+  .vs-height--xl-41 {
     height: 41rem; } }
 
-.vs-height-42 {
+.vs-height--42 {
   height: 42rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-42 {
+  .vs-height--sm-42 {
     height: 42rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-42 {
+  .vs-height--md-42 {
     height: 42rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-42 {
+  .vs-height--lg-42 {
     height: 42rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-42 {
+  .vs-height--xl-42 {
     height: 42rem; } }
 
-.vs-height-43 {
+.vs-height--43 {
   height: 43rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-43 {
+  .vs-height--sm-43 {
     height: 43rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-43 {
+  .vs-height--md-43 {
     height: 43rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-43 {
+  .vs-height--lg-43 {
     height: 43rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-43 {
+  .vs-height--xl-43 {
     height: 43rem; } }
 
-.vs-height-44 {
+.vs-height--44 {
   height: 44rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-44 {
+  .vs-height--sm-44 {
     height: 44rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-44 {
+  .vs-height--md-44 {
     height: 44rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-44 {
+  .vs-height--lg-44 {
     height: 44rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-44 {
+  .vs-height--xl-44 {
     height: 44rem; } }
 
-.vs-height-45 {
+.vs-height--45 {
   height: 45rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-45 {
+  .vs-height--sm-45 {
     height: 45rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-45 {
+  .vs-height--md-45 {
     height: 45rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-45 {
+  .vs-height--lg-45 {
     height: 45rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-45 {
+  .vs-height--xl-45 {
     height: 45rem; } }
 
-.vs-height-46 {
+.vs-height--46 {
   height: 46rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-46 {
+  .vs-height--sm-46 {
     height: 46rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-46 {
+  .vs-height--md-46 {
     height: 46rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-46 {
+  .vs-height--lg-46 {
     height: 46rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-46 {
+  .vs-height--xl-46 {
     height: 46rem; } }
 
-.vs-height-47 {
+.vs-height--47 {
   height: 47rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-47 {
+  .vs-height--sm-47 {
     height: 47rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-47 {
+  .vs-height--md-47 {
     height: 47rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-47 {
+  .vs-height--lg-47 {
     height: 47rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-47 {
+  .vs-height--xl-47 {
     height: 47rem; } }
 
-.vs-height-48 {
+.vs-height--48 {
   height: 48rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-48 {
+  .vs-height--sm-48 {
     height: 48rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-48 {
+  .vs-height--md-48 {
     height: 48rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-48 {
+  .vs-height--lg-48 {
     height: 48rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-48 {
+  .vs-height--xl-48 {
     height: 48rem; } }
 
-.vs-height-49 {
+.vs-height--49 {
   height: 49rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-49 {
+  .vs-height--sm-49 {
     height: 49rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-49 {
+  .vs-height--md-49 {
     height: 49rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-49 {
+  .vs-height--lg-49 {
     height: 49rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-49 {
+  .vs-height--xl-49 {
     height: 49rem; } }
 
-.vs-height-50 {
+.vs-height--50 {
   height: 50rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-50 {
+  .vs-height--sm-50 {
     height: 50rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-50 {
+  .vs-height--md-50 {
     height: 50rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-50 {
+  .vs-height--lg-50 {
     height: 50rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-50 {
+  .vs-height--xl-50 {
     height: 50rem; } }
 
-.vs-height-51 {
+.vs-height--51 {
   height: 51rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-51 {
+  .vs-height--sm-51 {
     height: 51rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-51 {
+  .vs-height--md-51 {
     height: 51rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-51 {
+  .vs-height--lg-51 {
     height: 51rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-51 {
+  .vs-height--xl-51 {
     height: 51rem; } }
 
-.vs-height-52 {
+.vs-height--52 {
   height: 52rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-52 {
+  .vs-height--sm-52 {
     height: 52rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-52 {
+  .vs-height--md-52 {
     height: 52rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-52 {
+  .vs-height--lg-52 {
     height: 52rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-52 {
+  .vs-height--xl-52 {
     height: 52rem; } }
 
-.vs-height-53 {
+.vs-height--53 {
   height: 53rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-53 {
+  .vs-height--sm-53 {
     height: 53rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-53 {
+  .vs-height--md-53 {
     height: 53rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-53 {
+  .vs-height--lg-53 {
     height: 53rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-53 {
+  .vs-height--xl-53 {
     height: 53rem; } }
 
-.vs-height-54 {
+.vs-height--54 {
   height: 54rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-54 {
+  .vs-height--sm-54 {
     height: 54rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-54 {
+  .vs-height--md-54 {
     height: 54rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-54 {
+  .vs-height--lg-54 {
     height: 54rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-54 {
+  .vs-height--xl-54 {
     height: 54rem; } }
 
-.vs-height-55 {
+.vs-height--55 {
   height: 55rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-55 {
+  .vs-height--sm-55 {
     height: 55rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-55 {
+  .vs-height--md-55 {
     height: 55rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-55 {
+  .vs-height--lg-55 {
     height: 55rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-55 {
+  .vs-height--xl-55 {
     height: 55rem; } }
 
-.vs-height-56 {
+.vs-height--56 {
   height: 56rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-56 {
+  .vs-height--sm-56 {
     height: 56rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-56 {
+  .vs-height--md-56 {
     height: 56rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-56 {
+  .vs-height--lg-56 {
     height: 56rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-56 {
+  .vs-height--xl-56 {
     height: 56rem; } }
 
-.vs-height-57 {
+.vs-height--57 {
   height: 57rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-57 {
+  .vs-height--sm-57 {
     height: 57rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-57 {
+  .vs-height--md-57 {
     height: 57rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-57 {
+  .vs-height--lg-57 {
     height: 57rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-57 {
+  .vs-height--xl-57 {
     height: 57rem; } }
 
-.vs-height-58 {
+.vs-height--58 {
   height: 58rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-58 {
+  .vs-height--sm-58 {
     height: 58rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-58 {
+  .vs-height--md-58 {
     height: 58rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-58 {
+  .vs-height--lg-58 {
     height: 58rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-58 {
+  .vs-height--xl-58 {
     height: 58rem; } }
 
-.vs-height-59 {
+.vs-height--59 {
   height: 59rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-59 {
+  .vs-height--sm-59 {
     height: 59rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-59 {
+  .vs-height--md-59 {
     height: 59rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-59 {
+  .vs-height--lg-59 {
     height: 59rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-59 {
+  .vs-height--xl-59 {
     height: 59rem; } }
 
-.vs-height-60 {
+.vs-height--60 {
   height: 60rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-60 {
+  .vs-height--sm-60 {
     height: 60rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-60 {
+  .vs-height--md-60 {
     height: 60rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-60 {
+  .vs-height--lg-60 {
     height: 60rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-60 {
+  .vs-height--xl-60 {
     height: 60rem; } }
 
-.vs-height-61 {
+.vs-height--61 {
   height: 61rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-61 {
+  .vs-height--sm-61 {
     height: 61rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-61 {
+  .vs-height--md-61 {
     height: 61rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-61 {
+  .vs-height--lg-61 {
     height: 61rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-61 {
+  .vs-height--xl-61 {
     height: 61rem; } }
 
-.vs-height-62 {
+.vs-height--62 {
   height: 62rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-62 {
+  .vs-height--sm-62 {
     height: 62rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-62 {
+  .vs-height--md-62 {
     height: 62rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-62 {
+  .vs-height--lg-62 {
     height: 62rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-62 {
+  .vs-height--xl-62 {
     height: 62rem; } }
 
-.vs-height-63 {
+.vs-height--63 {
   height: 63rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-63 {
+  .vs-height--sm-63 {
     height: 63rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-63 {
+  .vs-height--md-63 {
     height: 63rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-63 {
+  .vs-height--lg-63 {
     height: 63rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-63 {
+  .vs-height--xl-63 {
     height: 63rem; } }
 
-.vs-height-64 {
+.vs-height--64 {
   height: 64rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-64 {
+  .vs-height--sm-64 {
     height: 64rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-64 {
+  .vs-height--md-64 {
     height: 64rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-64 {
+  .vs-height--lg-64 {
     height: 64rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-64 {
+  .vs-height--xl-64 {
     height: 64rem; } }
 
-.vs-height-65 {
+.vs-height--65 {
   height: 65rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-65 {
+  .vs-height--sm-65 {
     height: 65rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-65 {
+  .vs-height--md-65 {
     height: 65rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-65 {
+  .vs-height--lg-65 {
     height: 65rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-65 {
+  .vs-height--xl-65 {
     height: 65rem; } }
 
-.vs-height-66 {
+.vs-height--66 {
   height: 66rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-66 {
+  .vs-height--sm-66 {
     height: 66rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-66 {
+  .vs-height--md-66 {
     height: 66rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-66 {
+  .vs-height--lg-66 {
     height: 66rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-66 {
+  .vs-height--xl-66 {
     height: 66rem; } }
 
-.vs-height-67 {
+.vs-height--67 {
   height: 67rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-67 {
+  .vs-height--sm-67 {
     height: 67rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-67 {
+  .vs-height--md-67 {
     height: 67rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-67 {
+  .vs-height--lg-67 {
     height: 67rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-67 {
+  .vs-height--xl-67 {
     height: 67rem; } }
 
-.vs-height-68 {
+.vs-height--68 {
   height: 68rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-68 {
+  .vs-height--sm-68 {
     height: 68rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-68 {
+  .vs-height--md-68 {
     height: 68rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-68 {
+  .vs-height--lg-68 {
     height: 68rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-68 {
+  .vs-height--xl-68 {
     height: 68rem; } }
 
-.vs-height-69 {
+.vs-height--69 {
   height: 69rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-69 {
+  .vs-height--sm-69 {
     height: 69rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-69 {
+  .vs-height--md-69 {
     height: 69rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-69 {
+  .vs-height--lg-69 {
     height: 69rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-69 {
+  .vs-height--xl-69 {
     height: 69rem; } }
 
-.vs-height-70 {
+.vs-height--70 {
   height: 70rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-70 {
+  .vs-height--sm-70 {
     height: 70rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-70 {
+  .vs-height--md-70 {
     height: 70rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-70 {
+  .vs-height--lg-70 {
     height: 70rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-70 {
+  .vs-height--xl-70 {
     height: 70rem; } }
 
-.vs-height-71 {
+.vs-height--71 {
   height: 71rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-71 {
+  .vs-height--sm-71 {
     height: 71rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-71 {
+  .vs-height--md-71 {
     height: 71rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-71 {
+  .vs-height--lg-71 {
     height: 71rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-71 {
+  .vs-height--xl-71 {
     height: 71rem; } }
 
-.vs-height-72 {
+.vs-height--72 {
   height: 72rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-72 {
+  .vs-height--sm-72 {
     height: 72rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-72 {
+  .vs-height--md-72 {
     height: 72rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-72 {
+  .vs-height--lg-72 {
     height: 72rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-72 {
+  .vs-height--xl-72 {
     height: 72rem; } }
 
-.vs-height-73 {
+.vs-height--73 {
   height: 73rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-73 {
+  .vs-height--sm-73 {
     height: 73rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-73 {
+  .vs-height--md-73 {
     height: 73rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-73 {
+  .vs-height--lg-73 {
     height: 73rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-73 {
+  .vs-height--xl-73 {
     height: 73rem; } }
 
-.vs-height-74 {
+.vs-height--74 {
   height: 74rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-74 {
+  .vs-height--sm-74 {
     height: 74rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-74 {
+  .vs-height--md-74 {
     height: 74rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-74 {
+  .vs-height--lg-74 {
     height: 74rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-74 {
+  .vs-height--xl-74 {
     height: 74rem; } }
 
-.vs-height-75 {
+.vs-height--75 {
   height: 75rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-75 {
+  .vs-height--sm-75 {
     height: 75rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-75 {
+  .vs-height--md-75 {
     height: 75rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-75 {
+  .vs-height--lg-75 {
     height: 75rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-75 {
+  .vs-height--xl-75 {
     height: 75rem; } }
 
-.vs-height-76 {
+.vs-height--76 {
   height: 76rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-76 {
+  .vs-height--sm-76 {
     height: 76rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-76 {
+  .vs-height--md-76 {
     height: 76rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-76 {
+  .vs-height--lg-76 {
     height: 76rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-76 {
+  .vs-height--xl-76 {
     height: 76rem; } }
 
-.vs-height-77 {
+.vs-height--77 {
   height: 77rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-77 {
+  .vs-height--sm-77 {
     height: 77rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-77 {
+  .vs-height--md-77 {
     height: 77rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-77 {
+  .vs-height--lg-77 {
     height: 77rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-77 {
+  .vs-height--xl-77 {
     height: 77rem; } }
 
-.vs-height-78 {
+.vs-height--78 {
   height: 78rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-78 {
+  .vs-height--sm-78 {
     height: 78rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-78 {
+  .vs-height--md-78 {
     height: 78rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-78 {
+  .vs-height--lg-78 {
     height: 78rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-78 {
+  .vs-height--xl-78 {
     height: 78rem; } }
 
-.vs-height-79 {
+.vs-height--79 {
   height: 79rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-79 {
+  .vs-height--sm-79 {
     height: 79rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-79 {
+  .vs-height--md-79 {
     height: 79rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-79 {
+  .vs-height--lg-79 {
     height: 79rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-79 {
+  .vs-height--xl-79 {
     height: 79rem; } }
 
-.vs-height-80 {
+.vs-height--80 {
   height: 80rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-80 {
+  .vs-height--sm-80 {
     height: 80rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-80 {
+  .vs-height--md-80 {
     height: 80rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-80 {
+  .vs-height--lg-80 {
     height: 80rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-80 {
+  .vs-height--xl-80 {
     height: 80rem; } }
 
-.vs-height-81 {
+.vs-height--81 {
   height: 81rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-81 {
+  .vs-height--sm-81 {
     height: 81rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-81 {
+  .vs-height--md-81 {
     height: 81rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-81 {
+  .vs-height--lg-81 {
     height: 81rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-81 {
+  .vs-height--xl-81 {
     height: 81rem; } }
 
-.vs-height-82 {
+.vs-height--82 {
   height: 82rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-82 {
+  .vs-height--sm-82 {
     height: 82rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-82 {
+  .vs-height--md-82 {
     height: 82rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-82 {
+  .vs-height--lg-82 {
     height: 82rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-82 {
+  .vs-height--xl-82 {
     height: 82rem; } }
 
-.vs-height-83 {
+.vs-height--83 {
   height: 83rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-83 {
+  .vs-height--sm-83 {
     height: 83rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-83 {
+  .vs-height--md-83 {
     height: 83rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-83 {
+  .vs-height--lg-83 {
     height: 83rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-83 {
+  .vs-height--xl-83 {
     height: 83rem; } }
 
-.vs-height-84 {
+.vs-height--84 {
   height: 84rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-84 {
+  .vs-height--sm-84 {
     height: 84rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-84 {
+  .vs-height--md-84 {
     height: 84rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-84 {
+  .vs-height--lg-84 {
     height: 84rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-84 {
+  .vs-height--xl-84 {
     height: 84rem; } }
 
-.vs-height-85 {
+.vs-height--85 {
   height: 85rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-85 {
+  .vs-height--sm-85 {
     height: 85rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-85 {
+  .vs-height--md-85 {
     height: 85rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-85 {
+  .vs-height--lg-85 {
     height: 85rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-85 {
+  .vs-height--xl-85 {
     height: 85rem; } }
 
-.vs-height-86 {
+.vs-height--86 {
   height: 86rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-86 {
+  .vs-height--sm-86 {
     height: 86rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-86 {
+  .vs-height--md-86 {
     height: 86rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-86 {
+  .vs-height--lg-86 {
     height: 86rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-86 {
+  .vs-height--xl-86 {
     height: 86rem; } }
 
-.vs-height-87 {
+.vs-height--87 {
   height: 87rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-87 {
+  .vs-height--sm-87 {
     height: 87rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-87 {
+  .vs-height--md-87 {
     height: 87rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-87 {
+  .vs-height--lg-87 {
     height: 87rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-87 {
+  .vs-height--xl-87 {
     height: 87rem; } }
 
-.vs-height-88 {
+.vs-height--88 {
   height: 88rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-88 {
+  .vs-height--sm-88 {
     height: 88rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-88 {
+  .vs-height--md-88 {
     height: 88rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-88 {
+  .vs-height--lg-88 {
     height: 88rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-88 {
+  .vs-height--xl-88 {
     height: 88rem; } }
 
-.vs-height-89 {
+.vs-height--89 {
   height: 89rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-89 {
+  .vs-height--sm-89 {
     height: 89rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-89 {
+  .vs-height--md-89 {
     height: 89rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-89 {
+  .vs-height--lg-89 {
     height: 89rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-89 {
+  .vs-height--xl-89 {
     height: 89rem; } }
 
-.vs-height-90 {
+.vs-height--90 {
   height: 90rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-90 {
+  .vs-height--sm-90 {
     height: 90rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-90 {
+  .vs-height--md-90 {
     height: 90rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-90 {
+  .vs-height--lg-90 {
     height: 90rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-90 {
+  .vs-height--xl-90 {
     height: 90rem; } }
 
-.vs-height-91 {
+.vs-height--91 {
   height: 91rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-91 {
+  .vs-height--sm-91 {
     height: 91rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-91 {
+  .vs-height--md-91 {
     height: 91rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-91 {
+  .vs-height--lg-91 {
     height: 91rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-91 {
+  .vs-height--xl-91 {
     height: 91rem; } }
 
-.vs-height-92 {
+.vs-height--92 {
   height: 92rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-92 {
+  .vs-height--sm-92 {
     height: 92rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-92 {
+  .vs-height--md-92 {
     height: 92rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-92 {
+  .vs-height--lg-92 {
     height: 92rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-92 {
+  .vs-height--xl-92 {
     height: 92rem; } }
 
-.vs-height-93 {
+.vs-height--93 {
   height: 93rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-93 {
+  .vs-height--sm-93 {
     height: 93rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-93 {
+  .vs-height--md-93 {
     height: 93rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-93 {
+  .vs-height--lg-93 {
     height: 93rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-93 {
+  .vs-height--xl-93 {
     height: 93rem; } }
 
-.vs-height-94 {
+.vs-height--94 {
   height: 94rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-94 {
+  .vs-height--sm-94 {
     height: 94rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-94 {
+  .vs-height--md-94 {
     height: 94rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-94 {
+  .vs-height--lg-94 {
     height: 94rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-94 {
+  .vs-height--xl-94 {
     height: 94rem; } }
 
-.vs-height-95 {
+.vs-height--95 {
   height: 95rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-95 {
+  .vs-height--sm-95 {
     height: 95rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-95 {
+  .vs-height--md-95 {
     height: 95rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-95 {
+  .vs-height--lg-95 {
     height: 95rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-95 {
+  .vs-height--xl-95 {
     height: 95rem; } }
 
-.vs-height-96 {
+.vs-height--96 {
   height: 96rem; }
 
 @media all and (min-width: 0) and (max-width: 767px) {
-  .vs-height-sm-96 {
+  .vs-height--sm-96 {
     height: 96rem; } }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
-  .vs-height-md-96 {
+  .vs-height--md-96 {
     height: 96rem; } }
 
 @media all and (min-width: 1024px) and (max-width: 1279px) {
-  .vs-height-lg-96 {
+  .vs-height--lg-96 {
     height: 96rem; } }
 
 @media all and (min-width: 1280px) {
-  .vs-height-xl-96 {
+  .vs-height--xl-96 {
     height: 96rem; } }
 
 .vs-html {
@@ -30346,296 +30346,392 @@ caption, th, td {
   .vs-button:focus {
     outline: none; }
 
-.vs-horizontal-rule--1 {
-  height: 1rem; }
-
-.vs-horizontal-rule--2 {
-  height: 2rem; }
-
-.vs-horizontal-rule--3 {
-  height: 3rem; }
-
-.vs-horizontal-rule--4 {
-  height: 4rem; }
-
-.vs-horizontal-rule--5 {
-  height: 5rem; }
-
-.vs-horizontal-rule--6 {
-  height: 6rem; }
-
-.vs-horizontal-rule--7 {
-  height: 7rem; }
-
-.vs-horizontal-rule--8 {
-  height: 8rem; }
-
-.vs-horizontal-rule--9 {
-  height: 9rem; }
-
-.vs-horizontal-rule--10 {
-  height: 10rem; }
-
-.vs-horizontal-rule--11 {
-  height: 11rem; }
-
-.vs-horizontal-rule--12 {
-  height: 12rem; }
-
-.vs-horizontal-rule--13 {
-  height: 13rem; }
-
-.vs-horizontal-rule--14 {
-  height: 14rem; }
-
-.vs-horizontal-rule--15 {
-  height: 15rem; }
-
-.vs-horizontal-rule--16 {
-  height: 16rem; }
-
-.vs-horizontal-rule--17 {
-  height: 17rem; }
-
-.vs-horizontal-rule--18 {
-  height: 18rem; }
-
-.vs-horizontal-rule--19 {
-  height: 19rem; }
-
-.vs-horizontal-rule--20 {
-  height: 20rem; }
-
-.vs-horizontal-rule--21 {
-  height: 21rem; }
-
-.vs-horizontal-rule--22 {
-  height: 22rem; }
-
-.vs-horizontal-rule--23 {
-  height: 23rem; }
-
-.vs-horizontal-rule--24 {
-  height: 24rem; }
-
-.vs-horizontal-rule--25 {
-  height: 25rem; }
-
-.vs-horizontal-rule--26 {
-  height: 26rem; }
-
-.vs-horizontal-rule--27 {
-  height: 27rem; }
-
-.vs-horizontal-rule--28 {
-  height: 28rem; }
-
-.vs-horizontal-rule--29 {
-  height: 29rem; }
-
-.vs-horizontal-rule--30 {
-  height: 30rem; }
-
-.vs-horizontal-rule--31 {
-  height: 31rem; }
-
-.vs-horizontal-rule--32 {
-  height: 32rem; }
-
-.vs-horizontal-rule--33 {
-  height: 33rem; }
-
-.vs-horizontal-rule--34 {
-  height: 34rem; }
-
-.vs-horizontal-rule--35 {
-  height: 35rem; }
-
-.vs-horizontal-rule--36 {
-  height: 36rem; }
-
-.vs-horizontal-rule--37 {
-  height: 37rem; }
-
-.vs-horizontal-rule--38 {
-  height: 38rem; }
-
-.vs-horizontal-rule--39 {
-  height: 39rem; }
-
-.vs-horizontal-rule--40 {
-  height: 40rem; }
-
-.vs-horizontal-rule--41 {
-  height: 41rem; }
-
-.vs-horizontal-rule--42 {
-  height: 42rem; }
-
-.vs-horizontal-rule--43 {
-  height: 43rem; }
-
-.vs-horizontal-rule--44 {
-  height: 44rem; }
-
-.vs-horizontal-rule--45 {
-  height: 45rem; }
-
-.vs-horizontal-rule--46 {
-  height: 46rem; }
-
-.vs-horizontal-rule--47 {
-  height: 47rem; }
-
-.vs-horizontal-rule--48 {
-  height: 48rem; }
-
-.vs-horizontal-rule--49 {
-  height: 49rem; }
-
-.vs-horizontal-rule--50 {
-  height: 50rem; }
-
-.vs-horizontal-rule--51 {
-  height: 51rem; }
-
-.vs-horizontal-rule--52 {
-  height: 52rem; }
-
-.vs-horizontal-rule--53 {
-  height: 53rem; }
-
-.vs-horizontal-rule--54 {
-  height: 54rem; }
-
-.vs-horizontal-rule--55 {
-  height: 55rem; }
-
-.vs-horizontal-rule--56 {
-  height: 56rem; }
-
-.vs-horizontal-rule--57 {
-  height: 57rem; }
-
-.vs-horizontal-rule--58 {
-  height: 58rem; }
-
-.vs-horizontal-rule--59 {
-  height: 59rem; }
-
-.vs-horizontal-rule--60 {
-  height: 60rem; }
-
-.vs-horizontal-rule--61 {
-  height: 61rem; }
-
-.vs-horizontal-rule--62 {
-  height: 62rem; }
-
-.vs-horizontal-rule--63 {
-  height: 63rem; }
-
-.vs-horizontal-rule--64 {
-  height: 64rem; }
-
-.vs-horizontal-rule--65 {
-  height: 65rem; }
-
-.vs-horizontal-rule--66 {
-  height: 66rem; }
-
-.vs-horizontal-rule--67 {
-  height: 67rem; }
-
-.vs-horizontal-rule--68 {
-  height: 68rem; }
-
-.vs-horizontal-rule--69 {
-  height: 69rem; }
-
-.vs-horizontal-rule--70 {
-  height: 70rem; }
-
-.vs-horizontal-rule--71 {
-  height: 71rem; }
-
-.vs-horizontal-rule--72 {
-  height: 72rem; }
-
-.vs-horizontal-rule--73 {
-  height: 73rem; }
-
-.vs-horizontal-rule--74 {
-  height: 74rem; }
-
-.vs-horizontal-rule--75 {
-  height: 75rem; }
-
-.vs-horizontal-rule--76 {
-  height: 76rem; }
-
-.vs-horizontal-rule--77 {
-  height: 77rem; }
-
-.vs-horizontal-rule--78 {
-  height: 78rem; }
-
-.vs-horizontal-rule--79 {
-  height: 79rem; }
-
-.vs-horizontal-rule--80 {
-  height: 80rem; }
-
-.vs-horizontal-rule--81 {
-  height: 81rem; }
-
-.vs-horizontal-rule--82 {
-  height: 82rem; }
-
-.vs-horizontal-rule--83 {
-  height: 83rem; }
-
-.vs-horizontal-rule--84 {
-  height: 84rem; }
-
-.vs-horizontal-rule--85 {
-  height: 85rem; }
-
-.vs-horizontal-rule--86 {
-  height: 86rem; }
-
-.vs-horizontal-rule--87 {
-  height: 87rem; }
-
-.vs-horizontal-rule--88 {
-  height: 88rem; }
-
-.vs-horizontal-rule--89 {
-  height: 89rem; }
-
-.vs-horizontal-rule--90 {
-  height: 90rem; }
-
-.vs-horizontal-rule--91 {
-  height: 91rem; }
-
-.vs-horizontal-rule--92 {
-  height: 92rem; }
-
-.vs-horizontal-rule--93 {
-  height: 93rem; }
-
-.vs-horizontal-rule--94 {
-  height: 94rem; }
-
-.vs-horizontal-rule--95 {
-  height: 95rem; }
-
-.vs-horizontal-rule--96 {
-  height: 96rem; }
-
-.vs-horizontal-rule-line {
+.vs-horizontal-rule {
   height: 1px; }
+
+.vs-vertical-rule--1 {
+  height: 1rem;
+  width: 1px; }
+
+.vs-vertical-rule--2 {
+  height: 2rem;
+  width: 1px; }
+
+.vs-vertical-rule--3 {
+  height: 3rem;
+  width: 1px; }
+
+.vs-vertical-rule--4 {
+  height: 4rem;
+  width: 1px; }
+
+.vs-vertical-rule--5 {
+  height: 5rem;
+  width: 1px; }
+
+.vs-vertical-rule--6 {
+  height: 6rem;
+  width: 1px; }
+
+.vs-vertical-rule--7 {
+  height: 7rem;
+  width: 1px; }
+
+.vs-vertical-rule--8 {
+  height: 8rem;
+  width: 1px; }
+
+.vs-vertical-rule--9 {
+  height: 9rem;
+  width: 1px; }
+
+.vs-vertical-rule--10 {
+  height: 10rem;
+  width: 1px; }
+
+.vs-vertical-rule--11 {
+  height: 11rem;
+  width: 1px; }
+
+.vs-vertical-rule--12 {
+  height: 12rem;
+  width: 1px; }
+
+.vs-vertical-rule--13 {
+  height: 13rem;
+  width: 1px; }
+
+.vs-vertical-rule--14 {
+  height: 14rem;
+  width: 1px; }
+
+.vs-vertical-rule--15 {
+  height: 15rem;
+  width: 1px; }
+
+.vs-vertical-rule--16 {
+  height: 16rem;
+  width: 1px; }
+
+.vs-vertical-rule--17 {
+  height: 17rem;
+  width: 1px; }
+
+.vs-vertical-rule--18 {
+  height: 18rem;
+  width: 1px; }
+
+.vs-vertical-rule--19 {
+  height: 19rem;
+  width: 1px; }
+
+.vs-vertical-rule--20 {
+  height: 20rem;
+  width: 1px; }
+
+.vs-vertical-rule--21 {
+  height: 21rem;
+  width: 1px; }
+
+.vs-vertical-rule--22 {
+  height: 22rem;
+  width: 1px; }
+
+.vs-vertical-rule--23 {
+  height: 23rem;
+  width: 1px; }
+
+.vs-vertical-rule--24 {
+  height: 24rem;
+  width: 1px; }
+
+.vs-vertical-rule--25 {
+  height: 25rem;
+  width: 1px; }
+
+.vs-vertical-rule--26 {
+  height: 26rem;
+  width: 1px; }
+
+.vs-vertical-rule--27 {
+  height: 27rem;
+  width: 1px; }
+
+.vs-vertical-rule--28 {
+  height: 28rem;
+  width: 1px; }
+
+.vs-vertical-rule--29 {
+  height: 29rem;
+  width: 1px; }
+
+.vs-vertical-rule--30 {
+  height: 30rem;
+  width: 1px; }
+
+.vs-vertical-rule--31 {
+  height: 31rem;
+  width: 1px; }
+
+.vs-vertical-rule--32 {
+  height: 32rem;
+  width: 1px; }
+
+.vs-vertical-rule--33 {
+  height: 33rem;
+  width: 1px; }
+
+.vs-vertical-rule--34 {
+  height: 34rem;
+  width: 1px; }
+
+.vs-vertical-rule--35 {
+  height: 35rem;
+  width: 1px; }
+
+.vs-vertical-rule--36 {
+  height: 36rem;
+  width: 1px; }
+
+.vs-vertical-rule--37 {
+  height: 37rem;
+  width: 1px; }
+
+.vs-vertical-rule--38 {
+  height: 38rem;
+  width: 1px; }
+
+.vs-vertical-rule--39 {
+  height: 39rem;
+  width: 1px; }
+
+.vs-vertical-rule--40 {
+  height: 40rem;
+  width: 1px; }
+
+.vs-vertical-rule--41 {
+  height: 41rem;
+  width: 1px; }
+
+.vs-vertical-rule--42 {
+  height: 42rem;
+  width: 1px; }
+
+.vs-vertical-rule--43 {
+  height: 43rem;
+  width: 1px; }
+
+.vs-vertical-rule--44 {
+  height: 44rem;
+  width: 1px; }
+
+.vs-vertical-rule--45 {
+  height: 45rem;
+  width: 1px; }
+
+.vs-vertical-rule--46 {
+  height: 46rem;
+  width: 1px; }
+
+.vs-vertical-rule--47 {
+  height: 47rem;
+  width: 1px; }
+
+.vs-vertical-rule--48 {
+  height: 48rem;
+  width: 1px; }
+
+.vs-vertical-rule--49 {
+  height: 49rem;
+  width: 1px; }
+
+.vs-vertical-rule--50 {
+  height: 50rem;
+  width: 1px; }
+
+.vs-vertical-rule--51 {
+  height: 51rem;
+  width: 1px; }
+
+.vs-vertical-rule--52 {
+  height: 52rem;
+  width: 1px; }
+
+.vs-vertical-rule--53 {
+  height: 53rem;
+  width: 1px; }
+
+.vs-vertical-rule--54 {
+  height: 54rem;
+  width: 1px; }
+
+.vs-vertical-rule--55 {
+  height: 55rem;
+  width: 1px; }
+
+.vs-vertical-rule--56 {
+  height: 56rem;
+  width: 1px; }
+
+.vs-vertical-rule--57 {
+  height: 57rem;
+  width: 1px; }
+
+.vs-vertical-rule--58 {
+  height: 58rem;
+  width: 1px; }
+
+.vs-vertical-rule--59 {
+  height: 59rem;
+  width: 1px; }
+
+.vs-vertical-rule--60 {
+  height: 60rem;
+  width: 1px; }
+
+.vs-vertical-rule--61 {
+  height: 61rem;
+  width: 1px; }
+
+.vs-vertical-rule--62 {
+  height: 62rem;
+  width: 1px; }
+
+.vs-vertical-rule--63 {
+  height: 63rem;
+  width: 1px; }
+
+.vs-vertical-rule--64 {
+  height: 64rem;
+  width: 1px; }
+
+.vs-vertical-rule--65 {
+  height: 65rem;
+  width: 1px; }
+
+.vs-vertical-rule--66 {
+  height: 66rem;
+  width: 1px; }
+
+.vs-vertical-rule--67 {
+  height: 67rem;
+  width: 1px; }
+
+.vs-vertical-rule--68 {
+  height: 68rem;
+  width: 1px; }
+
+.vs-vertical-rule--69 {
+  height: 69rem;
+  width: 1px; }
+
+.vs-vertical-rule--70 {
+  height: 70rem;
+  width: 1px; }
+
+.vs-vertical-rule--71 {
+  height: 71rem;
+  width: 1px; }
+
+.vs-vertical-rule--72 {
+  height: 72rem;
+  width: 1px; }
+
+.vs-vertical-rule--73 {
+  height: 73rem;
+  width: 1px; }
+
+.vs-vertical-rule--74 {
+  height: 74rem;
+  width: 1px; }
+
+.vs-vertical-rule--75 {
+  height: 75rem;
+  width: 1px; }
+
+.vs-vertical-rule--76 {
+  height: 76rem;
+  width: 1px; }
+
+.vs-vertical-rule--77 {
+  height: 77rem;
+  width: 1px; }
+
+.vs-vertical-rule--78 {
+  height: 78rem;
+  width: 1px; }
+
+.vs-vertical-rule--79 {
+  height: 79rem;
+  width: 1px; }
+
+.vs-vertical-rule--80 {
+  height: 80rem;
+  width: 1px; }
+
+.vs-vertical-rule--81 {
+  height: 81rem;
+  width: 1px; }
+
+.vs-vertical-rule--82 {
+  height: 82rem;
+  width: 1px; }
+
+.vs-vertical-rule--83 {
+  height: 83rem;
+  width: 1px; }
+
+.vs-vertical-rule--84 {
+  height: 84rem;
+  width: 1px; }
+
+.vs-vertical-rule--85 {
+  height: 85rem;
+  width: 1px; }
+
+.vs-vertical-rule--86 {
+  height: 86rem;
+  width: 1px; }
+
+.vs-vertical-rule--87 {
+  height: 87rem;
+  width: 1px; }
+
+.vs-vertical-rule--88 {
+  height: 88rem;
+  width: 1px; }
+
+.vs-vertical-rule--89 {
+  height: 89rem;
+  width: 1px; }
+
+.vs-vertical-rule--90 {
+  height: 90rem;
+  width: 1px; }
+
+.vs-vertical-rule--91 {
+  height: 91rem;
+  width: 1px; }
+
+.vs-vertical-rule--92 {
+  height: 92rem;
+  width: 1px; }
+
+.vs-vertical-rule--93 {
+  height: 93rem;
+  width: 1px; }
+
+.vs-vertical-rule--94 {
+  height: 94rem;
+  width: 1px; }
+
+.vs-vertical-rule--95 {
+  height: 95rem;
+  width: 1px; }
+
+.vs-vertical-rule--96 {
+  height: 96rem;
+  width: 1px; }
 
 .vs-horizontal-scroll {
   overflow: auto;

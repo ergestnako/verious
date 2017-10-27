@@ -11,10 +11,10 @@ var BackgroundColor = require('../BackgroundColor');
 function getClassName(_ref) {
   var height = _ref.height;
 
-  var classes = ['vs-horizontal-rule'];
+  var classes = [];
 
   if (height) {
-    classes = [].concat(_toConsumableArray(classes), ['vs-horizontal-rule--' + height]);
+    classes = [].concat(_toConsumableArray(classes), ['vs-height--' + height]);
   }
 
   return classes.join(' ');
@@ -23,7 +23,7 @@ function getClassName(_ref) {
 function getLineClassName(_ref2) {
   var lineColor = _ref2.lineColor;
 
-  var classes = ['vs-horizontal-rule-line'];
+  var classes = ['vs-horizontal-rule'];
 
   if (lineColor) {
     if (utilities.isInternalColor(lineColor)) {
@@ -37,25 +37,20 @@ function getLineClassName(_ref2) {
 module.exports = function (_ref3) {
   var height = _ref3.height,
       style = _ref3.style,
-      backgroundColor = _ref3.backgroundColor,
       lineColor = _ref3.lineColor;
   return React.createElement(
-    BackgroundColor,
-    { color: backgroundColor },
+    'div',
+    { className: getClassName({ height: height }) },
     React.createElement(
-      'div',
-      { className: getClassName({ height: height }) },
+      Layout,
+      { direction: 'vertical', style: { height: '100%' } },
+      React.createElement(Spacer, null),
       React.createElement(
-        Layout,
-        { direction: 'vertical', style: { height: '100%' } },
-        React.createElement(Spacer, null),
-        React.createElement(
-          BackgroundColor,
-          { color: lineColor },
-          React.createElement('div', { className: getLineClassName({ lineColor: lineColor }) })
-        ),
-        React.createElement(Spacer, null)
-      )
+        BackgroundColor,
+        { color: lineColor },
+        React.createElement('div', { className: getLineClassName({ lineColor: lineColor }) })
+      ),
+      React.createElement(Spacer, null)
     )
   );
 };
