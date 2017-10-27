@@ -8,7 +8,7 @@ function getClassName({ height }) {
   let classes = [];
 
   if (height) {
-    classes = [...classes, `vs-height-${height}`];
+    classes = [...classes, `vs-height--${height}`];
   }
 
   return classes.join(' ');
