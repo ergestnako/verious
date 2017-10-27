@@ -5,17 +5,17 @@ const Spacer = require('../Spacer');
 const BackgroundColor = require('../BackgroundColor');
 
 function getClassName({ height }) {
-  let classes = ['vs-horizontal-rule'];
+  let classes = [];
 
   if (height) {
-    classes = [...classes, `vs-horizontal-rule--${height}`];
+    classes = [...classes, `vs-height-${height}`];
   }
 
   return classes.join(' ');
 }
 
 function getLineClassName({ lineColor }) {
-  let classes = ['vs-horizontal-rule-line'];
+  let classes = ['vs-horizontal-rule'];
 
   if (lineColor) {
     if (utilities.isInternalColor(lineColor)) {
@@ -26,16 +26,14 @@ function getLineClassName({ lineColor }) {
   return classes.join(' ');
 }
 
-module.exports = ({ height, style, backgroundColor, lineColor }) => (
-  <BackgroundColor color={backgroundColor}>
-    <div className={getClassName({ height })}>
-      <Layout direction="vertical" style={{ height: '100%' }}>
-        <Spacer />
-        <BackgroundColor color={lineColor}>
-          <div className={getLineClassName({ lineColor })} />
-        </BackgroundColor>
-        <Spacer />
-      </Layout>
-    </div>
-  </BackgroundColor>
+module.exports = ({ height, style, lineColor }) => (
+  <div className={getClassName({ height })}>
+    <Layout direction="vertical" style={{ height: '100%' }}>
+      <Spacer />
+      <BackgroundColor color={lineColor}>
+        <div className={getLineClassName({ lineColor })} />
+      </BackgroundColor>
+      <Spacer />
+    </Layout>
+  </div>
 );

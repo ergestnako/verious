@@ -12,10 +12,6 @@
 //    1. Base
 // ---------------------------------------------
 
-@mixin vs-horizontal-rule($size) {
-  height: $size * 1rem;
-}
-
-@mixin vs-horizontal-rule-line {
+@mixin vs-horizontal-rule {
   height: 1px;
 }

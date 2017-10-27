@@ -1,0 +1,9 @@
+//
+//    File:           _vertical-rule.scss
+//    Description:
+//
+
+@mixin vs-vertical-rule($size) {
+  height: $size * 1rem;
+  width: 1px;
+}

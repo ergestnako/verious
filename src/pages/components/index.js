@@ -7,6 +7,7 @@ const Row = require('../../../react/components/Row');
 const Column = require('../../../react/components/Column');
 const Button = require('../../../react/components/Button');
 const HorizontalRule = require('../../../react/components/HorizontalRule');
+const VerticalRule = require('../../../react/components/VerticalRule');
 const Square = require('../../../react/components/Square');
 const Paragraph = require('../../../react/components/Paragraph');
 const Image = require('../../../react/components/Image');
@@ -33,6 +34,8 @@ module.exports = () => (
               backgroundColor="vs-grey-100"
               lineColor="vs-grey-400"
             />
+            <Paragraph>Vertical Rule</Paragraph>
+            <VerticalRule height={3} lineColor="vs-grey-400" />
             <Paragraph>Square</Paragraph>
             <Code>
               {`
