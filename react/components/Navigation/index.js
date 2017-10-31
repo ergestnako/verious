@@ -21,7 +21,7 @@ class Navigation extends React.Component {
         <Wrapper padding={[1, 0, 1, 0]}>
           <Container>
             <Row>
-              <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+              <Column span={[12, 12, 12, 12, 12]}>
                 <Wrapper padding={[0, 0, 0, 0]}>
                   <Layout direction="horizontal">
                     {this.props.left}
@@ -43,7 +43,7 @@ class Navigation extends React.Component {
             <Wrapper padding={[2, 0, 2, 0]}>
               <Container>
                 <Row>
-                  <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+                  <Column span={[12, 12, 12, 12, 12]}>
                     {this.props.children}
                   </Column>
                 </Row>

@@ -11,7 +11,7 @@ module.exports = () => (
     <Wrapper padding={[4, 0, 2, 0]}>
       <Container>
         <Row>
-          <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 12, 12, 12]}>
             <Paragraph textColor="vs-white">
               This site is generated with{' '}
               <a href="https://www.gatsbyjs.org/">Gatsby</a> and built with love

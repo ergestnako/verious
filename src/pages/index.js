@@ -18,7 +18,7 @@ module.exports = () => (
       <Wrapper padding={[12, 0, 12, 0]}>
         <Container>
           <Row>
-            <Column span={[4, 4, 6, 6]} push={[1, 4, 5, 5]}>
+            <Column span={[8, 6, 4, 4, 4]} push={[2, 3, 4, 4, 4]}>
               <Image source={Logo} />
               <Square size="1" />
               <Paragraph textColor="vs-white" style={{ textAlign: 'center' }}>
@@ -32,7 +32,7 @@ module.exports = () => (
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
         <Row>
-          <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 12, 12, 12]}>
             <Heading size="2">Mission</Heading>
             <Paragraph>
               To provide a set of easy to use{' '}
@@ -43,12 +43,12 @@ module.exports = () => (
           </Column>
         </Row>
         <Row>
-          <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 12, 12, 12]}>
             <Heading size="2">Principles</Heading>
           </Column>
         </Row>
         <Row>
-          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">Static Deployment</Heading>
             <Paragraph>
               Gatsby is used to produce a static website that can be deployed to
@@ -58,7 +58,7 @@ module.exports = () => (
             </Paragraph>
             <Square size="2" />
           </Column>
-          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">Component Based Design</Heading>
             <Paragraph>
               Component HTML, CSS, and javascript code is isolated in a single
@@ -70,7 +70,7 @@ module.exports = () => (
           </Column>
         </Row>
         <Row>
-          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">Reusability</Heading>
             <Paragraph>
               Components can be shared across other components and pages using a
@@ -80,7 +80,7 @@ module.exports = () => (
             </Paragraph>
             <Square size="2" />
           </Column>
-          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">Vertical Rhythm</Heading>
             <Paragraph>
               A website should have a regular repeated rhythm built on top of a
@@ -92,7 +92,7 @@ module.exports = () => (
           </Column>
         </Row>
         <Row>
-          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">Abstract Measurements</Heading>
             <Paragraph>
               The responsive and baseline grids provide a set of abstract
@@ -101,7 +101,7 @@ module.exports = () => (
             </Paragraph>
             <Square size="2" />
           </Column>
-          <Column span={[6, 6, 8, 8]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">CSS Underneath</Heading>
             <Paragraph>
               Under the hood, styles are written in SASS, namespaced by
@@ -109,16 +109,6 @@ module.exports = () => (
               for translating components to vanilla CSS and HTML code.
             </Paragraph>
             <Square size="2" />
-          </Column>
-        </Row>
-        <Row>
-          <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
-            <Heading size="2">Installation</Heading>
-            <Code>
-              {`
-  npm install verious
-              `}
-            </Code>
           </Column>
         </Row>
       </Container>

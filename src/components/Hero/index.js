@@ -15,7 +15,7 @@ const component = ({ title, subtitle }) => (
     <Wrapper backgroundColor="vs-pink-500" padding={[12, 0, 12, 0]}>
       <Container>
         <Row>
-          <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+          <Column span={[12, 12, 12, 12, 12]}>
             <Layout direction="horizontal">
               <Spacer />
               <div style={{ textAlign: 'center' }}>

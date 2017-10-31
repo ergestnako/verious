@@ -60,6 +60,11 @@
   margin: 0 auto;
   @include vs-clearfix();
 
+  @include vs-at-breakpoint($vs-screen-xs) {
+    width: $vs-width-xs;
+    padding: 0 page-margin($vs-screen-xs);
+  }
+
   @include vs-at-breakpoint($vs-screen-sm) {
     width: $vs-width-sm;
     padding: 0 page-margin($vs-screen-sm);
@@ -87,6 +92,12 @@
 
 @mixin vs-row() {
   @include vs-clearfix();
+
+  @include vs-at-breakpoint($vs-screen-xs) {
+    $gutter: gutter($vs-screen-xs);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
 
   @include vs-at-breakpoint($vs-screen-sm) {
     $gutter: gutter($vs-screen-sm);

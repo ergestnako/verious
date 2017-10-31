@@ -18,6 +18,12 @@
     @include vs-width($i);
   }
 
+  .vs-width--xs-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      @include vs-width($i);
+    }
+  }
+
   .vs-width--sm-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       @include vs-width($i);
@@ -50,6 +56,12 @@
 @for $i from 1 through 96 {
   .vs-height--#{$i} {
     @include vs-height($i);
+  }
+
+  .vs-height--xs-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      @include vs-height($i);
+    }
   }
 
   .vs-height--sm-#{$i} {

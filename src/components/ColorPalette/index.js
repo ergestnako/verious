@@ -9,62 +9,62 @@ const ColorCard = require('../../components/ColorCard');
 module.exports = ({ title, color }) => (
   <Container>
     <Row>
-      <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+      <Column span={[12, 12, 12, 12, 12]}>
         <Heading size={2}>{title}</Heading>
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-50`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-100`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-200`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-300`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-400`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-500`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-600`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-700`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-800`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-900`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-a100`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-a200`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-a400`} />
         <Square size={2} />
       </Column>
-      <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+      <Column span={[6, 6, 4, 4, 4]}>
         <ColorCard color={`${color}-a700`} />
         <Square size={2} />
       </Column>

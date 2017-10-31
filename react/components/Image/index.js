@@ -9,16 +9,19 @@ class Image extends React.Component {
     if (Array.isArray(this.props.source)) {
       element = (
         <Wrapper>
-          <Wrapper visibility={[true, false, false, false]}>
+          <Wrapper visibility={[true, false, false, false, false]}>
             <ImageBaseline source={this.props.source[0]} />
           </Wrapper>
-          <Wrapper visibility={[false, true, false, false]}>
+          <Wrapper visibility={[false, true, false, false, false]}>
+            <ImageBaseline source={this.props.source[0]} />
+          </Wrapper>
+          <Wrapper visibility={[false, false, true, false, false]}>
             <ImageBaseline source={this.props.source[1]} />
           </Wrapper>
-          <Wrapper visibility={[false, false, true, false]}>
+          <Wrapper visibility={[false, false, false, true, false]}>
             <ImageBaseline source={this.props.source[2]} />
           </Wrapper>
-          <Wrapper visibility={[false, false, false, true]}>
+          <Wrapper visibility={[false, false, false, false, true]}>
             <ImageBaseline source={this.props.source[3]} />
           </Wrapper>
         </Wrapper>

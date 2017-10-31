@@ -21,7 +21,7 @@ module.exports = () => (
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
         <Row>
-          <Column span={[6, 8, 8, 8]} push={[0, 2, 4, 4]}>
+          <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Heading size="2">The Boilerplate, Get It!</Heading>
             <Paragraph>
               Everyone needs a good starting point. Head over to the{' '}

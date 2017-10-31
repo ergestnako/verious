@@ -20,30 +20,35 @@ $vs-grid-unit: 8px;
 //    2. Grid
 // ---------------------------------------------
 
-$vs-screen-sm: sm 0 767px;
-$vs-screen-md: md 768px 1023px;
-$vs-screen-lg: lg 1024px 1279px;
-$vs-screen-xl: xl 1280px;
+$vs-screen-xs: xs 0 575px;
+$vs-screen-sm: sm 576px 767px;
+$vs-screen-md: md 768px 991px;
+$vs-screen-lg: lg 992px 1199px;
+$vs-screen-xl: xl 1200px;
 
-$vs-width-sm: 100%;
+$vs-width-xs: 100%;
+$vs-width-sm: 576px;
 $vs-width-md: 768px;
-$vs-width-lg: 1024px;
-$vs-width-xl: 1280px;
+$vs-width-lg: 992px;
+$vs-width-xl: 1200px;
 
+$vs-gutter-xs: $vs-grid-unit * 4;
 $vs-gutter-sm: $vs-grid-unit * 4;
 $vs-gutter-md: $vs-grid-unit * 4;
 $vs-gutter-lg: $vs-grid-unit * 4;
 $vs-gutter-xl: $vs-grid-unit * 4;
 
-$vs-page-margin-sm: $vs-grid-unit * 4;
+$vs-page-margin-xs: $vs-grid-unit * 3;
+$vs-page-margin-sm: $vs-grid-unit * 3;
 $vs-page-margin-md: $vs-grid-unit * 3;
 $vs-page-margin-lg: $vs-grid-unit * 3;
 $vs-page-margin-xl: $vs-grid-unit * 3;
 
-$vs-total-columns-sm: 6;
+$vs-total-columns-xs: 12;
+$vs-total-columns-sm: 12;
 $vs-total-columns-md: 12;
-$vs-total-columns-lg: 16;
-$vs-total-columns-xl: 16;
+$vs-total-columns-lg: 12;
+$vs-total-columns-xl: 12;
 
 // ---------------------------------------------
 //    3. Sassline
@@ -56,9 +61,10 @@ $modularscale: (
 
 $breakpoints: (
   break-0: 0,
-  break-1: 768,
-  break-2: 1024,
-  break-3: 1280
+  break-1: 576,
+  break-2: 768,
+  break-3: 992,
+  break-4: 1200,
 ) !default;
 
 $rootsizes: (
@@ -66,6 +72,7 @@ $rootsizes: (
   rootsize-1: 15,
   rootsize-2: 16,
   rootsize-3: 17,
+  rootsize-4: 17,
 ) !default;
 
 $type-helvetica: (

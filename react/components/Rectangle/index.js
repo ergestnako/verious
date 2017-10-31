@@ -8,10 +8,11 @@ function getClassName({ width, height }) {
     if (Array.isArray(width)) {
       classes = [
         ...classes,
-        `vs-width--sm-${width[0]}`,
-        `vs-width--md-${width[1]}`,
-        `vs-width--lg-${width[2]}`,
-        `vs-width--xl-${width[3]}`
+        `vs-width--xs-${width[0]}`,
+        `vs-width--sm-${width[1]}`,
+        `vs-width--md-${width[2]}`,
+        `vs-width--lg-${width[3]}`,
+        `vs-width--xl-${width[4]}`
       ];
     } else {
       classes = [...classes, `vs-width--${width}`];
@@ -23,9 +24,10 @@ function getClassName({ width, height }) {
       classes = [
         ...classes,
         `vs-height--sm-${height[0]}`,
-        `vs-height--md-${height[1]}`,
-        `vs-height--lg-${height[2]}`,
-        `vs-height--xl-${height[3]}`
+        `vs-height--sm-${height[1]}`,
+        `vs-height--md-${height[2]}`,
+        `vs-height--lg-${height[3]}`,
+        `vs-height--xl-${height[4]}`
       ];
     } else {
       classes = [...classes, `vs-height--${height}`];

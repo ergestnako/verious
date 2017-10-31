@@ -21,7 +21,7 @@ module.exports = () => (
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
         <Row>
-          <Column span={[6, 8, 8, 8]} push={[0, 2, 4, 4]}>
+          <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Heading size="2">Directory Structure</Heading>
             <Paragraph>
               Inside the source directory files are organized like so:
@@ -68,7 +68,7 @@ module.exports = () => (
             </Paragraph>
             <Paragraph>
               Now sometimes we will need to isolate specific pieces of our
-              website for reuse and thanks to React's component model we can
+              website for reuse and thanks to React{`'`}s component model we can
               easy do that inside a new /src/components directory. Suppose we
               have Navigation, Footer, and Hero components we want to reuse
               throughout the website. We would simple drop them inside our new

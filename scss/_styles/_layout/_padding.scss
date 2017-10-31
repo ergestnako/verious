@@ -2,8 +2,23 @@
 //    File:           _padding.scss
 //    Description:
 //
+//
+//    Table of Contents:
+//
+//    1. Base
+//    2. Extra Small
+//    3. Small
+//    4. Medium
+//    5. Large
+//    6. Extra Large
+//
 
 @for $i from 1 through 96 {
+
+  // ---------------------------------------------
+  //    1. Base
+  // ---------------------------------------------
+
   .vs-padding-top-#{$i} {
     padding-top: $i + rem;
   }
@@ -19,6 +34,38 @@
   .vs-padding-left-#{$i} {
     padding-left: $i + rem;
   }
+
+  // ---------------------------------------------
+  //    2. Extra Small
+  // ---------------------------------------------
+
+  .vs-padding-xs-top-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      padding-top: $i + rem;
+    }
+  }
+
+  .vs-padding-xs-right-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      padding-right: $i + rem;
+    }
+  }
+
+  .vs-padding-xs-bottom-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      padding-bottom: $i + rem;
+    }
+  }
+
+  .vs-padding-xs-left-#{$i} {
+    @include vs-at-breakpoint($vs-screen-xs) {
+      padding-left: $i + rem;
+    }
+  }
+
+  // ---------------------------------------------
+  //    3. Small
+  // ---------------------------------------------
 
   .vs-padding-sm-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
@@ -44,6 +91,10 @@
     }
   }
 
+  // ---------------------------------------------
+  //    4. Medium
+  // ---------------------------------------------
+
   .vs-padding-md-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
       padding-top: $i + rem;
@@ -68,6 +119,10 @@
     }
   }
 
+  // ---------------------------------------------
+  //    5. Large
+  // ---------------------------------------------
+
   .vs-padding-lg-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       padding-top: $i + rem;
@@ -91,6 +146,10 @@
       padding-left: $i + rem;
     }
   }
+
+  // ---------------------------------------------
+  //    6. Extra Large
+  // ---------------------------------------------
 
   .vs-padding-xl-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {

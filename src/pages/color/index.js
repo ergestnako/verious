@@ -36,14 +36,14 @@ module.exports = () => (
       <Wrapper>
         <Container>
           <Row>
-            <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
+            <Column span={[12, 12, 12, 12, 12]}>
               <Heading size={2}>Black and White</Heading>
             </Column>
-            <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+            <Column span={[6, 6, 4, 4, 4]}>
               <ColorCard color="vs-white" />
               <Square size={2} />
             </Column>
-            <Column span={[3, 4, 4, 4]} push={[0, 0, 0, 0]}>
+            <Column span={[6, 6, 4, 4, 4]}>
               <ColorCard color="vs-black" />
               <Square size={2} />
             </Column>

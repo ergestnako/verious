@@ -3,8 +3,23 @@
 //    Description:
 //
 
+@include vs-at-breakpoint($vs-screen-xs) {
+  $total-columns: total-columns($vs-screen-xs);
+  @for $span from 1 through $total-columns {
+    .vs-col-xs-#{$span} {
+      @include vs-col($vs-screen-xs, $span);
+    }
+  }
+
+  @for $push from 1 through $total-columns {
+    .vs-col-xs-push-#{$push} {
+      @include vs-col-push($vs-screen-xs, $push);
+    }
+  }
+}
+
 @include vs-at-breakpoint($vs-screen-sm) {
-  $total-columns: total-columns($vs-screen-xl);
+  $total-columns: total-columns($vs-screen-sm);
   @for $span from 1 through $total-columns {
     .vs-col-sm-#{$span} {
       @include vs-col($vs-screen-sm, $span);
