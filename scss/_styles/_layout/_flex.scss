@@ -1,0 +1,204 @@
+//
+//    File:           _flex.scss
+//    Description:
+//
+//
+//    Table of Contents:
+//
+//    1. Flex
+//    2. Flex Direction Row
+//    3. Flex Direction Row Reverse
+//    4. Flex Direction Column
+//    5. Flex Direction Column Reverse
+//
+
+// ---------------------------------------------
+//    1. Flex
+// ---------------------------------------------
+
+.vs-flex {
+  @include vs-flex();
+}
+
+.vs-xs-flex {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex();
+  }
+}
+
+.vs-sm-flex {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex();
+  }
+}
+
+.vs-md-flex {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex();
+  }
+}
+
+.vs-lg-flex {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex();
+  }
+}
+
+.vs-xl-flex {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex();
+  }
+}
+
+// ---------------------------------------------
+//    2. Flex Direction Row
+// ---------------------------------------------
+
+.vs-flex-direction-row {
+  @include vs-flex-direction(row);
+}
+
+.vs-xs-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-sm-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-md-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-lg-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-direction(row);
+  }
+}
+
+.vs-xl-flex-direction-row {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-direction(row);
+  }
+}
+
+// ---------------------------------------------
+//    3. Flex Direction Row Reverse
+// ---------------------------------------------
+
+.vs-flex-direction-row-reverse {
+  @include vs-flex-direction(row-reverse);
+}
+
+.vs-xs-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-sm-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-md-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-lg-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+.vs-xl-flex-direction-row-reverse {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-direction(row-reverse);
+  }
+}
+
+// ---------------------------------------------
+//    4. Flex Direction Column
+// ---------------------------------------------
+
+.vs-flex-direction-column {
+  @include vs-flex-direction(column);
+}
+
+.vs-xs-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-sm-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-md-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-lg-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-direction(column);
+  }
+}
+
+.vs-xl-flex-direction-column {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-direction(column);
+  }
+}
+
+// ---------------------------------------------
+//    5. Flex Direction Column Reverse
+// ---------------------------------------------
+
+
+.vs-flex-direction-column-reverse {
+  @include vs-flex-direction(column-reverse);
+}
+
+.vs-xs-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-sm-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-md-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-lg-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-direction(column-reverse);
+  }
+}
+
+.vs-xl-flex-direction-column-reverse {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-direction(column-reverse);
+  }
+}

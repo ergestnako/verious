@@ -1,0 +1,24 @@
+//
+//    File:           _flex.scss
+//    Description:
+//
+
+@mixin vs-flex() {
+  display: 'flex';
+}
+
+@mixin vs-flex-direction($direction) {
+  flex-direction: $direction;
+}
+
+@mixin vs-flex-justify-content($justify-content) {
+  justify-content: $justify-content;
+}
+
+@mixin vs-flex-align-items($align-items) {
+  align-items: $align-items;
+}
+
+@mixin vs-flex-wrap($wrap) {
+  flex-wrap: $wrap;
+}

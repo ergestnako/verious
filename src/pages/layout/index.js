@@ -61,6 +61,7 @@ module.exports = () =>
             <Paragraph>Column</Paragraph>
             <Paragraph>Layout</Paragraph>
             <Paragraph>Spacer</Paragraph>
+            <Paragraph>Flex</Paragraph>
           </Column>
         </Row>
       </Container>
