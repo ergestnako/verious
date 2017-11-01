@@ -20,7 +20,7 @@ function getClassName(_ref) {
       if (typeof p === 'number') {
         classes = [].concat(_toConsumableArray(classes), ['vs-padding-' + edges[i] + '-' + p]);
       } else if (Array.isArray(p)) {
-        classes = [].concat(_toConsumableArray(classes), ['vs-padding-sm-' + edges[i] + '-' + p[0], 'vs-padding-md-' + edges[i] + '-' + p[1], 'vs-padding-lg-' + edges[i] + '-' + p[2], 'vs-padding-xl-' + edges[i] + '-' + p[3]]);
+        classes = [].concat(_toConsumableArray(classes), ['vs-padding-xs-' + edges[i] + '-' + p[0], 'vs-padding-sm-' + edges[i] + '-' + p[1], 'vs-padding-md-' + edges[i] + '-' + p[2], 'vs-padding-lg-' + edges[i] + '-' + p[3], 'vs-padding-xl-' + edges[i] + '-' + p[4]]);
       }
     }
   }
@@ -31,7 +31,7 @@ function getClassName(_ref) {
       if (typeof _p === 'number') {
         classes = [].concat(_toConsumableArray(classes), ['vs-margin-' + edges[_i] + '-' + _p]);
       } else if (Array.isArray(_p)) {
-        classes = [].concat(_toConsumableArray(classes), ['vs-margin-sm-' + edges[_i] + '-' + _p[0], 'vs-margin-md-' + edges[_i] + '-' + _p[1], 'vs-margin-lg-' + edges[_i] + '-' + _p[2], 'vs-margin-xl-' + edges[_i] + '-' + _p[3]]);
+        classes = [].concat(_toConsumableArray(classes), ['vs-margin-xs-' + edges[_i] + '-' + _p[0], 'vs-margin-sm-' + edges[_i] + '-' + _p[1], 'vs-margin-md-' + edges[_i] + '-' + _p[2], 'vs-margin-lg-' + edges[_i] + '-' + _p[3], 'vs-margin-xl-' + edges[_i] + '-' + _p[4]]);
       }
     }
   }
@@ -42,25 +42,29 @@ function getClassName(_ref) {
       if (typeof _p2 === 'number') {
         classes = [].concat(_toConsumableArray(classes), ['vs-pull-' + edges[_i2] + '-' + _p2]);
       } else if (Array.isArray(_p2)) {
-        classes = [].concat(_toConsumableArray(classes), ['vs-pull-sm-' + edges[_i2] + '-' + _p2[0], 'vs-pull-md-' + edges[_i2] + '-' + _p2[1], 'vs-pull-lg-' + edges[_i2] + '-' + _p2[2], 'vs-pull-xl-' + edges[_i2] + '-' + _p2[3]]);
+        classes = [].concat(_toConsumableArray(classes), ['vs-pull-sm-' + edges[_i2] + '-' + _p2[0], 'vs-pull-sm-' + edges[_i2] + '-' + _p2[1], 'vs-pull-md-' + edges[_i2] + '-' + _p2[2], 'vs-pull-lg-' + edges[_i2] + '-' + _p2[3], 'vs-pull-xl-' + edges[_i2] + '-' + _p2[4]]);
       }
     }
   }
 
   if (visibility) {
     if (visibility[0] === false) {
-      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-sm']);
+      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-xs']);
     }
 
     if (visibility[1] === false) {
-      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-md']);
+      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-sm']);
     }
 
     if (visibility[2] === false) {
-      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-lg']);
+      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-md']);
     }
 
     if (visibility[3] === false) {
+      classes = [].concat(_toConsumableArray(classes), ['vs-hidden-lg']);
+    }
+
+    if (visibility[4] === false) {
       classes = [].concat(_toConsumableArray(classes), ['vs-hidden-xl']);
     }
   }

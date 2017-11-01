@@ -13,7 +13,7 @@ function getClassName(_ref) {
 
   if (width) {
     if (Array.isArray(width)) {
-      classes = [].concat(_toConsumableArray(classes), ['vs-width--sm-' + width[0], 'vs-width--md-' + width[1], 'vs-width--lg-' + width[2], 'vs-width--xl-' + width[3]]);
+      classes = [].concat(_toConsumableArray(classes), ['vs-width--xs-' + width[0], 'vs-width--sm-' + width[1], 'vs-width--md-' + width[2], 'vs-width--lg-' + width[3], 'vs-width--xl-' + width[4]]);
     } else {
       classes = [].concat(_toConsumableArray(classes), ['vs-width--' + width]);
     }
@@ -21,7 +21,7 @@ function getClassName(_ref) {
 
   if (height) {
     if (Array.isArray(height)) {
-      classes = [].concat(_toConsumableArray(classes), ['vs-height--sm-' + height[0], 'vs-height--md-' + height[1], 'vs-height--lg-' + height[2], 'vs-height--xl-' + height[3]]);
+      classes = [].concat(_toConsumableArray(classes), ['vs-height--sm-' + height[0], 'vs-height--sm-' + height[1], 'vs-height--md-' + height[2], 'vs-height--lg-' + height[3], 'vs-height--xl-' + height[4]]);
     } else {
       classes = [].concat(_toConsumableArray(classes), ['vs-height--' + height]);
     }

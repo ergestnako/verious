@@ -32,22 +32,27 @@ var Image = function (_React$Component) {
           null,
           React.createElement(
             Wrapper,
-            { visibility: [true, false, false, false] },
+            { visibility: [true, false, false, false, false] },
             React.createElement(ImageBaseline, { source: this.props.source[0] })
           ),
           React.createElement(
             Wrapper,
-            { visibility: [false, true, false, false] },
+            { visibility: [false, true, false, false, false] },
+            React.createElement(ImageBaseline, { source: this.props.source[0] })
+          ),
+          React.createElement(
+            Wrapper,
+            { visibility: [false, false, true, false, false] },
             React.createElement(ImageBaseline, { source: this.props.source[1] })
           ),
           React.createElement(
             Wrapper,
-            { visibility: [false, false, true, false] },
+            { visibility: [false, false, false, true, false] },
             React.createElement(ImageBaseline, { source: this.props.source[2] })
           ),
           React.createElement(
             Wrapper,
-            { visibility: [false, false, false, true] },
+            { visibility: [false, false, false, false, true] },
             React.createElement(ImageBaseline, { source: this.props.source[3] })
           )
         );

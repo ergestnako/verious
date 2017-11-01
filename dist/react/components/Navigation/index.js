@@ -50,7 +50,7 @@ var Navigation = function (_React$Component) {
               null,
               React.createElement(
                 Column,
-                { span: [6, 12, 16, 16], push: [0, 0, 0, 0] },
+                { span: [12, 12, 12, 12, 12] },
                 React.createElement(
                   Wrapper,
                   { padding: [0, 0, 0, 0] },
@@ -90,7 +90,7 @@ var Navigation = function (_React$Component) {
                   null,
                   React.createElement(
                     Column,
-                    { span: [6, 12, 16, 16], push: [0, 0, 0, 0] },
+                    { span: [12, 12, 12, 12, 12] },
                     this.props.children
                   )
                 )
