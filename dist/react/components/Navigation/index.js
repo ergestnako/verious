@@ -67,7 +67,7 @@ var Navigation = function (_React$Component) {
                         }
                       },
                       React.createElement(IconMenu, {
-                        iconColor: 'vs-white',
+                        iconColor: this.props.iconColor || 'vs-white',
                         mode: this.state.open ? 'cross' : ''
                       })
                     )

@@ -30,7 +30,7 @@ class Navigation extends React.Component {
                       onClick={() => this.setState({ open: !this.state.open })}
                     >
                       <IconMenu
-                        iconColor="vs-white"
+                        iconColor={this.props.iconColor || 'vs-white'}
                         mode={this.state.open ? 'cross' : ''}
                       />
                     </IconButton>
