@@ -2,7 +2,7 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 import 'animate.css/animate.css';
-import '../../scss/styles.scss';
+import '../../../scss/styles.scss';
 import Navigation from '../../../react/components/Navigation';
 import List from '../../../react/components/List';
 import ListItem from '../../../react/components/ListItem';
