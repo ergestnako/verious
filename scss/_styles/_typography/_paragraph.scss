@@ -8,10 +8,10 @@
 
 .verious {
   p {
-    @include vs-paragraph(0);
+    @include vs-paragraph(1);
   }
 }
 
 .vs-p {
-  @include vs-paragraph(0);
+  @include vs-paragraph(1);
 }
