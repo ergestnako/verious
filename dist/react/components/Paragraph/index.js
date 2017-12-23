@@ -10,7 +10,7 @@ module.exports = function (_ref) {
       textColor = _ref.textColor;
   return React.createElement(
     'p',
-    { className: 'vs-p' },
+    null,
     React.createElement(
       Text,
       { style: style, size: 1, font: 'helvetica', color: textColor },

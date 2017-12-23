@@ -21,7 +21,7 @@ function getClassName(_ref) {
 
   if (height) {
     if (Array.isArray(height)) {
-      classes = [].concat(_toConsumableArray(classes), ['vs-height--sm-' + height[0], 'vs-height--sm-' + height[1], 'vs-height--md-' + height[2], 'vs-height--lg-' + height[3], 'vs-height--xl-' + height[4]]);
+      classes = [].concat(_toConsumableArray(classes), ['vs-height--xs-' + height[0], 'vs-height--sm-' + height[1], 'vs-height--md-' + height[2], 'vs-height--lg-' + height[3], 'vs-height--xl-' + height[4]]);
     } else {
       classes = [].concat(_toConsumableArray(classes), ['vs-height--' + height]);
     }
