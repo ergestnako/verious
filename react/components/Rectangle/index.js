@@ -23,7 +23,7 @@ function getClassName({ width, height }) {
     if (Array.isArray(height)) {
       classes = [
         ...classes,
-        `vs-height--sm-${height[0]}`,
+        `vs-height--xs-${height[0]}`,
         `vs-height--sm-${height[1]}`,
         `vs-height--md-${height[2]}`,
         `vs-height--lg-${height[3]}`,
