@@ -13,6 +13,10 @@
 //    1. Visible
 // ---------------------------------------------
 
+.vs-visible-xs {
+  @include vs-visible($vs-screen-xs);
+}
+
 .vs-visible-sm {
   @include vs-visible($vs-screen-sm);
 }
@@ -32,6 +36,10 @@
 // ---------------------------------------------
 //    2. Hidden
 // ---------------------------------------------
+
+.vs-hidden-xs {
+  @include vs-hidden($vs-screen-xs);
+}
 
 .vs-hidden-sm {
   @include vs-hidden($vs-screen-sm);
