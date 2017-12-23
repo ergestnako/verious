@@ -12,7 +12,7 @@
   }
 
   li {
-    @include vs-list-item(0);
+    @include vs-list-item(1);
   }
 
   .vs-ul {
@@ -24,7 +24,7 @@
   }
 
   .vs-li {
-    @include vs-list-item(0);
+    @include vs-list-item(1);
   }
 }
 
@@ -37,5 +37,5 @@
 }
 
 .vs-li {
-  @include vs-list-item(0);
+  @include vs-list-item(1);
 }
