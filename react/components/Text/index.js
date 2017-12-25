@@ -20,9 +20,9 @@ function getClassName({ size, font, color }) {
   return classes.join(' ');
 }
 
-function getStyles({ style, color }) {
+function getStyles({ style, color, tag }) {
   const styles = {
-    display: 'inherit'
+    display: tag || 'block'
   };
 
   if (color) {
@@ -34,11 +34,12 @@ function getStyles({ style, color }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ children, style, size, font, color }) => (
-  <span
-    className={getClassName({ size, font, color })}
-    style={getStyles({ style, size, font, color })}
-  >
-    {children}
-  </span>
-);
+module.exports = ({ children, tag, style, size, font, color }) =>
+  React.createElement(
+    tag || 'span',
+    {
+      style: getStyles({ style, size, font, color, tag }),
+      className: getClassName({ size, font, color })
+    },
+    children
+  );

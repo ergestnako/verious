@@ -11,6 +11,10 @@
     @include vs-list();
   }
 
+  ol {
+    @include vs-ordered-list();
+  }
+
   li {
     @include vs-list-item(1);
   }
@@ -30,6 +34,10 @@
 
 .vs-ul {
   @include vs-list();
+}
+
+.vs-ol {
+  @include vs-ordered-list();
 }
 
 .vs-ul--unstyled {

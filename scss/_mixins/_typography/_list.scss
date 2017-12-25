@@ -30,12 +30,36 @@
 }
 
 @mixin vs-list() {
-  @include vs-margin(left, 2);
+  margin-left: 20px;
   @include vs-margin(bottom, 2);
 
-  ul {
-    @include vs-margin(left, 2);
+  ul, ol {
     margin-bottom: 0;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  ol {
+    margin-left: 22px;
+  }
+}
+
+@mixin vs-ordered-list() {
+  margin-left: 22px;
+  @include vs-margin(bottom, 2);
+
+  ul, ol {
+    margin-bottom: 0;
+  }
+
+  ul {
+    margin-left: 20px;
+  }
+
+  ol {
+    margin-left: 22px;
   }
 }
 
