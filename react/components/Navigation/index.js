@@ -15,6 +15,7 @@ class Navigation extends React.Component {
     super();
     this.state = {
       open: false,
+      animate: false,
       dimensions: {
         width: -1,
         height: -1
@@ -37,9 +38,21 @@ class Navigation extends React.Component {
                     <Spacer />
                     <IconButton
                       onClick={() => {
-                        this.setState({
-                          open: !this.state.open
-                        });
+                        const open = !this.state.open;
+
+                        const newState = {
+                          open,
+                          animate: true
+                        };
+
+                        this.setState(newState);
+
+                        if (open) {
+                          setTimeout(
+                            () => this.setState({ animate: false }),
+                            200
+                          );
+                        }
                       }}
                     >
                       <IconMenu
@@ -56,7 +69,7 @@ class Navigation extends React.Component {
             style={{
               overflow: 'hidden',
               height: this.state.open ? height : 0,
-              transition: 'height 200ms linear'
+              transition: this.state.animate ? 'height 200ms linear' : ''
             }}
           >
             <Measure
