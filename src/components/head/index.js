@@ -8,10 +8,6 @@ module.exports = () => (
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
-    <script src="/js/jquery.min.js" type="text/javascript" />
-    <script src="/js/hammer.min.js" type="text/javascript" />
-    <script src="/js/lodash.min.js" type="text/javascript" />
-    <script src="/js/anime.min.js" type="text/javascript" />
     <script src="/js/verious.min.js" type="text/javascript" />
   </head>
 );

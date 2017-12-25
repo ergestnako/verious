@@ -202,3 +202,79 @@
     @include vs-flex-direction(column-reverse);
   }
 }
+
+// ---------------------------------------------
+//    6. Flex Justify Content Center
+// ---------------------------------------------
+
+.vs-flex-justify-content-center {
+  @include vs-flex-justify-content(center);
+}
+
+.vs-xs-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-sm-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-md-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-lg-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+.vs-xl-flex-justify-content-center {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-justify-content(center);
+  }
+}
+
+// ---------------------------------------------
+//    7. Flex Align Items Center
+// ---------------------------------------------
+
+.vs-flex-align-items-center {
+  @include vs-flex-align-items(center);
+}
+
+.vs-xs-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-xs) {
+    @include vs-flex-align-items(center);
+  }
+}
+
+.vs-sm-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-sm) {
+    @include vs-flex-align-items(center);
+  }
+}
+
+.vs-md-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-md) {
+    @include vs-flex-align-items(center);
+  }
+}
+
+.vs-lg-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-lg) {
+    @include vs-flex-align-items(center);
+  }
+}
+
+.vs-xl-flex-align-items-center {
+  @include vs-at-breakpoint($vs-screen-xl) {
+    @include vs-flex-align-items(center);
+  }
+}

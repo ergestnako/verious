@@ -4,31 +4,14 @@ const Square = require('../../react/components/Square');
 const Container = require('../../react/components/Container');
 const Row = require('../../react/components/Row');
 const Column = require('../../react/components/Column');
-const Code = require('../../react/components/Code');
+const Hero = require('../components/Hero');
 const Heading = require('../../react/components/Heading');
 const Paragraph = require('../../react/components/Paragraph');
-const Image = require('../../react/components/Image');
 const Wrapper = require('../../react/components/Wrapper');
-const BackgroundColor = require('../../react/components/BackgroundColor');
-const Logo = require('../img/vs-logo.png');
 
 module.exports = () => (
   <Page>
-    <BackgroundColor color="vs-pink-500">
-      <Wrapper padding={[12, 0, 12, 0]}>
-        <Container>
-          <Row>
-            <Column span={[8, 6, 4, 4, 4]} push={[2, 3, 4, 4, 4]}>
-              <Image source={Logo} />
-              <Square size="1" />
-              <Paragraph textColor="vs-white" style={{ textAlign: 'center' }}>
-                Very serious styles.
-              </Paragraph>
-            </Column>
-          </Row>
-        </Container>
-      </Wrapper>
-    </BackgroundColor>
+    <Hero title="Verious" subtitle="Very serious styles." />
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
         <Row>

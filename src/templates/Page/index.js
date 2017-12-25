@@ -8,10 +8,9 @@ import List from '../../../react/components/List';
 import ListItem from '../../../react/components/ListItem';
 import Footer from '../../components/Footer';
 import Baseline from '../../../react/components/Baseline';
-import Layout from '../../../react/components/Layout';
-import Spacer from '../../../react/components/Spacer';
-import Logo from '../../img/vs-logo.png';
+import Text from '../../../react/components/Text';
 import Dropdown from '../../../react/components/Dropdown';
+import Square from '../../../react/components/Square';
 
 export default ({ children }) => (
   <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
@@ -22,13 +21,17 @@ export default ({ children }) => (
       backgroundColor="vs-pink-700"
       textColor="vs-white"
       left={
-        <Layout direction="vertical">
-          <Spacer />
-          <Link to="/">
-            <img src={Logo} style={{ height: '1.5rem' }} alt="logo" />
-          </Link>
-          <Spacer />
-        </Layout>
+        <div>
+          <Square size={1} />
+          <Text
+            size={2}
+            font="helvetica"
+            color="vs-white"
+            style={{ fontWeight: 'bold' }}
+          >
+            Verious
+          </Text>
+        </div>
       }
     >
       <List unstyled>
