@@ -9,6 +9,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var React = require('react');
+var Measure = require('react-measure').default;
 
 var Dropdown = function (_React$Component) {
   _inherits(Dropdown, _React$Component);
@@ -18,7 +19,14 @@ var Dropdown = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Dropdown.__proto__ || Object.getPrototypeOf(Dropdown)).call(this));
 
-    _this.state = { open: false };
+    _this.state = {
+      open: false,
+      animate: false,
+      dimensions: {
+        width: -1,
+        height: -1
+      }
+    };
     return _this;
   }
 
@@ -27,6 +35,9 @@ var Dropdown = function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
+      var height = this.state.dimensions.height;
+
+
       return React.createElement(
         'div',
         null,
@@ -34,7 +45,20 @@ var Dropdown = function (_React$Component) {
           'div',
           {
             onClick: function onClick() {
-              _this2.setState({ open: !_this2.state.open });
+              var open = !_this2.state.open;
+
+              var newState = {
+                open: open,
+                animate: true
+              };
+
+              _this2.setState(newState);
+
+              if (open) {
+                setTimeout(function () {
+                  return _this2.setState({ animate: false });
+                }, 200);
+              }
             },
             role: 'button',
             style: { cursor: 'pointer' }
@@ -43,8 +67,30 @@ var Dropdown = function (_React$Component) {
         ),
         React.createElement(
           'div',
-          { style: { display: this.state.open ? '' : 'none' } },
-          this.props.children
+          {
+            style: {
+              overflow: 'hidden',
+              height: this.state.open ? height : 0,
+              transition: this.state.animate ? 'height 200ms linear' : ''
+            }
+          },
+          React.createElement(
+            Measure,
+            {
+              bounds: true,
+              onResize: function onResize(contentRect) {
+                _this2.setState({ dimensions: contentRect.bounds });
+              }
+            },
+            function (_ref) {
+              var measureRef = _ref.measureRef;
+              return React.createElement(
+                'div',
+                { ref: measureRef },
+                _this2.props.children
+              );
+            }
+          )
         )
       );
     }

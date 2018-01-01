@@ -1,6 +1,6 @@
 'use strict';
 
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 var React = require('react');
 var Text = require('../Text');
@@ -10,13 +10,14 @@ module.exports = function (_ref) {
       style = _ref.style,
       size = _ref.size,
       textColor = _ref.textColor;
-  return React.createElement('h' + size, {}, React.createElement(Text, _defineProperty({
-    style: style,
+  return React.createElement(Text, {
+    tag: 'h' + size,
+    style: _extends({}, style, {
+      fontWeight: 'bold',
+      marginBottom: '2rem'
+    }),
     size: 7 - size,
     font: 'helvetica',
     color: textColor
-  }, 'style', {
-    fontWeight: 'bold',
-    marginBottom: '2rem'
-  }), children));
+  }, children);
 };

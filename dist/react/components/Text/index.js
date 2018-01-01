@@ -30,10 +30,11 @@ function getClassName(_ref) {
 
 function getStyles(_ref2) {
   var style = _ref2.style,
-      color = _ref2.color;
+      color = _ref2.color,
+      tag = _ref2.tag;
 
   var styles = {
-    display: 'inherit'
+    display: tag || 'block'
   };
 
   if (color) {
@@ -47,16 +48,13 @@ function getStyles(_ref2) {
 
 module.exports = function (_ref3) {
   var children = _ref3.children,
+      tag = _ref3.tag,
       style = _ref3.style,
       size = _ref3.size,
       font = _ref3.font,
       color = _ref3.color;
-  return React.createElement(
-    'span',
-    {
-      className: getClassName({ size: size, font: font, color: color }),
-      style: getStyles({ style: style, size: size, font: font, color: color })
-    },
-    children
-  );
+  return React.createElement(tag || 'span', {
+    style: getStyles({ style: style, size: size, font: font, color: color, tag: tag }),
+    className: getClassName({ size: size, font: font, color: color })
+  }, children);
 };

@@ -34958,27 +34958,27 @@ caption, th, td {
     height: 96rem; } }
 
 .vs-flex {
-  display: 'flex'; }
+  display: flex; }
 
 @media all and (min-width: 0) and (max-width: 575px) {
   .vs-xs-flex {
-    display: 'flex'; } }
+    display: flex; } }
 
 @media all and (min-width: 576px) and (max-width: 767px) {
   .vs-sm-flex {
-    display: 'flex'; } }
+    display: flex; } }
 
 @media all and (min-width: 768px) and (max-width: 991px) {
   .vs-md-flex {
-    display: 'flex'; } }
+    display: flex; } }
 
 @media all and (min-width: 992px) and (max-width: 1199px) {
   .vs-lg-flex {
-    display: 'flex'; } }
+    display: flex; } }
 
 @media all and (min-width: 1200px) {
   .vs-xl-flex {
-    display: 'flex'; } }
+    display: flex; } }
 
 .vs-flex-direction-row {
   flex-direction: row; }
@@ -35071,6 +35071,52 @@ caption, th, td {
 @media all and (min-width: 1200px) {
   .vs-xl-flex-direction-column-reverse {
     flex-direction: column-reverse; } }
+
+.vs-flex-justify-content-center {
+  justify-content: center; }
+
+@media all and (min-width: 0) and (max-width: 575px) {
+  .vs-xs-flex-justify-content-center {
+    justify-content: center; } }
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .vs-sm-flex-justify-content-center {
+    justify-content: center; } }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .vs-md-flex-justify-content-center {
+    justify-content: center; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .vs-lg-flex-justify-content-center {
+    justify-content: center; } }
+
+@media all and (min-width: 1200px) {
+  .vs-xl-flex-justify-content-center {
+    justify-content: center; } }
+
+.vs-flex-align-items-center {
+  align-items: center; }
+
+@media all and (min-width: 0) and (max-width: 575px) {
+  .vs-xs-flex-align-items-center {
+    align-items: center; } }
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .vs-sm-flex-align-items-center {
+    align-items: center; } }
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .vs-md-flex-align-items-center {
+    align-items: center; } }
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+  .vs-lg-flex-align-items-center {
+    align-items: center; } }
+
+@media all and (min-width: 1200px) {
+  .vs-xl-flex-align-items-center {
+    align-items: center; } }
 
 .vs-html {
   font-size: 87.5%; }
@@ -35419,12 +35465,12 @@ caption, th, td {
 
 .verious h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.80203;
-  font-size: 1.80203rem;
+  font-size: 2.02729;
+  font-size: 2.02729rem;
   line-height: 2rem;
   margin-top: 0rem;
-  padding-top: 0.31703rem;
-  padding-bottom: 0.68297rem;
+  padding-top: 0.23166rem;
+  padding-bottom: 0.76834rem;
   margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
@@ -35432,12 +35478,12 @@ caption, th, td {
 
 .verious h2 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.60181;
-  font-size: 1.60181rem;
+  font-size: 1.80203;
+  font-size: 1.80203rem;
   line-height: 2rem;
   margin-top: 0rem;
-  padding-top: 0.39292rem;
-  padding-bottom: 0.60708rem;
+  padding-top: 0.31703rem;
+  padding-bottom: 0.68297rem;
   margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
@@ -35445,12 +35491,12 @@ caption, th, td {
 
 .verious h3 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.42383;
-  font-size: 1.42383rem;
+  font-size: 1.60181;
+  font-size: 1.60181rem;
   line-height: 2rem;
   margin-top: 0rem;
-  padding-top: 0.46037rem;
-  padding-bottom: 0.53963rem;
+  padding-top: 0.39292rem;
+  padding-bottom: 0.60708rem;
   margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
@@ -35458,25 +35504,25 @@ caption, th, td {
 
 .verious h4 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.26562;
-  font-size: 1.26562rem;
+  font-size: 1.42383;
+  font-size: 1.42383rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.52033rem;
-  padding-bottom: 0.47967rem;
-  margin-bottom: 0rem;
+  margin-top: 0rem;
+  padding-top: 0.46037rem;
+  padding-bottom: 0.53963rem;
+  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious h5 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
-  font-size: 1.125rem;
+  font-size: 1.26562;
+  font-size: 1.26562rem;
   line-height: 2rem;
   margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
+  padding-top: 0.52033rem;
+  padding-bottom: 0.47967rem;
   margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
@@ -35484,12 +35530,12 @@ caption, th, td {
 
 .verious h6 {
   font-family: Helvetica, sans-serif;
-  font-size: 1;
-  font-size: 1rem;
+  font-size: 1.125;
+  font-size: 1.125rem;
   line-height: 2rem;
   margin-top: -1rem;
-  padding-top: 0.621rem;
-  padding-bottom: 0.379rem;
+  padding-top: 0.57363rem;
+  padding-bottom: 0.42637rem;
   margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
@@ -35497,12 +35543,12 @@ caption, th, td {
 
 .vs-h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.80203;
-  font-size: 1.80203rem;
+  font-size: 2.02729;
+  font-size: 2.02729rem;
   line-height: 2rem;
   margin-top: 0rem;
-  padding-top: 0.31703rem;
-  padding-bottom: 0.68297rem;
+  padding-top: 0.23166rem;
+  padding-bottom: 0.76834rem;
   margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
@@ -35510,6 +35556,19 @@ caption, th, td {
 
 .vs-h2 {
   font-family: Helvetica, sans-serif;
+  font-size: 1.80203;
+  font-size: 1.80203rem;
+  line-height: 2rem;
+  margin-top: 0rem;
+  padding-top: 0.31703rem;
+  padding-bottom: 0.68297rem;
+  margin-bottom: -1rem;
+  margin-bottom: 2rem;
+  font-style: normal;
+  font-weight: bold; }
+
+.vs-h3 {
+  font-family: Helvetica, sans-serif;
   font-size: 1.60181;
   font-size: 1.60181rem;
   line-height: 2rem;
@@ -35521,7 +35580,7 @@ caption, th, td {
   font-style: normal;
   font-weight: bold; }
 
-.vs-h3 {
+.vs-h4 {
   font-family: Helvetica, sans-serif;
   font-size: 1.42383;
   font-size: 1.42383rem;
@@ -35534,7 +35593,7 @@ caption, th, td {
   font-style: normal;
   font-weight: bold; }
 
-.vs-h4 {
+.vs-h5 {
   font-family: Helvetica, sans-serif;
   font-size: 1.26562;
   font-size: 1.26562rem;
@@ -35547,7 +35606,7 @@ caption, th, td {
   font-style: normal;
   font-weight: bold; }
 
-.vs-h5 {
+.vs-h6 {
   font-family: Helvetica, sans-serif;
   font-size: 1.125;
   font-size: 1.125rem;
@@ -35560,20 +35619,20 @@ caption, th, td {
   font-style: normal;
   font-weight: bold; }
 
-.vs-h6 {
+.verious .vs-h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 1;
-  font-size: 1rem;
+  font-size: 2.02729;
+  font-size: 2.02729rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.621rem;
-  padding-bottom: 0.379rem;
-  margin-bottom: 0rem;
+  margin-top: 0rem;
+  padding-top: 0.23166rem;
+  padding-bottom: 0.76834rem;
+  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
-.verious .vs-h1 {
+.verious .vs-h2 {
   font-family: Helvetica, sans-serif;
   font-size: 1.80203;
   font-size: 1.80203rem;
@@ -35586,7 +35645,7 @@ caption, th, td {
   font-style: normal;
   font-weight: bold; }
 
-.verious .vs-h2 {
+.verious .vs-h3 {
   font-family: Helvetica, sans-serif;
   font-size: 1.60181;
   font-size: 1.60181rem;
@@ -35599,7 +35658,7 @@ caption, th, td {
   font-style: normal;
   font-weight: bold; }
 
-.verious .vs-h3 {
+.verious .vs-h4 {
   font-family: Helvetica, sans-serif;
   font-size: 1.42383;
   font-size: 1.42383rem;
@@ -35612,7 +35671,7 @@ caption, th, td {
   font-style: normal;
   font-weight: bold; }
 
-.verious .vs-h4 {
+.verious .vs-h5 {
   font-family: Helvetica, sans-serif;
   font-size: 1.26562;
   font-size: 1.26562rem;
@@ -35625,7 +35684,7 @@ caption, th, td {
   font-style: normal;
   font-weight: bold; }
 
-.verious .vs-h5 {
+.verious .vs-h6 {
   font-family: Helvetica, sans-serif;
   font-size: 1.125;
   font-size: 1.125rem;
@@ -35633,19 +35692,6 @@ caption, th, td {
   margin-top: -1rem;
   padding-top: 0.57363rem;
   padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
-  margin-bottom: 2rem;
-  font-style: normal;
-  font-weight: bold; }
-
-.verious .vs-h6 {
-  font-family: Helvetica, sans-serif;
-  font-size: 1;
-  font-size: 1rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.621rem;
-  padding-bottom: 0.379rem;
   margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
@@ -35718,11 +35764,24 @@ caption, th, td {
     color: inherit; }
 
 .verious ul {
-  margin-left: 2rem;
+  margin-left: 20px;
   margin-bottom: 2rem; }
-  .verious ul ul {
-    margin-left: 2rem;
+  .verious ul ul, .verious ul ol {
     margin-bottom: 0; }
+  .verious ul ul {
+    margin-left: 20px; }
+  .verious ul ol {
+    margin-left: 22px; }
+
+.verious ol {
+  margin-left: 22px;
+  margin-bottom: 2rem; }
+  .verious ol ul, .verious ol ol {
+    margin-bottom: 0; }
+  .verious ol ul {
+    margin-left: 20px; }
+  .verious ol ol {
+    margin-left: 22px; }
 
 .verious li {
   font-family: Helvetica, sans-serif;
@@ -35755,11 +35814,14 @@ caption, th, td {
     padding-top: 0; }
 
 .verious .vs-ul {
-  margin-left: 2rem;
+  margin-left: 20px;
   margin-bottom: 2rem; }
-  .verious .vs-ul ul {
-    margin-left: 2rem;
+  .verious .vs-ul ul, .verious .vs-ul ol {
     margin-bottom: 0; }
+  .verious .vs-ul ul {
+    margin-left: 20px; }
+  .verious .vs-ul ol {
+    margin-left: 22px; }
 
 .verious .vs-ul--unstyled {
   margin-left: 0;
@@ -35798,11 +35860,24 @@ caption, th, td {
     padding-top: 0; }
 
 .vs-ul {
-  margin-left: 2rem;
+  margin-left: 20px;
   margin-bottom: 2rem; }
-  .vs-ul ul {
-    margin-left: 2rem;
+  .vs-ul ul, .vs-ul ol {
     margin-bottom: 0; }
+  .vs-ul ul {
+    margin-left: 20px; }
+  .vs-ul ol {
+    margin-left: 22px; }
+
+.vs-ol {
+  margin-left: 22px;
+  margin-bottom: 2rem; }
+  .vs-ol ul, .vs-ol ol {
+    margin-bottom: 0; }
+  .vs-ol ul {
+    margin-left: 20px; }
+  .vs-ol ol {
+    margin-left: 22px; }
 
 .vs-ul--unstyled {
   margin-left: 0;

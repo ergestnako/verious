@@ -18,6 +18,7 @@ var Spacer = require('../Spacer');
 var BackgroundColor = require('../BackgroundColor');
 var IconButton = require('../IconButton');
 var IconMenu = require('../IconMenu');
+var Measure = require('react-measure').default;
 
 var Navigation = function (_React$Component) {
   _inherits(Navigation, _React$Component);
@@ -27,7 +28,14 @@ var Navigation = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (Navigation.__proto__ || Object.getPrototypeOf(Navigation)).call(this));
 
-    _this.state = { open: false };
+    _this.state = {
+      open: false,
+      animate: false,
+      dimensions: {
+        width: -1,
+        height: -1
+      }
+    };
     return _this;
   }
 
@@ -36,12 +44,15 @@ var Navigation = function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
+      var height = this.state.dimensions.height;
+
+
       return React.createElement(
         BackgroundColor,
         { color: this.props.backgroundColor || 'vs-white' },
         React.createElement(
           Wrapper,
-          { padding: [1, 0, 1, 0] },
+          null,
           React.createElement(
             Container,
             null,
@@ -53,7 +64,7 @@ var Navigation = function (_React$Component) {
                 { span: [12, 12, 12, 12, 12] },
                 React.createElement(
                   Wrapper,
-                  { padding: [0, 0, 0, 0] },
+                  { padding: [1, 0, 1, 0] },
                   React.createElement(
                     Layout,
                     { direction: 'horizontal' },
@@ -63,7 +74,20 @@ var Navigation = function (_React$Component) {
                       IconButton,
                       {
                         onClick: function onClick() {
-                          return _this2.setState({ open: !_this2.state.open });
+                          var open = !_this2.state.open;
+
+                          var newState = {
+                            open: open,
+                            animate: true
+                          };
+
+                          _this2.setState(newState);
+
+                          if (open) {
+                            setTimeout(function () {
+                              return _this2.setState({ animate: false });
+                            }, 200);
+                          }
                         }
                       },
                       React.createElement(IconMenu, {
@@ -78,23 +102,45 @@ var Navigation = function (_React$Component) {
           ),
           React.createElement(
             'div',
-            { style: { display: this.state.open ? '' : 'none' } },
+            {
+              style: {
+                overflow: 'hidden',
+                height: this.state.open ? height : 0,
+                transition: this.state.animate ? 'height 200ms linear' : ''
+              }
+            },
             React.createElement(
-              Wrapper,
-              { padding: [2, 0, 2, 0] },
-              React.createElement(
-                Container,
-                null,
-                React.createElement(
-                  Row,
-                  null,
+              Measure,
+              {
+                bounds: true,
+                onResize: function onResize(contentRect) {
+                  _this2.setState({ dimensions: contentRect.bounds });
+                }
+              },
+              function (_ref) {
+                var measureRef = _ref.measureRef;
+                return React.createElement(
+                  'div',
+                  { ref: measureRef },
                   React.createElement(
-                    Column,
-                    { span: [12, 12, 12, 12, 12] },
-                    this.props.children
+                    Wrapper,
+                    { padding: [2, 0, 2, 0] },
+                    React.createElement(
+                      Container,
+                      null,
+                      React.createElement(
+                        Row,
+                        null,
+                        React.createElement(
+                          Column,
+                          { span: [12, 12, 12, 12, 12] },
+                          _this2.props.children
+                        )
+                      )
+                    )
                   )
-                )
-              )
+                );
+              }
             )
           )
         )

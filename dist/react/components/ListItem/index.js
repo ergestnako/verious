@@ -8,12 +8,8 @@ module.exports = function (_ref) {
       style = _ref.style,
       textColor = _ref.textColor;
   return React.createElement(
-    'li',
-    { style: style },
-    React.createElement(
-      Text,
-      { style: style, size: 1, font: 'helvetica', color: textColor },
-      children
-    )
+    Text,
+    { tag: 'li', style: style, size: 1, font: 'helvetica', color: textColor },
+    children
   );
 };

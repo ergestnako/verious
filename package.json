@@ -1,6 +1,6 @@
 {
   "name": "verious",
-  "version": "0.8.20",
+  "version": "0.8.21",
   "description": "Very serious styles. No jokes here.",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "license": "ISC",
   "dependencies": {
     "animate.css": "^3.5.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "color": "^2.0.0",
     "compression": "^1.7.0",
     "eslint-config-prettier": "^2.6.0",
