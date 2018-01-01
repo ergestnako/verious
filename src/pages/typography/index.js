@@ -6,6 +6,7 @@ const Container = require('../../../react/components/Container');
 const Row = require('../../../react/components/Row');
 const Column = require('../../../react/components/Column');
 const Paragraph = require('../../../react/components/Paragraph');
+const Code = require('../../../react/components/Code');
 const List = require('../../../react/components/List');
 const OrderedList = require('../../../react/components/OrderedList');
 const ListItem = require('../../../react/components/ListItem');
@@ -157,6 +158,7 @@ module.exports = () => (
             <Text size={16} font="helvetica">
               The quick brown fox jumps over the lazy dog
             </Text>
+            <Code>Hello World</Code>
           </Column>
         </Row>
       </Container>
