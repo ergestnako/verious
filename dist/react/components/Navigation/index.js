@@ -122,23 +122,7 @@ var Navigation = function (_React$Component) {
                 return React.createElement(
                   'div',
                   { ref: measureRef },
-                  React.createElement(
-                    Wrapper,
-                    { padding: [2, 0, 2, 0] },
-                    React.createElement(
-                      Container,
-                      null,
-                      React.createElement(
-                        Row,
-                        null,
-                        React.createElement(
-                          Column,
-                          { span: [12, 12, 12, 12, 12] },
-                          _this2.props.children
-                        )
-                      )
-                    )
-                  )
+                  _this2.props.children
                 );
               }
             )

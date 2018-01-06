@@ -80,15 +80,7 @@ class Navigation extends React.Component {
             >
               {({ measureRef }) => (
                 <div ref={measureRef}>
-                  <Wrapper padding={[2, 0, 2, 0]}>
-                    <Container>
-                      <Row>
-                        <Column span={[12, 12, 12, 12, 12]}>
-                          {this.props.children}
-                        </Column>
-                      </Row>
-                    </Container>
-                  </Wrapper>
+                  {this.props.children}
                 </div>
               )}
             </Measure>

@@ -11,6 +11,10 @@ import Baseline from '../../../react/components/Baseline';
 import Text from '../../../react/components/Text';
 import Dropdown from '../../../react/components/Dropdown';
 import Square from '../../../react/components/Square';
+import Wrapper from '../../../react/components/Wrapper';
+import Container from '../../../react/components/Container';
+import Row from '../../../react/components/Row';
+import Column from '../../../react/components/Column';
 
 export default ({ children }) => (
   <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
@@ -34,35 +38,51 @@ export default ({ children }) => (
         </div>
       }
     >
-      <List unstyled>
-        <Dropdown
-          button={<ListItem textColor="vs-pink-200">Getting Started</ListItem>}
-        >
-          <List unstyled>
-            <ListItem textColor="vs-white">
-              <Link to="/blog/getting-started/">Getting Started</Link>
-            </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/blog/develop-and-deploy/">Develop and Deploy</Link>
-            </ListItem>
-            <ListItem textColor="vs-white">
-              <Link to="/blog/directory-structure/">Directory Structure</Link>
-            </ListItem>
-          </List>
-        </Dropdown>
-        <Dropdown
-          button={<ListItem textColor="vs-pink-200">Documentation</ListItem>}
-        >
-          <List unstyled>
-            <ListItem textColor="vs-white">
-              <Link to="/color/">Color</Link>
-            </ListItem>
-          </List>
-        </Dropdown>
-        <ListItem textColor="vs-white">
-          <a href="https://github.com/cpinnix/verious">Github</a>
-        </ListItem>
-      </List>
+      <Wrapper padding={[2, 0, 2, 0]}>
+        <Container>
+          <Row>
+            <Column span={[12, 12, 12, 12, 12]}>
+              <List unstyled>
+                <Dropdown
+                  button={
+                    <ListItem textColor="vs-pink-200">Getting Started</ListItem>
+                  }
+                >
+                  <List unstyled>
+                    <ListItem textColor="vs-white">
+                      <Link to="/blog/getting-started/">Getting Started</Link>
+                    </ListItem>
+                    <ListItem textColor="vs-white">
+                      <Link to="/blog/develop-and-deploy/">
+                        Develop and Deploy
+                      </Link>
+                    </ListItem>
+                    <ListItem textColor="vs-white">
+                      <Link to="/blog/directory-structure/">
+                        Directory Structure
+                      </Link>
+                    </ListItem>
+                  </List>
+                </Dropdown>
+                <Dropdown
+                  button={
+                    <ListItem textColor="vs-pink-200">Documentation</ListItem>
+                  }
+                >
+                  <List unstyled>
+                    <ListItem textColor="vs-white">
+                      <Link to="/color/">Color</Link>
+                    </ListItem>
+                  </List>
+                </Dropdown>
+                <ListItem textColor="vs-white">
+                  <a href="https://github.com/cpinnix/verious">Github</a>
+                </ListItem>
+              </List>
+            </Column>
+          </Row>
+        </Container>
+      </Wrapper>
     </Navigation>
     {children}
     <Footer />
