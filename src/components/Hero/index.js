@@ -9,8 +9,8 @@ const Wrapper = require('../../../react/components/Wrapper');
 const BackgroundColor = require('../../../react/components/BackgroundColor');
 
 const component = ({ title, subtitle }) => (
-  <BackgroundColor color="vs-pink-500">
-    <Wrapper backgroundColor="vs-pink-500" padding={[12, 0, 12, 0]}>
+  <BackgroundColor color="vs-grey-50">
+    <Wrapper padding={[12, 0, 12, 0]}>
       <Container>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
@@ -18,12 +18,12 @@ const component = ({ title, subtitle }) => (
               tag="h1"
               size={16}
               font="helvetica"
-              color="vs-white"
+              color="vs-pink-a400"
               style={{ fontWeight: 'bold', letterSpacing: -4, marginLeft: -8 }}
             >
               {title}
             </Text>
-            <Paragraph textColor="vs-white">{subtitle}</Paragraph>
+            {subtitle && <Paragraph textColor="vs-grey-500">{subtitle}</Paragraph>}
           </Column>
         </Row>
       </Container>

@@ -1,14 +1,14 @@
 const React = require('react');
-const Page = require('../../templates/Page');
-const Hero = require('../../components/Hero');
-const Wrapper = require('../../../react/components/Wrapper');
-const ColorPalette = require('../../components/ColorPalette');
-const Container = require('../../../react/components/Container');
-const Row = require('../../../react/components/Row');
-const Column = require('../../../react/components/Column');
-const Heading = require('../../../react/components/Heading');
-const Square = require('../../../react/components/Square');
-const ColorCard = require('../../components/ColorCard');
+const Page = require('../../../templates/Page');
+const Hero = require('../../../components/Hero');
+const Wrapper = require('../../../../react/components/Wrapper');
+const ColorPalette = require('../../../components/ColorPalette');
+const Container = require('../../../../react/components/Container');
+const Row = require('../../../../react/components/Row');
+const Column = require('../../../../react/components/Column');
+const Heading = require('../../../../react/components/Heading');
+const Square = require('../../../../react/components/Square');
+const ColorCard = require('../../../components/ColorCard');
 
 module.exports = () => (
   <Page>

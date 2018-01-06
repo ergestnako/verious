@@ -16,21 +16,25 @@ import Container from '../../../react/components/Container';
 import Row from '../../../react/components/Row';
 import Column from '../../../react/components/Column';
 
+const PRIMARY_TEXT_COLOR = 'vs-pink-a400';
+const SECONDARY_TEXT_COLOR = 'vs-grey-400';
+
 export default ({ children }) => (
   <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
     <Helmet>
       <title>Verious</title>
     </Helmet>
     <Navigation
-      backgroundColor="vs-pink-700"
-      textColor="vs-white"
+      backgroundColor="vs-grey-100"
+      textColor="vs-pink-a400"
+      iconColor="vs-pink-a400"
       left={
         <div>
           <Square size={1} />
           <Text
             size={2}
             font="helvetica"
-            color="vs-white"
+            color="vs-pink-a400"
             style={{ fontWeight: 'bold' }}
           >
             Verious
@@ -43,39 +47,35 @@ export default ({ children }) => (
           <Row>
             <Column span={[12, 12, 12, 12, 12]}>
               <List unstyled>
-                <Dropdown
-                  button={
-                    <ListItem textColor="vs-pink-200">Getting Started</ListItem>
-                  }
-                >
-                  <List unstyled>
-                    <ListItem textColor="vs-white">
-                      <Link to="/blog/getting-started/">Getting Started</Link>
-                    </ListItem>
-                    <ListItem textColor="vs-white">
-                      <Link to="/blog/develop-and-deploy/">
-                        Develop and Deploy
-                      </Link>
-                    </ListItem>
-                    <ListItem textColor="vs-white">
-                      <Link to="/blog/directory-structure/">
-                        Directory Structure
-                      </Link>
-                    </ListItem>
-                  </List>
-                </Dropdown>
-                <Dropdown
-                  button={
-                    <ListItem textColor="vs-pink-200">Documentation</ListItem>
-                  }
-                >
-                  <List unstyled>
-                    <ListItem textColor="vs-white">
-                      <Link to="/color/">Color</Link>
-                    </ListItem>
-                  </List>
-                </Dropdown>
-                <ListItem textColor="vs-white">
+                <ListItem textColor={SECONDARY_TEXT_COLOR}>Quick Start</ListItem>
+                <ListItem textColor={PRIMARY_TEXT_COLOR}>
+                  <Link to="/blog/getting-started/">Installation</Link>
+                </ListItem>
+                <ListItem textColor={PRIMARY_TEXT_COLOR}>
+                  <Link to="/blog/develop-and-deploy/">
+                    Develop and Deploy
+                  </Link>
+                </ListItem>
+                <ListItem textColor={PRIMARY_TEXT_COLOR}>
+                  <Link to="/blog/directory-structure/">
+                    Directory Structure
+                  </Link>
+                </ListItem>
+                <ListItem textColor={SECONDARY_TEXT_COLOR}>Traits</ListItem>
+                <ListItem textColor={PRIMARY_TEXT_COLOR}>
+                  <Link to="/traits/color/" href="/traits/color/">
+                    Color
+                  </Link>
+                </ListItem>
+                <ListItem textColor={SECONDARY_TEXT_COLOR}>Atoms</ListItem>
+                <ListItem textColor={PRIMARY_TEXT_COLOR}>
+                  <Link to="/atoms/text/" href="/atoms/text/">
+                    Text
+                  </Link>
+                </ListItem>
+              </List>
+              <List unstyled>
+                <ListItem textColor={SECONDARY_TEXT_COLOR}>
                   <a href="https://github.com/cpinnix/verious">Github</a>
                 </ListItem>
               </List>
