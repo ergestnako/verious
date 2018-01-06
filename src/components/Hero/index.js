@@ -7,10 +7,11 @@ const Paragraph = require('../../../react/components/Paragraph');
 const Text = require('../../../react/components/Text');
 const Wrapper = require('../../../react/components/Wrapper');
 const BackgroundColor = require('../../../react/components/BackgroundColor');
+const HorizontalRule = require('../../../react/components/HorizontalRule');
 
 const component = ({ title, subtitle }) => (
-  <BackgroundColor color="vs-grey-50">
-    <Wrapper padding={[12, 0, 12, 0]}>
+  <BackgroundColor color="vs-white">
+    <Wrapper padding={[12, 0, 8, 0]}>
       <Container>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
@@ -18,8 +19,8 @@ const component = ({ title, subtitle }) => (
               tag="h1"
               size={16}
               font="helvetica"
-              color="vs-pink-a400"
-              style={{ fontWeight: 'bold', letterSpacing: -4, marginLeft: -8 }}
+              color="vs-cyan-a400"
+              style={{ fontWeight: 'bold', letterSpacing: -6, marginLeft: -8 }}
             >
               {title}
             </Text>
@@ -28,6 +29,7 @@ const component = ({ title, subtitle }) => (
         </Row>
       </Container>
     </Wrapper>
+    <HorizontalRule lineColor="vs-grey-300" height={4} />
   </BackgroundColor>
 );
 

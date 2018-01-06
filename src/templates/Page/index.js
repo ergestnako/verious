@@ -8,15 +8,15 @@ import List from '../../../react/components/List';
 import ListItem from '../../../react/components/ListItem';
 import Footer from '../../components/Footer';
 import Baseline from '../../../react/components/Baseline';
-import Text from '../../../react/components/Text';
-import Dropdown from '../../../react/components/Dropdown';
 import Square from '../../../react/components/Square';
 import Wrapper from '../../../react/components/Wrapper';
 import Container from '../../../react/components/Container';
 import Row from '../../../react/components/Row';
 import Column from '../../../react/components/Column';
+import Utilities from '../../../react/utilities';
+import Logo from '../../components/Logo';
 
-const PRIMARY_TEXT_COLOR = 'vs-pink-a400';
+const PRIMARY_TEXT_COLOR = 'vs-cyan-a700';
 const SECONDARY_TEXT_COLOR = 'vs-grey-400';
 
 export default ({ children }) => (
@@ -25,20 +25,16 @@ export default ({ children }) => (
       <title>Verious</title>
     </Helmet>
     <Navigation
-      backgroundColor="vs-grey-100"
-      textColor="vs-pink-a400"
-      iconColor="vs-pink-a400"
+      backgroundColor="vs-white"
+      textColor="vs-cyan-a400"
+      iconColor="vs-cyan-a700"
       left={
-        <div>
-          <Square size={1} />
-          <Text
+        <div style={{ marginTop: '0.5rem' }}>
+          <Logo
             size={2}
-            font="helvetica"
-            color="vs-pink-a400"
-            style={{ fontWeight: 'bold' }}
-          >
-            Verious
-          </Text>
+            circleColor={Utilities.getInternalColor('vs-cyan-a400')}
+            overlayColor={Utilities.getInternalColor('vs-black')}
+          />
         </div>
       }
     >
@@ -47,14 +43,14 @@ export default ({ children }) => (
           <Row>
             <Column span={[12, 12, 12, 12, 12]}>
               <List unstyled>
-                <ListItem textColor={SECONDARY_TEXT_COLOR}>Quick Start</ListItem>
+                <ListItem textColor={SECONDARY_TEXT_COLOR}>
+                  Quick Start
+                </ListItem>
                 <ListItem textColor={PRIMARY_TEXT_COLOR}>
                   <Link to="/blog/getting-started/">Installation</Link>
                 </ListItem>
                 <ListItem textColor={PRIMARY_TEXT_COLOR}>
-                  <Link to="/blog/develop-and-deploy/">
-                    Develop and Deploy
-                  </Link>
+                  <Link to="/blog/develop-and-deploy/">Develop and Deploy</Link>
                 </ListItem>
                 <ListItem textColor={PRIMARY_TEXT_COLOR}>
                   <Link to="/blog/directory-structure/">
@@ -75,7 +71,7 @@ export default ({ children }) => (
                 </ListItem>
               </List>
               <List unstyled>
-                <ListItem textColor={SECONDARY_TEXT_COLOR}>
+                <ListItem textColor={PRIMARY_TEXT_COLOR}>
                   <a href="https://github.com/cpinnix/verious">Github</a>
                 </ListItem>
               </List>

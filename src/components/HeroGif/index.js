@@ -9,7 +9,7 @@ const Wrapper = require('../../../react/components/Wrapper');
 const BackgroundImage = require('../../../react/components/BackgroundImage');
 
 const component = ({ source, title, subtitle }) => (
-  <Wrapper backgroundColor="vs-pink-500">
+  <Wrapper backgroundColor="vs-cyan-a400">
     <BackgroundImage source={source}>
       <Wrapper padding={[12, 0, 12, 0]}>
         <Container>
@@ -20,7 +20,7 @@ const component = ({ source, title, subtitle }) => (
                 size={16}
                 font="helvetica"
                 color="vs-white"
-                style={{ fontWeight: 'bold', letterSpacing: -4, marginLeft: -8 }}
+                style={{ fontWeight: 'bold', letterSpacing: -6, marginLeft: -8 }}
               >
                 {title}
               </Text>
