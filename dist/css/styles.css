@@ -35922,20 +35922,22 @@ caption, th, td {
   margin: 0;
   padding-right: 2rem;
   padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-bottom: 2rem; }
 
 .verious code {
   white-space: pre;
   font-style: normal;
   font-weight: 400;
-  font-family: "Ubuntu Mono", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-size: 1;
   font-size: 1rem;
   line-height: 1rem;
-  margin-top: 0rem;
-  padding-top: 0.17rem;
-  padding-bottom: 0.83rem;
-  margin-bottom: -1rem; }
+  margin-top: 1rem;
+  padding-top: 0.159rem;
+  padding-bottom: 0.841rem;
+  margin-bottom: 0rem; }
 
 .vs-pre {
   background-color: #f5f5f5;
@@ -35944,20 +35946,22 @@ caption, th, td {
   margin: 0;
   padding-right: 2rem;
   padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-bottom: 2rem; }
 
 .vs-code {
   white-space: pre;
   font-style: normal;
   font-weight: 400;
-  font-family: "Ubuntu Mono", sans-serif;
+  font-family: "Roboto Mono", sans-serif;
   font-size: 1;
   font-size: 1rem;
   line-height: 1rem;
-  margin-top: 0rem;
-  padding-top: 0.17rem;
-  padding-bottom: 0.83rem;
-  margin-bottom: -1rem; }
+  margin-top: 1rem;
+  padding-top: 0.159rem;
+  padding-bottom: 0.841rem;
+  margin-bottom: 0rem; }
 
 .verious blockquote {
   zoom: 1;
