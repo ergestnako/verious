@@ -1,8 +1,6 @@
 $breakpoints-limit: length($breakpoints);
 $sizes: map-values($rootsizes);
 $points: map-values($breakpoints);
-// $line-widths: map-values($measures);
-// $max-widths: map-values($maxwidths);
 
 @mixin rootsize {
   font-size: nth($sizes, 1) / 16 * 100%;
@@ -15,20 +13,6 @@ $points: map-values($breakpoints);
 
 @mixin fontsize($fontsize) {
   font-size: ms($fontsize) * 1rem;
-}
-
-@mixin baseline($font-size, $font, $line-height: 2, $leading-top: 0, $leading-bottom: 0) {
-  $get-size: ms($font-size);
-  $get-baseline: map-get($font, baseline);
-
-  @include plumber(
-    $grid-height: 1rem,
-    $baseline: $get-baseline,
-    $font-size: $get-size,
-    $line-height: $line-height,
-    $leading-top: $leading-top,
-    $leading-bottom: $leading-bottom
-  );
 }
 
 @mixin clearfix {

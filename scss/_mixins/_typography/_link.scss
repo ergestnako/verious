@@ -8,9 +8,9 @@
 
 @mixin vs-link($size) {
   display: inline-block;
-  @include vs-text($type-helvetica, $size);
+  @include vs-text($type-system, $size);
   font-style: normal;
-  font-weight: map-get($type-helvetica, regular);
+  font-weight: map-get($type-system, regular);
 
   &:visited {
     color: inherit;

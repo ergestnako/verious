@@ -7,7 +7,7 @@
 //
 
 @mixin vs-heading($size) {
-  @include vs-text($type-helvetica, $size);
+  @include vs-text($type-system, $size);
   @include vs-margin(bottom, 2);
   font-style: normal;
   font-weight: bold;

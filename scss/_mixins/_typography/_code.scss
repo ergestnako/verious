@@ -21,8 +21,8 @@
 @mixin vs-code($size) {
   white-space: pre;
   font-style: normal;
-  font-weight: map-get($type-roboto-mono, regular);
-  font-family: unquote(map-get($type-roboto-mono, font-family));
+  font-weight: map-get($type-system-mono, regular);
+  font-family: unquote(map-get($type-system-mono, font-family));
+  line-height: 1rem;
   @include fontsize($size);
-  @include baseline($size, $type-roboto-mono, 1, 1, 1);
 }

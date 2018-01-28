@@ -9,7 +9,7 @@
 @mixin vs-paragraph($size) {
   font-style: normal;
   font-weight: normal;
-  @include vs-text($type-helvetica, $size);
+  @include vs-text($type-system, $size);
   @include vs-margin(bottom, 1);
 
   a {

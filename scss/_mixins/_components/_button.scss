@@ -13,9 +13,9 @@
 // ---------------------------------------------
 
 @mixin vs-button() {
-  font-family: unquote(map-get($type-helvetica, font-family));
+  font-family: unquote(map-get($type-system, font-family));
   font-style: normal;
-  font-weight: map-get($type-helvetica, regular);
+  font-weight: map-get($type-system, regular);
   @include fontsize(1);
   line-height: 3rem;
   height: 3rem;

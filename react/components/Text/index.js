@@ -1,15 +1,10 @@
 const React = require('react');
-const _ = require('lodash');
 const utilities = require('../../utilities');
 
-const fonts = ['montserrat'];
-
-function getClassName({ size, font, color }) {
+function getClassName({ size, color }) {
   let classes = [];
 
-  if (_.findIndex(fonts, font)) {
-    classes = [...classes, `vs-text-${font}--${size}`];
-  }
+  classes = [...classes, `vs-text-system--${size}`];
 
   if (color) {
     if (utilities.isInternalColor(color)) {
@@ -34,12 +29,12 @@ function getStyles({ style, color, tag }) {
   return Object.assign({}, style, styles);
 }
 
-module.exports = ({ children, tag, style, size, font, color }) =>
+module.exports = ({ children, tag, style, size, color }) =>
   React.createElement(
     tag || 'span',
     {
-      style: getStyles({ style, size, font, color, tag }),
-      className: getClassName({ size, font, color })
+      style: getStyles({ style, size, color, tag }),
+      className: getClassName({ size, color })
     },
     children
   );

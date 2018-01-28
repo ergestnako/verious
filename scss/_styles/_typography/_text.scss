@@ -7,43 +7,31 @@
 //
 
 @for $i from 0 through 4 {
-  .vs-text-helvetica--#{$i} {
-    @include vs-text($type-helvetica, $i);
-  }
-}
-
-@for $i from 5 through 9 {
-  .vs-text-helvetica--#{$i} {
-    @include vs-text($type-helvetica, $i, 3);
-  }
-}
-
-@for $i from 10 through 11 {
-  .vs-text-helvetica--#{$i} {
-    @include vs-text($type-helvetica, $i, 4);
-  }
-}
-
-@for $i from 12 through 13 {
-  .vs-text-helvetica--#{$i} {
-    @include vs-text($type-helvetica, $i, 5);
-  }
-}
-
-@for $i from 14 through 16 {
-  .vs-text-helvetica--#{$i} {
-    @include vs-text($type-helvetica, $i, 6);
-  }
-}
-
-@for $i from 0 through 15 {
-  .vs-text-montserrat--#{$i} {
-    @include vs-text($type-montserrat, $i);
-  }
-}
-
-@for $i from 0 through 16 {
   .vs-text-system--#{$i} {
-    @include vs-text($type-system, $i);
+    @include vs-text($type-system, $i, 2);
+  }
+}
+
+@for $i from 5 through 8 {
+  .vs-text-system--#{$i} {
+    @include vs-text($type-system, $i, 4);
+  }
+}
+
+@for $i from 9 through 12 {
+  .vs-text-system--#{$i} {
+    @include vs-text($type-system, $i, 5);
+  }
+}
+
+@for $i from 13 through 16 {
+  .vs-text-system--#{$i} {
+    @include vs-text($type-system, $i, 6);
+  }
+}
+
+@for $i from 17 through 20 {
+  .vs-text-system--#{$i} {
+    @include vs-text($type-system, $i, 7);
   }
 }

@@ -72,46 +72,15 @@ $rootsizes: (
   rootsize-1: 15,
   rootsize-2: 16,
   rootsize-3: 17,
-  rootsize-4: 17,
+  rootsize-4: 18,
 ) !default;
-
-$type-helvetica: (
-  font-family: 'Helvetica, sans-serif',
-  regular: 400,
-  bold: 700,
-  cap-height: 0.68,
-  baseline: 0.121
-) !default;
-
-$type-montserrat: (
-  font-family: 'Montserrat, sans-serif',
-  regular: 400,
-  bold: 700,
-  baseline: 0.141500
-);
-
-$type-source-code-pro: (
-  font-family: '"Source Code Pro", sans-serif',
-  regular: 400,
-  bold: 700,
-  baseline: 0.145
-);
-
-$type-ubuntu-mono: (
-  font-family: '"Ubuntu Mono", sans-serif',
-  regular: 400,
-  bold: 700,
-  baseline: 0.170
-);
-
-$type-roboto-mono: (
-  font-family: '"Roboto Mono", sans-serif',
-  regular: 400,
-  bold: 700,
-  baseline: 0.159
-);
 
 $type-system: (
   font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+  regular: 400
+);
+
+$type-system-mono: (
+  font-family: '"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;',
   regular: 400
 );

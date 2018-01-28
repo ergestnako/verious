@@ -12,7 +12,6 @@ module.exports = ({ children, style, size, textColor }) =>
         marginBottom: '2rem'
       },
       size: 7 - size,
-      font: 'system',
       color: textColor
     },
     children
