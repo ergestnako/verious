@@ -14,7 +14,7 @@ $points: map-values($breakpoints);
 }
 
 @mixin fontsize($fontsize) {
-  font-size: ms($fontsize);
+  font-size: ms($fontsize) * 1rem;
 }
 
 @mixin baseline($font-size, $font, $line-height: 2, $leading-top: 0, $leading-bottom: 0) {

@@ -6,7 +6,7 @@ module.exports = ({ children, style, size, textColor }) => (
     tag="p"
     style={{ ...style, marginBottom: '2rem' }}
     size={1}
-    font="helvetica"
+    font="system"
     color={textColor}
   >
     {children}

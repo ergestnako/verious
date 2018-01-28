@@ -17,7 +17,7 @@ module.exports = function (_ref) {
       marginBottom: '2rem'
     }),
     size: 7 - size,
-    font: 'helvetica',
+    font: 'system',
     color: textColor
   }, children);
 };

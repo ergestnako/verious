@@ -11,5 +11,5 @@
 @mixin vs-text($type, $size, $line-height: 2, $leading-top: 0, $leading-bottom: 0) {
   font-family: unquote(map-get($type, font-family));
   @include fontsize($size);
-  @include baseline($size, $type, $line-height, $leading-top, $leading-bottom);
+  line-height: $line-height * 1rem;
 }

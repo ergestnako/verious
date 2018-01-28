@@ -16,7 +16,7 @@ module.exports = function (_ref) {
       tag: 'p',
       style: _extends({}, style, { marginBottom: '2rem' }),
       size: 1,
-      font: 'helvetica',
+      font: 'system',
       color: textColor
     },
     children

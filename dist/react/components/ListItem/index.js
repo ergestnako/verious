@@ -9,7 +9,7 @@ module.exports = function (_ref) {
       textColor = _ref.textColor;
   return React.createElement(
     Text,
-    { tag: 'li', style: style, size: 1, font: 'helvetica', color: textColor },
+    { tag: 'li', style: style, size: 1, font: 'system', color: textColor },
     children
   );
 };

@@ -35135,564 +35135,394 @@ caption, th, td {
 
 .vs-text-helvetica--0 {
   font-family: Helvetica, sans-serif;
-  font-size: 1;
   font-size: 1rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.621rem;
-  padding-bottom: 0.379rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-helvetica--1 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-helvetica--2 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.26562;
   font-size: 1.26562rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.52033rem;
-  padding-bottom: 0.47967rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-helvetica--3 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.42383;
   font-size: 1.42383rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.46037rem;
-  padding-bottom: 0.53963rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-helvetica--4 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.60181;
   font-size: 1.60181rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.39292rem;
-  padding-bottom: 0.60708rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-helvetica--5 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.80203;
   font-size: 1.80203rem;
-  line-height: 3rem;
-  margin-top: -1rem;
-  padding-top: 0.81703rem;
-  padding-bottom: 0.18297rem;
-  margin-bottom: 0rem; }
+  line-height: 3rem; }
 
 .vs-text-helvetica--6 {
   font-family: Helvetica, sans-serif;
-  font-size: 2.02729;
   font-size: 2.02729rem;
-  line-height: 3rem;
-  margin-top: -1rem;
-  padding-top: 0.73166rem;
-  padding-bottom: 0.26834rem;
-  margin-bottom: 0rem; }
+  line-height: 3rem; }
 
 .vs-text-helvetica--7 {
   font-family: Helvetica, sans-serif;
-  font-size: 2.2807;
   font-size: 2.2807rem;
-  line-height: 3rem;
-  margin-top: -1rem;
-  padding-top: 0.63562rem;
-  padding-bottom: 0.36438rem;
-  margin-bottom: 0rem; }
+  line-height: 3rem; }
 
 .vs-text-helvetica--8 {
   font-family: Helvetica, sans-serif;
-  font-size: 2.56578;
   font-size: 2.56578rem;
-  line-height: 3rem;
-  margin-top: -1rem;
-  padding-top: 0.52757rem;
-  padding-bottom: 0.47243rem;
-  margin-bottom: 0rem; }
+  line-height: 3rem; }
 
 .vs-text-helvetica--9 {
   font-family: Helvetica, sans-serif;
-  font-size: 2.88651;
   font-size: 2.88651rem;
-  line-height: 3rem;
-  margin-top: 0rem;
-  padding-top: 0.40601rem;
-  padding-bottom: 0.59399rem;
-  margin-bottom: -1rem; }
+  line-height: 3rem; }
 
 .vs-text-helvetica--10 {
   font-family: Helvetica, sans-serif;
-  font-size: 3.24732;
   font-size: 3.24732rem;
-  line-height: 4rem;
-  margin-top: -1rem;
-  padding-top: 0.76927rem;
-  padding-bottom: 0.23073rem;
-  margin-bottom: 0rem; }
+  line-height: 4rem; }
 
 .vs-text-helvetica--11 {
   font-family: Helvetica, sans-serif;
-  font-size: 3.65324;
   font-size: 3.65324rem;
-  line-height: 4rem;
-  margin-top: -1rem;
-  padding-top: 0.61542rem;
-  padding-bottom: 0.38458rem;
-  margin-bottom: 0rem; }
+  line-height: 4rem; }
 
 .vs-text-helvetica--12 {
   font-family: Helvetica, sans-serif;
-  font-size: 4.10989;
   font-size: 4.10989rem;
-  line-height: 5rem;
-  margin-top: -1rem;
-  padding-top: 0.94235rem;
-  padding-bottom: 0.05765rem;
-  margin-bottom: 0rem; }
+  line-height: 5rem; }
 
 .vs-text-helvetica--13 {
   font-family: Helvetica, sans-serif;
-  font-size: 4.62363;
   font-size: 4.62363rem;
-  line-height: 5rem;
-  margin-top: -1rem;
-  padding-top: 0.74765rem;
-  padding-bottom: 0.25235rem;
-  margin-bottom: 0rem; }
+  line-height: 5rem; }
 
 .vs-text-helvetica--14 {
   font-family: Helvetica, sans-serif;
-  font-size: 5.20158;
   font-size: 5.20158rem;
-  line-height: 6rem;
-  margin-top: 0rem;
-  padding-top: 0.0286rem;
-  padding-bottom: 0.9714rem;
-  margin-bottom: -1rem; }
+  line-height: 6rem; }
 
 .vs-text-helvetica--15 {
   font-family: Helvetica, sans-serif;
-  font-size: 5.85178;
   font-size: 5.85178rem;
-  line-height: 6rem;
-  margin-top: -1rem;
-  padding-top: 0.78218rem;
-  padding-bottom: 0.21782rem;
-  margin-bottom: 0rem; }
+  line-height: 6rem; }
 
 .vs-text-helvetica--16 {
   font-family: Helvetica, sans-serif;
-  font-size: 6.58325;
   font-size: 6.58325rem;
-  line-height: 6rem;
-  margin-top: -1rem;
-  padding-top: 0.50495rem;
-  padding-bottom: 0.49505rem;
-  margin-bottom: 0rem; }
+  line-height: 6rem; }
 
 .vs-text-montserrat--0 {
   font-family: Montserrat, sans-serif;
-  font-size: 1;
   font-size: 1rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.6415rem;
-  padding-bottom: 0.3585rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--1 {
   font-family: Montserrat, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.59669rem;
-  padding-bottom: 0.40331rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--2 {
   font-family: Montserrat, sans-serif;
-  font-size: 1.26562;
   font-size: 1.26562rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.54627rem;
-  padding-bottom: 0.45373rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--3 {
   font-family: Montserrat, sans-serif;
-  font-size: 1.42383;
   font-size: 1.42383rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.48956rem;
-  padding-bottom: 0.51044rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--4 {
   font-family: Montserrat, sans-serif;
-  font-size: 1.60181;
   font-size: 1.60181rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.42575rem;
-  padding-bottom: 0.57425rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--5 {
   font-family: Montserrat, sans-serif;
-  font-size: 1.80203;
   font-size: 1.80203rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.35397rem;
-  padding-bottom: 0.64603rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--6 {
   font-family: Montserrat, sans-serif;
-  font-size: 2.02729;
   font-size: 2.02729rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.27322rem;
-  padding-bottom: 0.72678rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--7 {
   font-family: Montserrat, sans-serif;
-  font-size: 2.2807;
   font-size: 2.2807rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.18237rem;
-  padding-bottom: 0.81763rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--8 {
   font-family: Montserrat, sans-serif;
-  font-size: 2.56578;
   font-size: 2.56578rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.08017rem;
-  padding-bottom: 0.91983rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--9 {
   font-family: Montserrat, sans-serif;
-  font-size: 2.88651;
   font-size: 2.88651rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.96519rem;
-  padding-bottom: 0.03481rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--10 {
   font-family: Montserrat, sans-serif;
-  font-size: 3.24732;
   font-size: 3.24732rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.83584rem;
-  padding-bottom: 0.16416rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--11 {
   font-family: Montserrat, sans-serif;
-  font-size: 3.65324;
   font-size: 3.65324rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.69031rem;
-  padding-bottom: 0.30969rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--12 {
   font-family: Montserrat, sans-serif;
-  font-size: 4.10989;
   font-size: 4.10989rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.5266rem;
-  padding-bottom: 0.4734rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--13 {
   font-family: Montserrat, sans-serif;
-  font-size: 4.62363;
   font-size: 4.62363rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.34243rem;
-  padding-bottom: 0.65757rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--14 {
   font-family: Montserrat, sans-serif;
-  font-size: 5.20158;
   font-size: 5.20158rem;
-  line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.13523rem;
-  padding-bottom: 0.86477rem;
-  margin-bottom: -1rem; }
+  line-height: 2rem; }
 
 .vs-text-montserrat--15 {
   font-family: Montserrat, sans-serif;
-  font-size: 5.85178;
   font-size: 5.85178rem;
-  line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.90214rem;
-  padding-bottom: 0.09786rem;
-  margin-bottom: 0rem; }
+  line-height: 2rem; }
+
+.vs-text-system--0 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  line-height: 2rem; }
+
+.vs-text-system--1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.125rem;
+  line-height: 2rem; }
+
+.vs-text-system--2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.26562rem;
+  line-height: 2rem; }
+
+.vs-text-system--3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.42383rem;
+  line-height: 2rem; }
+
+.vs-text-system--4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.60181rem;
+  line-height: 2rem; }
+
+.vs-text-system--5 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.80203rem;
+  line-height: 2rem; }
+
+.vs-text-system--6 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2.02729rem;
+  line-height: 2rem; }
+
+.vs-text-system--7 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2.2807rem;
+  line-height: 2rem; }
+
+.vs-text-system--8 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2.56578rem;
+  line-height: 2rem; }
+
+.vs-text-system--9 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 2.88651rem;
+  line-height: 2rem; }
+
+.vs-text-system--10 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 3.24732rem;
+  line-height: 2rem; }
+
+.vs-text-system--11 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 3.65324rem;
+  line-height: 2rem; }
+
+.vs-text-system--12 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 4.10989rem;
+  line-height: 2rem; }
+
+.vs-text-system--13 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 4.62363rem;
+  line-height: 2rem; }
+
+.vs-text-system--14 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 5.20158rem;
+  line-height: 2rem; }
+
+.vs-text-system--15 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 5.85178rem;
+  line-height: 2rem; }
+
+.vs-text-system--16 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 6.58325rem;
+  line-height: 2rem; }
 
 .verious h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 2.02729;
   font-size: 2.02729rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.23166rem;
-  padding-bottom: 0.76834rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious h2 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.80203;
   font-size: 1.80203rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.31703rem;
-  padding-bottom: 0.68297rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious h3 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.60181;
   font-size: 1.60181rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.39292rem;
-  padding-bottom: 0.60708rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious h4 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.42383;
   font-size: 1.42383rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.46037rem;
-  padding-bottom: 0.53963rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious h5 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.26562;
   font-size: 1.26562rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.52033rem;
-  padding-bottom: 0.47967rem;
-  margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious h6 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .vs-h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 2.02729;
   font-size: 2.02729rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.23166rem;
-  padding-bottom: 0.76834rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .vs-h2 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.80203;
   font-size: 1.80203rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.31703rem;
-  padding-bottom: 0.68297rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .vs-h3 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.60181;
   font-size: 1.60181rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.39292rem;
-  padding-bottom: 0.60708rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .vs-h4 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.42383;
   font-size: 1.42383rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.46037rem;
-  padding-bottom: 0.53963rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .vs-h5 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.26562;
   font-size: 1.26562rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.52033rem;
-  padding-bottom: 0.47967rem;
-  margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .vs-h6 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious .vs-h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 2.02729;
   font-size: 2.02729rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.23166rem;
-  padding-bottom: 0.76834rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious .vs-h2 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.80203;
   font-size: 1.80203rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.31703rem;
-  padding-bottom: 0.68297rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious .vs-h3 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.60181;
   font-size: 1.60181rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.39292rem;
-  padding-bottom: 0.60708rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious .vs-h4 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.42383;
   font-size: 1.42383rem;
   line-height: 2rem;
-  margin-top: 0rem;
-  padding-top: 0.46037rem;
-  padding-bottom: 0.53963rem;
-  margin-bottom: -1rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious .vs-h5 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.26562;
   font-size: 1.26562rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.52033rem;
-  padding-bottom: 0.47967rem;
-  margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
 
 .verious .vs-h6 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
   margin-bottom: 2rem;
   font-style: normal;
   font-weight: bold; }
@@ -35701,13 +35531,8 @@ caption, th, td {
   font-style: normal;
   font-weight: normal;
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
   margin-bottom: 1rem; }
   .verious p a {
     display: inline;
@@ -35719,13 +35544,8 @@ caption, th, td {
   font-style: normal;
   font-weight: normal;
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
   margin-bottom: 1rem; }
   .vs-p a {
     display: inline;
@@ -35736,13 +35556,8 @@ caption, th, td {
 .verious a {
   display: inline-block;
   font-family: Helvetica, sans-serif;
-  font-size: 1;
   font-size: 1rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.621rem;
-  padding-bottom: 0.379rem;
-  margin-bottom: 0rem;
   font-style: normal;
   font-weight: 400; }
   .verious a:visited {
@@ -35751,13 +35566,8 @@ caption, th, td {
 .vs-a {
   display: inline-block;
   font-family: Helvetica, sans-serif;
-  font-size: 1;
   font-size: 1rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.621rem;
-  padding-bottom: 0.379rem;
-  margin-bottom: 0rem;
   font-style: normal;
   font-weight: 400; }
   .vs-a:visited {
@@ -35785,25 +35595,15 @@ caption, th, td {
 
 .verious li {
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
   font-style: normal;
   font-weight: 400; }
   .verious li a {
     display: inline;
     font-family: Helvetica, sans-serif;
-    font-size: 1.125;
     font-size: 1.125rem;
     line-height: 2rem;
-    margin-top: -1rem;
-    padding-top: 0.57363rem;
-    padding-bottom: 0.42637rem;
-    margin-bottom: 0rem;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
@@ -35831,25 +35631,15 @@ caption, th, td {
 
 .verious .vs-li {
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
   font-style: normal;
   font-weight: 400; }
   .verious .vs-li a {
     display: inline;
     font-family: Helvetica, sans-serif;
-    font-size: 1.125;
     font-size: 1.125rem;
     line-height: 2rem;
-    margin-top: -1rem;
-    padding-top: 0.57363rem;
-    padding-bottom: 0.42637rem;
-    margin-bottom: 0rem;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
@@ -35887,25 +35677,15 @@ caption, th, td {
 
 .vs-li {
   font-family: Helvetica, sans-serif;
-  font-size: 1.125;
   font-size: 1.125rem;
   line-height: 2rem;
-  margin-top: -1rem;
-  padding-top: 0.57363rem;
-  padding-bottom: 0.42637rem;
-  margin-bottom: 0rem;
   font-style: normal;
   font-weight: 400; }
   .vs-li a {
     display: inline;
     font-family: Helvetica, sans-serif;
-    font-size: 1.125;
     font-size: 1.125rem;
     line-height: 2rem;
-    margin-top: -1rem;
-    padding-top: 0.57363rem;
-    padding-bottom: 0.42637rem;
-    margin-bottom: 0rem;
     font-style: normal;
     font-weight: 400;
     text-decoration: none;
@@ -35931,7 +35711,7 @@ caption, th, td {
   font-style: normal;
   font-weight: 400;
   font-family: "Roboto Mono", sans-serif;
-  font-size: 1;
+  font-size: 1rem;
   font-size: 1rem;
   line-height: 1rem;
   margin-top: 1rem;
@@ -35955,7 +35735,7 @@ caption, th, td {
   font-style: normal;
   font-weight: 400;
   font-family: "Roboto Mono", sans-serif;
-  font-size: 1;
+  font-size: 1rem;
   font-size: 1rem;
   line-height: 1rem;
   margin-top: 1rem;
@@ -36086,7 +35866,7 @@ caption, th, td {
   font-family: Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.125;
+  font-size: 1.125rem;
   line-height: 3rem;
   height: 3rem;
   padding-left: 1rem;
@@ -37658,13 +37438,8 @@ caption, th, td {
     font-style: normal;
     font-weight: normal;
     font-family: Helvetica, sans-serif;
-    font-size: 1.125;
     font-size: 1.125rem;
     line-height: 2rem;
-    margin-top: -1rem;
-    padding-top: 0.57363rem;
-    padding-bottom: 0.42637rem;
-    margin-bottom: 0rem;
     margin-bottom: 1rem; }
     .vs-block-image-center-caption a {
       display: inline;
@@ -37766,13 +37541,8 @@ caption, th, td {
     font-style: normal;
     font-weight: normal;
     font-family: Helvetica, sans-serif;
-    font-size: 1.125;
     font-size: 1.125rem;
     line-height: 2rem;
-    margin-top: -1rem;
-    padding-top: 0.57363rem;
-    padding-bottom: 0.42637rem;
-    margin-bottom: 0rem;
     margin-bottom: 1rem; }
     .vs-block-image-full-width-caption a {
       display: inline;
@@ -37874,13 +37644,8 @@ caption, th, td {
     font-style: normal;
     font-weight: normal;
     font-family: Helvetica, sans-serif;
-    font-size: 1.125;
     font-size: 1.125rem;
     line-height: 2rem;
-    margin-top: -1rem;
-    padding-top: 0.57363rem;
-    padding-bottom: 0.42637rem;
-    margin-bottom: 0rem;
     margin-bottom: 1rem; }
     .vs-block-image-left-caption a {
       display: inline;
@@ -37982,13 +37747,8 @@ caption, th, td {
     font-style: normal;
     font-weight: normal;
     font-family: Helvetica, sans-serif;
-    font-size: 1.125;
     font-size: 1.125rem;
     line-height: 2rem;
-    margin-top: -1rem;
-    padding-top: 0.57363rem;
-    padding-bottom: 0.42637rem;
-    margin-bottom: 0rem;
     margin-bottom: 1rem; }
     .vs-block-image-right-caption a {
       display: inline;
