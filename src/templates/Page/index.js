@@ -16,7 +16,7 @@ import Column from '../../../react/components/Column';
 import Utilities from '../../../react/utilities';
 import Logo from '../../components/Logo';
 
-const PRIMARY_TEXT_COLOR = 'vs-cyan-a700';
+const PRIMARY_TEXT_COLOR = 'vs-black';
 const SECONDARY_TEXT_COLOR = 'vs-grey-400';
 
 export default ({ children }) => (

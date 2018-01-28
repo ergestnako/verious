@@ -7,8 +7,8 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="vs-logo-full">
             <rect id="Rectangle-5" fill="#FFFFFF" x="0" y="0" width="1024" height="1024"></rect>
-            <circle id="Oval-2" fill="#00E5FF" cx="512.5" cy="512.5" r="369.5"></circle>
-            <polygon id="Path-2" fill="#000000" points="0 297.986886 1024 654.57305 1024 0 0 0"></polygon>
+            <polygon id="Rectangle-2" fill="#000000" points="0 512 512 0 1024 512 512 1024"></polygon>
+            <polygon id="Rectangle-2" fill="#00B0FF" points="256 256 512 0 768 256 512 512"></polygon>
         </g>
     </g>
 </svg>

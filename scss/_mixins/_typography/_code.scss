@@ -20,5 +20,5 @@
   white-space: pre;
   font-style: normal;
   font-weight: map-get($type-ubuntu-mono, regular);
-  @include vs-text($type-ubuntu-mono, $size);
+  @include vs-text($type-ubuntu-mono, $size, 1);
 }

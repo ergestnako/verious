@@ -9,11 +9,9 @@ export default props => (
       version="1.1"
     >
       <g>
-        <circle
-          style={{ fill: props.circleColor }}
-          cx="512.5"
-          cy="512.5"
-          r="369.5"
+        <polygon
+          style={{ fill: props.overlayColor }}
+          points="0 512 512 0 1024 512 512 1024"
         />
       </g>
     </svg>
@@ -26,8 +24,8 @@ export default props => (
     >
       <g>
         <polygon
-          style={{ fill: props.overlayColor }}
-          points="0 296.44719 1024 653.033354 1024 -1.53969612 0 -1.53969612"
+          style={{ fill: props.circleColor }}
+          points="256 256 512 0 768 256 512 512"
         />
       </g>
     </svg>

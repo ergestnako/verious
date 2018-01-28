@@ -5,8 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="vs-logo-1" fill="#00E5FF">
-            <circle id="Oval-2" cx="512.5" cy="512.5" r="369.5"></circle>
+        <g id="vs-logo-1" fill="#000000">
+            <polygon id="Rectangle-2" points="0 512 512 0 1024 512 512 1024"></polygon>
         </g>
     </g>
 </svg>
