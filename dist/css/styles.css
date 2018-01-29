@@ -35551,15 +35551,9 @@ caption, th, td {
     padding-top: 0; }
 
 .verious pre {
-  background-color: #f5f5f5;
   overflow: auto;
   white-space: inherit;
-  margin: 0;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem; }
+  margin: 0; }
 
 .verious code {
   white-space: pre;
@@ -35570,15 +35564,9 @@ caption, th, td {
   font-size: 1rem; }
 
 .vs-pre {
-  background-color: #f5f5f5;
   overflow: auto;
   white-space: inherit;
-  margin: 0;
-  padding-right: 2rem;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 2rem; }
+  margin: 0; }
 
 .vs-code {
   white-space: pre;

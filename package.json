@@ -1,6 +1,6 @@
 {
   "name": "verious",
-  "version": "0.8.26",
+  "version": "0.8.27",
   "description": "Very serious styles. No jokes here.",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,8 @@
     "build-css": "./node_modules/.bin/node-sass scss/styles.scss dist/css/styles.css --source-map dist/css",
     "build-dist": "yarn build-react && yarn build-css",
     "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "yarn build && netlify deploy"
   },
   "author": "Charles Pinnix",
   "license": "ISC",

@@ -41,7 +41,8 @@ module.exports = () => (
             </List>
             <Heading size={2}>Design Guidelines</Heading>
             <Paragraph>
-              Mind line-length: try not to set text too wide as it becomes hard to read. Watch contrast: make sure text is easy to read.
+              Mind line-length: try not to set text too wide as it becomes hard
+              to read. Watch contrast: make sure text is easy to read.
             </Paragraph>
           </Column>
           <Column span={[12, 12, 12, 12, 12]}>
@@ -53,8 +54,10 @@ module.exports = () => (
                 </Text>
               </Wrapper>
             </BackgroundColor>
-            <Code>
-              {`
+            <BackgroundColor color="vs-grey-100">
+              <Wrapper padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
+                <Code>
+                  {`
 <Text
   size={0}
   font="helvetica"
@@ -63,7 +66,9 @@ module.exports = () => (
   Sample black, helvetica text in size 0.
 </Text>
             `}
-            </Code>
+                </Code>
+              </Wrapper>
+            </BackgroundColor>
             <BackgroundColor color="vs-blue-500">
               <Wrapper padding={[2, 2, 2, 2]}>
                 <Text
@@ -76,8 +81,10 @@ module.exports = () => (
                 </Text>
               </Wrapper>
             </BackgroundColor>
-            <Code>
-              {`
+            <BackgroundColor color="vs-grey-100">
+              <Wrapper padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
+                <Code>
+                  {`
 <Text
   size={12}
   font="helvetica"
@@ -87,7 +94,9 @@ module.exports = () => (
   Bold, white, helvetica text in size 12.
 </Text>
             `}
-            </Code>
+                </Code>
+              </Wrapper>
+            </BackgroundColor>
             <BackgroundColor color="vs-purple-500">
               <Wrapper padding={[8, 2, 8, 2]}>
                 <Text
@@ -108,8 +117,10 @@ module.exports = () => (
                 </Text>
               </Wrapper>
             </BackgroundColor>
-            <Code>
-              {`
+            <BackgroundColor color="vs-grey-100">
+              <Wrapper padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
+                <Code>
+                  {`
 <Text
   size={14}
   font="helvetica"
@@ -127,7 +138,9 @@ module.exports = () => (
   Profound
 </Text>
             `}
-            </Code>
+                </Code>
+              </Wrapper>
+            </BackgroundColor>
           </Column>
         </Row>
       </Container>

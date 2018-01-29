@@ -20,11 +20,13 @@ const component = ({ source, title, subtitle }) => (
                 size={16}
                 font="helvetica"
                 color="vs-white"
-                style={{ fontWeight: 'bold', letterSpacing: -6, marginLeft: -8 }}
+                style={{ fontWeight: '700', letterSpacing: -6, marginLeft: -8 }}
               >
                 {title}
               </Text>
-              {subtitle && <Paragraph textColor="vs-white">{subtitle}</Paragraph>}
+              {subtitle && (
+                <Paragraph textColor="vs-white">{subtitle}</Paragraph>
+              )}
             </Column>
           </Row>
         </Container>

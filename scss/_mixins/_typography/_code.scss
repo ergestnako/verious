@@ -7,15 +7,15 @@
 //
 
 @mixin vs-pre() {
-  background-color: $vs-grey-100;
+  // background-color: $vs-grey-100;
   overflow: auto;
   white-space: inherit;
   margin: 0;
-  @include vs-padding(right, 2);
-  @include vs-padding(left, 2);
-  @include vs-padding(top, 1);
-  @include vs-padding(bottom, 1);
-  @include vs-margin(bottom, 2);
+  // @include vs-padding(right, 2);
+  // @include vs-padding(left, 2);
+  // @include vs-padding(top, 1);
+  // @include vs-padding(bottom, 1);
+  // @include vs-margin(bottom, 2);
 }
 
 @mixin vs-code($size) {
