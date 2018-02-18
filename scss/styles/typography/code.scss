@@ -1,18 +1,10 @@
-//
-//    File:           _code.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-
 .verious {
   pre {
     @include vs-pre();
   }
 
   code {
-    @include vs-code(0);
+    @include vs-code(4);
   }
 }
 
@@ -21,5 +13,5 @@
 }
 
 .vs-code {
-  @include vs-code(0);
+  @include vs-code(4);
 }

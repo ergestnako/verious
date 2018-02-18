@@ -1,0 +1,3 @@
+@mixin vs-line-height($n) {
+  line-height: ms($n) * vs-spacing(1);
+}

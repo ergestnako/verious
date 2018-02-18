@@ -1,15 +1,7 @@
-//
-//    File:           _paragraph.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-
 @mixin vs-paragraph($size) {
   font-style: normal;
   font-weight: normal;
-  @include vs-text($type-system, $size);
+  @include vs-text(system, $size);
   @include vs-margin(bottom, 1);
 
   a {

@@ -1,15 +1,5 @@
-//
-//    File:           _text.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-//    1. Base
-//
-
-@mixin vs-text($type, $size, $line-height: 2, $leading-top: 0, $leading-bottom: 0) {
-  font-family: unquote(map-get($type, font-family));
-  @include fontsize($size);
-  line-height: $line-height * 1rem;
+@mixin vs-text($type, $size, $line-height: 4, $leading-top: 0, $leading-bottom: 0) {
+  @include vs-font($type);
+  @include vs-font-size($size);
+  @include vs-line-height($line-height);
 }

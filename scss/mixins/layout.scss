@@ -181,7 +181,7 @@
 // ---------------------------------------------
 
 @mixin vs-padding($edge, $multiplier) {
-  padding-#{$edge}: $multiplier * 1rem;
+  padding-#{$edge}: $multiplier * vs-spacing(1);
 }
 
 // ---------------------------------------------
@@ -189,7 +189,7 @@
 // ---------------------------------------------
 
 @mixin vs-margin($edge, $multiplier) {
-  margin-#{$edge}: $multiplier * 1rem;
+  margin-#{$edge}: $multiplier * vs-spacing(1);
 }
 
 // ---------------------------------------------
@@ -197,7 +197,7 @@
 // ---------------------------------------------
 
 @mixin vs-pull($edge, $multiplier) {
-  margin-#{$edge}: -$multiplier * 1rem;
+  margin-#{$edge}: -$multiplier * vs-spacing(1);
 }
 
 // ---------------------------------------------
@@ -205,7 +205,7 @@
 // ---------------------------------------------
 
 @mixin vs-square($multiplier) {
-  height: $multiplier * 1rem;
+  height: $multiplier * vs-spacing(1);
 }
 
 // ---------------------------------------------
@@ -213,7 +213,7 @@
 // ---------------------------------------------
 
 @mixin vs-width($multiplier) {
-  width: $multiplier * 1rem;
+  width: $multiplier * vs-spacing(1);
 }
 
 // ---------------------------------------------
@@ -221,5 +221,5 @@
 // ---------------------------------------------
 
 @mixin vs-height($multiplier) {
-  height: $multiplier * 1rem;
+  height: $multiplier * vs-spacing(1);
 }

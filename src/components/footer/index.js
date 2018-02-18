@@ -13,12 +13,12 @@ const Logo = require('../Logo');
 module.exports = () => (
   <BackgroundColor color="vs-white">
     <HorizontalRule lineColor="vs-grey-300" height={4} />
-    <Wrapper padding={[2, 0, 2, 0]}>
+    <Wrapper padding={[4, 0, 4, 0]}>
       <Container>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
             <Logo
-              size={2}
+              size={4}
               circleColor={Utilities.getInternalColor('vs-cyan-a400')}
               overlayColor={Utilities.getInternalColor('vs-black')}
             />

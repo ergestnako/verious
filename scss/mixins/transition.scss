@@ -1,31 +1,9 @@
-//
-//    File:           _transition.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-//    1. Transition
-//    2. Transition Property
-//    3. Transition Duration
-//    4. Transition Timing Function
-//    5. Transition Delay
-//
-
-// ---------------------------------------------
-//    1. Transition
-// ---------------------------------------------
-
 @mixin transition($transition...) {
     -moz-transition:    $transition;
     -o-transition:      $transition;
     -webkit-transition: $transition;
     transition:         $transition;
 }
-
-// ---------------------------------------------
-//    2. Transition Property
-// ---------------------------------------------
 
 @mixin transition-property($property...) {
     -moz-transition-property:    $property;
@@ -34,10 +12,6 @@
     transition-property:         $property;
 }
 
-// ---------------------------------------------
-//    3. Transition Duration
-// ---------------------------------------------
-
 @mixin transition-duration($duration...) {
     -moz-transition-property:    $duration;
     -o-transition-property:      $duration;
@@ -45,20 +19,12 @@
     transition-property:         $duration;
 }
 
-// ---------------------------------------------
-//    4. Transition Timing Function
-// ---------------------------------------------
-
 @mixin transition-timing-function($timing...) {
     -moz-transition-timing-function:    $timing;
     -o-transition-timing-function:      $timing;
     -webkit-transition-timing-function: $timing;
     transition-timing-function:         $timing;
 }
-
-// ---------------------------------------------
-//    5. Transition Delay
-// ---------------------------------------------
 
 @mixin transition-delay($delay...) {
     -moz-transition-delay:    $delay;

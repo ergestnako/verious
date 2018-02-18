@@ -32,7 +32,7 @@ class Navigation extends React.Component {
           <Container>
             <Row>
               <Column span={[12, 12, 12, 12, 12]}>
-                <Wrapper padding={[1, 0, 1, 0]}>
+                <Wrapper padding={[2, 0, 2, 0]}>
                   <Layout direction="horizontal">
                     {this.props.left}
                     <Spacer />

@@ -1,9 +1,20 @@
 $type-system: (
   font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
-  regular: 400
+  font-weight: 400
+);
+
+$type-system-bold: (
+  font-family: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+  font-weight: 700
 );
 
 $type-system-mono: (
   font-family: '"SF Mono", "Monaco", "Inconsolata", "Fira Mono", "Droid Sans Mono", "Source Code Pro", monospace;',
-  regular: 400
+  font-weight: 400
+);
+
+$fonts: (
+  system: $type-system,
+  system-bold: $type-system-bold,
+  mono: $type-system-mono
 );

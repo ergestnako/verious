@@ -1,14 +1,5 @@
-//
-//    File:           _heading.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-
 @mixin vs-heading($size) {
-  @include vs-text($type-system, $size);
+  @include vs-text(system-bold, $size);
   @include vs-margin(bottom, 2);
   font-style: normal;
-  font-weight: bold;
 }

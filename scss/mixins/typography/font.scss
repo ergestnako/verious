@@ -1,0 +1,4 @@
+@mixin vs-font($key) {
+  font-family: unquote(map-get(map-get($fonts, $key), font-family));
+  font-weight: map-get(map-get($fonts, $key), font-weight);
+}

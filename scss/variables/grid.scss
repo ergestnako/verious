@@ -10,17 +10,17 @@ $vs-width-md: 768px;
 $vs-width-lg: 992px;
 $vs-width-xl: 1200px;
 
-$vs-gutter-xs: $vs-grid-unit * 4;
-$vs-gutter-sm: $vs-grid-unit * 4;
-$vs-gutter-md: $vs-grid-unit * 4;
-$vs-gutter-lg: $vs-grid-unit * 4;
-$vs-gutter-xl: $vs-grid-unit * 4;
+$vs-gutter-xs: $vs-spacing-unit * 4;
+$vs-gutter-sm: $vs-spacing-unit * 4;
+$vs-gutter-md: $vs-spacing-unit * 4;
+$vs-gutter-lg: $vs-spacing-unit * 4;
+$vs-gutter-xl: $vs-spacing-unit * 4;
 
-$vs-page-margin-xs: $vs-grid-unit * 3;
-$vs-page-margin-sm: $vs-grid-unit * 3;
-$vs-page-margin-md: $vs-grid-unit * 3;
-$vs-page-margin-lg: $vs-grid-unit * 3;
-$vs-page-margin-xl: $vs-grid-unit * 3;
+$vs-page-margin-xs: $vs-spacing-unit * 3;
+$vs-page-margin-sm: $vs-spacing-unit * 3;
+$vs-page-margin-md: $vs-spacing-unit * 3;
+$vs-page-margin-lg: $vs-spacing-unit * 3;
+$vs-page-margin-xl: $vs-spacing-unit * 3;
 
 $vs-total-columns-xs: 12;
 $vs-total-columns-sm: 12;

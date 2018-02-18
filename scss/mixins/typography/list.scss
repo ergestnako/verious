@@ -1,19 +1,11 @@
-//
-//    File:           _list.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-
 @mixin vs-list-item($size) {
-  @include vs-text($type-system, $size);
+  @include vs-text(system, $size);
   font-style: normal;
   font-weight: map-get($type-system, regular);
 
   a {
     display: inline;
-    @include vs-text($type-system, $size);
+    @include vs-text(system, $size);
     font-style: normal;
     font-weight: map-get($type-system, regular);
     text-decoration: none;

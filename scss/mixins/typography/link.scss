@@ -1,16 +1,7 @@
-//
-//    File:           _link.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-
 @mixin vs-link($size) {
   display: inline-block;
-  @include vs-text($type-system, $size);
+  @include vs-text(system, $size);
   font-style: normal;
-  font-weight: map-get($type-system, regular);
 
   &:visited {
     color: inherit;

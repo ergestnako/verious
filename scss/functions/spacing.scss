@@ -1,0 +1,3 @@
+@function vs-spacing($n) {
+  @return $n * $vs-spacing-unit;
+}

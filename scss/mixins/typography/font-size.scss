@@ -1,0 +1,3 @@
+@mixin vs-font-size($n) {
+  font-size: ms($n) * vs-spacing(1);
+}

@@ -11,10 +11,6 @@ $points: map-values($breakpoints);
   }
 }
 
-@mixin fontsize($fontsize) {
-  font-size: ms($fontsize) * 1rem;
-}
-
 @mixin clearfix {
   &:before, &:after{
     display: table;

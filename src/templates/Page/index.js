@@ -29,9 +29,9 @@ export default ({ children }) => (
       textColor="vs-cyan-a400"
       iconColor="vs-cyan-a700"
       left={
-        <div style={{ marginTop: '0.5rem' }}>
+        <div>
           <Logo
-            size={2}
+            size={3}
             circleColor={Utilities.getInternalColor('vs-cyan-a400')}
             overlayColor={Utilities.getInternalColor('vs-black')}
           />

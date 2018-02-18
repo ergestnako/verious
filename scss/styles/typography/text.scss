@@ -1,37 +1,17 @@
-//
-//    File:           _text.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-
-@for $i from 0 through 4 {
+@for $i from 0 through 3 {
   .vs-text-system--#{$i} {
-    @include vs-text($type-system, $i, 2);
+    @include vs-text(system, $i + 4, $i + 8);
   }
 }
 
-@for $i from 5 through 8 {
+@for $i from 4 through 10 {
   .vs-text-system--#{$i} {
-    @include vs-text($type-system, $i, 4);
+    @include vs-text(system, $i + 4, $i + 6);
   }
 }
 
-@for $i from 9 through 12 {
+@for $i from 11 through 20 {
   .vs-text-system--#{$i} {
-    @include vs-text($type-system, $i, 5);
-  }
-}
-
-@for $i from 13 through 16 {
-  .vs-text-system--#{$i} {
-    @include vs-text($type-system, $i, 6);
-  }
-}
-
-@for $i from 17 through 20 {
-  .vs-text-system--#{$i} {
-    @include vs-text($type-system, $i, 7);
+    @include vs-text(system, $i + 4, $i + 4);
   }
 }
