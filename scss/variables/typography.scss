@@ -1,0 +1,20 @@
+$modularscale: (
+  base: 1,
+  ratio: 1.125
+);
+
+$breakpoints: (
+  break-0: 0,
+  break-1: 576,
+  break-2: 768,
+  break-3: 992,
+  break-4: 1200,
+) !default;
+
+$rootsizes: (
+  rootsize-0: 14,
+  rootsize-1: 15,
+  rootsize-2: 16,
+  rootsize-3: 17,
+  rootsize-4: 18,
+) !default;

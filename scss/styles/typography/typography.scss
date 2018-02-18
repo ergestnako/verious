@@ -1,5 +1,5 @@
 //
-//    File:           styles.scss
+//    File:           typography.scss
 //    Description:
 //
 //
@@ -12,8 +12,11 @@
 //    1. Imports
 // ---------------------------------------------
 
-@import "reset/sanitize";
-@import "global/global";
-@import "functions/functions";
-@import "mixins/mixins";
-@import "styles/styles";
+@import "html";
+@import "text";
+@import "heading";
+@import "paragraph";
+@import "link";
+@import "list";
+@import "code";
+@import "blockquote";

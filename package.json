@@ -9,7 +9,6 @@
     "build-react": "./node_modules/.bin/babel react --out-dir dist/react",
     "build-css": "./node_modules/.bin/node-sass scss/styles.scss dist/css/styles.css --source-map dist/css",
     "build-dist": "yarn build-react && yarn build-css",
-    "start": "node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "yarn build && netlify deploy"
   },

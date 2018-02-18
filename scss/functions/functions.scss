@@ -1,5 +1,5 @@
 //
-//    File:           styles.scss
+//    File:           functions.scss
 //    Description:
 //
 //
@@ -12,8 +12,4 @@
 //    1. Imports
 // ---------------------------------------------
 
-@import "reset/sanitize";
-@import "global/global";
-@import "functions/functions";
-@import "mixins/mixins";
-@import "styles/styles";
+@import "layout";

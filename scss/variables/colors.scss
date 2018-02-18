@@ -1,0 +1,666 @@
+$vs-red-50: #ffebee;
+$vs-red-100: #ffcdd2;
+$vs-red-200: #ef9a9a;
+$vs-red-300: #e57373;
+$vs-red-400: #ef5350;
+$vs-red-500: #f44336;
+$vs-red-600: #e53935;
+$vs-red-700: #d32f2f;
+$vs-red-800: #c62828;
+$vs-red-900: #b71c1c;
+$vs-red-a100: #ff8a80;
+$vs-red-a200: #ff5252;
+$vs-red-a400: #ff1744;
+$vs-red-a700: #d50000;
+
+$vs-red:
+  $vs-red-50,
+  $vs-red-100,
+  $vs-red-200,
+  $vs-red-300,
+  $vs-red-400,
+  $vs-red-500,
+  $vs-red-600,
+  $vs-red-700,
+  $vs-red-800,
+  $vs-red-900,
+  $vs-red-a100,
+  $vs-red-a200,
+  $vs-red-a400,
+  $vs-red-a700;
+
+$vs-pink-50: #fce4ec;
+$vs-pink-100: #f8bbd0;
+$vs-pink-200: #f48fb1;
+$vs-pink-300: #f06292;
+$vs-pink-400: #ec407a;
+$vs-pink-500: #e91e63;
+$vs-pink-600: #d81b60;
+$vs-pink-700: #c2185b;
+$vs-pink-800: #ad1457;
+$vs-pink-900: #880e4f;
+$vs-pink-a100: #ff80ab;
+$vs-pink-a200: #ff4081;
+$vs-pink-a400: #f50057;
+$vs-pink-a700: #c51162;
+
+$vs-pink:
+  $vs-pink-50,
+  $vs-pink-100,
+  $vs-pink-200,
+  $vs-pink-300,
+  $vs-pink-400,
+  $vs-pink-500,
+  $vs-pink-600,
+  $vs-pink-700,
+  $vs-pink-800,
+  $vs-pink-900,
+  $vs-pink-a100,
+  $vs-pink-a200,
+  $vs-pink-a400,
+  $vs-pink-a700;
+
+$vs-purple-50: #f3e5f5;
+$vs-purple-100: #e1bee7;
+$vs-purple-200: #ce93d8;
+$vs-purple-300: #ba68c8;
+$vs-purple-400: #ab47bc;
+$vs-purple-500: #9c27b0;
+$vs-purple-600: #8e24aa;
+$vs-purple-700: #7b1fa2;
+$vs-purple-800: #6a1b9a;
+$vs-purple-900: #4a148c;
+$vs-purple-a100: #ea80fc;
+$vs-purple-a200: #e040fb;
+$vs-purple-a400: #d500f9;
+$vs-purple-a700: #aa00ff;
+
+$vs-purple:
+  $vs-purple-50,
+  $vs-purple-100,
+  $vs-purple-200,
+  $vs-purple-300,
+  $vs-purple-400,
+  $vs-purple-500,
+  $vs-purple-600,
+  $vs-purple-700,
+  $vs-purple-800,
+  $vs-purple-900,
+  $vs-purple-a100,
+  $vs-purple-a200,
+  $vs-purple-a400,
+  $vs-purple-a700;
+
+$vs-deeppurple-50: #ede7f6;
+$vs-deeppurple-100: #d1c4e9;
+$vs-deeppurple-200: #b39ddb;
+$vs-deeppurple-300: #9575cd;
+$vs-deeppurple-400: #7e57c2;
+$vs-deeppurple-500: #673ab7;
+$vs-deeppurple-600: #5e35b1;
+$vs-deeppurple-700: #512da8;
+$vs-deeppurple-800: #4527a0;
+$vs-deeppurple-900: #311b92;
+$vs-deeppurple-a100: #b388ff;
+$vs-deeppurple-a200: #7c4dff;
+$vs-deeppurple-a400: #651fff;
+$vs-deeppurple-a700: #6200ea;
+
+$vs-deeppurple:
+  $vs-deeppurple-50,
+  $vs-deeppurple-100,
+  $vs-deeppurple-200,
+  $vs-deeppurple-300,
+  $vs-deeppurple-400,
+  $vs-deeppurple-500,
+  $vs-deeppurple-600,
+  $vs-deeppurple-700,
+  $vs-deeppurple-800,
+  $vs-deeppurple-900,
+  $vs-deeppurple-a100,
+  $vs-deeppurple-a200,
+  $vs-deeppurple-a400,
+  $vs-deeppurple-a700;
+
+$vs-indigo-50: #e8eaf6;
+$vs-indigo-100: #c5cae9;
+$vs-indigo-200: #9fa8da;
+$vs-indigo-300: #7986cb;
+$vs-indigo-400: #5c6bc0;
+$vs-indigo-500: #3f51b5;
+$vs-indigo-600: #3949ab;
+$vs-indigo-700: #303f9f;
+$vs-indigo-800: #283593;
+$vs-indigo-900: #1a237e;
+$vs-indigo-a100: #8c9eff;
+$vs-indigo-a200: #536dfe;
+$vs-indigo-a400: #3d5afe;
+$vs-indigo-a700: #304ffe;
+
+$vs-indigo:
+  $vs-indigo-50,
+  $vs-indigo-100,
+  $vs-indigo-200,
+  $vs-indigo-300,
+  $vs-indigo-400,
+  $vs-indigo-500,
+  $vs-indigo-600,
+  $vs-indigo-700,
+  $vs-indigo-800,
+  $vs-indigo-900,
+  $vs-indigo-a100,
+  $vs-indigo-a200,
+  $vs-indigo-a400,
+  $vs-indigo-a700;
+
+$vs-blue-50: #e3f2fd;
+$vs-blue-100: #bbdefb;
+$vs-blue-200: #90caf9;
+$vs-blue-300: #64b5f6;
+$vs-blue-400: #42a5f5;
+$vs-blue-500: #2196f3;
+$vs-blue-600: #1e88e5;
+$vs-blue-700: #1976d2;
+$vs-blue-800: #1565c0;
+$vs-blue-900: #0d47a1;
+$vs-blue-a100: #82b1ff;
+$vs-blue-a200: #448aff;
+$vs-blue-a400: #2979ff;
+$vs-blue-a700: #2962ff;
+
+$vs-blue:
+  $vs-blue-50,
+  $vs-blue-100,
+  $vs-blue-200,
+  $vs-blue-300,
+  $vs-blue-400,
+  $vs-blue-500,
+  $vs-blue-600,
+  $vs-blue-700,
+  $vs-blue-800,
+  $vs-blue-900,
+  $vs-blue-a100,
+  $vs-blue-a200,
+  $vs-blue-a400,
+  $vs-blue-a700;
+
+$vs-lightblue-50: #e1f5fe;
+$vs-lightblue-100: #b3e5fc;
+$vs-lightblue-200: #81d4fa;
+$vs-lightblue-300: #4fc3f7;
+$vs-lightblue-400: #29b6f6;
+$vs-lightblue-500: #03a9f4;
+$vs-lightblue-600: #039be5;
+$vs-lightblue-700: #0288d1;
+$vs-lightblue-800: #0277bd;
+$vs-lightblue-900: #01579b;
+$vs-lightblue-a100: #80d8ff;
+$vs-lightblue-a200: #40c4ff;
+$vs-lightblue-a400: #00b0ff;
+$vs-lightblue-a700: #0091ea;
+
+$vs-lightblue:
+  $vs-lightblue-50,
+  $vs-lightblue-100,
+  $vs-lightblue-200,
+  $vs-lightblue-300,
+  $vs-lightblue-400,
+  $vs-lightblue-500,
+  $vs-lightblue-600,
+  $vs-lightblue-700,
+  $vs-lightblue-800,
+  $vs-lightblue-900,
+  $vs-lightblue-a100,
+  $vs-lightblue-a200,
+  $vs-lightblue-a400,
+  $vs-lightblue-a700;
+
+$vs-cyan-50: #e0f7fa;
+$vs-cyan-100: #b2ebf2;
+$vs-cyan-200: #80deea;
+$vs-cyan-300: #4dd0e1;
+$vs-cyan-400: #26c6da;
+$vs-cyan-500: #00bcd4;
+$vs-cyan-600: #00acc1;
+$vs-cyan-700: #0097a7;
+$vs-cyan-800: #00838f;
+$vs-cyan-900: #006064;
+$vs-cyan-a100: #84ffff;
+$vs-cyan-a200: #18ffff;
+$vs-cyan-a400: #00e5ff;
+$vs-cyan-a700: #00b8d4;
+
+$vs-cyan:
+  $vs-cyan-50,
+  $vs-cyan-100,
+  $vs-cyan-200,
+  $vs-cyan-300,
+  $vs-cyan-400,
+  $vs-cyan-500,
+  $vs-cyan-600,
+  $vs-cyan-700,
+  $vs-cyan-800,
+  $vs-cyan-900,
+  $vs-cyan-a100,
+  $vs-cyan-a200,
+  $vs-cyan-a400,
+  $vs-cyan-a700;
+
+$vs-teal-50: #e0f2f1;
+$vs-teal-100: #b2dfdb;
+$vs-teal-200: #80cbc4;
+$vs-teal-300: #4db6ac;
+$vs-teal-400: #26a69a;
+$vs-teal-500: #009688;
+$vs-teal-600: #00897b;
+$vs-teal-700: #00796b;
+$vs-teal-800: #00695c;
+$vs-teal-900: #004d40;
+$vs-teal-a100: #a7ffeb;
+$vs-teal-a200: #64ffda;
+$vs-teal-a400: #1de9b6;
+$vs-teal-a700: #00bfa5;
+
+$vs-teal:
+  $vs-teal-50,
+  $vs-teal-100,
+  $vs-teal-200,
+  $vs-teal-300,
+  $vs-teal-400,
+  $vs-teal-500,
+  $vs-teal-600,
+  $vs-teal-700,
+  $vs-teal-800,
+  $vs-teal-900,
+  $vs-teal-a100,
+  $vs-teal-a200,
+  $vs-teal-a400,
+  $vs-teal-a700;
+
+$vs-green-50: #e8f5e9;
+$vs-green-100: #c8e6c9;
+$vs-green-200: #a5d6a7;
+$vs-green-300: #81c784;
+$vs-green-400: #66bb6a;
+$vs-green-500: #4caf50;
+$vs-green-600: #43a047;
+$vs-green-700: #388e3c;
+$vs-green-800: #2e7d32;
+$vs-green-900: #1b5e20;
+$vs-green-a100: #b9f6ca;
+$vs-green-a200: #69f0ae;
+$vs-green-a400: #00e676;
+$vs-green-a700: #00c853;
+
+$vs-green:
+  $vs-green-50,
+  $vs-green-100,
+  $vs-green-200,
+  $vs-green-300,
+  $vs-green-400,
+  $vs-green-500,
+  $vs-green-600,
+  $vs-green-700,
+  $vs-green-800,
+  $vs-green-900,
+  $vs-green-a100,
+  $vs-green-a200,
+  $vs-green-a400,
+  $vs-green-a700;
+
+$vs-lightgreen-50: #f1f8e9;
+$vs-lightgreen-100: #dcedc8;
+$vs-lightgreen-200: #c5e1a5;
+$vs-lightgreen-300: #aed581;
+$vs-lightgreen-400: #9ccc65;
+$vs-lightgreen-500: #8bc34a;
+$vs-lightgreen-600: #7cb342;
+$vs-lightgreen-700: #689f38;
+$vs-lightgreen-800: #558b2f;
+$vs-lightgreen-900: #33691e;
+$vs-lightgreen-a100: #ccff90;
+$vs-lightgreen-a200: #b2ff59;
+$vs-lightgreen-a400: #76ff03;
+$vs-lightgreen-a700: #64dd17;
+
+$vs-lightgreen:
+  $vs-lightgreen-50,
+  $vs-lightgreen-100,
+  $vs-lightgreen-200,
+  $vs-lightgreen-300,
+  $vs-lightgreen-400,
+  $vs-lightgreen-500,
+  $vs-lightgreen-600,
+  $vs-lightgreen-700,
+  $vs-lightgreen-800,
+  $vs-lightgreen-900,
+  $vs-lightgreen-a100,
+  $vs-lightgreen-a200,
+  $vs-lightgreen-a400,
+  $vs-lightgreen-a700;
+
+$vs-lime-50: #f9fbe7;
+$vs-lime-100: #f0f4c3;
+$vs-lime-200: #e6ee9c;
+$vs-lime-300: #dce775;
+$vs-lime-400: #d4e157;
+$vs-lime-500: #cddc39;
+$vs-lime-600: #c0ca33;
+$vs-lime-700: #afb42b;
+$vs-lime-800: #9e9d24;
+$vs-lime-900: #827717;
+$vs-lime-a100: #f4ff81;
+$vs-lime-a200: #eeff41;
+$vs-lime-a400: #c6ff00;
+$vs-lime-a700: #aeea00;
+
+$vs-lime:
+  $vs-lime-50,
+  $vs-lime-100,
+  $vs-lime-200,
+  $vs-lime-300,
+  $vs-lime-400,
+  $vs-lime-500,
+  $vs-lime-600,
+  $vs-lime-700,
+  $vs-lime-800,
+  $vs-lime-900,
+  $vs-lime-a100,
+  $vs-lime-a200,
+  $vs-lime-a400,
+  $vs-lime-a700;
+
+$vs-yellow-50: #fffde7;
+$vs-yellow-100: #fff9c4;
+$vs-yellow-200: #fff59d;
+$vs-yellow-300: #fff176;
+$vs-yellow-400: #ffee58;
+$vs-yellow-500: #ffeb3b;
+$vs-yellow-600: #fdd835;
+$vs-yellow-700: #fbc02d;
+$vs-yellow-800: #f9a825;
+$vs-yellow-900: #f57f17;
+$vs-yellow-a100: #ffff8d;
+$vs-yellow-a200: #ffff00;
+$vs-yellow-a400: #ffea00;
+$vs-yellow-a700: #ffd600;
+
+$vs-yellow:
+  $vs-yellow-50,
+  $vs-yellow-100,
+  $vs-yellow-200,
+  $vs-yellow-300,
+  $vs-yellow-400,
+  $vs-yellow-500,
+  $vs-yellow-600,
+  $vs-yellow-700,
+  $vs-yellow-800,
+  $vs-yellow-900,
+  $vs-yellow-a100,
+  $vs-yellow-a200,
+  $vs-yellow-a400,
+  $vs-yellow-a700;
+
+$vs-amber-50: #fff8e1;
+$vs-amber-100: #ffecb3;
+$vs-amber-200: #ffe082;
+$vs-amber-300: #ffd54f;
+$vs-amber-400: #ffca28;
+$vs-amber-500: #ffc107;
+$vs-amber-600: #ffb300;
+$vs-amber-700: #ffa000;
+$vs-amber-800: #ff8f00;
+$vs-amber-900: #ff6f00;
+$vs-amber-a100: #ffe57f;
+$vs-amber-a200: #ffd740;
+$vs-amber-a400: #ffc400;
+$vs-amber-a700: #ffab00;
+
+$vs-amber:
+  $vs-amber-50,
+  $vs-amber-100,
+  $vs-amber-200,
+  $vs-amber-300,
+  $vs-amber-400,
+  $vs-amber-500,
+  $vs-amber-600,
+  $vs-amber-700,
+  $vs-amber-800,
+  $vs-amber-900,
+  $vs-amber-a100,
+  $vs-amber-a200,
+  $vs-amber-a400,
+  $vs-amber-a700;
+
+$vs-orange-50: #fff3e0;
+$vs-orange-100: #ffe0b2;
+$vs-orange-200: #ffcc80;
+$vs-orange-300: #ffb74d;
+$vs-orange-400: #ffa726;
+$vs-orange-500: #ff9800;
+$vs-orange-600: #fb8c00;
+$vs-orange-700: #f57c00;
+$vs-orange-800: #ef6c00;
+$vs-orange-900: #e65100;
+$vs-orange-a100: #ffd180;
+$vs-orange-a200: #ffab40;
+$vs-orange-a400: #ff9100;
+$vs-orange-a700: #ff6d00;
+
+$vs-orange:
+  $vs-orange-50,
+  $vs-orange-100,
+  $vs-orange-200,
+  $vs-orange-300,
+  $vs-orange-400,
+  $vs-orange-500,
+  $vs-orange-600,
+  $vs-orange-700,
+  $vs-orange-800,
+  $vs-orange-900,
+  $vs-orange-a100,
+  $vs-orange-a200,
+  $vs-orange-a400,
+  $vs-orange-a700;
+
+$vs-deeporange-50: #fbe9e7;
+$vs-deeporange-100: #ffccbc;
+$vs-deeporange-200: #ffab91;
+$vs-deeporange-300: #ff8a65;
+$vs-deeporange-400: #ff7043;
+$vs-deeporange-500: #ff5722;
+$vs-deeporange-600: #f4511e;
+$vs-deeporange-700: #e64a19;
+$vs-deeporange-800: #d84315;
+$vs-deeporange-900: #bf360c;
+$vs-deeporange-a100: #ff9e80;
+$vs-deeporange-a200: #ff6e40;
+$vs-deeporange-a400: #ff3d00;
+$vs-deeporange-a700: #dd2c00;
+
+$vs-deeporange:
+  $vs-deeporange-50,
+  $vs-deeporange-100,
+  $vs-deeporange-200,
+  $vs-deeporange-300,
+  $vs-deeporange-400,
+  $vs-deeporange-500,
+  $vs-deeporange-600,
+  $vs-deeporange-700,
+  $vs-deeporange-800,
+  $vs-deeporange-900,
+  $vs-deeporange-a100,
+  $vs-deeporange-a200,
+  $vs-deeporange-a400,
+  $vs-deeporange-a700;
+
+$vs-brown-50: #efebe9;
+$vs-brown-100: #d7ccc8;
+$vs-brown-200: #bcaaa4;
+$vs-brown-300: #a1887f;
+$vs-brown-400: #8d6e63;
+$vs-brown-500: #795548;
+$vs-brown-600: #6d4c41;
+$vs-brown-700: #5d4037;
+$vs-brown-800: #4e342e;
+$vs-brown-900: #3e2723;
+$vs-brown-a100: #795548;
+$vs-brown-a200: #795548;
+$vs-brown-a400: #795548;
+$vs-brown-a700: #795548;
+
+$vs-brown:
+  $vs-brown-50,
+  $vs-brown-100,
+  $vs-brown-200,
+  $vs-brown-300,
+  $vs-brown-400,
+  $vs-brown-500,
+  $vs-brown-600,
+  $vs-brown-700,
+  $vs-brown-800,
+  $vs-brown-900,
+  $vs-brown-a100,
+  $vs-brown-a200,
+  $vs-brown-a400,
+  $vs-brown-a700;
+
+$vs-grey-50: #fafafa;
+$vs-grey-100: #f5f5f5;
+$vs-grey-200: #eeeeee;
+$vs-grey-300: #e0e0e0;
+$vs-grey-400: #bdbdbd;
+$vs-grey-500: #9e9e9e;
+$vs-grey-600: #757575;
+$vs-grey-700: #616161;
+$vs-grey-800: #424242;
+$vs-grey-900: #212121;
+$vs-grey-a100: #9e9e9e;
+$vs-grey-a200: #9e9e9e;
+$vs-grey-a400: #9e9e9e;
+$vs-grey-a700: #9e9e9e;
+
+$vs-grey:
+  $vs-grey-50,
+  $vs-grey-100,
+  $vs-grey-200,
+  $vs-grey-300,
+  $vs-grey-400,
+  $vs-grey-500,
+  $vs-grey-600,
+  $vs-grey-700,
+  $vs-grey-800,
+  $vs-grey-900,
+  $vs-grey-a100,
+  $vs-grey-a200,
+  $vs-grey-a400,
+  $vs-grey-a700;
+
+$vs-bluegrey-50: #eceff1;
+$vs-bluegrey-100: #cfd8dc;
+$vs-bluegrey-200: #b0bec5;
+$vs-bluegrey-300: #90a4ae;
+$vs-bluegrey-400: #78909c;
+$vs-bluegrey-500: #607d8b;
+$vs-bluegrey-600: #546e7a;
+$vs-bluegrey-700: #455a64;
+$vs-bluegrey-800: #37474f;
+$vs-bluegrey-900: #263238;
+$vs-bluegrey-a100: #607d8b;
+$vs-bluegrey-a200: #607d8b;
+$vs-bluegrey-a400: #607d8b;
+$vs-bluegrey-a700: #607d8b;
+
+$vs-bluegrey:
+  $vs-bluegrey-50,
+  $vs-bluegrey-100,
+  $vs-bluegrey-200,
+  $vs-bluegrey-300,
+  $vs-bluegrey-400,
+  $vs-bluegrey-500,
+  $vs-bluegrey-600,
+  $vs-bluegrey-700,
+  $vs-bluegrey-800,
+  $vs-bluegrey-900,
+  $vs-bluegrey-a100,
+  $vs-bluegrey-a200,
+  $vs-bluegrey-a400,
+  $vs-bluegrey-a700;
+
+$vs-color-suffixes:
+  50,
+  100,
+  200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  800,
+  900,
+  a100,
+  a200,
+  a400,
+  a700;
+
+$vs-color-names:
+  red,
+  pink,
+  purple,
+  deeppurple,
+  indigo,
+  blue,
+  lightblue,
+  cyan,
+  teal,
+  green,
+  lightgreen,
+  lime,
+  yellow,
+  amber,
+  orange,
+  deeporange,
+  brown,
+  grey,
+  bluegrey;
+
+$vs-colors:
+  $vs-red,
+  $vs-pink,
+  $vs-purple,
+  $vs-deeppurple,
+  $vs-indigo,
+  $vs-blue,
+  $vs-lightblue,
+  $vs-cyan,
+  $vs-teal,
+  $vs-green,
+  $vs-lightgreen,
+  $vs-lime,
+  $vs-yellow,
+  $vs-amber,
+  $vs-orange,
+  $vs-deeporange,
+  $vs-brown,
+  $vs-grey,
+  $vs-bluegrey;
+
+$vs-dark-text-primary: rgba(0, 0, 0, 0.87);
+$vs-dark-text-secondary: rgba(0, 0, 0, 0.54);
+$vs-dark-text-disabled: rgba(0, 0, 0, 0.38);
+$vs-dark-text-dividers: rgba(0, 0, 0, 0.12);
+
+$vs-light-text-primary: rgba(255, 255, 255, 1);
+$vs-light-text-secondary: rgba(255, 255, 255, 0.7);
+$vs-light-text-disabled: rgba(255, 255, 255, 0.5);
+$vs-light-text-dividers: rgba(255, 255, 255, 0.12);
+
+$vs-dark-icons-active: rgba(0, 0, 0, 0.54);
+$vs-dark-icons-inactive: rgba(0, 0, 0, 0.38);
+
+$vs-light-icons-active: rgba(255, 255, 255, 1);
+$vs-light-icons-inactive: rgba(255, 255, 255, 0.5);
+
+$vs-white: #ffffff;
+
+$vs-black: #000000;
