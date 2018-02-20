@@ -5,7 +5,7 @@ const Container = require('../../../../react/components/Container');
 const Row = require('../../../../react/components/Row');
 const Column = require('../../../../react/components/Column');
 const Angle = require('../../../../react/components/Angle');
-const Layout = require('../../../../react/components/Layout');
+const Flex = require('../../../../react/components/Flex');
 const Heading = require('../../../../react/components/Heading');
 const Code = require('../../../../react/components/Code');
 
@@ -15,8 +15,9 @@ module.exports = () => (
     <Container>
       <Row>
         <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
-          <Layout
-            direction="center"
+          <Flex
+            justifyContent="center"
+            alignItems="center"
             style={{
               width: '100%'
             }}
@@ -29,7 +30,7 @@ module.exports = () => (
               leftPosition={0}
               rightPosition={24}
             />
-          </Layout>
+          </Flex>
           <Heading size="2">Documentation</Heading>
           <Code>
             {`
@@ -38,10 +39,11 @@ const Layout = require('verious/dist/react/components/Layout');
 const Angle = require('verious/dist/react/components/Angle');
 
 module.exports = () =>
-  <Layout
-    direction="center"
+  <Flex
+    justifyContent="center"
+    alignItems="center"
     style={{
-      width: '100%',
+      width: '100%'
     }}
   >
     <Angle
@@ -52,10 +54,12 @@ module.exports = () =>
       leftPosition={0}
       rightPosition={24}
     />
-  </Layout>;
+  </Flex>
             `}
           </Code>
-          <Layout
+          <Flex
+            justifyContent="center"
+            alignItems="center"
             direction="center"
             style={{
               width: '100%'
@@ -69,7 +73,7 @@ module.exports = () =>
               leftPosition={0}
               rightPosition={24}
             />
-          </Layout>
+          </Flex>
         </Column>
       </Row>
     </Container>

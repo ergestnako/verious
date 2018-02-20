@@ -1,13 +1,13 @@
 const React = require('react');
 const Link = require('gatsby-link').default;
 const Wrapper = require('../../../react/components/Wrapper');
-const Layout = require('../../../react/components/Layout');
+const Flex = require('../../../react/components/Flex');
 const Spacer = require('../../../react/components/Spacer');
 const Paragraph = require('../../../react/components/Paragraph');
 
 module.exports = ({ nextLink, nextLabel, previousLink, previousLabel }) => (
   <Wrapper>
-    <Layout direction="horizontal">
+    <Flex>
       {previousLink &&
         previousLabel && (
           <div>
@@ -27,6 +27,6 @@ module.exports = ({ nextLink, nextLabel, previousLink, previousLabel }) => (
             </Paragraph>
           </div>
         )}
-    </Layout>
+    </Flex>
   </Wrapper>
 );
