@@ -1,19 +1,9 @@
-//
-//    File:           _background-color.scss
-//    Description:
-//
+@each $row in $vs-colors {
+  $key: nth($row, 1);
+  $value: vs-color($key);
 
-@for $j from 1 through length($vs-colors) {
-  $colorSet: nth($vs-colors, $j);
-  $colorName: nth($vs-color-names, $j);
-
-  @for $i from 1 through length($vs-color-suffixes) {
-    $suffix: nth($vs-color-suffixes, $i);
-    $colorValue: nth($colorSet, $i);
-
-    .vs-background-color--#{$colorName}-#{$suffix} {
-      @include vs-background-color($colorValue);
-    }
+  .vs-background-color--#{$key} {
+    @include vs-background-color($value);
   }
 }
 

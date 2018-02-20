@@ -1,6 +1,6 @@
 const React = require('react');
 const Square = require('../Square');
-const Layout = require('../Layout');
+const Flex = require('../Flex');
 
 module.exports = ({ children, backgroundColor }) => (
   <Square
@@ -8,11 +8,12 @@ module.exports = ({ children, backgroundColor }) => (
     style={{ position: 'relative' }}
     backgroundColor={backgroundColor}
   >
-    <Layout
-      direction="center"
+    <Flex
+      justifyContent="center"
+      alignItems="center"
       style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}
     >
       {children}
-    </Layout>
+    </Flex>
   </Square>
 );

@@ -1,6 +1,6 @@
 const React = require('react');
 const utilities = require('../../utilities');
-const Layout = require('../Layout');
+const Flex = require('../Flex');
 const Spacer = require('../Spacer');
 const BackgroundColor = require('../BackgroundColor');
 
@@ -28,12 +28,12 @@ function getLineClassName({ lineColor }) {
 
 module.exports = ({ height, style, lineColor }) => (
   <div className={getClassName({ height })}>
-    <Layout direction="vertical" style={{ height: '100%' }}>
+    <Flex direction="column" style={{ height: '100%' }}>
       <Spacer />
       <BackgroundColor color={lineColor}>
         <div className={getLineClassName({ lineColor })} />
       </BackgroundColor>
       <Spacer />
-    </Layout>
+    </Flex>
   </div>
 );

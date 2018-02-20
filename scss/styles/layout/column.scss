@@ -1,8 +1,3 @@
-//
-//    File:           _column.scss
-//    Description:
-//
-
 @include vs-at-breakpoint($vs-screen-xs) {
   $total-columns: total-columns($vs-screen-xs);
   @for $span from 1 through $total-columns {

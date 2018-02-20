@@ -1,0 +1,6 @@
+@function vs-color($key) {
+  @if not map-has-key($vs-colors, $key) {
+    @warn "Key `#{$key}` not found in $colors map.";
+  }
+  @return map-get($vs-colors, $key);
+}

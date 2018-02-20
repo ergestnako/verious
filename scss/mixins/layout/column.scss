@@ -1,0 +1,35 @@
+@mixin vs-col-push($viewport, $push-columns) {
+  $total-columns: total-columns($viewport);
+  margin-left: (100 / ($total-columns / $push-columns) ) * 1%;
+}
+
+@mixin vs-col($viewport, $span-columns, $push-columns: null, $pull-columns: null) {
+  $gutter: gutter($viewport);
+  $page-margin: page-margin($viewport);
+  $total-columns: total-columns($viewport);
+
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 $gutter / 2;
+  width: (100 / ($total-columns / $span-columns) ) * 1%;
+
+  @if $push-columns {
+    margin-left: (100 / ($total-columns / $push-columns) ) * 1%;
+  }
+}
+
+@mixin vs-sub-col($viewport, $parent-columns, $span-columns, $push-columns: null, $pull-columns: null) {
+  $gutter: gutter($viewport);
+  $total-columns: total-columns($viewport);
+  $cols: $total-columns;
+  $one-col: 100% / $total-columns;
+  $parent-size: ($one-col * $parent-columns);
+  $child-size: ($one-col * $span-columns);
+
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding: 0 $gutter / 2;
+  width: ($child-size / $parent-size) * 100%;
+}

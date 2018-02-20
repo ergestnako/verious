@@ -3,7 +3,7 @@ const Container = require('../Container');
 const Row = require('../Row');
 const Column = require('../Column');
 const Wrapper = require('../Wrapper');
-const Layout = require('../Layout');
+const Flex = require('../Flex');
 const Spacer = require('../Spacer');
 const BackgroundColor = require('../BackgroundColor');
 const IconButton = require('../IconButton');
@@ -33,7 +33,7 @@ class Navigation extends React.Component {
             <Row>
               <Column span={[12, 12, 12, 12, 12]}>
                 <Wrapper padding={[2, 0, 2, 0]}>
-                  <Layout direction="horizontal">
+                  <Flex>
                     {this.props.left}
                     <Spacer />
                     <IconButton
@@ -60,7 +60,7 @@ class Navigation extends React.Component {
                         mode={this.state.open ? 'cross' : ''}
                       />
                     </IconButton>
-                  </Layout>
+                  </Flex>
                 </Wrapper>
               </Column>
             </Row>

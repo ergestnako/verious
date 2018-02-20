@@ -1,0 +1,7 @@
+@mixin vs-width($multiplier) {
+  width: $multiplier * vs-spacing(1);
+}
+
+@mixin vs-height($multiplier) {
+  height: $multiplier * vs-spacing(1);
+}

@@ -1,0 +1,29 @@
+@mixin vs-container() {
+  margin: 0 auto;
+  @include vs-clearfix();
+
+  @include vs-at-breakpoint($vs-screen-xs) {
+    width: $vs-width-xs;
+    padding: 0 page-margin($vs-screen-xs);
+  }
+
+  @include vs-at-breakpoint($vs-screen-sm) {
+    width: $vs-width-sm;
+    padding: 0 page-margin($vs-screen-sm);
+  }
+
+  @include vs-at-breakpoint($vs-screen-md) {
+    width: $vs-width-md;
+    padding: 0 page-margin($vs-screen-md);
+  }
+
+  @include vs-at-breakpoint($vs-screen-lg) {
+    width: $vs-width-lg;
+    padding: 0 page-margin($vs-screen-lg);
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    width: $vs-width-xl;
+    padding: 0 page-margin($vs-screen-xl);
+  }
+}

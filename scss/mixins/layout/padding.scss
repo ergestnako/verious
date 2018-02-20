@@ -1,0 +1,3 @@
+@mixin vs-padding($edge, $multiplier) {
+  padding-#{$edge}: $multiplier * vs-spacing(1);
+}

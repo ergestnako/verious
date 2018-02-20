@@ -1,0 +1,21 @@
+@function gutter($viewport) {
+  @if nth($viewport, 1) == xs {
+    @return $vs-gutter-xs;
+  }
+
+  @else if nth($viewport, 1) == sm {
+    @return $vs-gutter-sm;
+  }
+
+  @else if nth($viewport, 1) == md {
+    @return $vs-gutter-md;
+  }
+
+  @else if nth($viewport, 1) == lg {
+    @return $vs-gutter-lg;
+  }
+
+  @else if nth($viewport, 1) == xl {
+    @return $vs-gutter-xl;
+  }
+}

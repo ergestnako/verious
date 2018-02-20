@@ -1,0 +1,33 @@
+@mixin vs-row() {
+  @include vs-clearfix();
+
+  @include vs-at-breakpoint($vs-screen-xs) {
+    $gutter: gutter($vs-screen-xs);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+
+  @include vs-at-breakpoint($vs-screen-sm) {
+    $gutter: gutter($vs-screen-sm);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+
+  @include vs-at-breakpoint($vs-screen-md) {
+    $gutter: gutter($vs-screen-md);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+
+  @include vs-at-breakpoint($vs-screen-lg) {
+    $gutter: gutter($vs-screen-md);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+
+  @include vs-at-breakpoint($vs-screen-xl) {
+    $gutter: gutter($vs-screen-lg);
+    $margin: -$gutter / 2;
+    margin: 0 $margin;
+  }
+}

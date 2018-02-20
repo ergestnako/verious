@@ -1,0 +1,11 @@
+@mixin vs-at-breakpoint($viewport) {
+  @if length($viewport) == 2 {
+    @media all and (min-width: nth($viewport, 2)) {
+      @content;
+    }
+  } @else {
+    @media all and (min-width: nth($viewport, 2)) and (max-width: nth($viewport, 3)) {
+      @content;
+    }
+  }
+}

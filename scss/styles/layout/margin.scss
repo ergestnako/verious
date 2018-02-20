@@ -1,23 +1,4 @@
-//
-//    File:           _margin.scss
-//    Description:
-//
-//
-//    Table of Contents:
-//
-//    1. Base
-//    2. Extra Small
-//    3. Small
-//    4. Medium
-//    5. Large
-//    6. Extra Large
-//
-
 @for $i from 1 through 96 {
-
-  // ---------------------------------------------
-  //    1. Base
-  // ---------------------------------------------
 
   .vs-margin-top-#{$i} {
     @include vs-margin(top, $i);
@@ -34,10 +15,6 @@
   .vs-margin-left-#{$i} {
     @include vs-margin(left, $i);
   }
-
-  // ---------------------------------------------
-  //    2. Extra Small
-  // ---------------------------------------------
 
   .vs-margin-xs-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-xs) {
@@ -63,10 +40,6 @@
     }
   }
 
-  // ---------------------------------------------
-  //    3. Small
-  // ---------------------------------------------
-
   .vs-margin-sm-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-sm) {
       margin-top: $i * vs-spacing(1);
@@ -90,10 +63,6 @@
       margin-left: $i * vs-spacing(1);
     }
   }
-
-  // ---------------------------------------------
-  //    4. Medium
-  // ---------------------------------------------
 
   .vs-margin-md-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-md) {
@@ -119,10 +88,6 @@
     }
   }
 
-  // ---------------------------------------------
-  //    5. Large
-  // ---------------------------------------------
-
   .vs-margin-lg-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-lg) {
       margin-top: $i * vs-spacing(1);
@@ -146,10 +111,6 @@
       margin-left: $i * vs-spacing(1);
     }
   }
-
-  // ---------------------------------------------
-  //    6. Extra Large
-  // ---------------------------------------------
 
   .vs-margin-xl-top-#{$i} {
     @include vs-at-breakpoint($vs-screen-xl) {

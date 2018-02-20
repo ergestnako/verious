@@ -70,6 +70,13 @@ function getClassnames({ flex, direction, justifyContent, alignItems, wrap }) {
   return classNames.join(' ');
 }
 
-module.exports = props => (
+const Flex = props => (
   <div className={getClassnames(props)} style={props.style}>{props.children}</div>
 );
+
+Flex.defaultProps = {
+  flex: true,
+  direction: "row"
+};
+
+module.exports = Flex;

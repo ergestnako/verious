@@ -1,0 +1,21 @@
+@function page-margin($viewport) {
+  @if nth($viewport, 1) == xs {
+    @return $vs-page-margin-xs;
+  }
+
+  @else if nth($viewport, 1) == sm {
+    @return $vs-page-margin-sm;
+  }
+
+  @else if nth($viewport, 1) == md {
+    @return $vs-page-margin-md;
+  }
+
+  @else if nth($viewport, 1) == lg {
+    @return $vs-page-margin-lg;
+  }
+
+  @else if nth($viewport, 1) == xl {
+    @return $vs-page-margin-xl;
+  }
+}

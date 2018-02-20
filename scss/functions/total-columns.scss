@@ -1,0 +1,21 @@
+@function total-columns($viewport) {
+  @if nth($viewport, 1) == xs {
+    @return $vs-total-columns-xs;
+  }
+
+  @else if nth($viewport, 1) == sm {
+    @return $vs-total-columns-sm;
+  }
+
+  @else if nth($viewport, 1) == md {
+    @return $vs-total-columns-md;
+  }
+
+  @else if nth($viewport, 1) == lg {
+    @return $vs-total-columns-lg;
+  }
+
+  @else if nth($viewport, 1) == xl {
+    @return $vs-total-columns-xl;
+  }
+}
