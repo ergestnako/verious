@@ -4,7 +4,7 @@ function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
 
 var React = require('react');
 var utilities = require('../../utilities');
-var Layout = require('../Layout');
+var Flex = require('../Flex');
 var Spacer = require('../Spacer');
 var BackgroundColor = require('../BackgroundColor');
 
@@ -42,8 +42,8 @@ module.exports = function (_ref3) {
     'div',
     { className: getClassName({ height: height }) },
     React.createElement(
-      Layout,
-      { direction: 'vertical', style: { height: '100%' } },
+      Flex,
+      { direction: 'column', style: { height: '100%' } },
       React.createElement(Spacer, null),
       React.createElement(
         BackgroundColor,

@@ -58,10 +58,17 @@ function getClassnames(_ref) {
   return classNames.join(' ');
 }
 
-module.exports = function (props) {
+var Flex = function Flex(props) {
   return React.createElement(
     'div',
     { className: getClassnames(props), style: props.style },
     props.children
   );
 };
+
+Flex.defaultProps = {
+  flex: true,
+  direction: "row"
+};
+
+module.exports = Flex;

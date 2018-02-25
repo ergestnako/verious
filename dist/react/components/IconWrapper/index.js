@@ -2,7 +2,7 @@
 
 var React = require('react');
 var Square = require('../Square');
-var Layout = require('../Layout');
+var Flex = require('../Flex');
 
 module.exports = function (_ref) {
   var children = _ref.children,
@@ -15,9 +15,10 @@ module.exports = function (_ref) {
       backgroundColor: backgroundColor
     },
     React.createElement(
-      Layout,
+      Flex,
       {
-        direction: 'center',
+        justifyContent: 'center',
+        alignItems: 'center',
         style: { position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }
       },
       children

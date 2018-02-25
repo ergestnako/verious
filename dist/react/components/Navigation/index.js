@@ -13,7 +13,7 @@ var Container = require('../Container');
 var Row = require('../Row');
 var Column = require('../Column');
 var Wrapper = require('../Wrapper');
-var Layout = require('../Layout');
+var Flex = require('../Flex');
 var Spacer = require('../Spacer');
 var BackgroundColor = require('../BackgroundColor');
 var IconButton = require('../IconButton');
@@ -64,10 +64,10 @@ var Navigation = function (_React$Component) {
                 { span: [12, 12, 12, 12, 12] },
                 React.createElement(
                   Wrapper,
-                  { padding: [1, 0, 1, 0] },
+                  { padding: [2, 0, 2, 0] },
                   React.createElement(
-                    Layout,
-                    { direction: 'horizontal' },
+                    Flex,
+                    null,
                     this.props.left,
                     React.createElement(Spacer, null),
                     React.createElement(
