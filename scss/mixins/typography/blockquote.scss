@@ -1,6 +1,6 @@
 @mixin vs-blockquote($size: 1) {
   @include vs-clearfix();
-  border-left: (1rem / 2) solid color(grey-100);
+  border-left: (1rem / 2) solid vs-color(grey-100);
   @include vs-padding(top, 1);
   @include vs-padding(left, 1);
 }

@@ -35663,7 +35663,7 @@ caption, th, td {
 
 .verious blockquote {
   zoom: 1;
-  border-left: 0.5rem solid color(grey-100);
+  border-left: 0.5rem solid #f5f5f5;
   padding-top: 1rem;
   padding-left: 1rem; }
   .verious blockquote:before, .verious blockquote:after {
@@ -35675,7 +35675,7 @@ caption, th, td {
 
 .vs-blockquote {
   zoom: 1;
-  border-left: 0.5rem solid color(grey-100);
+  border-left: 0.5rem solid #f5f5f5;
   padding-top: 1rem;
   padding-left: 1rem; }
   .vs-blockquote:before, .vs-blockquote:after {
