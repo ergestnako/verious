@@ -1,12 +1,6 @@
 # Verious
 
-## Mission
-
-To provide a set of easy to use React components for designing static websites with Gatsby. Read more [here](https://www.verious.io).
-
-## Reference
-
-- https://www.gatsbyjs.org/
+Very serious styles and components for websites and web applications. [Read more.](https://www.verious.io)
 
 ## Getting Started
 

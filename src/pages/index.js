@@ -11,20 +11,12 @@ const Wrapper = require('../../react/components/Wrapper');
 
 module.exports = () => (
   <Page>
-    <Hero title="Verious" subtitle="Very serious styles." />
+    <Hero
+      title="Verious"
+      subtitle="Very serious styles and components for websites and web applications."
+    />
     <Wrapper padding={[8, 0, 8, 0]}>
       <Container>
-        <Row>
-          <Column span={[12, 12, 12, 12, 12]}>
-            <Heading size="2">Mission</Heading>
-            <Paragraph>
-              To provide a set of easy to use{' '}
-              <a href="https://facebook.github.io/react/">React</a> components
-              for designing static websites with{' '}
-              <a href="https://www.gatsbyjs.org/">Gatsby</a>.
-            </Paragraph>
-          </Column>
-        </Row>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
             <Heading size="2">Principles</Heading>
@@ -32,44 +24,21 @@ module.exports = () => (
         </Row>
         <Row>
           <Column span={[12, 12, 6, 6, 6]}>
-            <Heading size="3">Static Deployment</Heading>
-            <Paragraph>
-              Gatsby is used to produce a static website that can be deployed to
-              whole range of services. Verious is simply a component library
-              built for Gatsby and React applications. Check out Gatsby for more
-              information.
-            </Paragraph>
-            <Square size="2" />
-          </Column>
-          <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">Component Based Design</Heading>
             <Paragraph>
-              Component HTML, CSS, and javascript code is isolated in a single
-              React component. This abstraction allows designers to build
-              complex layouts in single files using an easy to learn HTML-like
-              syntax.
+              HTML, CSS, and javascript is encapsulated into individual React
+              components allowing designers to build complex layouts in one file
+              using JSX--an easy to learn HTML-like syntax.
             </Paragraph>
             <Square size="2" />
           </Column>
-        </Row>
-        <Row>
           <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">Reusability</Heading>
             <Paragraph>
               Components can be shared across other components and pages using a
               simple module system. This ensures a single source of truth for
-              every component which increases efficiency and even allows
-              components to be reused across projects.
-            </Paragraph>
-            <Square size="2" />
-          </Column>
-          <Column span={[12, 12, 6, 6, 6]}>
-            <Heading size="3">Vertical Rhythm</Heading>
-            <Paragraph>
-              A website should have a regular repeated rhythm built on top of a
-              common baseline to reduce friction and improve familiarity. The
-              baseline grid is responsive to viewport width breaking with the
-              responsive grid.
+              every component; increasing efficiency and allowing component
+              reuse across projects.
             </Paragraph>
             <Square size="2" />
           </Column>
@@ -78,18 +47,21 @@ module.exports = () => (
           <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">Abstract Measurements</Heading>
             <Paragraph>
-              The responsive and baseline grids provide a set of abstract
-              measurements in design. Designers are encouraged to avoid exact
-              pixels values and instead adopt units that scale across devices.
+              Measurements applied to fonts, spacing, and layout utilize
+              abstract units; the base being 1rem. Instead of referring to
+              pixels, designers refer to units.
             </Paragraph>
             <Square size="2" />
           </Column>
           <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">CSS Underneath</Heading>
             <Paragraph>
-              Under the hood, styles are written in SASS, namespaced by
-              component, and compiled to CSS. This provides an easy escape hatch
-              for translating components to vanilla CSS and HTML code.
+              Component styles depend on the{' '}
+              <a href="https://github.com/cpinnix/verious-styles">
+                Verious Styles
+              </a>{' '}
+              library; providing an escape hatch for those looking to use
+              Verious outside React.
             </Paragraph>
             <Square size="2" />
           </Column>
