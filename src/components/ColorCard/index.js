@@ -4,7 +4,7 @@ const React = require('react');
 const { Container } = require('verious-react/components/Container/Container');
 const BackgroundColor = require('../../../react/components/BackgroundColor');
 const Square = require('../../../react/components/Square');
-const Paragraph = require('../../../react/components/Paragraph');
+const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 const Shadow = require('../../../react/components/Shadow');
 const c = require('color');
 

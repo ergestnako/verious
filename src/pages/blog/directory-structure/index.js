@@ -6,9 +6,9 @@ const { Grid } = require('verious-react/components/Grid/Grid');
 const { Row } = require('verious-react/components/Row/Row');
 const { Column } = require('verious-react/components/Column/Column');
 const { Heading } = require('verious-react/components/Heading/Heading');
-const Paragraph = require('../../../../react/components/Paragraph');
+const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 const Square = require('../../../../react/components/Square');
-const Code = require('../../../../react/components/Code');
+const { Code } = require('verious-react/components/Code/Code');
 const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (

@@ -4,7 +4,7 @@ const { Grid } = require('verious-react/components/Grid/Grid');
 const { Row } = require('verious-react/components/Row/Row');
 const { Column } = require('verious-react/components/Column/Column');
 const Text = require('../../../react/components/Text');
-const Paragraph = require('../../../react/components/Paragraph');
+const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 const { Container } = require('verious-react/components/Container/Container');
 const BackgroundImage = require('../../../react/components/BackgroundImage');
 

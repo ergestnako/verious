@@ -3,7 +3,7 @@ const Link = require('gatsby-link').default;
 const { Container } = require('verious-react/components/Container/Container');
 const Flex = require('../../../react/components/Flex');
 const Spacer = require('../../../react/components/Spacer');
-const Paragraph = require('../../../react/components/Paragraph');
+const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 
 module.exports = ({ nextLink, nextLabel, previousLink, previousLabel }) => (
   <Container>
