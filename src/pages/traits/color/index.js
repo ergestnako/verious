@@ -1,11 +1,11 @@
 const React = require('react');
 const Page = require('../../../templates/Page');
 const Hero = require('../../../components/Hero');
-const Wrapper = require('../../../../react/components/Wrapper');
+const { Container } = require('verious-react/components/Container/Container');
 const ColorPalette = require('../../../components/ColorPalette');
-const Container = require('../../../../react/components/Container');
-const Row = require('../../../../react/components/Row');
-const Column = require('../../../../react/components/Column');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
 const Heading = require('../../../../react/components/Heading');
 const Square = require('../../../../react/components/Square');
 const ColorCard = require('../../../components/ColorCard');
@@ -13,7 +13,7 @@ const ColorCard = require('../../../components/ColorCard');
 module.exports = () => (
   <Page>
     <Hero title="Color" subtitle="Documentation for Color." />
-    <Wrapper padding={[8, 0, 8, 0]}>
+    <Container padding={[8, 0, 8, 0]}>
       <ColorPalette title="Red" color="vs-red" />
       <ColorPalette title="Pink" color="vs-pink" />
       <ColorPalette title="Purple" color="vs-purple" />
@@ -33,8 +33,8 @@ module.exports = () => (
       <ColorPalette title="Brown" color="vs-brown" />
       <ColorPalette title="Grey" color="vs-grey" />
       <ColorPalette title="Blue Grey" color="vs-bluegrey" />
-      <Wrapper>
-        <Container>
+      <Container>
+        <Grid>
           <Row>
             <Column span={[12, 12, 12, 12, 12]}>
               <Heading size={2}>Black and White</Heading>
@@ -48,8 +48,8 @@ module.exports = () => (
               <Square size={2} />
             </Column>
           </Row>
-        </Container>
-      </Wrapper>
-    </Wrapper>
+        </Grid>
+      </Container>
+    </Container>
   </Page>
 );

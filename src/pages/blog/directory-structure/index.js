@@ -1,10 +1,10 @@
 const React = require('react');
 const Page = require('../../../templates/Page');
 const HeroGif = require('../../../components/HeroGif');
-const Wrapper = require('../../../../react/components/Wrapper');
-const Container = require('../../../../react/components/Container');
-const Row = require('../../../../react/components/Row');
-const Column = require('../../../../react/components/Column');
+const { Container } = require('verious-react/components/Container/Container');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
 const Heading = require('../../../../react/components/Heading');
 const Paragraph = require('../../../../react/components/Paragraph');
 const Square = require('../../../../react/components/Square');
@@ -18,8 +18,8 @@ module.exports = () => (
       title="Directory Structure"
       subtitle="We don't want things to fall apart now do we?"
     />
-    <Wrapper padding={[8, 0, 8, 0]}>
-      <Container>
+    <Container padding={[8, 0, 8, 0]}>
+      <Grid>
         <Row>
           <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Heading size="2">Directory Structure</Heading>
@@ -103,7 +103,7 @@ module.exports = () => (
             />
           </Column>
         </Row>
-      </Container>
-    </Wrapper>
+      </Grid>
+    </Container>
   </Page>
 );

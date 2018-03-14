@@ -1,10 +1,10 @@
 const React = require('react');
 const Page = require('../../templates/Page');
 const Hero = require('../../components/Hero');
-const Wrapper = require('../../../react/components/Wrapper');
-const Container = require('../../../react/components/Container');
-const Row = require('../../../react/components/Row');
-const Column = require('../../../react/components/Column');
+const { Container } = require('verious-react/components/Container/Container');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
 const Paragraph = require('../../../react/components/Paragraph');
 const Code = require('../../../react/components/Code');
 const List = require('../../../react/components/List');
@@ -17,8 +17,8 @@ const Square = require('../../../react/components/Square');
 module.exports = () => (
   <Page>
     <Hero title="Typography" subtitle="Documentation for typography." />
-    <Wrapper padding={[8, 0, 8, 0]}>
-      <Container>
+    <Container padding={[8, 0, 8, 0]}>
+      <Grid>
         <Row>
           <Column span={[6, 12, 16, 4]} push={[0, 0, 0, 0]}>
             <Heading size={2}>Headings</Heading>
@@ -161,7 +161,7 @@ module.exports = () => (
             <Code>Hello World</Code>
           </Column>
         </Row>
-      </Container>
-    </Wrapper>
+      </Grid>
+    </Container>
   </Page>
 );

@@ -1,14 +1,14 @@
-const React = require('react');
-const Container = require('../Container');
-const Row = require('../Row');
-const Column = require('../Column');
-const Wrapper = require('../Wrapper');
-const Flex = require('../Flex');
-const Spacer = require('../Spacer');
-const BackgroundColor = require('../BackgroundColor');
-const IconButton = require('../IconButton');
-const IconMenu = require('../IconMenu');
-const Measure = require('react-measure').default;
+import React from 'react';
+import Measure from 'react-measure';
+import { Container } from 'verious-react/components/Container/Container';
+import { Grid } from 'verious-react/components/Grid/Grid';
+import { Row } from 'verious-react/components/Row/Row';
+import { Column } from 'verious-react/components/Column/Column';
+import Flex from '../Flex';
+import Spacer from '../Spacer';
+import BackgroundColor from '../BackgroundColor';
+import IconButton from '../IconButton';
+import IconMenu from '../IconMenu';
 
 class Navigation extends React.Component {
   constructor() {
@@ -28,11 +28,11 @@ class Navigation extends React.Component {
 
     return (
       <BackgroundColor color={this.props.backgroundColor || 'vs-white'}>
-        <Wrapper>
-          <Container>
+        <Container>
+          <Grid>
             <Row>
               <Column span={[12, 12, 12, 12, 12]}>
-                <Wrapper padding={[2, 0, 2, 0]}>
+                <Container padding={[2, 0, 2, 0]}>
                   <Flex>
                     {this.props.left}
                     <Spacer />
@@ -61,10 +61,10 @@ class Navigation extends React.Component {
                       />
                     </IconButton>
                   </Flex>
-                </Wrapper>
+                </Container>
               </Column>
             </Row>
-          </Container>
+          </Grid>
           <div
             style={{
               overflow: 'hidden',
@@ -85,7 +85,7 @@ class Navigation extends React.Component {
               )}
             </Measure>
           </div>
-        </Wrapper>
+        </Container>
       </BackgroundColor>
     );
   }

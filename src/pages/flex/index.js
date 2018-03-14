@@ -1,10 +1,10 @@
 const React = require('react');
 const Page = require('../../templates/Page');
 const Hero = require('../../components/Hero');
-const Wrapper = require('../../../react/components/Wrapper');
-const Container = require('../../../react/components/Container');
-const Row = require('../../../react/components/Row');
-const Column = require('../../../react/components/Column');
+const { Container } = require('verious-react/components/Container/Container');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
 const Flex = require('../../../react/components/Flex');
 const Square = require('../../../react/components/Square');
 const BackgroundColor = require('../../../react/components/BackgroundColor');
@@ -12,8 +12,8 @@ const BackgroundColor = require('../../../react/components/BackgroundColor');
 module.exports = () => (
   <Page>
     <Hero title="Flex" subtitle="Documentation for flex." />
-    <Wrapper padding={[8, 0, 8, 0]}>
-      <Container>
+    <Container padding={[8, 0, 8, 0]}>
+      <Grid>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
             <BackgroundColor color="vs-grey-500">
@@ -39,7 +39,7 @@ module.exports = () => (
             </BackgroundColor>
           </Column>
         </Row>
-      </Container>
-    </Wrapper>
+      </Grid>
+    </Container>
   </Page>
 );

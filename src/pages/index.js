@@ -1,13 +1,12 @@
-const React = require('react');
-const Page = require('../templates/Page');
-const Square = require('../../react/components/Square');
-const Container = require('../../react/components/Container');
-const Row = require('../../react/components/Row');
-const Column = require('../../react/components/Column');
-const Hero = require('../components/Hero');
-const Heading = require('../../react/components/Heading');
-const Paragraph = require('../../react/components/Paragraph');
-const Wrapper = require('../../react/components/Wrapper');
+import React from 'react';
+import { Grid } from 'verious-react/components/Grid/Grid';
+import { Row } from 'verious-react/components/Row/Row';
+import { Column } from 'verious-react/components/Column/Column';
+import { Heading } from 'verious-react/components/Heading/Heading';
+import { Paragraph } from 'verious-react/components/Paragraph/Paragraph';
+import Page from '../templates/Page';
+import Square from '../../react/components/Square';
+import Hero from '../components/Hero';
 
 module.exports = () => (
   <Page>
@@ -15,8 +14,8 @@ module.exports = () => (
       title="Verious"
       subtitle="Very serious styles and components for websites and web applications."
     />
-    <Wrapper padding={[8, 0, 8, 0]}>
-      <Container>
+    <Grid padding={[8, 0, 8, 0]}>
+      <Grid>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
             <Heading size="2">Principles</Heading>
@@ -66,7 +65,7 @@ module.exports = () => (
             <Square size="2" />
           </Column>
         </Row>
-      </Container>
-    </Wrapper>
+      </Grid>
+    </Grid>
   </Page>
 );

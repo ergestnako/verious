@@ -1,9 +1,9 @@
 const React = require('react');
 const Page = require('../../../templates/Page');
 const Hero = require('../../../components/Hero');
-const Container = require('../../../../react/components/Container');
-const Row = require('../../../../react/components/Row');
-const Column = require('../../../../react/components/Column');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
 const Angle = require('../../../../react/components/Angle');
 const Flex = require('../../../../react/components/Flex');
 const Heading = require('../../../../react/components/Heading');
@@ -12,7 +12,7 @@ const Code = require('../../../../react/components/Code');
 module.exports = () => (
   <Page>
     <Hero title="Angle" subtitle="Documentation for angle." />
-    <Container>
+    <Grid>
       <Row>
         <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
           <Flex
@@ -76,6 +76,6 @@ module.exports = () =>
           </Flex>
         </Column>
       </Row>
-    </Container>
+    </Grid>
   </Page>
 );

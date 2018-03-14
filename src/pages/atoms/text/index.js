@@ -2,10 +2,10 @@ const React = require('react');
 const Page = require('../../../templates/Page');
 const Hero = require('../../../components/Hero');
 const BackgroundColor = require('../../../../react/components/BackgroundColor');
-const Wrapper = require('../../../../react/components/Wrapper');
-const Container = require('../../../../react/components/Container');
-const Row = require('../../../../react/components/Row');
-const Column = require('../../../../react/components/Column');
+const { Container } = require('verious-react/components/Container/Container');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
 const Heading = require('../../../../react/components/Heading');
 const Paragraph = require('../../../../react/components/Paragraph');
 const Code = require('../../../../react/components/Code');
@@ -16,8 +16,8 @@ const Text = require('../../../../react/components/Text');
 module.exports = () => (
   <Page>
     <Hero title="Text" />
-    <Wrapper padding={[8, 0, 8, 0]}>
-      <Container>
+    <Container padding={[8, 0, 8, 0]}>
+      <Grid>
         <Row>
           <Column span={[12, 12, 10, 6, 6]}>
             <Heading size={2}>Overview</Heading>
@@ -48,14 +48,14 @@ module.exports = () => (
           <Column span={[12, 12, 12, 12, 12]}>
             <Heading size={2}>Use Cases</Heading>
             <BackgroundColor color="vs-grey-200">
-              <Wrapper padding={[2, 2, 1, 2]}>
+              <Container padding={[2, 2, 1, 2]}>
                 <Text size={0} font="helvetica" color="vs-black">
                   Sample black, helvetica text in size 0.
                 </Text>
-              </Wrapper>
+              </Container>
             </BackgroundColor>
             <BackgroundColor color="vs-grey-100">
-              <Wrapper padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
+              <Container padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
                 <Code>
                   {`
 <Text
@@ -67,10 +67,10 @@ module.exports = () => (
 </Text>
             `}
                 </Code>
-              </Wrapper>
+              </Container>
             </BackgroundColor>
             <BackgroundColor color="vs-blue-500">
-              <Wrapper padding={[2, 2, 2, 2]}>
+              <Container padding={[2, 2, 2, 2]}>
                 <Text
                   size={12}
                   font="helvetica"
@@ -79,10 +79,10 @@ module.exports = () => (
                 >
                   Bold, white, helvetica text in size 12.
                 </Text>
-              </Wrapper>
+              </Container>
             </BackgroundColor>
             <BackgroundColor color="vs-grey-100">
-              <Wrapper padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
+              <Container padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
                 <Code>
                   {`
 <Text
@@ -95,10 +95,10 @@ module.exports = () => (
 </Text>
             `}
                 </Code>
-              </Wrapper>
+              </Container>
             </BackgroundColor>
             <BackgroundColor color="vs-purple-500">
-              <Wrapper padding={[8, 2, 8, 2]}>
+              <Container padding={[8, 2, 8, 2]}>
                 <Text
                   size={14}
                   font="helvetica"
@@ -115,10 +115,10 @@ module.exports = () => (
                 >
                   Profound
                 </Text>
-              </Wrapper>
+              </Container>
             </BackgroundColor>
             <BackgroundColor color="vs-grey-100">
-              <Wrapper padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
+              <Container padding={[2, 2, 2, 2]} margin={[0, 0, 2, 0]}>
                 <Code>
                   {`
 <Text
@@ -139,11 +139,11 @@ module.exports = () => (
 </Text>
             `}
                 </Code>
-              </Wrapper>
+              </Container>
             </BackgroundColor>
           </Column>
         </Row>
-      </Container>
-    </Wrapper>
+      </Grid>
+    </Container>
   </Page>
 );

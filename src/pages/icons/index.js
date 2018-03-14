@@ -1,18 +1,18 @@
 const React = require('react');
 const Page = require('../../templates/Page');
 const Hero = require('../../components/Hero');
-const Wrapper = require('../../../react/components/Wrapper');
-const Container = require('../../../react/components/Container');
-const Row = require('../../../react/components/Row');
-const Column = require('../../../react/components/Column');
+const { Container } = require('verious-react/components/Container/Container');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
 const IconMenu = require('../../../react/components/IconMenu');
 const IconWrapper = require('../../../react/components/IconWrapper');
 
 module.exports = () => (
   <Page>
     <Hero title="Icons" subtitle="Documentation for icons." />
-    <Wrapper padding={[8, 0, 8, 0]}>
-      <Container>
+    <Container padding={[8, 0, 8, 0]}>
+      <Grid>
         <Row>
           <Column span={[6, 12, 16, 16]} push={[0, 0, 0, 0]}>
             <IconWrapper>
@@ -27,7 +27,7 @@ module.exports = () => (
             </IconWrapper>
           </Column>
         </Row>
-      </Container>
-    </Wrapper>
+      </Grid>
+    </Container>
   </Page>
 );

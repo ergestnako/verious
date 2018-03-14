@@ -1,20 +1,20 @@
-const React = require('react');
-const Wrapper = require('../../../react/components/Wrapper');
-const Container = require('../../../react/components/Container');
-const Row = require('../../../react/components/Row');
-const Column = require('../../../react/components/Column');
-const Paragraph = require('../../../react/components/Paragraph');
-const BackgroundColor = require('../../../react/components/BackgroundColor');
-const HorizontalRule = require('../../../react/components/HorizontalRule');
-const Square = require('../../../react/components/Square');
-const Utilities = require('../../../react/utilities');
-const Logo = require('../Logo');
+import React from 'react';
+import { Container } from 'verious-react/components/Container/Container';
+import { Grid } from 'verious-react/components/Grid/Grid';
+import { Row } from 'verious-react/components/Row/Row';
+import { Column } from 'verious-react/components/Column/Column';
+import { Paragraph } from 'verious-react/components/Paragraph/Paragraph';
+import { BackgroundColor } from 'verious-react/components/BackgroundColor/BackgroundColor';
+import HorizontalRule from '../../../react/components/HorizontalRule';
+import Square from '../../../react/components/Square';
+import Utilities from '../../../react/utilities';
+import Logo from '../Logo';
 
 module.exports = () => (
   <BackgroundColor color="vs-white">
     <HorizontalRule lineColor="vs-grey-300" height={4} />
-    <Wrapper padding={[4, 0, 4, 0]}>
-      <Container>
+    <Container padding={[4, 0, 4, 0]}>
+      <Grid>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
             <Logo
@@ -30,7 +30,7 @@ module.exports = () => (
             </Paragraph>
           </Column>
         </Row>
-      </Container>
-    </Wrapper>
+      </Grid>
+    </Container>
   </BackgroundColor>
 );

@@ -1,36 +1,30 @@
-const React = require('react');
-const PropTypes = require('prop-types');
-const Container = require('../../../react/components/Container');
-const Row = require('../../../react/components/Row');
-const Column = require('../../../react/components/Column');
-const Paragraph = require('../../../react/components/Paragraph');
-const Text = require('../../../react/components/Text');
-const Wrapper = require('../../../react/components/Wrapper');
-const BackgroundColor = require('../../../react/components/BackgroundColor');
-const HorizontalRule = require('../../../react/components/HorizontalRule');
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Container } from 'verious-react/components/Container/Container';
+import { Grid } from 'verious-react/components/Grid/Grid';
+import { Row } from 'verious-react/components/Row/Row';
+import { Column } from 'verious-react/components/Column/Column';
+import { Heading } from 'verious-react/components/Heading/Heading';
+import { Paragraph } from 'verious-react/components/Paragraph/Paragraph';
+import { BackgroundColor } from 'verious-react/components/BackgroundColor/BackgroundColor';
+import HorizontalRule from '../../../react/components/HorizontalRule';
 
 const component = ({ title, subtitle }) => (
   <BackgroundColor color="vs-white">
-    <Wrapper padding={[12, 0, 8, 0]}>
-      <Container>
+    <Container padding={[12, 0, 8, 0]}>
+      <Grid>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
-            <Text
-              tag="h1"
-              size={16}
-              font="helvetica"
-              color="vs-cyan-a400"
-              style={{ fontWeight: '700', letterSpacing: -6, marginLeft: -8 }}
-            >
+            <Heading size={1} textColor="cyan-a400">
               {title}
-            </Text>
+            </Heading>
             {subtitle && (
               <Paragraph textColor="vs-grey-500">{subtitle}</Paragraph>
             )}
           </Column>
         </Row>
-      </Container>
-    </Wrapper>
+      </Grid>
+    </Container>
     <HorizontalRule lineColor="vs-grey-300" height={4} />
   </BackgroundColor>
 );

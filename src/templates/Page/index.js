@@ -2,17 +2,17 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import Link from 'gatsby-link';
 import 'animate.css/animate.css';
+import 'verious-styles/css/verious-styles.css';
+import { Container } from 'verious-react/components/Container/Container';
+import { Grid } from 'verious-react/components/Grid/Grid';
+import { Row } from 'verious-react/components/Row/Row';
+import { Column } from 'verious-react/components/Column/Column';
+import { List } from 'verious-react/components/List/List';
+import { ListItem } from 'verious-react/components/ListItem/ListItem';
 import '../../../scss/styles.scss';
 import Navigation from '../../../react/components/Navigation';
-import List from '../../../react/components/List';
-import ListItem from '../../../react/components/ListItem';
 import Footer from '../../components/Footer';
 import Baseline from '../../../react/components/Baseline';
-import Square from '../../../react/components/Square';
-import Wrapper from '../../../react/components/Wrapper';
-import Container from '../../../react/components/Container';
-import Row from '../../../react/components/Row';
-import Column from '../../../react/components/Column';
 import Utilities from '../../../react/utilities';
 import Logo from '../../components/Logo';
 
@@ -38,8 +38,8 @@ export default ({ children }) => (
         </div>
       }
     >
-      <Wrapper padding={[2, 0, 2, 0]}>
-        <Container>
+      <Container padding={[2, 0, 2, 0]}>
+        <Grid>
           <Row>
             <Column span={[12, 12, 12, 12, 12]}>
               <List unstyled>
@@ -77,8 +77,8 @@ export default ({ children }) => (
               </List>
             </Column>
           </Row>
-        </Container>
-      </Wrapper>
+        </Grid>
+      </Container>
     </Navigation>
     {children}
     <Footer />
