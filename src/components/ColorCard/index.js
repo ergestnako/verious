@@ -1,7 +1,7 @@
 /* global window */
 
 const React = require('react');
-const Wrapper = require('../../../react/components/Wrapper');
+const { Container } = require('verious-react/components/Container/Container');
 const BackgroundColor = require('../../../react/components/BackgroundColor');
 const Square = require('../../../react/components/Square');
 const Paragraph = require('../../../react/components/Paragraph');
@@ -37,7 +37,7 @@ class ColorCard extends React.Component {
   render() {
     return (
       <Shadow depth={1}>
-        <Wrapper>
+        <Container>
           <div
             ref={element => {
               this.colorElement = element;
@@ -46,13 +46,13 @@ class ColorCard extends React.Component {
             <BackgroundColor color={this.props.color}>
               <Square size={8} />
             </BackgroundColor>
-            <Wrapper padding={[2, 2, 1, 2]}>
+            <Container padding={[2, 2, 1, 2]}>
               <Paragraph>{this.props.color}</Paragraph>
               <Paragraph>{this.state.rgb}</Paragraph>
               <Paragraph>{this.state.hex}</Paragraph>
-            </Wrapper>
+            </Container>
           </div>
-        </Wrapper>
+        </Container>
       </Shadow>
     );
   }

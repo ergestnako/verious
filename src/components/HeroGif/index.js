@@ -1,17 +1,17 @@
 const React = require('react');
 const PropTypes = require('prop-types');
-const Container = require('../../../react/components/Container');
-const Row = require('../../../react/components/Row');
-const Column = require('../../../react/components/Column');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
 const Text = require('../../../react/components/Text');
 const Paragraph = require('../../../react/components/Paragraph');
-const Wrapper = require('../../../react/components/Wrapper');
+const { Container } = require('verious-react/components/Container/Container');
 const BackgroundImage = require('../../../react/components/BackgroundImage');
 
 const component = ({ source, title, subtitle }) => (
-  <Wrapper backgroundColor="vs-cyan-a400">
+  <Container backgroundColor="vs-cyan-a400">
     <BackgroundImage source={source}>
-      <Wrapper padding={[12, 0, 12, 0]}>
+      <Container padding={[12, 0, 12, 0]}>
         <Container>
           <Row>
             <Column span={[12, 12, 12, 12, 12]}>
@@ -30,9 +30,9 @@ const component = ({ source, title, subtitle }) => (
             </Column>
           </Row>
         </Container>
-      </Wrapper>
+      </Container>
     </BackgroundImage>
-  </Wrapper>
+  </Container>
 );
 
 component.propTypes = {

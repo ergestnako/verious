@@ -1,13 +1,13 @@
 const React = require('react');
-const Container = require('../../../react/components/Container');
-const Row = require('../../../react/components/Row');
-const Column = require('../../../react/components/Column');
-const Heading = require('../../../react/components/Heading');
+const { Grid } = require('verious-react/components/Grid/Grid');
+const { Row } = require('verious-react/components/Row/Row');
+const { Column } = require('verious-react/components/Column/Column');
+const { Heading } = require('verious-react/components/Heading/Heading');
 const Square = require('../../../react/components/Square');
 const ColorCard = require('../../components/ColorCard');
 
 module.exports = ({ title, color }) => (
-  <Container>
+  <Grid>
     <Row>
       <Column span={[12, 12, 12, 12, 12]}>
         <Heading size={2}>{title}</Heading>
@@ -69,5 +69,5 @@ module.exports = ({ title, color }) => (
         <Square size={2} />
       </Column>
     </Row>
-  </Container>
+  </Grid>
 );

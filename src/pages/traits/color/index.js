@@ -2,11 +2,11 @@ const React = require('react');
 const Page = require('../../../templates/Page');
 const Hero = require('../../../components/Hero');
 const { Container } = require('verious-react/components/Container/Container');
-const ColorPalette = require('../../../components/ColorPalette');
 const { Grid } = require('verious-react/components/Grid/Grid');
 const { Row } = require('verious-react/components/Row/Row');
 const { Column } = require('verious-react/components/Column/Column');
-const Heading = require('../../../../react/components/Heading');
+const { Heading } = require('verious-react/components/Heading/Heading');
+const ColorPalette = require('../../../components/ColorPalette');
 const Square = require('../../../../react/components/Square');
 const ColorCard = require('../../../components/ColorCard');
 

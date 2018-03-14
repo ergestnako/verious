@@ -1,4 +1,5 @@
 import React from 'react';
+import { Container } from 'verious-react/components/Container/Container';
 import { Grid } from 'verious-react/components/Grid/Grid';
 import { Row } from 'verious-react/components/Row/Row';
 import { Column } from 'verious-react/components/Column/Column';
@@ -14,7 +15,7 @@ module.exports = () => (
       title="Verious"
       subtitle="Very serious styles and components for websites and web applications."
     />
-    <Grid padding={[8, 0, 8, 0]}>
+    <Container padding={[8, 0, 8, 0]}>
       <Grid>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
@@ -66,6 +67,6 @@ module.exports = () => (
           </Column>
         </Row>
       </Grid>
-    </Grid>
+    </Container>
   </Page>
 );
