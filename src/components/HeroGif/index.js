@@ -18,9 +18,7 @@ const component = ({ source, title, subtitle }) => (
               <Heading size={1} textColor="white">
                 {title}
               </Heading>
-              {subtitle && (
-                <Paragraph textColor="vs-white">{subtitle}</Paragraph>
-              )}
+              {subtitle && <Paragraph textColor="white">{subtitle}</Paragraph>}
             </Column>
           </Row>
         </Grid>

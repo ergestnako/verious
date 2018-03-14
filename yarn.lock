@@ -8513,18 +8513,18 @@ vendors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.1.tgz#37ad73c8ee417fb3d580e785312307d274847f22"
 
-verious-react@0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/verious-react/-/verious-react-0.0.5.tgz#06fe52fbcebaae7da8fe758edc315cbf1a5fbc8c"
+verious-react@0.0.7:
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/verious-react/-/verious-react-0.0.7.tgz#78cf37954dd966ba4dfa0481707237589ec5cc9e"
   dependencies:
     "@babel/plugin-proposal-object-rest-spread" "^7.0.0-beta.40"
     babel-plugin-transform-object-rest-spread "^6.26.0"
     prop-types "^15.6.1"
     react "^16.2.0"
 
-verious-styles@^0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/verious-styles/-/verious-styles-0.0.6.tgz#177889562b1e637d818dc5646dc304b7915657a9"
+verious-styles@0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/verious-styles/-/verious-styles-0.0.8.tgz#7d6593fea37ca851edcc8c5b41435d4c3b68ca72"
 
 verror@1.10.0:
   version "1.10.0"

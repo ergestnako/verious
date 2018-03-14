@@ -16,8 +16,8 @@ import Baseline from '../../../react/components/Baseline';
 import Utilities from '../../../react/utilities';
 import Logo from '../../components/Logo';
 
-const PRIMARY_TEXT_COLOR = 'vs-black';
-const SECONDARY_TEXT_COLOR = 'vs-grey-400';
+const PRIMARY_TEXT_COLOR = 'black';
+const SECONDARY_TEXT_COLOR = 'grey-400';
 
 export default ({ children }) => (
   <div style={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
@@ -61,12 +61,6 @@ export default ({ children }) => (
                 <ListItem textColor={PRIMARY_TEXT_COLOR}>
                   <Link to="/traits/color/" href="/traits/color/">
                     Color
-                  </Link>
-                </ListItem>
-                <ListItem textColor={SECONDARY_TEXT_COLOR}>Atoms</ListItem>
-                <ListItem textColor={PRIMARY_TEXT_COLOR}>
-                  <Link to="/atoms/text/" href="/atoms/text/">
-                    Text
                   </Link>
                 </ListItem>
               </List>

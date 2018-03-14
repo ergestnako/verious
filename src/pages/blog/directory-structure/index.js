@@ -8,6 +8,9 @@ const { Column } = require('verious-react/components/Column/Column');
 const { Heading } = require('verious-react/components/Heading/Heading');
 const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 const { Code } = require('verious-react/components/Code/Code');
+const {
+  BackgroundColor
+} = require('verious-react/components/BackgroundColor/BackgroundColor');
 const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (
@@ -17,7 +20,7 @@ module.exports = () => (
       title="Directory Structure"
       subtitle="We don't want things to fall apart now do we?"
     />
-    <Container padding={[8, 0, 8, 0]}>
+    <Container padding={[8, 0, 2, 0]}>
       <Grid>
         <Row>
           <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
@@ -25,6 +28,15 @@ module.exports = () => (
             <Paragraph>
               Inside the source directory files are organized like so:
             </Paragraph>
+          </Column>
+        </Row>
+      </Grid>
+    </Container>
+    <BackgroundColor color="grey-100">
+      <Container padding={[4, 0, 4, 0]}>
+        <Grid>
+          <Row>
+            <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Code>{`
 /src
   /pages
@@ -34,6 +46,15 @@ module.exports = () => (
       index.js
   html.js
             `}</Code>
+            </Column>
+          </Row>
+        </Grid>
+      </Container>
+    </BackgroundColor>
+    <Container padding={[2, 0, 2, 0]}>
+      <Grid>
+        <Row>
+          <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Paragraph>
               The html.js file wraps every page on the website and for now, it
               is safe to ignore this file. The /src/pages/index.js file is the
@@ -49,6 +70,15 @@ module.exports = () => (
               drop a new index.js file inside. The directory structure would
               look like:
             </Paragraph>
+          </Column>
+        </Row>
+      </Grid>
+    </Container>
+    <BackgroundColor color="grey-100">
+      <Container padding={[4, 0, 4, 0]}>
+        <Grid>
+          <Row>
+            <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Code>{`
 /src
   /pages
@@ -60,6 +90,15 @@ module.exports = () => (
       index.js
   html.js
             `}</Code>
+            </Column>
+          </Row>
+        </Grid>
+      </Container>
+    </BackgroundColor>
+    <Container padding={[2, 0, 2, 0]}>
+      <Grid>
+        <Row>
+          <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Paragraph>
               The about page would be accessed in the browser at
               example.com/about. In this way, an entire website can be
@@ -73,6 +112,15 @@ module.exports = () => (
               throughout the website. We would simple drop them inside our new
               /src/components directory like so:
             </Paragraph>
+          </Column>
+        </Row>
+      </Grid>
+    </Container>
+    <BackgroundColor color="grey-100">
+      <Container padding={[4, 0, 4, 0]}>
+        <Grid>
+          <Row>
+            <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Code>{`
 /src
   /components
@@ -91,6 +139,15 @@ module.exports = () => (
       index.js
   html.js
             `}</Code>
+            </Column>
+          </Row>
+        </Grid>
+      </Container>
+    </BackgroundColor>
+    <Container padding={[2, 0, 8, 0]}>
+      <Grid>
+        <Row>
+          <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Paragraph>
               This structure provides the basic building blocks for building a
               website.

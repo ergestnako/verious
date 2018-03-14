@@ -8,6 +8,7 @@ const { Column } = require('verious-react/components/Column/Column');
 const { Heading } = require('verious-react/components/Heading/Heading');
 const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 const { Code } = require('verious-react/components/Code/Code');
+const { BackgroundColor } = require('verious-react/components/BackgroundColor/BackgroundColor');
 const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (
@@ -17,7 +18,7 @@ module.exports = () => (
       title="Installation"
       subtitle="Things are going to get serious kids."
     />
-    <Container padding={[8, 0, 8, 0]}>
+    <Container padding={[8, 0, 2, 0]}>
       <Grid>
         <Row>
           <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
@@ -37,18 +38,54 @@ module.exports = () => (
               comes with Gatsby and Verious code built right in. To start a new
               website with the boilerplate run:
             </Paragraph>
-            <Code>{`
+          </Column>
+        </Row>
+      </Grid>
+    </Container>
+    <BackgroundColor color="grey-100">
+      <Container padding={[4, 0, 4, 0]}>
+        <Grid>
+          <Row>
+            <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
+              <Code>{`
 gatsby new [SITE_DIRECTORY] https://github.com/cpinnix/verious-boilerplate
-            `}</Code>
+              `}</Code>
+            </Column>
+          </Row>
+        </Grid>
+      </Container>
+    </BackgroundColor>
+    <Container padding={[2, 0, 2, 0]}>
+      <Grid>
+        <Row>
+          <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Paragraph />
             <Paragraph>
               This project requires a handful of dependencies to run and
               luckily, these can be retrieved with a single command:
             </Paragraph>
+          </Column>
+        </Row>
+      </Grid>
+    </Container>
+    <BackgroundColor color="grey-100">
+      <Container padding={[4, 0, 4, 0]}>
+        <Grid>
+          <Row>
+            <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Code>{`
 cd [SITE_DIRECTORY]
 yarn install
             `}</Code>
+            </Column>
+          </Row>
+        </Grid>
+      </Container>
+    </BackgroundColor>
+    <Container padding={[3, 0, 8, 0]}>
+      <Grid>
+        <Row>
+          <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Paragraph>
               After these dependencies install, we are ready to rock. But first,
               we must learn to{' '}
