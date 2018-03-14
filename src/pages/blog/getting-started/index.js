@@ -8,7 +8,6 @@ const { Column } = require('verious-react/components/Column/Column');
 const { Heading } = require('verious-react/components/Heading/Heading');
 const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 const { Code } = require('verious-react/components/Code/Code');
-const Square = require('../../../../react/components/Square');
 const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (
@@ -55,7 +54,7 @@ yarn install
               we must learn to{' '}
               <a href="/blog/develop-and-deploy/">develop and deploy</a>.
             </Paragraph>
-            <Square size="8" />
+            <Container height={2} />
             <Navigator
               nextLink="/blog/develop-and-deploy/"
               nextLabel="Develop and Deploy"

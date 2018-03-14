@@ -7,7 +7,6 @@ const { Row } = require('verious-react/components/Row/Row');
 const { Column } = require('verious-react/components/Column/Column');
 const { Heading } = require('verious-react/components/Heading/Heading');
 const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
-const Square = require('../../../../react/components/Square');
 const { Code } = require('verious-react/components/Code/Code');
 const Navigator = require('../../../components/Navigator');
 
@@ -96,7 +95,7 @@ module.exports = () => (
               This structure provides the basic building blocks for building a
               website.
             </Paragraph>
-            <Square size="8" />
+            <Container height={2} />
             <Navigator
               previousLink="/blog/develop-and-deploy/"
               previousLabel="Develop and Deploy"

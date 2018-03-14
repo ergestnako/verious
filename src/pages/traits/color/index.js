@@ -7,7 +7,6 @@ const { Row } = require('verious-react/components/Row/Row');
 const { Column } = require('verious-react/components/Column/Column');
 const { Heading } = require('verious-react/components/Heading/Heading');
 const ColorPalette = require('../../../components/ColorPalette');
-const Square = require('../../../../react/components/Square');
 const ColorCard = require('../../../components/ColorCard');
 
 module.exports = () => (
@@ -41,11 +40,11 @@ module.exports = () => (
             </Column>
             <Column span={[6, 6, 4, 4, 4]}>
               <ColorCard color="vs-white" />
-              <Square size={2} />
+              <Container height={2} />
             </Column>
             <Column span={[6, 6, 4, 4, 4]}>
               <ColorCard color="vs-black" />
-              <Square size={2} />
+              <Container height={2} />
             </Column>
           </Row>
         </Grid>

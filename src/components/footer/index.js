@@ -6,7 +6,6 @@ import { Column } from 'verious-react/components/Column/Column';
 import { Paragraph } from 'verious-react/components/Paragraph/Paragraph';
 import { BackgroundColor } from 'verious-react/components/BackgroundColor/BackgroundColor';
 import HorizontalRule from '../../../react/components/HorizontalRule';
-import Square from '../../../react/components/Square';
 import Utilities from '../../../react/utilities';
 import Logo from '../Logo';
 
@@ -22,7 +21,7 @@ module.exports = () => (
               circleColor={Utilities.getInternalColor('vs-cyan-a400')}
               overlayColor={Utilities.getInternalColor('vs-black')}
             />
-            <Square size={4} />
+            <Container height={4} />
             <Paragraph textColor="vs-black">
               This site is generated with{' '}
               <a href="https://www.gatsbyjs.org/">Gatsby</a> and built with love

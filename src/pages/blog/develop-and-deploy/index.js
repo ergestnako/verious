@@ -8,7 +8,6 @@ const { Column } = require('verious-react/components/Column/Column');
 const { Heading } = require('verious-react/components/Heading/Heading');
 const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 const { Code } = require('verious-react/components/Code/Code');
-const Square = require('../../../../react/components/Square');
 const Navigator = require('../../../components/Navigator');
 
 module.exports = () => (
@@ -30,9 +29,7 @@ module.exports = () => (
               <a href="http://localhost:8000">http://localhost:8000</a> and live
               reloads the website as you make changes. To start development run:
             </Paragraph>
-            <Code>{`
-yarn develop
-            `}</Code>
+            <Code>yarn develop</Code>
             <Paragraph>
               Now if we hit{' '}
               <a href="http://localhost:8000">http://localhost:8000</a> in the
@@ -42,9 +39,7 @@ yarn develop
               We can build the site now using the build script. Simply stop the
               development script with ctrl + c and run:
             </Paragraph>
-            <Code>{`
-yarn build
-            `}</Code>
+            <Code>yarn build</Code>
             <Paragraph>
               The site is now built to the /public directory where is can be
               deployed to any static hosting service. Our favorite is{' '}
@@ -52,7 +47,7 @@ yarn build
               the Netlify quickstart{' '}
               <a href="https://www.netlify.com/docs/">here</a>.
             </Paragraph>
-            <Square size="8" />
+            <Container height={2} />
             <Navigator
               previousLink="/blog/getting-started/"
               previousLabel="Getting Started"

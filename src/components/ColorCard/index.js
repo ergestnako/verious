@@ -3,7 +3,6 @@
 const React = require('react');
 const { Container } = require('verious-react/components/Container/Container');
 const BackgroundColor = require('../../../react/components/BackgroundColor');
-const Square = require('../../../react/components/Square');
 const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
 const Shadow = require('../../../react/components/Shadow');
 const c = require('color');
@@ -44,7 +43,7 @@ class ColorCard extends React.Component {
             }}
           >
             <BackgroundColor color={this.props.color}>
-              <Square size={8} />
+              <Container height={2} />
             </BackgroundColor>
             <Container padding={[2, 2, 1, 2]}>
               <Paragraph>{this.props.color}</Paragraph>

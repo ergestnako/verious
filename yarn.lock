@@ -8513,9 +8513,9 @@ vendors@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.1.tgz#37ad73c8ee417fb3d580e785312307d274847f22"
 
-verious-react@0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/verious-react/-/verious-react-0.0.4.tgz#4f4dd5a083018c2970cfad2d6a9c2e04addd9f1b"
+verious-react@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/verious-react/-/verious-react-0.0.5.tgz#06fe52fbcebaae7da8fe758edc315cbf1a5fbc8c"
   dependencies:
     "@babel/plugin-proposal-object-rest-spread" "^7.0.0-beta.40"
     babel-plugin-transform-object-rest-spread "^6.26.0"
