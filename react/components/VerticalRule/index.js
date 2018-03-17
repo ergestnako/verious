@@ -1,5 +1,5 @@
-const React = require('react');
-const BackgroundColor = require('../BackgroundColor');
+import React from 'react';
+import { BackgroundColor } from 'verious-react/components/BackgroundColor/BackgroundColor';
 
 function getClassName({ height }) {
   let classes = ['vs-vertical-rule'];
