@@ -5,7 +5,7 @@ function getClassName({ height }) {
   let classes = ['vs-vertical-rule'];
 
   if (height) {
-    classes = [...classes, `vs-vertical-rule--${height}`];
+    classes = [...classes, `vs-vertical-rule-${height}`];
   }
 
   return classes.join(' ');

@@ -11,7 +11,7 @@ function getClassName(_ref) {
   var classes = ['vs-vertical-rule'];
 
   if (height) {
-    classes = [].concat(_toConsumableArray(classes), ['vs-vertical-rule--' + height]);
+    classes = [].concat(_toConsumableArray(classes), ['vs-vertical-rule-' + height]);
   }
 
   return classes.join(' ');
