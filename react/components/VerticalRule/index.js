@@ -1,8 +1,9 @@
 import React from 'react';
-import { BackgroundColor } from 'verious-react/components/BackgroundColor/BackgroundColor';
 
-function getClassName({ height }) {
+function getClassName({ height, lineColor }) {
   let classes = ['vs-vertical-rule'];
+
+  classes = [...classes, `vs-background-color-${lineColor}`];
 
   if (height) {
     classes = [...classes, `vs-vertical-rule-${height}`];
@@ -12,7 +13,5 @@ function getClassName({ height }) {
 }
 
 module.exports = ({ height, style, lineColor }) => (
-  <BackgroundColor color={lineColor} style={{ display: 'table' }}>
-    <div className={getClassName({ height })} />
-  </BackgroundColor>
+  <div className={getClassName({ height })} />
 );
