@@ -1,15 +1,20 @@
 'use strict';
 
-var React = require('react');
-var BackgroundColor = require('../BackgroundColor');
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _BackgroundColor = require('verious-react/components/BackgroundColor/BackgroundColor');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function (_ref) {
   var children = _ref.children,
       backgroundColor = _ref.backgroundColor;
-  return React.createElement(
-    BackgroundColor,
+  return _react2.default.createElement(
+    _BackgroundColor.BackgroundColor,
     { color: backgroundColor, style: { display: 'table' } },
-    React.createElement(
+    _react2.default.createElement(
       'div',
       { className: 'vs-icon' },
       children

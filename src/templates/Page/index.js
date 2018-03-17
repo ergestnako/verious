@@ -26,16 +26,14 @@ export default ({ children }) => (
     </Helmet>
     <Navigation
       backgroundColor="white"
-      textColor="vs-cyan-a400"
-      iconColor="vs-cyan-a700"
+      textColor="cyan-a400"
+      iconColor="cyan-a700"
       left={
-        <div>
-          <Logo
-            size={3}
-            circleColor={Utilities.getInternalColor('vs-cyan-a400')}
-            overlayColor={Utilities.getInternalColor('vs-black')}
-          />
-        </div>
+        <Logo
+          size={3}
+          circleColor={Utilities.getInternalColor('vs-cyan-a400')}
+          overlayColor={Utilities.getInternalColor('vs-black')}
+        />
       }
     >
       <Container padding={[2, 0, 2, 0]}>

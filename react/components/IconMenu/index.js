@@ -1,20 +1,13 @@
-const React = require('react');
-const Icon = require('../Icon');
-const BackgroundColor = require('../BackgroundColor');
+import React from 'react';
+import Icon from '../Icon';
 
-const toEdgeStyles = {
-  position: 'absolute',
-  top: 0,
-  left: 0,
-  right: 0,
-  bottom: 0
-};
-
-function getClassName({ base, mode }) {
+function getClassName({ base, mode, iconColor }) {
   let classes = [base];
 
+  classes = [...classes, `vs-background-color-${iconColor}`];
+
   if (mode) {
-    classes = [...classes, `${base}--${mode}`];
+    classes = [...classes, `${base}-${mode}`];
   }
 
   return classes.join(' ');
@@ -23,16 +16,12 @@ function getClassName({ base, mode }) {
 module.exports = ({ backgroundColor, iconColor, mode }) => (
   <Icon backgroundColor={backgroundColor}>
     <div
-      className={getClassName({ base: 'vs-icon-menu-top', mode })}
+      className={getClassName({ base: 'vs-icon-menu-top', mode, iconColor })}
       style={{ position: 'relative' }}
-    >
-      <BackgroundColor color={iconColor} style={toEdgeStyles} />
-    </div>
+    />
     <div
-      className={getClassName({ base: 'vs-icon-menu-bottom', mode })}
+      className={getClassName({ base: 'vs-icon-menu-bottom', mode, iconColor  })}
       style={{ position: 'relative' }}
-    >
-      <BackgroundColor color={iconColor} style={toEdgeStyles} />
-    </div>
+    />
   </Icon>
 );

@@ -1,21 +1,23 @@
 'use strict';
 
-var React = require('react');
-var Square = require('../Square');
-var Flex = require('../Flex');
+var _react = require('react');
+
+var _react2 = _interopRequireDefault(_react);
+
+var _Container = require('verious-react/components/Container/Container');
+
+var _Flex = require('verious-react/components/Flex/Flex');
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 module.exports = function (_ref) {
   var children = _ref.children,
       backgroundColor = _ref.backgroundColor;
-  return React.createElement(
-    Square,
-    {
-      size: 3,
-      style: { position: 'relative' },
-      backgroundColor: backgroundColor
-    },
-    React.createElement(
-      Flex,
+  return _react2.default.createElement(
+    _Container.Container,
+    { height: 6, width: 6, style: { position: 'relative' } },
+    _react2.default.createElement(
+      _Flex.Flex,
       {
         justifyContent: 'center',
         alignItems: 'center',

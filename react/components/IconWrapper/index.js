@@ -1,13 +1,9 @@
-const React = require('react');
-const Square = require('../Square');
-const Flex = require('../Flex');
+import React from 'react';
+import { Container } from 'verious-react/components/Container/Container';
+import { Flex } from 'verious-react/components/Flex/Flex';
 
 module.exports = ({ children, backgroundColor }) => (
-  <Square
-    size={3}
-    style={{ position: 'relative' }}
-    backgroundColor={backgroundColor}
-  >
+  <Container height={6} width={6} style={{ position: 'relative' }}>
     <Flex
       justifyContent="center"
       alignItems="center"
@@ -15,5 +11,5 @@ module.exports = ({ children, backgroundColor }) => (
     >
       {children}
     </Flex>
-  </Square>
+  </Container>
 );
