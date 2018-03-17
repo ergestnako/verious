@@ -39,6 +39,7 @@ module.exports = () => (
               every component; increasing efficiency and allowing component
               reuse across projects.
             </Paragraph>
+            <Container height={2} />
           </Column>
         </Row>
         <Row>
