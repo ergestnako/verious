@@ -4,9 +4,9 @@ import { Container } from 'verious-react/components/Container/Container';
 import { Grid } from 'verious-react/components/Grid/Grid';
 import { Row } from 'verious-react/components/Row/Row';
 import { Column } from 'verious-react/components/Column/Column';
+import { BackgroundColor } from 'verious-react/components/BackgroundColor/BackgroundColor';
 import Flex from '../Flex';
 import Spacer from '../Spacer';
-import BackgroundColor from '../BackgroundColor';
 import IconButton from '../IconButton';
 import IconMenu from '../IconMenu';
 

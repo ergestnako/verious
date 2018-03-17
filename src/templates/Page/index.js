@@ -25,7 +25,7 @@ export default ({ children }) => (
       <title>Verious</title>
     </Helmet>
     <Navigation
-      backgroundColor="vs-white"
+      backgroundColor="white"
       textColor="vs-cyan-a400"
       iconColor="vs-cyan-a700"
       left={

@@ -18,6 +18,8 @@ var _Row = require('verious-react/components/Row/Row');
 
 var _Column = require('verious-react/components/Column/Column');
 
+var _BackgroundColor = require('verious-react/components/BackgroundColor/BackgroundColor');
+
 var _Flex = require('../Flex');
 
 var _Flex2 = _interopRequireDefault(_Flex);
@@ -25,10 +27,6 @@ var _Flex2 = _interopRequireDefault(_Flex);
 var _Spacer = require('../Spacer');
 
 var _Spacer2 = _interopRequireDefault(_Spacer);
-
-var _BackgroundColor = require('../BackgroundColor');
-
-var _BackgroundColor2 = _interopRequireDefault(_BackgroundColor);
 
 var _IconButton = require('../IconButton');
 
@@ -74,7 +72,7 @@ var Navigation = function (_React$Component) {
 
 
       return _react2.default.createElement(
-        _BackgroundColor2.default,
+        _BackgroundColor.BackgroundColor,
         { color: this.props.backgroundColor || 'vs-white' },
         _react2.default.createElement(
           _Container.Container,
