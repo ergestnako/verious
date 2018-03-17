@@ -12,6 +12,4 @@ function getClassName({ height, lineColor }) {
   return classes.join(' ');
 }
 
-module.exports = ({ height, style, lineColor }) => (
-  <div className={getClassName({ height })} />
-);
+module.exports = props => <div className={getClassName(props)} />;

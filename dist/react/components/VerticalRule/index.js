@@ -23,9 +23,6 @@ function getClassName(_ref) {
   return classes.join(' ');
 }
 
-module.exports = function (_ref2) {
-  var height = _ref2.height,
-      style = _ref2.style,
-      lineColor = _ref2.lineColor;
-  return _react2.default.createElement('div', { className: getClassName({ height: height }) });
+module.exports = function (props) {
+  return _react2.default.createElement('div', { className: getClassName(props) });
 };
