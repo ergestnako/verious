@@ -17,11 +17,9 @@ module.exports = ({ backgroundColor, iconColor, mode }) => (
   <Icon backgroundColor={backgroundColor}>
     <div
       className={getClassName({ base: 'vs-icon-menu-top', mode, iconColor })}
-      style={{ position: 'relative' }}
     />
     <div
-      className={getClassName({ base: 'vs-icon-menu-bottom', mode, iconColor  })}
-      style={{ position: 'relative' }}
+      className={getClassName({ base: 'vs-icon-menu-bottom', mode, iconColor })}
     />
   </Icon>
 );
