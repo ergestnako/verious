@@ -1,13 +1,14 @@
 {
   "name": "verious",
-  "version": "0.8.36",
+  "version": "0.8.37",
   "description": "Very serious styles. No jokes here.",
   "main": "index.js",
   "scripts": {
     "develop": "./node_modules/.bin/gatsby develop",
     "build": "./node_modules/.bin/gatsby build",
     "build-react": "./node_modules/.bin/babel react --out-dir dist/react",
-    "build-css": "./node_modules/.bin/node-sass scss/styles.scss dist/css/styles.css --source-map dist/css",
+    "build-css":
+      "./node_modules/.bin/node-sass scss/styles.scss dist/css/styles.css --source-map dist/css",
     "build-dist": "yarn build-react && yarn build-css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "yarn build && netlify deploy"

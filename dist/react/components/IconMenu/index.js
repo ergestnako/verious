@@ -36,12 +36,10 @@ module.exports = function (_ref2) {
     _Icon2.default,
     { backgroundColor: backgroundColor },
     _react2.default.createElement('div', {
-      className: getClassName({ base: 'vs-icon-menu-top', mode: mode, iconColor: iconColor }),
-      style: { position: 'relative' }
+      className: getClassName({ base: 'vs-icon-menu-top', mode: mode, iconColor: iconColor })
     }),
     _react2.default.createElement('div', {
-      className: getClassName({ base: 'vs-icon-menu-bottom', mode: mode, iconColor: iconColor }),
-      style: { position: 'relative' }
+      className: getClassName({ base: 'vs-icon-menu-bottom', mode: mode, iconColor: iconColor })
     })
   );
 };
