@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Container } from 'verious-react/components/Container/Container';
-import { Grid } from 'verious-react/components/Grid/Grid';
-import { Row } from 'verious-react/components/Row/Row';
-import { Column } from 'verious-react/components/Column/Column';
-import { Heading } from 'verious-react/components/Heading/Heading';
-import { Paragraph } from 'verious-react/components/Paragraph/Paragraph';
-import { BackgroundColor } from 'verious-react/components/BackgroundColor/BackgroundColor';
-import HorizontalRule from '../../../react/components/HorizontalRule';
+import React from "react";
+import PropTypes from "prop-types";
+import Container from "@verious/vs-container";
+import Grid from "@verious/vs-grid";
+import Row from "@verious/vs-row";
+import Column from "@verious/vs-column";
+import Heading from "@verious/vs-heading";
+import Paragraph from "@verious/vs-paragraph";
+import BackgroundColor from "@verious/vs-background-color";
+import HorizontalRule from "../../../react/components/HorizontalRule";
 
 const component = ({ title, subtitle }) => (
   <BackgroundColor color="vs-white">

@@ -1,27 +1,27 @@
 /* global window */
 
-const React = require('react');
-const { Container } = require('verious-react/components/Container/Container');
-const BackgroundColor = require('../../../react/components/BackgroundColor');
-const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
-const Shadow = require('../../../react/components/Shadow');
-const c = require('color');
+import React from "react";
+import Container from "@verious/vs-container";
+import BackgroundColor from "@verious/vs-background-color";
+import Paragraph from "@verious/vs-paragraph";
+import c from "color";
+import Shadow from "../../../react/components/Shadow";
 
 class ColorCard extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      rgb: '',
-      hex: ''
+      rgb: "",
+      hex: ""
     };
   }
 
   componentDidMount() {
-    if (typeof window.getComputedStyle !== 'undefined') {
+    if (typeof window.getComputedStyle !== "undefined") {
       const backgroundColor = window
         .getComputedStyle(this.colorElement.children[0])
-        .getPropertyValue('background-color');
+        .getPropertyValue("background-color");
       const color = c(backgroundColor);
 
       const newState = {
@@ -40,8 +40,7 @@ class ColorCard extends React.Component {
           <div
             ref={element => {
               this.colorElement = element;
-            }}
-          >
+            }}>
             <BackgroundColor color={this.props.color}>
               <Container height={2} />
             </BackgroundColor>

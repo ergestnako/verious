@@ -7,8 +7,7 @@
     "develop": "./node_modules/.bin/gatsby develop",
     "build": "./node_modules/.bin/gatsby build",
     "build-react": "./node_modules/.bin/babel react --out-dir dist/react",
-    "build-css":
-      "./node_modules/.bin/node-sass scss/styles.scss dist/css/styles.css --source-map dist/css",
+    "build-css": "./node_modules/.bin/node-sass scss/styles.scss dist/css/styles.css --source-map dist/css",
     "build-dist": "yarn build-react && yarn build-css",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "yarn build && netlify deploy"
@@ -16,6 +15,18 @@
   "author": "Charles Pinnix",
   "license": "ISC",
   "dependencies": {
+    "@verious/vs-background-color": "^0.0.1",
+    "@verious/vs-code": "^0.0.0",
+    "@verious/vs-column": "^0.0.0",
+    "@verious/vs-container": "^0.0.1",
+    "@verious/vs-flex": "^0.0.0",
+    "@verious/vs-grid": "^0.0.0",
+    "@verious/vs-heading": "^0.0.0",
+    "@verious/vs-list": "^0.0.0",
+    "@verious/vs-list-item": "^0.0.0",
+    "@verious/vs-paragraph": "^0.0.0",
+    "@verious/vs-row": "^0.0.0",
+    "@verious/vs-spacer": "^0.0.0",
     "animate.css": "^3.5.2",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "color": "^2.0.0",

@@ -1,10 +1,10 @@
-const React = require('react');
-const { Container } = require('verious-react/components/Container/Container');
-const { Grid } = require('verious-react/components/Grid/Grid');
-const { Row } = require('verious-react/components/Row/Row');
-const { Column } = require('verious-react/components/Column/Column');
-const { Heading } = require('verious-react/components/Heading/Heading');
-const ColorCard = require('../../components/ColorCard');
+import React from "react";
+import Container from "@verious/vs-container";
+import Grid from "@verious/vs-grid";
+import Row from "@verious/vs-row";
+import Column from "@verious/vs-column";
+import Heading from "@verious/vs-heading";
+import ColorCard from "../../components/ColorCard";
 
 module.exports = ({ title, color }) => (
   <Grid>

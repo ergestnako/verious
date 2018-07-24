@@ -12,6 +12,54 @@
   version "7.0.0-beta.40"
   resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-object-rest-spread/-/plugin-syntax-object-rest-spread-7.0.0-beta.40.tgz#d5e04536062e4df685c203ae48bb19bfe2cf235c"
 
+"@verious/vs-background-color@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@verious/vs-background-color/-/vs-background-color-0.0.1.tgz#bff32081764df4975677ecc3ecf2a7ffd710046a"
+
+"@verious/vs-code@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-code/-/vs-code-0.0.0.tgz#f18c011ca41acc55db899cd45f181a27203b80a8"
+
+"@verious/vs-column@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-column/-/vs-column-0.0.0.tgz#2788525fa32f79a2d6575aa202ea4fd965db6f6f"
+
+"@verious/vs-container@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@verious/vs-container/-/vs-container-0.0.1.tgz#90f938ba3618887ac1ef55256880f0de725b0e50"
+
+"@verious/vs-flex@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-flex/-/vs-flex-0.0.0.tgz#76087f1deb76a2f4a869c963af08639628b7aeae"
+
+"@verious/vs-grid@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-grid/-/vs-grid-0.0.0.tgz#530284622e47368bc7cf3e840208a843063129b6"
+
+"@verious/vs-heading@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-heading/-/vs-heading-0.0.0.tgz#48ed61d379713827ec29afaee8ed0538d07a87ca"
+
+"@verious/vs-list-item@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-list-item/-/vs-list-item-0.0.0.tgz#adb90a8881a2cb15298e9a600f407b565ee600a6"
+
+"@verious/vs-list@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-list/-/vs-list-0.0.0.tgz#8a1c1dff606b28fc5ddadd7648d87a3354a89f4c"
+
+"@verious/vs-paragraph@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-paragraph/-/vs-paragraph-0.0.0.tgz#142701417f5cbd47ac77ed6c71395f4726894600"
+
+"@verious/vs-row@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-row/-/vs-row-0.0.0.tgz#692687c80ef08f2f02aae648376e0410a7d149df"
+
+"@verious/vs-spacer@^0.0.0":
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/@verious/vs-spacer/-/vs-spacer-0.0.0.tgz#525a5b528fe7129a293e42c371da99dff08be312"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"

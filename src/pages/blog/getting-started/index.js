@@ -1,15 +1,15 @@
-const React = require('react');
-const Page = require('../../../templates/Page');
-const HeroGif = require('../../../components/HeroGif');
-const { Container } = require('verious-react/components/Container/Container');
-const { Grid } = require('verious-react/components/Grid/Grid');
-const { Row } = require('verious-react/components/Row/Row');
-const { Column } = require('verious-react/components/Column/Column');
-const { Heading } = require('verious-react/components/Heading/Heading');
-const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
-const { Code } = require('verious-react/components/Code/Code');
-const { BackgroundColor } = require('verious-react/components/BackgroundColor/BackgroundColor');
-const Navigator = require('../../../components/Navigator');
+import React from "react";
+import Container from "@verious/vs-container";
+import Grid from "@verious/vs-grid";
+import Row from "@verious/vs-row";
+import Column from "@verious/vs-column";
+import Heading from "@verious/vs-heading";
+import Paragraph from "@verious/vs-paragraph";
+import Code from "@verious/vs-code";
+import BackgroundColor from "@verious/vs-background-color";
+import Page from "../../../templates/Page";
+import HeroGif from "../../../components/HeroGif";
+import Navigator from "../../../components/Navigator";
 
 module.exports = () => (
   <Page>
@@ -24,17 +24,15 @@ module.exports = () => (
           <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Heading size="2">The Boilerplate, Get It!</Heading>
             <Paragraph>
-              Everyone needs a good starting point. Head over to the{' '}
-              <a href="https://www.gatsbyjs.org/docs/">
-                Gatsby documentation
-              </a>{' '}
+              Everyone needs a good starting point. Head over to the{" "}
+              <a href="https://www.gatsbyjs.org/docs/">Gatsby documentation</a>{" "}
               to install the command line interface globally.
             </Paragraph>
             <Paragraph>
-              The{' '}
+              The{" "}
               <a href="https://github.com/cpinnix/verious-boilerplate">
                 Verious boilerplate
-              </a>{' '}
+              </a>{" "}
               comes with Gatsby and Verious code built right in. To start a new
               website with the boilerplate run:
             </Paragraph>
@@ -73,7 +71,7 @@ gatsby new [SITE_DIRECTORY] https://github.com/cpinnix/verious-boilerplate
         <Grid>
           <Row>
             <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
-            <Code>{`
+              <Code>{`
 cd [SITE_DIRECTORY]
 yarn install
             `}</Code>
@@ -88,7 +86,7 @@ yarn install
           <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Paragraph>
               After these dependencies install, we are ready to rock. But first,
-              we must learn to{' '}
+              we must learn to{" "}
               <a href="/blog/develop-and-deploy/">develop and deploy</a>.
             </Paragraph>
             <Container height={2} />

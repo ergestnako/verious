@@ -1,9 +1,9 @@
-const React = require('react');
-const Link = require('gatsby-link').default;
-const { Container } = require('verious-react/components/Container/Container');
-const Flex = require('../../../react/components/Flex');
-const Spacer = require('../../../react/components/Spacer');
-const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
+import React from "react";
+import Link from "gatsby-link";
+import Container from "@verious/vs-container";
+import Flex from "@verious/vs-flex";
+import Spacer from "@verious/vs-spacer";
+import Paragraph from "@verious/vs-paragraph";
 
 module.exports = ({ nextLink, nextLabel, previousLink, previousLabel }) => (
   <Container>
@@ -21,7 +21,7 @@ module.exports = ({ nextLink, nextLabel, previousLink, previousLabel }) => (
       {nextLink &&
         nextLabel && (
           <div>
-            <Paragraph style={{ textAlign: 'right' }}>Next</Paragraph>
+            <Paragraph style={{ textAlign: "right" }}>Next</Paragraph>
             <Paragraph>
               <Link to={nextLink}>{nextLabel}</Link>
             </Paragraph>

@@ -1,12 +1,12 @@
-import React from 'react';
-import { Container } from 'verious-react/components/Container/Container';
-import { Grid } from 'verious-react/components/Grid/Grid';
-import { Row } from 'verious-react/components/Row/Row';
-import { Column } from 'verious-react/components/Column/Column';
-import { Heading } from 'verious-react/components/Heading/Heading';
-import { Paragraph } from 'verious-react/components/Paragraph/Paragraph';
-import Page from '../templates/Page';
-import Hero from '../components/Hero';
+import React from "react";
+import Container from "@verious/vs-container";
+import Grid from "@verious/vs-grid";
+import Row from "@verious/vs-row";
+import Column from "@verious/vs-column";
+import Heading from "@verious/vs-heading";
+import Paragraph from "@verious/vs-paragraph";
+import Page from "../templates/Page";
+import Hero from "../components/Hero";
 
 module.exports = () => (
   <Page>
@@ -55,10 +55,10 @@ module.exports = () => (
           <Column span={[12, 12, 6, 6, 6]}>
             <Heading size="3">CSS Underneath</Heading>
             <Paragraph>
-              Component styles depend on the{' '}
+              Component styles depend on the{" "}
               <a href="https://github.com/cpinnix/verious-styles">
                 Verious Styles
-              </a>{' '}
+              </a>{" "}
               library; providing an escape hatch for those looking to use
               Verious outside React.
             </Paragraph>

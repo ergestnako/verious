@@ -1,17 +1,15 @@
-const React = require('react');
-const Page = require('../../../templates/Page');
-const HeroGif = require('../../../components/HeroGif');
-const { Container } = require('verious-react/components/Container/Container');
-const { Grid } = require('verious-react/components/Grid/Grid');
-const { Row } = require('verious-react/components/Row/Row');
-const { Column } = require('verious-react/components/Column/Column');
-const { Heading } = require('verious-react/components/Heading/Heading');
-const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
-const { Code } = require('verious-react/components/Code/Code');
-const {
-  BackgroundColor
-} = require('verious-react/components/BackgroundColor/BackgroundColor');
-const Navigator = require('../../../components/Navigator');
+import React from "react";
+import Container from "@verious/vs-container";
+import Grid from "@verious/vs-grid";
+import Row from "@verious/vs-row";
+import Column from "@verious/vs-column";
+import Heading from "@verious/vs-heading";
+import Paragraph from "@verious/vs-paragraph";
+import Code from "@verious/vs-code";
+import BackgroundColor from "@verious/vs-background-color";
+import Page from "../../../templates/Page";
+import HeroGif from "../../../components/HeroGif";
+import Navigator from "../../../components/Navigator";
 
 module.exports = () => (
   <Page>
@@ -28,7 +26,7 @@ module.exports = () => (
             <Paragraph>
               There are two main command line scripts to run in the boilerplate
               project; one for developing the site and one for building the
-              site. The development script stands up a local server at{' '}
+              site. The development script stands up a local server at{" "}
               <a href="http://localhost:8000">http://localhost:8000</a> and live
               reloads the website as you make changes. To start development run:
             </Paragraph>
@@ -52,7 +50,7 @@ module.exports = () => (
         <Row>
           <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Paragraph>
-              Now if we hit{' '}
+              Now if we hit{" "}
               <a href="http://localhost:8000">http://localhost:8000</a> in the
               browser we should see our homepage. Hello World!
             </Paragraph>
@@ -81,9 +79,9 @@ module.exports = () => (
           <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
             <Paragraph>
               The site is now built to the /public directory where is can be
-              deployed to any static hosting service. Our favorite is{' '}
+              deployed to any static hosting service. Our favorite is{" "}
               <a href="https://www.netlify.com/">Netlify</a> and you can find
-              the Netlify quickstart{' '}
+              the Netlify quickstart{" "}
               <a href="https://www.netlify.com/docs/">here</a>.
             </Paragraph>
             <Container height={2} />

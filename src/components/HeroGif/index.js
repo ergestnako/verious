@@ -1,12 +1,12 @@
-const React = require('react');
-const PropTypes = require('prop-types');
-const { Grid } = require('verious-react/components/Grid/Grid');
-const { Row } = require('verious-react/components/Row/Row');
-const { Column } = require('verious-react/components/Column/Column');
-const { Heading } = require('verious-react/components/Heading/Heading');
-const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
-const { Container } = require('verious-react/components/Container/Container');
-const BackgroundImage = require('../../../react/components/BackgroundImage');
+import React from "react";
+import PropTypes from "prop-types";
+import Container from "@verious/vs-container";
+import Grid from "@verious/vs-grid";
+import Row from "@verious/vs-row";
+import Column from "@verious/vs-column";
+import Heading from "@verious/vs-heading";
+import Paragraph from "@verious/vs-paragraph";
+import BackgroundImage from "../../../react/components/BackgroundImage";
 
 const component = ({ source, title, subtitle }) => (
   <Container backgroundColor="vs-cyan-a400">
