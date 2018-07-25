@@ -6,6 +6,7 @@ import Row from "@verious/vs-row";
 import Column from "@verious/vs-column";
 import Heading from "@verious/vs-heading";
 import Paragraph from "@verious/vs-paragraph";
+import Flex from "@verious/vs-flex";
 import BackgroundImage from "../../../react/components/BackgroundImage";
 
 const component = ({ source, title, subtitle }) => (
@@ -15,10 +16,17 @@ const component = ({ source, title, subtitle }) => (
         <Grid>
           <Row>
             <Column span={[12, 12, 12, 12, 12]}>
-              <Heading size={1} textColor="white">
-                {title}
-              </Heading>
-              {subtitle && <Paragraph textColor="white">{subtitle}</Paragraph>}
+              <Flex
+                direction="column"
+                alignItems="center"
+                justifyContent="center">
+                <Heading size={1} textColor="white">
+                  {title}
+                </Heading>
+                {subtitle && (
+                  <Paragraph textColor="white">{subtitle}</Paragraph>
+                )}
+              </Flex>
             </Column>
           </Row>
         </Grid>

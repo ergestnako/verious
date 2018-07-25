@@ -1,3 +1,8 @@
 module.exports = {
-  plugins: ['gatsby-plugin-sass']
+  plugins: [
+    "gatsby-plugin-sass",
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify`
+  ]
 };

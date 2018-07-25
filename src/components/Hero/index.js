@@ -7,6 +7,7 @@ import Column from "@verious/vs-column";
 import Heading from "@verious/vs-heading";
 import Paragraph from "@verious/vs-paragraph";
 import BackgroundColor from "@verious/vs-background-color";
+import Flex from "@verious/vs-flex";
 import HorizontalRule from "../../../react/components/HorizontalRule";
 
 const component = ({ title, subtitle }) => (
@@ -15,12 +16,14 @@ const component = ({ title, subtitle }) => (
       <Grid>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
-            <Heading size={1} textColor="cyan-a400">
-              {title}
-            </Heading>
-            {subtitle && (
-              <Paragraph textColor="vs-grey-500">{subtitle}</Paragraph>
-            )}
+            <Flex direction="column">
+              <Heading size={1} textColor="cyan-a400">
+                {title}
+              </Heading>
+              {subtitle && (
+                <Paragraph textColor="vs-grey-500">{subtitle}</Paragraph>
+              )}
+            </Flex>
           </Column>
         </Row>
       </Grid>

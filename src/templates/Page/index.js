@@ -9,6 +9,7 @@ import Row from "@verious/vs-row";
 import Column from "@verious/vs-column";
 import List from "@verious/vs-list";
 import ListItem from "@verious/vs-list-item";
+import Flex from "@verious/vs-flex";
 import "../../../scss/styles.scss";
 import Navigation from "../../../react/components/Navigation";
 import Footer from "../../components/Footer";
@@ -22,17 +23,20 @@ export default ({ children }) => (
   <div style={{ position: "relative", width: "100%", overflow: "hidden" }}>
     <Helmet>
       <title>Verious</title>
+      <html lang="en" className="vs-html" />
     </Helmet>
     <Navigation
       backgroundColor="white"
       textColor="cyan-a400"
       iconColor="cyan-a700"
       left={
-        <Logo
-          size={3}
-          circleColor={Utilities.getInternalColor("vs-cyan-a400")}
-          overlayColor={Utilities.getInternalColor("vs-black")}
-        />
+        <Flex direction="column" justifyContent="center">
+          <Logo
+            size={4}
+            circleColor={Utilities.getInternalColor("vs-cyan-a400")}
+            overlayColor={Utilities.getInternalColor("vs-black")}
+          />
+        </Flex>
       }>
       <Container padding={[2, 0, 2, 0]}>
         <Grid>
