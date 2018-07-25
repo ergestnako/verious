@@ -5,11 +5,13 @@ import Row from "@verious/vs-row";
 import Column from "@verious/vs-column";
 import Heading from "@verious/vs-heading";
 import Paragraph from "@verious/vs-paragraph";
+import Icon from "@verious/vs-icon";
 import Page from "../templates/Page";
 import Hero from "../components/Hero";
 
 module.exports = () => (
   <Page>
+    <Icon />
     <Hero
       title="Verious"
       subtitle="Very serious styles and components for websites and web applications."

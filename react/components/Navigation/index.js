@@ -1,14 +1,14 @@
-import React from 'react';
-import Measure from 'react-measure';
-import { Container } from 'verious-react/components/Container/Container';
-import { Grid } from 'verious-react/components/Grid/Grid';
-import { Row } from 'verious-react/components/Row/Row';
-import { Column } from 'verious-react/components/Column/Column';
-import { BackgroundColor } from 'verious-react/components/BackgroundColor/BackgroundColor';
-import Flex from '../Flex';
-import Spacer from '../Spacer';
-import IconButton from '../IconButton';
-import IconMenu from '../IconMenu';
+import React from "react";
+import Measure from "react-measure";
+import Container from "@verious/vs-container";
+import Grid from "@verious/vs-grid";
+import Row from "@verious/vs-row";
+import Column from "@verious/vs-column";
+import BackgroundColor from "@verious/vs-background-color";
+import Flex from "@verious/vs-flex";
+import Spacer from "@verious/vs-spacer";
+import IconButton from "../IconButton";
+import IconMenu from "../IconMenu";
 
 class Navigation extends React.Component {
   constructor() {
@@ -27,7 +27,7 @@ class Navigation extends React.Component {
     const { height } = this.state.dimensions;
 
     return (
-      <BackgroundColor color={this.props.backgroundColor || 'vs-white'}>
+      <BackgroundColor color={this.props.backgroundColor || "vs-white"}>
         <Container>
           <Grid>
             <Row>
@@ -53,11 +53,10 @@ class Navigation extends React.Component {
                             200
                           );
                         }
-                      }}
-                    >
+                      }}>
                       <IconMenu
-                        iconColor={this.props.iconColor || 'vs-white'}
-                        mode={this.state.open ? 'cross' : ''}
+                        iconColor={this.props.iconColor || "vs-white"}
+                        mode={this.state.open ? "cross" : ""}
                       />
                     </IconButton>
                   </Flex>
@@ -67,21 +66,17 @@ class Navigation extends React.Component {
           </Grid>
           <div
             style={{
-              overflow: 'hidden',
+              overflow: "hidden",
               height: this.state.open ? height : 0,
-              transition: this.state.animate ? 'height 200ms linear' : ''
-            }}
-          >
+              transition: this.state.animate ? "height 200ms linear" : ""
+            }}>
             <Measure
               bounds
               onResize={contentRect => {
                 this.setState({ dimensions: contentRect.bounds });
-              }}
-            >
+              }}>
               {({ measureRef }) => (
-                <div ref={measureRef}>
-                  {this.props.children}
-                </div>
+                <div ref={measureRef}>{this.props.children}</div>
               )}
             </Measure>
           </div>
