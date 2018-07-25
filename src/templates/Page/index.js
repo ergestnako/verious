@@ -1,7 +1,6 @@
 import React from "react";
 import Helmet from "react-helmet";
 import Link from "gatsby-link";
-import "animate.css/animate.css";
 import "verious-styles/css/verious-styles.css";
 import Container from "@verious/vs-container";
 import Grid from "@verious/vs-grid";
