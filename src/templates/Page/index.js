@@ -12,8 +12,8 @@ import ListItem from "@verious/vs-list-item";
 import "../../../scss/styles.scss";
 import Navigation from "../../../react/components/Navigation";
 import Footer from "../../components/Footer";
-import Utilities from "../../../react/utilities";
 import Logo from "../../components/Logo";
+import Utilities from "../../../react/utilities";
 
 const PRIMARY_TEXT_COLOR = "black";
 const SECONDARY_TEXT_COLOR = "grey-400";
