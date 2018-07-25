@@ -1,12 +1,12 @@
-const Color = require('../color');
+const Color = require("../color");
 
 module.exports = {
   isInternalColor(color) {
-    return color.includes('vs-');
+    return color.includes("vs-");
   },
   getInternalColor(color) {
-    const parts = color.split('-');
-    let c = '';
+    const parts = color.split("-");
+    let c = "";
 
     if (parts.length < 3) {
       c = Color[parts[1]];

@@ -1,17 +1,15 @@
-const React = require('react');
-const Page = require('../../../templates/Page');
-const HeroGif = require('../../../components/HeroGif');
-const { Container } = require('verious-react/components/Container/Container');
-const { Grid } = require('verious-react/components/Grid/Grid');
-const { Row } = require('verious-react/components/Row/Row');
-const { Column } = require('verious-react/components/Column/Column');
-const { Heading } = require('verious-react/components/Heading/Heading');
-const { Paragraph } = require('verious-react/components/Paragraph/Paragraph');
-const { Code } = require('verious-react/components/Code/Code');
-const {
-  BackgroundColor
-} = require('verious-react/components/BackgroundColor/BackgroundColor');
-const Navigator = require('../../../components/Navigator');
+import React from "react";
+import Container from "@verious/vs-container";
+import Grid from "@verious/vs-grid";
+import Row from "@verious/vs-row";
+import Column from "@verious/vs-column";
+import Heading from "@verious/vs-heading";
+import Paragraph from "@verious/vs-paragraph";
+import Code from "@verious/vs-code";
+import BackgroundColor from "@verious/vs-background-color";
+import Page from "../../../templates/Page";
+import HeroGif from "../../../components/HeroGif";
+import Navigator from "../../../components/Navigator";
 
 module.exports = () => (
   <Page>
@@ -37,7 +35,7 @@ module.exports = () => (
         <Grid>
           <Row>
             <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
-            <Code>{`
+              <Code>{`
 /src
   /pages
     index.js
@@ -79,7 +77,7 @@ module.exports = () => (
         <Grid>
           <Row>
             <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
-            <Code>{`
+              <Code>{`
 /src
   /pages
     /about
@@ -121,7 +119,7 @@ module.exports = () => (
         <Grid>
           <Row>
             <Column span={[12, 12, 6, 6, 6]} push={[0, 0, 3, 3, 3]}>
-            <Code>{`
+              <Code>{`
 /src
   /components
     /Footer

@@ -7,7 +7,6 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": ["error", { "singleQuote": true }],
     "react/jsx-wrap-multilines": 0,
     "react/jsx-filename-extension": 0
   },
