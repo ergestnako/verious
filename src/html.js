@@ -1,10 +1,9 @@
-import React from 'react';
-import favicon from './img/vs-logo-full.png';
+import React from "react";
 
-let inlinedStyles = '';
-if (process.env.NODE_ENV === 'production') {
+let inlinedStyles = "";
+if (process.env.NODE_ENV === "production") {
   try {
-    inlinedStyles = require('!raw-loader!../public/styles.css');
+    inlinedStyles = require("!raw-loader!../public/styles.css");
   } catch (e) {
     console.log(e);
   }
@@ -12,7 +11,7 @@ if (process.env.NODE_ENV === 'production') {
 
 const HTML = props => {
   let css;
-  if (process.env.NODE_ENV === 'production') {
+  if (process.env.NODE_ENV === "production") {
     css = (
       <style
         id="gatsby-inlined-css"
@@ -27,23 +26,6 @@ const HTML = props => {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {props.headComponents}
-        <link rel="shortcut icon" href={favicon} />
-        <link
-          href="https://fonts.googleapis.com/css?family=Source+Code+Pro"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Ubuntu+Mono"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Roboto+Mono"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-          rel="stylesheet"
-        />
         {css}
       </head>
       <body>
