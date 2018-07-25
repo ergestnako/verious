@@ -8,7 +8,11 @@ import BackgroundColor from "@verious/vs-background-color";
 import Flex from "@verious/vs-flex";
 import Spacer from "@verious/vs-spacer";
 import IconButton from "../IconButton";
-import IconMenu from "../IconMenu";
+import Icon from "@verious/vs-icon";
+
+const when = bool => ({
+  then: (a, b) => (bool ? a : b)
+});
 
 class Navigation extends React.Component {
   constructor() {
@@ -54,10 +58,10 @@ class Navigation extends React.Component {
                           );
                         }
                       }}>
-                      <IconMenu
-                        iconColor={this.props.iconColor || "vs-white"}
-                        mode={this.state.open ? "cross" : ""}
-                      />
+                      {when(this.state.open).then(
+                        <Icon name="x" color="blue-500" />,
+                        <Icon name="menu" color="blue-500" />
+                      )}
                     </IconButton>
                   </Flex>
                 </Container>
