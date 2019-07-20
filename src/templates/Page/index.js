@@ -33,12 +33,13 @@ export default ({ children }) => (
             overlayColor={Utilities.getInternalColor("vs-black")}
           />
         </Flex>
-      }>
+      }
+    >
       <Container padding={[2, 0, 2, 0]}>
         <Grid>
           <Row>
             <Column span={[12, 12, 12, 12, 12]}>
-              <List unstyled>
+              {/* <List unstyled>
                 <ListItem textColor={SECONDARY_TEXT_COLOR}>
                   Quick Start
                 </ListItem>
@@ -59,7 +60,7 @@ export default ({ children }) => (
                     Color
                   </Link>
                 </ListItem>
-              </List>
+              </List> */}
               <List unstyled>
                 <ListItem textColor={PRIMARY_TEXT_COLOR}>
                   <a href="https://github.com/cpinnix/verious">Github</a>

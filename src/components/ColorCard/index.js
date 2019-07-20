@@ -40,7 +40,8 @@ class ColorCard extends React.Component {
           <div
             ref={element => {
               this.colorElement = element;
-            }}>
+            }}
+          >
             <BackgroundColor color={this.props.color}>
               <Container height={2} />
             </BackgroundColor>
@@ -56,4 +57,4 @@ class ColorCard extends React.Component {
   }
 }
 
-module.exports = ColorCard;
+export default ColorCard;

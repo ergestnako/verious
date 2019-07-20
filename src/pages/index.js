@@ -5,13 +5,11 @@ import Row from "@verious/vs-row";
 import Column from "@verious/vs-column";
 import Heading from "@verious/vs-heading";
 import Paragraph from "@verious/vs-paragraph";
-import Icon from "@verious/vs-icon";
 import Page from "../templates/Page";
 import Hero from "../components/Hero";
 
-module.exports = () => (
+export default () => (
   <Page>
-    <Icon />
     <Hero
       title="Verious"
       subtitle="Very serious styles and components for websites and web applications."
@@ -19,12 +17,12 @@ module.exports = () => (
     <Container padding={[8, 0, 8, 0]}>
       <Grid>
         <Row>
-          <Column span={[12, 12, 12, 12, 12]}>
+          <Column end={[12, 12, 12, 12, 12]}>
             <Heading size="2">Principles</Heading>
           </Column>
         </Row>
         <Row>
-          <Column span={[12, 12, 6, 6, 6]}>
+          <Column end={[12, 12, 6, 6, 6]}>
             <Heading size="3">Component Based Design</Heading>
             <Paragraph>
               HTML, CSS, and javascript is encapsulated into individual React
@@ -33,7 +31,7 @@ module.exports = () => (
             </Paragraph>
             <Container height={2} />
           </Column>
-          <Column span={[12, 12, 6, 6, 6]}>
+          <Column end={[12, 12, 6, 6, 6]}>
             <Heading size="3">Reusability</Heading>
             <Paragraph>
               Components can be shared across other components and pages using a
@@ -45,7 +43,7 @@ module.exports = () => (
           </Column>
         </Row>
         <Row>
-          <Column span={[12, 12, 6, 6, 6]}>
+          <Column end={[12, 12, 6, 6, 6]}>
             <Heading size="3">Abstract Measurements</Heading>
             <Paragraph>
               Measurements applied to fonts, spacing, and layout utilize
@@ -54,7 +52,7 @@ module.exports = () => (
             </Paragraph>
             <Container height={2} />
           </Column>
-          <Column span={[12, 12, 6, 6, 6]}>
+          <Column end={[12, 12, 6, 6, 6]}>
             <Heading size="3">CSS Underneath</Heading>
             <Paragraph>
               Component styles depend on the{" "}

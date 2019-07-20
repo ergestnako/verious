@@ -9,7 +9,7 @@ import Hero from "../../../components/Hero";
 import ColorPalette from "../../../components/ColorPalette";
 import ColorCard from "../../../components/ColorCard";
 
-module.exports = () => (
+export default () => (
   <Page>
     <Hero title="Color" subtitle="Documentation for Color." />
     <Container padding={[8, 0, 8, 0]}>

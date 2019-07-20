@@ -1,7 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import "sanitize.css/sanitize.css";
-import "verious-styles/css/verious-styles.css";
+// import "verious-styles/css/verious-styles.css";
 
 const Head = props => (
   <Helmet>

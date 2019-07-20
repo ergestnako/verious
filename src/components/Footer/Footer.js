@@ -9,7 +9,7 @@ import HorizontalRule from "../../../react/components/HorizontalRule";
 import Utilities from "../../../react/utilities";
 import Logo from "../Logo";
 
-module.exports = () => (
+export default () => (
   <BackgroundColor color="vs-white">
     <HorizontalRule lineColor="vs-grey-300" height={4} />
     <Container padding={[4, 0, 4, 0]}>
