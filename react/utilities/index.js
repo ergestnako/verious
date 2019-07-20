@@ -1,6 +1,6 @@
-const Color = require("../color");
+import Color from "../color";
 
-module.exports = {
+export default {
   isInternalColor(color) {
     return color.includes("vs-");
   },

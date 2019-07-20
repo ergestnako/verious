@@ -33,6 +33,26 @@ class Navigation extends React.Component {
   render() {
     const { height } = this.state.dimensions;
 
+    const handler = () => {
+      const open = !this.state.open;
+
+      const contentHeight = this.contentRef.offsetHeight;
+
+      this.setState(state => {
+        if (open) setTimeout(this.deanimate(), 200);
+
+        return {
+          ...state,
+          open,
+          animate: true,
+          dimensions: {
+            ...state.dimensions,
+            height: contentHeight
+          }
+        };
+      });
+    };
+
     return (
       <BackgroundColor color={this.props.backgroundColor || "vs-white"}>
         <Container>
@@ -46,43 +66,24 @@ class Navigation extends React.Component {
                     <div
                       role="button"
                       tabIndex={0}
-                      onClick={() => {
-                        const open = !this.state.open;
-
-                        const contentHeight = this.contentRef.offsetHeight;
-
-                        this.setState(state => {
-                          if (open) setTimeout(this.deanimate(), 200);
-
-                          return Object.assign({}, state, {
-                            open,
-                            animate: true,
-                            dimensions: Object.assign({}, state.dimensions, {
-                              height: contentHeight
-                            })
-                          });
-                        });
-                      }}
-                      style={{ display: "inline-block" }}>
+                      onKeyDown={e => e.key === "Enter" && handler(e)}
+                      onClick={handler}
+                      style={{ display: "inline-block" }}
+                    >
                       <Container
                         height={6}
                         width={6}
-                        style={{ position: "relative" }}>
-                        <Flex
-                          justifyContent="center"
-                          alignItems="center"
-                          style={{
-                            position: "absolute",
-                            top: 0,
-                            left: 0,
-                            right: 0,
-                            bottom: 0
-                          }}>
-                          {when(this.state.open).then(
-                            <Icon name="x" color="blue-500" />,
-                            <Icon name="menu" color="blue-500" />
-                          )}
-                        </Flex>
+                        style={{
+                          position: "relative",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center"
+                        }}
+                      >
+                        {when(this.state.open).then(
+                          <Icon name="x" color="blue-500" />,
+                          <Icon name="menu" color="blue-500" />
+                        )}
                       </Container>
                     </div>
                   </Flex>
@@ -94,12 +95,14 @@ class Navigation extends React.Component {
             style={{
               overflow: "hidden",
               height: this.state.open ? height : 0,
-              transition: this.state.animate ? "height 200ms linear" : ""
-            }}>
+              transition: "height 200ms linear"
+            }}
+          >
             <div
               ref={node => {
                 this.contentRef = node;
-              }}>
+              }}
+            >
               {this.props.children}
             </div>
           </div>

@@ -19,7 +19,8 @@ const component = ({ source, title, subtitle }) => (
               <Flex
                 direction="column"
                 alignItems="center"
-                justifyContent="center">
+                justifyContent="center"
+              >
                 <Heading size={1} textColor="white">
                   {title}
                 </Heading>
@@ -41,4 +42,4 @@ component.propTypes = {
   subtitle: PropTypes.string.isRequired
 };
 
-module.exports = component;
+export default component;

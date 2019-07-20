@@ -1,6 +1,6 @@
-const React = require('react');
-const Wrapper = require('../Wrapper');
-const ImageBaseline = require('../ImageBaseline');
+import React from "react";
+import Wrapper from "../Wrapper";
+import ImageBaseline from "../ImageBaseline";
 
 class Image extends React.Component {
   render() {
@@ -34,4 +34,4 @@ class Image extends React.Component {
   }
 }
 
-module.exports = Image;
+export default Image;

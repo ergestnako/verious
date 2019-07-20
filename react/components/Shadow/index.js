@@ -1,9 +1,9 @@
-const React = require('react');
+import React from "react";
 
 function getClassName({ depth }) {
   return `vs-shadow--${depth}`;
 }
 
-module.exports = ({ depth, children }) => (
+export default ({ depth, children }) => (
   <div className={getClassName({ depth })}>{children}</div>
 );

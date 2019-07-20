@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 function getClassName({ height, lineColor }) {
-  let classes = ['vs-vertical-rule'];
+  let classes = ["vs-vertical-rule"];
 
   classes = [...classes, `vs-background-color-${lineColor}`];
 
@@ -9,7 +9,7 @@ function getClassName({ height, lineColor }) {
     classes = [...classes, `vs-vertical-rule-${height}`];
   }
 
-  return classes.join(' ');
+  return classes.join(" ");
 }
 
-module.exports = props => <div className={getClassName(props)} />;
+export default props => <div className={getClassName(props)} />;

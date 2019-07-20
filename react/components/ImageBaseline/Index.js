@@ -1,10 +1,10 @@
 /* global document, getComputedStyle */
 
-const React = require('react');
-const Measure = require('react-measure').default;
+import React from "react";
+import Measure from "react-measure";
 
 function getSpacingUnit() {
-  if (typeof getComputedStyle === 'undefined') {
+  if (typeof getComputedStyle === "undefined") {
     return 0;
   }
 
@@ -48,7 +48,7 @@ class ImageBaseline extends React.Component {
               <img
                 src={this.props.source}
                 alt={this.props.source}
-                className={this.state.loaded ? 'vs-image-source' : ''}
+                className={this.state.loaded ? "vs-image-source" : ""}
                 ref={measureRef}
                 onLoad={this.handleLoad}
               />
@@ -60,4 +60,4 @@ class ImageBaseline extends React.Component {
   }
 }
 
-module.exports = ImageBaseline;
+export default ImageBaseline;

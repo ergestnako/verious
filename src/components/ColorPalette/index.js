@@ -6,7 +6,7 @@ import Column from "@verious/vs-column";
 import Heading from "@verious/vs-heading";
 import ColorCard from "../../components/ColorCard";
 
-module.exports = ({ title, color }) => (
+export default ({ title, color }) => (
   <Grid>
     <Row>
       <Column span={[12, 12, 12, 12, 12]}>

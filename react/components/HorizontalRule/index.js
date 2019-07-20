@@ -1,8 +1,8 @@
-const React = require("react");
+import React from "react";
 import Flex from "@verious/vs-flex";
 import Spacer from "@verious/vs-spacer";
 import BackgroundColor from "@verious/vs-background-color";
-const utilities = require("../../utilities");
+import utilities from "../../utilities";
 
 function getClassName({ height }) {
   let classes = [];
@@ -26,7 +26,7 @@ function getLineClassName({ lineColor }) {
   return classes.join(" ");
 }
 
-module.exports = ({ height, style, lineColor }) => (
+export default ({ height, style, lineColor }) => (
   <div className={getClassName({ height })}>
     <Flex direction="column" style={{ height: "100%" }}>
       <Spacer />

@@ -11,7 +11,7 @@ import Page from "../../../templates/Page";
 import HeroGif from "../../../components/HeroGif";
 import Navigator from "../../../components/Navigator";
 
-module.exports = () => (
+export default () => (
   <Page>
     <HeroGif
       source="https://media.giphy.com/media/ePOYo3Ew3QLtK/giphy.gif"

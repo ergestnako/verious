@@ -37,4 +37,4 @@ component.propTypes = {
   subtitle: PropTypes.string.isRequired
 };
 
-module.exports = component;
+export default component;
