@@ -1956,6 +1956,11 @@
   resolved "https://registry.yarnpkg.com/@verious/ut-color/-/ut-color-0.0.5.tgz#6610e4119c25f06055e0ac246e1937986793fdc6"
   integrity sha512-4eYZzC5qeF/IKgwFef7ZP/5Us6h8CFytkM0a0lb4xvBbilCKFc6mb0XYXVySHpwDMRulDIyalsSuoQf+/eSvvw==
 
+"@verious/ut-typography@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@verious/ut-typography/-/ut-typography-0.0.4.tgz#b91df5267bfcb0e5f481ff4abd522b39c2b3fdc0"
+  integrity sha512-5XpRhFQiL5bSrfoKJIo1L5K5GTjueVjyk7A7jYJuV+N2+Qapg0hvR95YjLMT6uNHB2MII6ERgpcj43X06YI8Fg==
+
 "@verious/vs-background-color@^0.0.6":
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/@verious/vs-background-color/-/vs-background-color-0.0.6.tgz#8ed73bfe618ece6a887b13f60d54929ca8418a76"
@@ -2020,6 +2025,11 @@
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@verious/vs-spacer/-/vs-spacer-0.0.4.tgz#296c4b174e4618254fab508034de5b026a0385ab"
   integrity sha512-sy+XStFudxTAXWu9r5K2tas7oDV0KNwUOa/oZBtjeTiOzHlCu1SgnGniEy/SZ+bUVdg8Gwq1mDu0Dwx9n9Zb1A==
+
+"@verious/vs-text@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/@verious/vs-text/-/vs-text-0.0.9.tgz#93bf1e8475ef56be77c92f6d5a45edf98cf69f4e"
+  integrity sha512-hW8qU0XLrlW0Df6R2hXkQqRRrHCwS+nkMt3wn063aQC6Fs8DqGZHEE7xWrNR7Wq6uWgLFjyZtEwSA352OmyPtg==
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -7431,6 +7441,11 @@ gatsby-plugin-react-helmet@^3.1.2:
   integrity sha512-9rqa0D7qV+d7lMcnoV2Y4PTSNJcolTVZDygINYAboeef8fflcvGmOYUl16SbC0HjRjdGSiS9bmcsUNHeYPC/7g==
   dependencies:
     "@babel/runtime" "^7.0.0"
+
+gatsby-plugin-remove-serviceworker@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-remove-serviceworker/-/gatsby-plugin-remove-serviceworker-1.0.0.tgz#9fb433bc8bd766e14e1d3711c4ac6f051e1dff7c"
+  integrity sha1-n7QzvIvXZuFOHTcRxKxvBR4d/3w=
 
 gatsby-plugin-sass@^2.1.3:
   version "2.1.3"
