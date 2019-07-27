@@ -5,30 +5,22 @@ import Grid from "@verious/vs-grid";
 import Row from "@verious/vs-row";
 import Column from "@verious/vs-column";
 import Heading from "@verious/vs-heading";
-import Paragraph from "@verious/vs-paragraph";
 import BackgroundColor from "@verious/vs-background-color";
 import Flex from "@verious/vs-flex";
-import HorizontalRule from "../../../react/components/HorizontalRule";
 
-const component = ({ title, subtitle }) => (
+const component = ({ title }) => (
   <BackgroundColor color="vs-white">
-    <Container padding={[12, 0, 8, 0]}>
+    <Container padding={[32, 0, 32, 0]}>
       <Grid>
         <Row>
           <Column span={[12, 12, 12, 12, 12]}>
             <Flex direction="column">
-              <Heading size={1} textColor="cyan-a400">
-                {title}
-              </Heading>
-              {subtitle && (
-                <Paragraph textColor="vs-grey-500">{subtitle}</Paragraph>
-              )}
+              <Heading size={1}>{title}</Heading>
             </Flex>
           </Column>
         </Row>
       </Grid>
     </Container>
-    <HorizontalRule lineColor="vs-grey-300" height={4} />
   </BackgroundColor>
 );
 

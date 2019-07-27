@@ -81,8 +81,8 @@ class Navigation extends React.Component {
                         }}
                       >
                         {when(this.state.open).then(
-                          <Icon name="x" color="blue-500" />,
-                          <Icon name="menu" color="blue-500" />
+                          <Icon name="x" color="black" />,
+                          <Icon name="menu" color="black" />
                         )}
                       </Container>
                     </div>
