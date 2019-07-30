@@ -15,11 +15,11 @@ export default () => (
         <Row>
           <Column span={[12, 12, 6, 6, 6]}>
             <Heading size={1}>
-              <Text size={7} weight={7} color="grey-400">
+              <Text size={8} weight={7} color="grey-400">
                 Verious
               </Text>
               <br />
-              <Text size={7} weight={7}>
+              <Text size={8} weight={7}>
                 Principles
               </Text>
             </Heading>
