@@ -30,7 +30,7 @@
     "@verious/vs-paragraph": "^0.0.4",
     "@verious/vs-row": "^0.0.4",
     "@verious/vs-spacer": "^0.0.4",
-    "@verious/vs-text": "^0.0.9",
+    "@verious/vs-text": "^0.0.15",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "color": "^3.1.2",
     "compression": "^1.7.4",
@@ -56,7 +56,7 @@
     "sanitize.css": "^11.0.0",
     "styled-components": "^4.3.2",
     "verious-react": "0.0.16",
-    "verious-styles": "0.0.19",
+    "verious-styles": "0.0.20",
     "warning": "^4.0.3"
   },
   "devDependencies": {

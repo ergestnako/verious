@@ -2021,10 +2021,10 @@
   resolved "https://registry.yarnpkg.com/@verious/vs-spacer/-/vs-spacer-0.0.4.tgz#296c4b174e4618254fab508034de5b026a0385ab"
   integrity sha512-sy+XStFudxTAXWu9r5K2tas7oDV0KNwUOa/oZBtjeTiOzHlCu1SgnGniEy/SZ+bUVdg8Gwq1mDu0Dwx9n9Zb1A==
 
-"@verious/vs-text@^0.0.9":
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/@verious/vs-text/-/vs-text-0.0.9.tgz#93bf1e8475ef56be77c92f6d5a45edf98cf69f4e"
-  integrity sha512-hW8qU0XLrlW0Df6R2hXkQqRRrHCwS+nkMt3wn063aQC6Fs8DqGZHEE7xWrNR7Wq6uWgLFjyZtEwSA352OmyPtg==
+"@verious/vs-text@^0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@verious/vs-text/-/vs-text-0.0.15.tgz#00e53a67174d988eef157e25e6bb47441ec1fa4b"
+  integrity sha512-QmbMlmovBdQn33EGeuH2U8cf3I3yBNVoZYgytbILG7lCC0EBeCRJzLlqv/avXHVhOzRsiv72r20iTh6N9tCPkQ==
 
 "@webassemblyjs/ast@1.7.11":
   version "1.7.11"
@@ -14834,10 +14834,10 @@ verious-react@0.0.16:
     verious-styles "^0.0.13"
     webpack "^4.16.1"
 
-verious-styles@0.0.19:
-  version "0.0.19"
-  resolved "https://registry.yarnpkg.com/verious-styles/-/verious-styles-0.0.19.tgz#34d88d415ac62176f5e6923672afc3567515671e"
-  integrity sha512-k0+wPTXtGLia39U7PrqGXRUkaYO5T/6JXutOWhuINGKjlYVtGjVVapz5VSaRSGVdGGXgQN+m+oFPtFpYJQijGg==
+verious-styles@0.0.20:
+  version "0.0.20"
+  resolved "https://registry.yarnpkg.com/verious-styles/-/verious-styles-0.0.20.tgz#f8dcf53304d2752fdaf5f2a1efe206230899102e"
+  integrity sha512-F+gvt3tL+YcFrnOuV4sELraLaOaxJ9nA3Z6+uMAWLOmQ2Y3SmeAi1NxvHcaSBrab3GZNSVn9NfFrt682pcx4bA==
 
 verious-styles@^0.0.13:
   version "0.0.13"
